@@ -26,4 +26,4 @@ Please indicate how people will be allowed to use the information found in this 
 
 
 > Note: 
-> This was created using the (minimal) template for research hardware project, it is meant to be used at the ideation stage of the project, and be later expanded by adding files and folders coming from additional template. A [checklist](checklist.md) might have been used to organise this expansion the repository.
+> This was created using the (minimal) template for research hardware project, it is meant to be used at the ideation stage of the project, and be later expanded by adding files and folders coming from additional template. A [checklist](checklist.md) might have been used to organise this expansion the repository which may be facilitated by the use of the Gitbuilding open source software.
