@@ -24,7 +24,7 @@ Please indicate how people will be allowed to use the information found in this 
 
 ## Hardware assembly
 
-Assembly manual will be available via a Gitbuilding website, the [BOM is created from the tool and available in this repository](_build/BOM.csv)
+Assembly manual will be available via a Gitbuilding website, the [BOM is created from the tool and available in this repository](_build/AssemblyManualSource/index_BOM.md)
 
 
 > Note: 
