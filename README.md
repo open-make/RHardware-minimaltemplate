@@ -22,7 +22,9 @@ Please use the issue function in this repository to contact us.
 
 Please indicate how people will be allowed to use the information found in this repository. You may want to add a license created for open source hardware. You may get some information in the [turing way open book chapter on hardware licensing](https://book.the-turing-way.org/reproducible-research/licensing/licensing-hardware). 
 
+## Hardware assembly
 
+Assembly manual will be available via a Gitbuilding website, the [BOM is created from the tool and available in this repository](_build/BOM.csv)
 
 
 > Note: 
