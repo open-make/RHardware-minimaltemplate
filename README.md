@@ -7,7 +7,9 @@ The aim is to facilitate the work of designers, helping them to easily create th
 
 This repository has one folder for each steps in the hardware projects, including elements that may or should be added to the documentation, and a checklist is provided to be able to follow the process.
 The documenter may simply start by coping the 01_ideation folder, and change content where asked.
-When finised, the checklist will help them find elements of each other folder they want to add, until they reach the documentation meant for the maturity of their project.
+When finised, the documenter can go to the next step, copying files and adding elements to the readme, the checklist will help them find elements they want to add.
+It is good practice to review the documentation in the team at each step.
+One can use forks (when one is using a Git forge), if one want to go forward before the review of the team.
 
 > *Example*: Max has a first prototype already.
 > He starts its documentation with the idea description, add the analysis of needs, then the concept development files.
