@@ -1,20 +1,22 @@
 # My research hardware project name
 
 -   development stage: idea generation <!--- needs analysis, Concept development, product development and prototyping: give version number, replicator : give version number
-            --->
+        --->
 -   subject area/type of hardware
+- prerequisite: who is this documentation made for
 
 ## Vision and motivation
 
 This paragraph explains the ultimate goal of the project, its specificity and main objectives.
 
+Please also indicates the problem this project aims at solving
+
 ## Community and Contributions
+This section explains who is behind the project.
 
 ### List of team members / contributors
 
 ### Who could contribute
-
-This section explains who is behind the project.
 
 ### Communication channel, how to contribute
 
