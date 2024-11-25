@@ -13,6 +13,16 @@ Please also indicates the problem this project aims at solving
 
 ## Problem description
 
+## dependencies
+indicate and cite projects this project is built on
+For the software part, indicate the main component, use a dependency.txt files in the software folder when needed.
+
+## dependencies
+indicate and cite projects this project is built on
+For the software part, indicate the main component, use a dependency.txt files in the software folder when needed.
+
+##software used for development
+
 ## Roadmap
 This paragraph explains briefly the history of the project and the future milestones and time plan.
 
@@ -57,6 +67,8 @@ in
 - 02_product_dvt you will find high level analysis of the hardware design like the list or requirements and user analysis
 - 03_project_history you will find information about past decisions in the project
 
+## conclusions
+summary of main results obtained and discussion that happened so far
 
 > Note: This was created using the (minimal) template for research hardware project, it is meant to be used at the ideation stage of the project, and be later expanded by adding files and folders coming from additional template.
 > A [checklist](checklist.md) might have been used to organise this expansion the repository which may be facilitated by the use of the Gitbuilding open source software.

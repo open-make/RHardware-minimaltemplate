@@ -34,6 +34,7 @@ Note: using a canva to analyse the project may be useful at this point.
   - [ ] *competing interest*
   - [ ] future work, roadmap
   - [ ] development stage: needs analysis
+  - [ ] *Project history summary*
   - [ ] longer problem description 
   - [ ] Documentation structure
   
@@ -60,24 +61,29 @@ Note: using a canva to analyse the project may be useful at this point.
 ## Step 3: Concept development
 
 - [ ] Complete the readme file
-  - [ ] application, use cases
-  - [ ] *reuse potential*
-  - [ ] dependencies 
-  - [ ] *Project history summary*
-  - [ ] *conclusions*
   - [ ] development stage: concept development
+  - [ ] dependencies 
+  - [ ] *conclusions*
+  - [ ] software used for development
+
   
 - [ ] History
   - [ ]  release note
+  - [ ]  design_choices
+  - [ ]  update change log
   
   
 - [ ] Product development
+  - [ ] update hardwareoverview
+    - [ ] application, use cases
+    - [ ] *reuse potential*
+    - [ ] architectural structure
+    - [ ] *foreseen cost + time cost*
   - [ ] functional model
   - [ ] behavioral model: *Modelling tool list*
-  - [ ] architectural structure
   - [ ] Similar projects
-  - [ ] *foreseen cost + time cost*
-  - [ ] software used for development
+
+  
 
 
 
@@ -124,7 +130,7 @@ Here the work on the design starts! Continous documentation of choice made, succ
   
 - [ ] History  
   - [ ] update changelog/release note
-  - [ ] design choice history
+  - [ ] update design choice history
 
 
 ## Step 5: replicator step

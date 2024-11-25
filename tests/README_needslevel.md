@@ -1,6 +1,6 @@
 # My research hardware project name
 
--   development stage: needs analysis <!--- needs analysis, Concept development, product development and prototyping: give version number, replicator : give version number
+- development stage: needs analysis <!--- needs analysis, Concept development, product development and prototyping: give version number, replicator : give version number
         --->
 - subject area/type of hardware
 - prerequisite: who is this documentation made for
