@@ -11,17 +11,16 @@ This paragraph explains the ultimate goal of the project, its specificity and ma
 
 Please also indicates the problem this project aims at solving
 
+### harware summary overview
+
 ## Problem description
 
 ## dependencies
 indicate and cite projects this project is built on
 For the software part, indicate the main component, use a dependency.txt files in the software folder when needed.
 
-## dependencies
-indicate and cite projects this project is built on
-For the software part, indicate the main component, use a dependency.txt files in the software folder when needed.
 
-##software used for development
+## software used for development
 
 ## Roadmap
 This paragraph explains briefly the history of the project and the future milestones and time plan.
