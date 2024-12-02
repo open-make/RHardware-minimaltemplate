@@ -10,8 +10,10 @@
 
 ### Repairing the defective components
 
-### Replacing equipment components 
+### Replacing equipment components
 
 ## Summary maintenance + schedule
 
 ## Summary disposal
+
+## Environmental management
