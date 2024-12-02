@@ -1,15 +1,19 @@
 # Vision: a template for OSH projects
 
 In this repository, we are building templates for elements of an open source hardware project.
-The aim is to facilitate the work of designers, helping them to easily create the documentation at the right time.
+The aim is to facilitate the work of designers, helping them to easily create a documentation that grows with the project.
 
 # How to use this template
 
 This repository has one folder for each steps in the hardware projects, including elements that may or should be added to the documentation, and a checklist is provided to be able to follow the process.
-The documenter may simply start by coping the 01_ideation folder, and change content where asked.
-When finised, the documenter can go to the next step, copying files and adding elements to the readme, the checklist will help them find elements they want to add.
+The documentator may simply start by coping the 01_ideation folder, and change content where asked.
+When finished, the documentator can go to the next step, copying files and adding elements to the readmes: the checklist will help them find elements they want to add.
 It is good practice to review the documentation in the team at each step.
-One can use forks (when one is using a Git forge), if one want to go forward before the review of the team.
+One can use forks and branches (when one is using a Git forge), if one want to go forward before the review of the team.
+
+It is up to the team to decide what elements to add along the process.
+It is also worth mentioning that while it is recommended to follow the steps in these orders, the process is very iterative in practice.
+For example, the analysis of the existing project in step 3 is often redefining the project: it is often efficient to create rough elements at each steps, and refined them later.
 
 > *Example*: Max has a first prototype already.
 > He starts its documentation with the idea description, add the analysis of needs, then the concept development files.
