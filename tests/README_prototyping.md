@@ -1,6 +1,6 @@
 # My research hardware project name
 
--   development stage: needs analysis <!--- needs analysis, Concept development, product development and prototyping: give version number, replicator : give version number
+-   development stage: prototyping <!--- needs analysis, Concept development, product development and prototyping: give version number, replicator : give version number
         --->
 - subject area/type of hardware
 - prerequisite: who is this documentation made for
@@ -13,11 +13,18 @@ Please also indicates the problem this project aims at solving
 
 ### harware summary overview
 
+### Standard compliance
+
+### Outputs: Products and data
+
+## Cite this project
+
 ## Problem description
 
 ## dependencies
 indicate and cite projects this project is built on
 For the software part, indicate the main component, use a dependency.txt files in the software folder when needed.
+
 
 
 ## software used for development

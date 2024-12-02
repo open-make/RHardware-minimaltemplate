@@ -1,6 +1,7 @@
 # Checklist
 
-Note: hardware development starts only in step four, the preparation phase is important if one does not want to end up reinventing the wheel of producing useless hardware.
+Note_1: hardware development starts only in step four, the preparation phase is important if one does not want to end up reinventing the wheel of producing useless hardware.
+Note_2: Step 1-3 have an iterative nature: Especially, the analysis of "Similar projects" coming in step 3, and the prototyping (step 4) are often giving new ideas and refining use cases.
 
 ## Step 1: Idea generation
 
@@ -65,6 +66,7 @@ Note: using a canva to analyse the project may be useful at this point.
   - [ ] dependencies 
   - [ ] *conclusions*
   - [ ] software used for development
+  - [ ] harware summary overview
 
   
 - [ ] History

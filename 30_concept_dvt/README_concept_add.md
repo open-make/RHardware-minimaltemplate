@@ -3,6 +3,9 @@
 - development stage: Concept development
 
 
+> To Add before "## Problem description"
+
+### harware summary overview
 
 > To Add before "## Roadmap" or before "## Problem description" 
 
