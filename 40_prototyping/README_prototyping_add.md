@@ -13,5 +13,9 @@
 
 ## Cite this project
 
-> to add at the end
+
+> to add before ## conclusions, in the documentation sturcture
+
+- 04_product_build you will find information to build the hardware
+- 05_user_guides you will find information to use and maintain/dispose the hardware
 

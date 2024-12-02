@@ -72,6 +72,8 @@ in
 - 01_community are saved our detailed documentation about the community practices
 - 02_product_dvt you will find high level analysis of the hardware design like the list or requirements and user analysis
 - 03_project_history you will find information about past decisions in the project
+- 04_product_build you will find information to build the hardware
+- 05_user_guides you will find information to use and maintain/dispose the hardware
 
 ## conclusions
 summary of main results obtained and discussion that happened so far

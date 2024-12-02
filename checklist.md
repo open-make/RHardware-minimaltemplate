@@ -106,6 +106,8 @@ Here the work on the design starts! Continous documentation of choice made, succ
   - [ ] electrical design architecture
 
 ### Step 4b: iteration of design
+- [ ] Complete the readme file
+  - [ ] Update Documentation structure
 
 - [ ] Product design
   - [ ] Bill of material
@@ -149,7 +151,7 @@ Here the prototype is mature enough that it should be replicated in different pl
   - [ ] cost
   
 - [ ] Assembly instructions
-  - [ ] disassembly  
+  - [ ] disassembly instructions
 
 - [ ] Product design
   - [ ] component lifespan
