@@ -81,10 +81,12 @@ in
 - 04_product_build you will find information to build the hardware
 - 05_user_guides you will find information to use and maintain/dispose the hardware
 
+## discussions
+
 ## conclusions
 summary of main results obtained and discussion that happened so far
 
-## discussions
+
 
 > Note: This was created using the (minimal) template for research hardware project, it is meant to be used at the ideation stage of the project, and be later expanded by adding files and folders coming from additional template.
 > A [checklist](checklist.md) might have been used to organise this expansion the repository which may be facilitated by the use of the Gitbuilding open source software.
