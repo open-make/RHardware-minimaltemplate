@@ -1,0 +1,48 @@
+project:
+  type: book
+book:
+  title: Hardware documentation explanation
+  author: Julien Colomb
+  date: 12/6/2024
+  chapters:
+  - index.qmd
+  - content/001_Vision_and_motivation.qmd
+  - content/002_harware_summary_overview.qmd
+  - content/003_Standard_compliance.qmd
+  - content/004_Outputs:_Products_and_data.qmd
+  - content/005_validation.qmd
+  - content/006_education_resources.qmd
+  - content/007_Cite_this_project.qmd
+  - content/008_scientific_publication.qmd
+  - content/009_Problem_description.qmd
+  - content/010_dependencies.qmd
+  - content/011_software_used_for_development.qmd
+  - content/012_Roadmap.qmd
+  - content/013_Project_history_summary.qmd
+  - content/014_Future_work.qmd
+  - content/015_Community_and_Contributions.qmd
+  - content/016_List_of_team_members___contributors.qmd
+  - content/017_Who_could_contribute.qmd
+  - content/018_Communication_channel,_how_to_contribute.qmd
+  - content/019_work_culture.qmd
+  - content/020_guidelines.qmd
+  - content/021_Code_of_conduct.qmd
+  - content/022_License_and_rights.qmd
+  - content/023_Funding_information.qmd
+  - content/024_Sponsors_and_funding.qmd
+  - content/025_Future_funding_opportunities.qmd
+  - content/026_Administrative_information.qmd
+  - content/027_ethics_statement.qmd
+  - content/028_competing_interest.qmd
+  - content/029_Institutional_Review_Board_Statement.qmd
+  - content/030_Documentation_structure.qmd
+  - content/031_conclusions.qmd
+  - content/032_discussions.qmd
+  - references.qmd
+bibliography: references.bib
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+editor: visual
