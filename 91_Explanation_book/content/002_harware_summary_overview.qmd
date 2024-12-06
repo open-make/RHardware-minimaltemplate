@@ -1,1 +1,3 @@
 ## harware summary overview
+
+This part is meant to give an overview of the hardware, more detailed description should be given in the 03_product_dvt/hardware_overview
