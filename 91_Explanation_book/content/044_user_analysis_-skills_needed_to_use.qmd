@@ -1,1 +1,7 @@
 ## user analysis -skills needed to use
+
+What is the specific knowledge a maker shall own to reuse - without modification - your product ??
+
+For example:
+
+> The project echopen need basic knowledge about the medical ultrasound technology such as ultrasound imaging, a matter of acoustical impedance, etc.

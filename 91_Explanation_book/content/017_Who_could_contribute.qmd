@@ -1,1 +1,9 @@
 ## Who could contribute
+
+Mention the specific knowledge a contributor shall own to contribute to the project, as a maker or as a different role, indicate what kind of skills you are looking for.
+
+Describe here how people can contribute to your project. What is the preferred workflow and mention what is the agreement.
+
+> Example of a contribution process:
+>
+> Post an issue on the Git Forge and briefly outline the changes you plan to make or would like to be made.

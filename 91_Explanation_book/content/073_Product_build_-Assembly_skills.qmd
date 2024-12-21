@@ -1,1 +1,4 @@
 ## Product build -Assembly skills
+
+What is the specific knowledge a maker shall own to assembly the hardware product ??
+

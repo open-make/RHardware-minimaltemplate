@@ -1,1 +1,9 @@
 ## dependencies
+
+Here it is welcome to acknowledge the existing sources that have been used in this project with locations, and name their initiators. At best, present dependencies following what these projects provide as citation information. But at least:
+
+-   Initiators of the original project
+
+-   URL of the original project
+
+    You may also cite projects that project is citing as dependencies or source, with the URL of other related projects

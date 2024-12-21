@@ -1,1 +1,5 @@
 ## List of team members / contributors
+
+Describe here who are the maintainers and the main contributors of the project, indicate their name, role in the project and link to further information. 
+
+* Avoid giving personal information (like emails) in the documentation itself. One non-personal email (or not recognisable email) can be given as a communication tool.*
