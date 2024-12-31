@@ -1,0 +1,152 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hardware documentation explanation",
+    "section": "",
+    "text": "1 Preface\nThis book presents explanations for elements of the hardware documentation template.\nThis is a quarto book, each element having its own markdown file.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "content/001_Vision_and_motivation.html",
+    "href": "content/001_Vision_and_motivation.html",
+    "title": "2  Vision and motivation",
+    "section": "",
+    "text": "The vision provides details about the project ultimate goal, its specificity and main objectives: what, for whom and why do we have this project.\nIt serves to give meaning to the whole endeavor and is a representation of what we want to achieve. It may also present the problem the project aims at solving.\nIt addresses the question: Why are you starting this project?\nExamples:\n\nThe OpenFlexure project makes high precision mechanical positioning available to anyone with a 3D printer - for use in microscopes, micromanipulators, and more.\n\n\nThis projects aims at providing fablabs and makerspaces with pedal powered toolkit, in order to open discussions around the principles of low technologies: especially questioning needs (do we need the object), and designing while recognizing the ecological impact (choice of material, improving durability and repairability).\nOne single pedal “motor” will be connected with several tools usually requiring a rotating motor (sewing machine, saw, …). The main goal is to question the use of electrical power and show the simplicity of the tool in fablabs. The multi-functionality is important for the concept of sufficiency (less resources for a similar output). An additional goal may be to enhance collaborative work (one need two people to use the tools).\nWe think this may also help solves the problem of “building fancy but useless objects” we sometimes see in fablabs, when objects are build to show one’s skill and the possibilities of the machines, but they do not answer any needs.\n\n\nThe project BCN3D Moveo is motivated by the high cost of the materials that undergraduate students must use for learning how to engineer mechatronics systems.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Vision and motivation</span>"
+    ]
+  },
+  {
+    "objectID": "content/002_harware_summary_overview.html",
+    "href": "content/002_harware_summary_overview.html",
+    "title": "3  hardware summary overview",
+    "section": "",
+    "text": "This part is meant to give an overview of the hardware, more detailed description should be given in the 03_product_dvt/hardware_overview.md file.\nA schema, a picture or a video may be added here.\nAt first, one can state what will be delivered in this project?\n\nExample:\n\nThe project BCN3D Moveo is an open source robotic arm that everyone should be able to replicate - with or without modification - at home without the need for highly technical knowledge and expensive materials. The robotic arm will support several of the existing training itineraries: mechanical design, automation, industrial programming, etc.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>hardware summary overview</span>"
+    ]
+  },
+  {
+    "objectID": "content/003_Standard_compliance.html",
+    "href": "content/003_Standard_compliance.html",
+    "title": "4  Standard compliance",
+    "section": "",
+    "text": "Please indicate if the hardware is compliant with standards.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Standard compliance</span>"
+    ]
+  },
+  {
+    "objectID": "content/004_Outputs:_Products_and_data.html",
+    "href": "content/004_Outputs:_Products_and_data.html",
+    "title": "5  Outputs: Products and data",
+    "section": "",
+    "text": "This section define the product or data produced by the hardware.\nexample:",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Outputs: Products and data</span>"
+    ]
+  },
+  {
+    "objectID": "content/010_dependencies.html",
+    "href": "content/010_dependencies.html",
+    "title": "11  dependencies",
+    "section": "",
+    "text": "Here it is welcome to acknowledge the existing sources that have been used in this project with locations, and name their initiators. At best, present dependencies following what these projects provide as citation information. But at least:\n\nInitiators of the original project\nURL of the original project\nYou may also cite projects that project is citing as dependencies or source, with the URL of other related projects",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>dependencies</span>"
+    ]
+  },
+  {
+    "objectID": "content/013_Project_history_summary.html",
+    "href": "content/013_Project_history_summary.html",
+    "title": "14  Project history summary",
+    "section": "",
+    "text": "Indicate main information about the history of the project, as well as the last updates in the project and in the documentation (especially if the documentation is not up to date).",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Project history summary</span>"
+    ]
+  },
+  {
+    "objectID": "content/016_List_of_team_members___contributors.html",
+    "href": "content/016_List_of_team_members___contributors.html",
+    "title": "17  List of team members / contributors",
+    "section": "",
+    "text": "Describe here who are the maintainers and the main contributors of the project, indicate their name, role in the project and link to further information.\n\nAvoid giving personal information (like emails) in the documentation itself. One non-personal email (or not recognisable email) can be given as a communication tool.*",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>List of team members / contributors</span>"
+    ]
+  },
+  {
+    "objectID": "content/017_Who_could_contribute.html",
+    "href": "content/017_Who_could_contribute.html",
+    "title": "18  Who could contribute",
+    "section": "",
+    "text": "Mention the specific knowledge a contributor shall own to contribute to the project, as a maker or as a different role, indicate what kind of skills you are looking for.\nDescribe here how people can contribute to your project. What is the preferred workflow and mention what is the agreement.\n\nExample of a contribution process:\nPost an issue on the Git Forge and briefly outline the changes you plan to make or would like to be made.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Who could contribute</span>"
+    ]
+  },
+  {
+    "objectID": "content/022_License_and_rights.html",
+    "href": "content/022_License_and_rights.html",
+    "title": "23  License and rights",
+    "section": "",
+    "text": "Under what license is this open-source hardware documentation provided ? Specify when different part of the documentation have different license\n\nComparison of free and open-source software licences\nlicense of open hardware projects",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>License and rights</span>"
+    ]
+  },
+  {
+    "objectID": "content/024_Sponsors_and_funding.html",
+    "href": "content/024_Sponsors_and_funding.html",
+    "title": "25  Sponsors and funding",
+    "section": "",
+    "text": "Who is sponsoring your project?\n\nURL:\nName:\nE-mail address:\ngrant number:",
+    "crumbs": [
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Sponsors and funding</span>"
+    ]
+  },
+  {
+    "objectID": "content/030_Documentation_structure.html",
+    "href": "content/030_Documentation_structure.html",
+    "title": "31  Documentation structure",
+    "section": "",
+    "text": "How is your documentation organized?\nThese guidelines will provide you with a standard structure that is mainly following the product life cycle and the technological decomposition. It is implemented in the documentation template available in this project.",
+    "crumbs": [
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>Documentation structure</span>"
+    ]
+  },
+  {
+    "objectID": "content/044_user_analysis_-skills_needed_to_use.html",
+    "href": "content/044_user_analysis_-skills_needed_to_use.html",
+    "title": "45  user analysis -skills needed to use",
+    "section": "",
+    "text": "What is the specific knowledge a maker shall own to reuse - without modification - your product ??\nFor example:\n\nThe project echopen need basic knowledge about the medical ultrasound technology such as ultrasound imaging, a matter of acoustical impedance, etc.",
+    "crumbs": [
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>user analysis -skills needed to use</span>"
+    ]
+  },
+  {
+    "objectID": "content/068_Product_build_-Manufacturing__skills.html",
+    "href": "content/068_Product_build_-Manufacturing__skills.html",
+    "title": "69  Product build -Manufacturing skills",
+    "section": "",
+    "text": "What is the specific knowledge a maker shall own to manufacture the different parts of the hardware ?",
+    "crumbs": [
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Product build -Manufacturing  skills</span>"
+    ]
+  },
+  {
+    "objectID": "content/073_Product_build_-Assembly_skills.html",
+    "href": "content/073_Product_build_-Assembly_skills.html",
+    "title": "74  Product build -Assembly skills",
+    "section": "",
+    "text": "What is the specific knowledge a maker shall own to assembly the hardware product ??",
+    "crumbs": [
+      "<span class='chapter-number'>74</span>  <span class='chapter-title'>Product build -Assembly skills</span>"
+    ]
+  }
+]
