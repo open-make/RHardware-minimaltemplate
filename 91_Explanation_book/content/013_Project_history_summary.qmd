@@ -1,0 +1,3 @@
+## Project history summary
+
+Indicate main information about the history of the project, as well as the last updates in the project and in the documentation (especially if the documentation is not up to date).

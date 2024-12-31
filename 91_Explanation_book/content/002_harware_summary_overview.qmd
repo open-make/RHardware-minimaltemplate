@@ -1,0 +1,13 @@
+## hardware summary overview
+
+This part is meant to give an overview of the hardware, more detailed description should be given in the 03_product_dvt/hardware_overview.md file.
+
+A schema, a picture or a video may be added here.
+
+At first, one can state what will be delivered in this project?
+
+> Example:\
+>
+> The project [BCN3D Moveo](https://github.com/BCN3D/BCN3D-Moveo/) is an open source robotic arm that everyone should be able to replicate - with or without modification - at home without the need for highly technical knowledge and expensive materials.
+> The robotic arm will support several of the existing training itineraries: mechanical design, automation, industrial programming, etc.\
+> \

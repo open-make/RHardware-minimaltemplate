@@ -1,0 +1,5 @@
+# Preface 
+
+This book presents explanations for elements of the hardware documentation template.
+
+This is a quarto book, each element having its own markdown file.

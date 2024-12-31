@@ -1,0 +1,5 @@
+## Outputs: Products and data
+
+This section define the product or data produced by the hardware.
+
+example:

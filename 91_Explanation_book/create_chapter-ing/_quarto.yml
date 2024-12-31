@@ -1,0 +1,20 @@
+project:
+  type: book
+
+book:
+  title: "Hardware documentation explanation"
+  author: "Julien Colomb"
+  date: "12/6/2024"
+  chapters:
+    [chaptertoinclude_auto]
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+

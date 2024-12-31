@@ -1,0 +1,3 @@
+## Standard compliance
+
+Please indicate if the hardware is compliant with standards.

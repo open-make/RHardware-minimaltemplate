@@ -1,0 +1,3 @@
+## Product build -Manufacturing  skills
+
+What is the specific knowledge a maker shall own to manufacture the different parts of the hardware ?

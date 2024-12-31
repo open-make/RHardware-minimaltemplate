@@ -1,0 +1,90 @@
+project:
+  type: book
+book:
+  title: Hardware documentation explanation
+  author: Julien Colomb
+  date: 12/6/2024
+  chapters:
+  - index.qmd
+  - content/001_Vision_and_motivation.qmd
+  - content/002_harware_summary_overview.qmd
+  - content/003_Standard_compliance.qmd
+  - content/004_Outputs:_Products_and_data.qmd
+  - content/005_validation.qmd
+  - content/006_education_resources.qmd
+  - content/007_Cite_this_project.qmd
+  - content/008_scientific_publication.qmd
+  - content/009_Problem_description.qmd
+  - content/010_dependencies.qmd
+  - content/011_software_used_for_development.qmd
+  - content/012_Roadmap.qmd
+  - content/013_Project_history_summary.qmd
+  - content/014_Future_work.qmd
+  - content/015_Community_and_Contributions.qmd
+  - content/016_List_of_team_members___contributors.qmd
+  - content/017_Who_could_contribute.qmd
+  - content/018_Communication_channel,_how_to_contribute.qmd
+  - content/019_Community_-_work_culture.qmd
+  - content/020_Community_-guidelines.qmd
+  - content/021_Community_–Code_of_conduct.qmd
+  - content/022_License_and_rights.qmd
+  - content/023_Funding_information.qmd
+  - content/024_Sponsors_and_funding.qmd
+  - content/025_Future_funding_opportunities.qmd
+  - content/026_Administrative_information.qmd
+  - content/027_ethics_statement.qmd
+  - content/028_competing_interest.qmd
+  - content/029_Institutional_Review_Board_Statement.qmd
+  - content/030_Documentation_structure.qmd
+  - content/031_conclusions.qmd
+  - content/032_discussions.qmd
+  - content/033_product_dvt_-foreseen_cost_(money_and_time).qmd
+  - content/034_product_dvt_-requirements.qmd
+  - content/035_product_dvt_-constrains.qmd
+  - content/036_product_dvt_-capability.qmd
+  - content/037_product_dvt_-use_cases_and_application.qmd
+  - content/038_product_dvt_-reuse_possibilities.qmd
+  - content/039_product_dvt_-architectural_structure.qmd
+  - content/040_product_dvt_-Software_firmware_architecture.qmd
+  - content/041_product_dvt_-electrical_design_architecture.qmd
+  - content/042_user_analysis_-target_groups_(who_will_use_the_product).qmd
+  - content/043_user_analysis_-External_interfaces_(how_will_they_use_the_product).qmd
+  - content/044_user_analysis_-skills_needed_to_use.qmd
+  - content/045_functional_model.qmd
+  - content/046_behavioral_model_-_Modelling_tool_list.qmd
+  - content/047_behavioral_model_-_behavioral_model.qmd
+  - content/048_similar_projects.qmd
+  - content/049_electronics_-Software_firmware_architecture.qmd
+  - content/050_electronics_-electrical_design_architecture.qmd
+  - content/051_Project_history_-changelog.md.qmd
+  - content/052_Project_history_-_release_notes.qmd
+  - content/053_Project_history_-design_choices.qmd
+  - content/054_user_guides_-Safety_information.qmd
+  - content/055_user_guides_-overview_of_the_hardware.qmd
+  - content/056_user_guides_-Operation_instructions.qmd
+  - content/057_user_guides_-Testing_instructions_and_troubleshooting.qmd
+  - content/058_user_guides_-Identifying_the_defective_components.qmd
+  - content/059_user_guides_-Repairing_the_defective_components.qmd
+  - content/060_user_guides_-Replacing_equipment_components.qmd
+  - content/061_user_guides_-Summary_maintenance_+_schedule.qmd
+  - content/062_user_guides_-Summary_disposal.qmd
+  - content/063_user_guides_-Environmental_management.qmd
+  - content/064_Product_build_-Bill_of_material.qmd
+  - content/065_Product_build_-material_characteristics.qmd
+  - content/066_Product_build_-electrical_design.qmd
+  - content/067_Product_build_-firmware_Software:_Documentation_of_different_parts.qmd
+  - content/068_Product_build_-Manufacturing__skills.qmd
+  - content/069_Product_build_-Manufacturing__tools.qmd
+  - content/070_Product_build_-Manufacturing_instructions.qmd
+  - content/071_Product_build_-Assembly_instructions.qmd
+  - content/072_Product_build_-Assembly_instructions.qmd
+  - content/073_Product_build_-Assembly_skills.qmd
+  - content/074_Product_build_-Assembly_tools.qmd
+  - references.qmd
+bibliography: references.bib
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+editor: visual
