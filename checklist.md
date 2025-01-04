@@ -52,6 +52,7 @@ Note: using a canva to analyse the project may be useful at this point.
   
 
 - [ ] User analysis (this can be a personas analysis)
+  - [ ] Ecosystem analysis (`stakeholder`)
   - [ ] target groups (who will use the product)
   - [ ] External interfaces (how will they use the product)
   - [ ] skills needed to use
