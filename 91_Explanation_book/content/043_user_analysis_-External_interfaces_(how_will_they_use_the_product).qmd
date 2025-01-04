@@ -1,1 +1,19 @@
-## user analysis -External interfaces (how will they use the product)
+## user analysis - External interfaces (how will they use the product)
+
+External interfaces are interactions between the product and the actors (including users).
+
+- An interface has a direction (in, out, or in-out)
+- An interface is made of a flow (matter, energy, or signal)
+
+
+
+>Example: XYZ Cargo ADD-ONS
+>
+> Identify the interactions between food producer and the product, **specify needs and uses**: 
+> - out: mechanical countainment
+> - out: warmer and cooler
+> - out: thermal energy
+>
+> ![Image of External interfaces of XYZ cargo-ADD ONS](img/interfaces_xyz.jpg)
+
+

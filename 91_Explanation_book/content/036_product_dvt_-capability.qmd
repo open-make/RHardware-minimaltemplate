@@ -1,1 +1,21 @@
 ## product dvt -capability
+
+A service or capability is an effect intended by a actor/user resulting from the interaction of the product with its environment (i.e. what the product is for).
+
+NB: this will relate to the user analysis section of the documentation that defines the actors and interactions.
+
+- **Services can be stated as follows: The \[Product\] shall enable \[the actor\] to \[Action verb\] (for example The product shall enable end-user to clean its teeth)**
+- Services provide users with an exchange value that can be included in an economic system.
+
+- Services are intended effects that can be observed from outside the product ("black box" external view).
+
+- Services are defined in a solution neutral-way.
+
+> Example of services for ADD-ONS of XYZ Cargo
+>  
+>    - The ADD-ONS shall enable the food producer to store food
+>      - 1.1 solid (10 kilos)
+>      - 1.2 liquid (5 litrs)
+>    - The ADD-ONS shall enable the food producer to  heat food
+>      -  2.1solid (150 deg Celcius)
+>      - 2.2 liquid (80 deg Celcius)

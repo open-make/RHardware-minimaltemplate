@@ -1,1 +1,15 @@
 ## product dvt -constrains
+
+A constraint is a choice that makes certain designs "not allowed" or inappropriate for their intended use.
+
+-   The constraint is a restriction, limit, or regulation imposed on a product.
+-   There are two kinds of constraints: input constraints and system constraints.
+    -   Input constraints are imposed as part of the design specifications.
+    -   System constraints are constraints imposed by the system in which the design solution must function.
+
+> Example XYZ Cargo ADD-ONS, constraints for maker of ADD-ONS
+>
+> -   User should be able to dismantle ADD-ONS with a maximum one wrench and one screwdriver
+> -   Users should be able to customize the modules of ADD-ONS to fit their use.
+> -   The ADD-ONS should enable the users to do the assembly of components in a short time (10 minutes) and the maker shall select the resistance material for using ADD-ONS in different weather conditions.
+> -   ADD-ONS should be dismantled for recycling purposes.
