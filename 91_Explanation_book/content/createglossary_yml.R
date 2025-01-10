@@ -1,9 +1,9 @@
 library(readr)
 library(tidyverse)
-glossary <- read_csv("content/glossary.csv")
+glossary <- read_csv("content/glossary2.csv")
 
 for (i in c(1:nrow(glossary))){
-  element= as.character(glossary[i,1])
+  element= as.character(glossary[i,2])
   filename=
     str_c( "content/",
       sprintf("%03d", as.numeric(i)),
