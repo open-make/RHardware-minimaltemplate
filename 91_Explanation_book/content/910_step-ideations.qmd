@@ -1,0 +1,27 @@
+## Step 1 Ideation
+
+This should all be included in the readme file:
+
+-   [ ] General information
+
+    -   [ ] name of the project
+    -   [ ] development stage: idea generation
+    -   [ ] *type of hardware, subject area*
+    -   [ ] **License**
+    -   [ ] FOR WHO IS MADE THIS DOCUMENT
+    -   [ ] short problem description
+
+-   [ ] vision and motivations @sec-vision-and-motivation
+
+-   [ ] Contributions
+
+    -   [ ] List of team members / contributors @sec-list-of-team-members-contributors
+
+    -   [ ] skills required, who could contribute (at this point) @sec-who-could-contribute
+
+    -   [ ] contact point information / communication channel and tools used for communication (this can also be one email address) @sec-communication-channel-how-to-contribute
+
+-   [ ] Funding information
+
+    -   [ ] List of Sponsors and funding @sec-sponsors-and-funding
+    -   [ ] List of putative funding opportunities @sec-future-funding-opportunities

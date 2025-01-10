@@ -1,0 +1,53 @@
+## Step 4: product development and prototyping
+
+Here the work on the design starts! Continuous documentation of choice made, successes and failuress are welcome, so this step has an iterative components: with every development can come specific documentation.
+
+In addition, the documentation may need to be performed for different parts (or modules) of the hardware.
+
+Importantly, the Product design, manufacturing and assembling instruction may be organised using different strategies. Some projects may write simple text files like the rest of the documentation; other projects may using Gitbuilding to write the assembly instruction, and deriving the bill of material from it; other projects may derive assembly instructions from their CAD files.
+
+This step is also divided in two: a preparatory phase defining the main components and an iterative phase which can change with the different version of the hardware.
+
+### Step 4a: preparations
+- [ ] Complete the readme file
+  - [ ] development stage: prototyping
+  - [ ] Standard compliance
+  - [ ] Product outputs (if relevant: data outputs)
+  - [ ] Citing information
+
+  
+- [ ] Product development
+  - [ ] Software/firmware architecture
+  - [ ] electrical design architecture
+
+### Step 4b: iteration of design
+- [ ] Complete the readme file
+  - [ ] Update Documentation structure
+
+- [ ] Product design
+  - [ ] Bill of material
+  - [ ] material characteristics
+  - [ ] electrical design
+  - [ ] Software: Documentation of different parts
+  
+- [ ] Manufacturing instructions  
+    - [ ] Manufacturing skills and tools
+    - [ ] Manufacturing sequences and instruction
+    
+- [ ] Assembly instructions
+  - [ ] assembly skills and tools
+  - [ ] Safety information
+  - [ ] Assembly sequence and instruction
+
+- [ ] User guide
+  - [ ] Safety information
+  - [ ] overview of the hardware
+  - [ ] Operation instructions
+  - [ ] Testing instructions and troubleshooting
+  - [ ] basic maintenance + schedule
+  - [ ] basic disposal
+  
+- [ ] History  
+  - [ ] update changelog/release note
+  - [ ] update design choice history
+

@@ -1,1 +1,6 @@
-## Communication channel, how to contribute
+## Communication channel, how to contribute {#sec-communication-channel-how-to-contribute}
+
+In first step, this can be restricted to give an email where newcomers can ask for further information.
+If you are using a Git Forge, the issue system of the forge may be linked here.
+
+In developed project, a forum page or the use of a community communication tool like mattermost or matrix (to give two open source examples) is often better, as the community can work decentralised.

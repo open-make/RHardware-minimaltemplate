@@ -1,29 +1,47 @@
-## Vision and motivation
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
 
-The vision provides details about the project ultimate goal, its specificity and main objectives: what, for whom and why do we have this project.
+## Vision and motivation {#sec-vision-and-motivation}
 
-It serves to give meaning to the whole endeavor and is a representation of what we want to achieve. It may also present the problem the project aims at solving.
+The vision provides details about the project ultimate goal, its
+specificity and main objectives: what, for whom and why do we have this
+project.
+
+It serves to give meaning to the whole endeavor and is a representation
+of what we want to achieve. It may also present the problem the project
+aims at solving.
 
 It addresses the question: Why are you starting this project?
 
-
-
-
 Examples:
 
->The OpenFlexure project makes high precision mechanical positioning available to anyone with a 3D printer - for use in microscopes, micromanipulators, and more.
+> The OpenFlexure project makes high precision mechanical positioning
+> available to anyone with a 3D printer - for use in microscopes,
+> micromanipulators, and more.
 
-> This projects aims at providing fablabs and makerspaces with pedal powered toolkit, in order to open discussions
-around the principles of [low technologies](https://en.wikipedia.org/wiki/Low_technology): 
-especially questioning needs (do we need the object), and designing while recognizing the ecological impact (choice of material, improving durability and repairability).
+> This projects aims at providing fablabs and makerspaces with pedal
+> powered toolkit, in order to open discussions around the principles of
+> [low technologies](https://en.wikipedia.org/wiki/Low_technology):
+> especially questioning needs (do we need the object), and designing
+> while recognizing the ecological impact (choice of material, improving
+> durability and repairability).
 >
->One single pedal "motor" will be connected with several tools usually requiring a rotating motor (sewing machine, saw, ...).
-The main goal is to question the use of electrical power and show the simplicity of the tool in fablabs.
-The multi-functionality is important for the concept of sufficiency (less resources for a similar output).
-An additional goal may be to enhance collaborative work (one need two people to use the tools).
+> One single pedal "motor" will be connected with several tools usually
+> requiring a rotating motor (sewing machine, saw, ...). The main goal
+> is to question the use of electrical power and show the simplicity of
+> the tool in fablabs. The multi-functionality is important for the
+> concept of sufficiency (less resources for a similar output). An
+> additional goal may be to enhance collaborative work (one need two
+> people to use the tools).
 >
-> We think this may also help solves the problem of "building fancy but useless objects" we sometimes see in fablabs,
-when objects are build to show one's skill and the possibilities of the machines, but they do not answer any needs.
+> We think this may also help solves the problem of "building fancy but
+> useless objects" we sometimes see in fablabs, when objects are build
+> to show one's skill and the possibilities of the machines, but they do
+> not answer any needs.
 
->The project BCN3D Moveo is motivated by the high cost of the materials that undergraduate students must use for learning how to engineer mechatronics systems.
-
+> The project BCN3D Moveo is motivated by the high cost of the materials
+> that undergraduate students must use for learning how to engineer
+> mechatronics systems.

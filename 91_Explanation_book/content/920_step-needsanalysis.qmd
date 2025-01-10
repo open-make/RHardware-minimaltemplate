@@ -1,0 +1,42 @@
+## Step 2 Needs analysis
+
+
+Using a open source hardware canva to analyse the project may be useful at this point (defining users, contributors, communication channels, resources required).
+
+
+A lot of the user analysis and the problem description part aims at the definition of the constrains and requirements for the hardware which is included in the product development part of the documentation.
+
+It may also be time to work on community engagement.
+
+
+
+- [ ] Complete the readme file
+  - [ ] *ethics statement (human/animal use or Informed Consent Statement)*
+  - [ ] *competing interest*
+  - [ ] future work, roadmap
+  - [ ] development stage: needs analysis
+  - [ ] *Project history summary*
+  - [ ] longer problem description 
+  - [ ] Documentation structure
+  
+  
+- [ ] Contributions
+  - [ ] Contribution guidelines
+  - [ ] work culture that you want to promote
+  - [ ] Code of conduct  
+  
+
+- [ ] User analysis (this can be a personas analysis)
+  - [ ] Ecosystem analysis (`stakeholder`)
+  - [ ] target groups (who will use the product)
+  - [ ] External interfaces (how will they use the product)
+  - [ ] skills needed to use
+  
+- [ ] Product development
+  - [ ] requirements
+  - [ ] constrains
+  - [ ] capability  
+  
+- [ ] History
+  - [ ] *changes log*
+  

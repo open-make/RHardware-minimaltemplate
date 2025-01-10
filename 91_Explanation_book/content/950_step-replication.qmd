@@ -1,0 +1,27 @@
+## Step 5: replicator step
+
+Here the prototype is mature enough that it should be replicated in different places. While most of the work was already present at step 4, here we go into more quality and details.
+
+- [ ] Complete the readme file
+  - [ ] development stage: replication ready
+  - [ ] scientific publication
+  - [ ] education resources
+  - [ ] Institutional Review Board Statement
+  - [ ] discussions
+  - [ ] validation
+  - [ ] cost
+  
+- [ ] Assembly instructions
+  - [ ] disassembly instructions
+
+- [ ] Product design
+  - [ ] component lifespan
+  
+- [ ] User guide
+  - [ ] Environmental management
+  - [ ] Identifying the defective components
+  - [ ] Repairing the defective components
+  - [ ] Replacing equipment components 
+
+
+
