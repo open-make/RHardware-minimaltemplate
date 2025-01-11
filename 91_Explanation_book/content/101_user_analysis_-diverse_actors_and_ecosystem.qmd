@@ -1,18 +1,18 @@
-## Diverse actors and ecosystem
+## Diverse actors and ecosystem {#sec-diverse-actors-and-ecosystem}
 
 `this is sometimes refered to a "stakeholder analysis", but we avoided that term in this template.`
 
-The ecosystem generally refer to all the actors (human and non-human) who (may) have an interest in a product. Among them, there are both internal players, such as users and participants of the project, and external players that are represented by the potential user of products or external entities.
+The ecosystem generally refer to all the actors (human and non-human) who (may) have an interest in a product.
+Among them, there are both internal players, such as users and participants of the project, and external players that are represented by the potential user of products or external entities.
 
+-   It is not necessarily a person (for example: airports as an actor when designing a two-deck aircraft).
+-   They can indirectly affect, be affected by the product (for example: neighborhood or biodiversity when designing an airport).
 
-  - It is not necessarily a person (for example: airports as an actor when designing a two-deck aircraft).
-  - They can indirectly affect, be affected by the product (for example: neighborhood or biodiversity when designing an airport).
-  
-The ecosystem is often best represented via a graphics or a mindmap. This analysis may be necessary to make design choice that will fit the ecosystem inside which the hardware is supposed to work.
+The ecosystem is often best represented via a graphics or a mindmap.
+This analysis may be necessary to make design choice that will fit the ecosystem inside which the hardware is supposed to work.
 
 NB: The user target groups is one of these actors and should be determined with more accuracy, it is defined more extensively elsewhere.
 
 > Example
 >
-> XYZ Cargo-ADD ONS
->  ![Image of stakeholder of ADD-ONS of XYZ cargo](img/actors-xyz.jpg)
+> XYZ Cargo-ADD ONS ![Image of stakeholder of ADD-ONS of XYZ cargo](img/actors-xyz.jpg)

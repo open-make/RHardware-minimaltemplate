@@ -2,11 +2,24 @@
 
 After having an idea and defining the problems, now is time to look at putative solution. This step aims at researching the technology that will be best adapted to fulfill the requirement and constrains.
 
-An important part of this step is the research of similar project. You may end up joining an existing community and extending or adapting an existing open hardware.
+If possible, one should try to define the **Modular architecture** of the hardware, which describes **architecture of functions and instructions of the product**.
+
+An important part of this step is the research of similar project. You may end up joining an existing community and extending (adding a new module) or adapting an (or combining several) existing open hardware solutions.
 
 Usually, this step ends with a redefinition of the needs and vision, and the three first steps often are iteratively determined until a concept is chosen for the first prototype. 
 
 > Durability and repairability constrains should be included at this point of the design. While this will be mostly documented in step 5 with repair and dissassembly instructions, these concepts should be incorporated early in the design.
+
+### FBS design
+
+The concept phase is the main design phase of the hardware. While in practice, it is often made in parallel to the prototyping, larger project should invest some time at this step, and the use of the Function-Behaviour-Structure (FBS) design approach will facilitate future co-design: 
+
+- **Function (F)** stands for **“what the object is for”.**
+- **Behaviour (B)** stands for **“what the object does”.**
+- **Structure (S)** stands for **“what the object consists of”.**
+
+
+
 
 
 - [ ] Complete the readme file
@@ -30,7 +43,7 @@ Usually, this step ends with a redefinition of the needs and vision, and the thr
     - [ ] architectural structure
     - [ ] *foreseen cost + time cost*
   - [ ] functional model
-  - [ ] behavioral model: *Modelling tool list*
+  - [ ] Behavioral model: *Modelling tool list* @sec-behavioral-model 
   - [ ] Similar projects
 
   

@@ -1,1 +1,47 @@
-## behavioral model - Modelling tool list
+## Behavioral model {#sec-behavioral-model}
+
+The model will enable the makers to understand the analysis of the physical behavior of a product, this analysis supports the decision made at the later stages of design.
+This analysis is most often done using simulation software, or is made unconsciously in the designer head.
+Having some explicit model (even when no software is used) can be very useful to share ideas between designers.
+
+The behavior model:
+
+-   describe the behavior of a product when it receives a stimulus.
+-   could be the mathematical description of the physical product, this description may be made via a modelling software (Simulation model) that should be included in the documentation.
+-   is the physical interactions between the components of a design, as well as between the design and its environment. An artifact exhibits certain behaviors not only by the change or maintaining of its physical state, but also by several interactions that take place inside the artifact, as well as with its environment.
+
+### Why should you define behavioral model?
+
+-   The behavioral model identifies the properties for understanding the calculation, simulation, and environment of the product.
+-   The behavioral model could provide the simulation of any given physical phenomenon using numerical techniques.
+-   Behavior model describes how the artifact implements its function and is managed by engineering principles and physical rules that are included in a behavioral model.
+
+### How to document a behavioral model?
+
+Documentation should indicate the type of model, variables used to define the model, software used for the simulation, and results of the simulations.
+
+### Examples
+
+-   type of model:
+    -   mechanical simulation (finite element analysis (FEA) and computational fluid dynamics (CFD) are two types of mechanical simulation)
+    -   physical simulation
+    -   Thermo-mechanical simulation
+    -   Electronical simulations
+-   variables used in the model:
+    -   Specification of the geometrical model (refer to editable file format in the structural model)
+    -   Material characteristics (refer to structural model)
+    -   Initial conditions such as initial stresses, temperatures, velocities.
+    -   Boundary conditions can be imposed on individual solution variables such as displacements or rotations.
+    -   Kinematic constraints that are several of the fundamental solution variables in the model (Linear constraint equations) or multi-point constraints (General multi-point constraints) can be defined.
+    -   Interactions that are contact and other interactions between parts can be defined.
+-   (open-source) Software :
+    -   Open Modelica
+    -   ADINA
+
+>Examples
+>
+>Example 1: [FinEtools: Finite Element tools](https://github.com/PetrKryslUCSD/FinEtools.jl)
+> 
+> Example 2: Image below shows the simulation of the torsion of the fixed part from below and its evaluation of the reality.
+> 
+>  ![Image of Finite element analysis](img/FEA-image.gif)
