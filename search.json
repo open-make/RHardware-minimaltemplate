@@ -1,0 +1,320 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hardware documentation explanation",
+    "section": "",
+    "text": "1 A guide to open source hardware projects\nThis book presents explanations for elements of the hardware documentation template. The documentation should grow with the project size, and should not limit itself to the technical aspects of the hardware (how to rebuild it), but should present the project in its entirety, such that new users and new collaborators can find the information they need to participate in the project.\nThe book chapters follows the different elements of the template (readme,community, project history, product development, product build / production, and user guides). In addition the firsts chapters present the steps proposed for the development of the project (ideation, needs analysis, concept development, prototype, replication), linking to the sections relevant for that development step.\nNote_1: hardware development starts only in step four, the preparation phase is important if one does not want to end up reinventing the wheel of producing useless hardware. Note_2: Step 1-3 have an iterative nature: Especially, the analysis of “Similar projects” coming in step 3, and the prototyping (step 4) are often giving new ideas and refining use cases.\nThis is a quarto book, each element having its own quarto/markdown file.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>A guide to open source hardware projects</span>"
+    ]
+  },
+  {
+    "objectID": "content/910_step-ideations.html",
+    "href": "content/910_step-ideations.html",
+    "title": "2  Step 1 Ideation",
+    "section": "",
+    "text": "This should all be included in the readme file:\n\nGeneral information\n\nname of the project\ndevelopment stage: idea generation\ntype of hardware, subject area\nLicense\nFOR WHO IS MADE THIS DOCUMENT\nshort problem description\n\nvision and motivations Chapter 7\nContributions\n\nList of team members / contributors Chapter 22\nskills required, who could contribute (at this point) Chapter 23\ncontact point information / communication channel and tools used for communication (this can also be one email address) Chapter 24\n\nFunding information\n\nList of Sponsors and funding Chapter 27\nList of putative funding opportunities Chapter 28",
+    "crumbs": [
+      "Steps",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Step 1 Ideation</span>"
+    ]
+  },
+  {
+    "objectID": "content/920_step-needsanalysis.html",
+    "href": "content/920_step-needsanalysis.html",
+    "title": "3  Step 2 Needs analysis",
+    "section": "",
+    "text": "Using a open source hardware canva to analyse the project may be useful at this point (defining users, contributors, communication channels, resources required).\nA lot of the user analysis and the problem description part aims at the definition of the constrains and requirements for the hardware which is included in the product development part of the documentation.\nIt may also be time to work on community engagement.\n\nComplete the readme file\n\nethics statement (human/animal use or Informed Consent Statement)\ncompeting interest\nfuture work, roadmap\ndevelopment stage: needs analysis\nProject history summary\nlonger problem description\nDocumentation structure\n\nContributions\n\nContribution guidelines\nwork culture that you want to promote\nCode of conduct\n\nUser analysis (this can be a personas analysis)\n\nEcosystem analysis (stakeholder)\ntarget groups (who will use the product)\nExternal interfaces (how will they use the product)\nskills needed to use\n\nProduct development\n\nrequirements\nconstrains\ncapability\n\nHistory\n\nchanges log",
+    "crumbs": [
+      "Steps",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Step 2 Needs analysis</span>"
+    ]
+  },
+  {
+    "objectID": "content/930_step-concept.html",
+    "href": "content/930_step-concept.html",
+    "title": "4  Step 3: Concept development",
+    "section": "",
+    "text": "After having an idea and defining the problems, now is time to look at putative solution. This step aims at researching the technology that will be best adapted to fulfill the requirement and constrains.\nIf possible, one should try to define the Modular architecture of the hardware, which describes architecture of functions and instructions of the product.\nAn important part of this step is the research of similar project. You may end up joining an existing community and extending (adding a new module) or adapting an (or combining several) existing open hardware solutions.\nUsually, this step ends with a redefinition of the needs and vision, and the three first steps often are iteratively determined until a concept is chosen for the first prototype.\n\nDurability and repairability constrains should be included at this point of the design. While this will be mostly documented in step 5 with repair and dissassembly instructions, these concepts should be incorporated early in the design.\n\n\n4.0.1 FBS design\nThe concept phase is the main design phase of the hardware. While in practice, it is often made in parallel to the prototyping, larger project should invest some time at this step, and the use of the Function-Behaviour-Structure (FBS) design approach will facilitate future co-design:\n\nFunction (F) stands for “what the object is for”.\nBehaviour (B) stands for “what the object does”.\nStructure (S) stands for “what the object consists of”.\nComplete the readme file\n\ndevelopment stage: concept development\ndependencies\nconclusions\nsoftware used for development\nharware summary overview\n\nHistory\n\nrelease note\ndesign_choices\nupdate change log\n\nProduct development\n\nupdate hardwareoverview\n\napplication, use cases\nreuse potential\narchitectural structure\nforeseen cost + time cost\n\nfunctional model\nBehavioral model: Modelling tool list Chapter 53\nSimilar projects",
+    "crumbs": [
+      "Steps",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Step 3: Concept development</span>"
+    ]
+  },
+  {
+    "objectID": "content/940_step-prototyping.html",
+    "href": "content/940_step-prototyping.html",
+    "title": "5  Step 4: product development and prototyping",
+    "section": "",
+    "text": "Here the work on the design starts! Continuous documentation of choice made, successes and failuress are welcome, so this step has an iterative components: with every development can come specific documentation.\nIn addition, the documentation may need to be performed for different parts (or modules) of the hardware.\nImportantly, the Product design, manufacturing and assembling instruction may be organised using different strategies. Some projects may write simple text files like the rest of the documentation; other projects may using Gitbuilding to write the assembly instruction, and deriving the bill of material from it; other projects may derive assembly instructions from their CAD files.\nThis step is also divided in two: a preparatory phase defining the main components and an iterative phase which can change with the different version of the hardware.\n\n5.0.1 Step 4a: preparations\n\nComplete the readme file\n\ndevelopment stage: prototyping\nStandard compliance\nProduct outputs (if relevant: data outputs)\nCiting information\n\nProduct development\n\nSoftware/firmware architecture\nelectrical design architecture\n\n\n\n\n5.0.2 Step 4b: iteration of design\n\nComplete the readme file\n\nUpdate Documentation structure\n\nProduct design\n\nBill of material\nmaterial characteristics\nelectrical design\nSoftware: Documentation of different parts\n\nManufacturing instructions\n\nManufacturing skills and tools\nManufacturing sequences and instruction\n\nAssembly instructions\n\nassembly skills and tools\nSafety information\nAssembly sequence and instruction\n\nUser guide\n\nSafety information\noverview of the hardware\nOperation instructions\nTesting instructions and troubleshooting\nbasic maintenance + schedule\nbasic disposal\n\nHistory\n\nupdate changelog/release note\nupdate design choice history",
+    "crumbs": [
+      "Steps",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Step 4: product development and prototyping</span>"
+    ]
+  },
+  {
+    "objectID": "content/950_step-replication.html",
+    "href": "content/950_step-replication.html",
+    "title": "6  Step 5: replicator step",
+    "section": "",
+    "text": "Here the prototype is mature enough that it should be replicated in different places. While most of the work was already present at step 4, here we go into more quality and details.\n\nComplete the readme file\n\ndevelopment stage: replication ready\nscientific publication\neducation resources\nInstitutional Review Board Statement\ndiscussions\nvalidation\ncost\n\nAssembly instructions\n\ndisassembly instructions\n\nProduct design\n\ncomponent lifespan\n\nUser guide\n\nEnvironmental management\nIdentifying the defective components\nRepairing the defective components\nReplacing equipment components",
+    "crumbs": [
+      "Steps",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Step 5: replicator step</span>"
+    ]
+  },
+  {
+    "objectID": "content/001_Vision_and_motivation.html",
+    "href": "content/001_Vision_and_motivation.html",
+    "title": "7  Vision and motivation",
+    "section": "",
+    "text": "The vision provides details about the project ultimate goal, its specificity and main objectives: what, for whom and why do we have this project.\nIt serves to give meaning to the whole endeavor and is a representation of what we want to achieve. It may also present the problem the project aims at solving.\nIt addresses the question: Why are you starting this project?\nExamples:\n\nThe OpenFlexure project makes high precision mechanical positioning available to anyone with a 3D printer - for use in microscopes, micromanipulators, and more.\n\n\nThis projects aims at providing fablabs and makerspaces with pedal powered toolkit, in order to open discussions around the principles of low technologies: especially questioning needs (do we need the object), and designing while recognizing the ecological impact (choice of material, improving durability and repairability).\nOne single pedal “motor” will be connected with several tools usually requiring a rotating motor (sewing machine, saw, …). The main goal is to question the use of electrical power and show the simplicity of the tool in fablabs. The multi-functionality is important for the concept of sufficiency (less resources for a similar output). An additional goal may be to enhance collaborative work (one need two people to use the tools).\nWe think this may also help solves the problem of “building fancy but useless objects” we sometimes see in fablabs, when objects are build to show one’s skill and the possibilities of the machines, but they do not answer any needs.\n\n\nThe project BCN3D Moveo is motivated by the high cost of the materials that undergraduate students must use for learning how to engineer mechatronics systems.",
+    "crumbs": [
+      "Readme",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Vision and motivation</span>"
+    ]
+  },
+  {
+    "objectID": "content/002_harware_summary_overview.html",
+    "href": "content/002_harware_summary_overview.html",
+    "title": "8  hardware summary overview",
+    "section": "",
+    "text": "This part is meant to give an overview of the hardware, more detailed description should be given in the 03_product_dvt/hardware_overview.md file.\nA schema, a picture or a video may be added here.\nAt first, one can state what will be delivered in this project?\n\nExample:\n\nThe project BCN3D Moveo is an open source robotic arm that everyone should be able to replicate - with or without modification - at home without the need for highly technical knowledge and expensive materials. The robotic arm will support several of the existing training itineraries: mechanical design, automation, industrial programming, etc.",
+    "crumbs": [
+      "Readme",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>hardware summary overview</span>"
+    ]
+  },
+  {
+    "objectID": "content/003_Standard_compliance.html",
+    "href": "content/003_Standard_compliance.html",
+    "title": "9  Standard compliance",
+    "section": "",
+    "text": "Please indicate if the hardware is compliant with standards.",
+    "crumbs": [
+      "Readme",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Standard compliance</span>"
+    ]
+  },
+  {
+    "objectID": "content/004_Outputs:_Products_and_data.html",
+    "href": "content/004_Outputs:_Products_and_data.html",
+    "title": "10  Outputs: Products and data",
+    "section": "",
+    "text": "This section define the product or data produced by the hardware.\nexample:",
+    "crumbs": [
+      "Readme",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Outputs: Products and data</span>"
+    ]
+  },
+  {
+    "objectID": "content/010_dependencies.html",
+    "href": "content/010_dependencies.html",
+    "title": "16  dependencies",
+    "section": "",
+    "text": "Here it is welcome to acknowledge the existing sources that have been used in this project with locations, and name their initiators. At best, present dependencies following what these projects provide as citation information. But at least:\n\nInitiators of the original project\nURL of the original project\nYou may also cite projects that project is citing as dependencies or source, with the URL of other related projects",
+    "crumbs": [
+      "Readme",
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>dependencies</span>"
+    ]
+  },
+  {
+    "objectID": "content/013_Project_history_summary.html",
+    "href": "content/013_Project_history_summary.html",
+    "title": "19  Project history summary",
+    "section": "",
+    "text": "Indicate main information about the history of the project, as well as the last updates in the project and in the documentation (especially if the documentation is not up to date).",
+    "crumbs": [
+      "Readme",
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Project history summary</span>"
+    ]
+  },
+  {
+    "objectID": "content/016_List_of_team_members___contributors.html",
+    "href": "content/016_List_of_team_members___contributors.html",
+    "title": "22  List of team members / contributors",
+    "section": "",
+    "text": "Describe here who are the maintainers and the main contributors of the project, indicate their name, role in the project and link to further information.\n\nAvoid giving personal information (like emails) in the documentation itself. One non-personal email (or not recognisable email) can be given as a communication tool.*",
+    "crumbs": [
+      "Readme",
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>List of team members / contributors</span>"
+    ]
+  },
+  {
+    "objectID": "content/017_Who_could_contribute.html",
+    "href": "content/017_Who_could_contribute.html",
+    "title": "23  Who could contribute",
+    "section": "",
+    "text": "Mention the specific knowledge a contributor shall own to contribute to the project, as a maker or as a different role, indicate what kind of skills you are looking for.\nDescribe here how people can contribute to your project. What is the preferred workflow and mention what is the agreement.\n\nExample of a contribution process:\nPost an issue on the Git Forge and briefly outline the changes you plan to make or would like to be made.",
+    "crumbs": [
+      "Readme",
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Who could contribute</span>"
+    ]
+  },
+  {
+    "objectID": "content/018_Communication_channel,_how_to_contribute.html",
+    "href": "content/018_Communication_channel,_how_to_contribute.html",
+    "title": "24  Communication channel, how to contribute",
+    "section": "",
+    "text": "In first step, this can be restricted to give an email where newcomers can ask for further information. If you are using a Git Forge, the issue system of the forge may be linked here.\nIn developed project, a forum page or the use of a community communication tool like mattermost or matrix (to give two open source examples) is often better, as the community can work decentralised.",
+    "crumbs": [
+      "Readme",
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Communication channel, how to contribute</span>"
+    ]
+  },
+  {
+    "objectID": "content/022_License_and_rights.html",
+    "href": "content/022_License_and_rights.html",
+    "title": "25  License and rights",
+    "section": "",
+    "text": "Under what license is this open-source hardware documentation provided ? Specify when different part of the documentation have different license\n\nComparison of free and open-source software licences\nlicense of open hardware projects",
+    "crumbs": [
+      "Readme",
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>License and rights</span>"
+    ]
+  },
+  {
+    "objectID": "content/024_Sponsors_and_funding.html",
+    "href": "content/024_Sponsors_and_funding.html",
+    "title": "27  Sponsors and funding",
+    "section": "",
+    "text": "Who is sponsoring your project?\n\nURL:\nName:\nE-mail address:\ngrant number:",
+    "crumbs": [
+      "Readme",
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Sponsors and funding</span>"
+    ]
+  },
+  {
+    "objectID": "content/025_Future_funding_opportunities.html",
+    "href": "content/025_Future_funding_opportunities.html",
+    "title": "28  Future funding opportunities",
+    "section": "",
+    "text": "It is often a good idea to list putative funding opportunities when the project has no long term financing. An indication of the strategy followed by your community is also a sign of how open the project is and will be in the future.",
+    "crumbs": [
+      "Readme",
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Future funding opportunities</span>"
+    ]
+  },
+  {
+    "objectID": "content/030_Documentation_structure.html",
+    "href": "content/030_Documentation_structure.html",
+    "title": "33  Documentation structure",
+    "section": "",
+    "text": "How is your documentation organized?\nThese guidelines will provide you with a standard structure that is mainly following the product life cycle and the technological decomposition. It is implemented in the documentation template available in this project.",
+    "crumbs": [
+      "Readme",
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Documentation structure</span>"
+    ]
+  },
+  {
+    "objectID": "content/034_product_dvt_-requirements.html",
+    "href": "content/034_product_dvt_-requirements.html",
+    "title": "40  product dvt -requirements",
+    "section": "",
+    "text": "A requirement is a formal statement that specifies when condition C is true, property P of object O is actual and its value shall belong to domain D.\nIt is usually defined at the end of the ecosystem and user analysis.\n\nThe minimum set of independent requirements can completely characterize the needs of the product in the functional domain.\nFunctional requirements describe qualitatively the system functions or tasks to be performed in operation.\nRequirement can state as follows: The [stakeholder] need [Property] [object] [Action verb] at [Condition]\n\n\nExample of the functional requirement that ADD-ONS of XYZ cargo provides for the food producers, as a stakeholder, to preserve the quality of food.\nIn this example, we assumed a refrigerator on the ADD-ONS could help the food producers to cool down and preserve the temperature of food.\nSo, we defined some functional requirements (FR) based on this assumption that consist:\n\nFR1: To maintain the quality of food, the food producer needs to main the material at cold temperature (between 3 °C and 10 °C) for short-term preservation (3h) or long-term preservation (24h).\nFR2: ADD-ONS shall fix the internal ADD-ONS &gt;temperature for 7 °C.\nFR3: To create a cold ambient in the cooling down system, the ADD-ONS shall compress the low temperature and pressured gas to start the cooling cycle.\nFR4: the cooling down system shall control the pressure of exit hot gas \nFR5: the hot and pressured exit gas needs to meet the cooler external ambient temperature to become a liquid.",
+    "crumbs": [
+      "Product development and use analysis",
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>product dvt -requirements</span>"
+    ]
+  },
+  {
+    "objectID": "content/035_product_dvt_-constrains.html",
+    "href": "content/035_product_dvt_-constrains.html",
+    "title": "41  product dvt -constrains",
+    "section": "",
+    "text": "A constraint is a choice that makes certain designs “not allowed” or inappropriate for their intended use.\n\nThe constraint is a restriction, limit, or regulation imposed on a product.\nThere are two kinds of constraints: input constraints and system constraints.\n\nInput constraints are imposed as part of the design specifications.\nSystem constraints are constraints imposed by the system in which the design solution must function.\n\n\n\nExample XYZ Cargo ADD-ONS, constraints for maker of ADD-ONS\n\nUser should be able to dismantle ADD-ONS with a maximum one wrench and one screwdriver\nUsers should be able to customize the modules of ADD-ONS to fit their use.\nThe ADD-ONS should enable the users to do the assembly of components in a short time (10 minutes) and the maker shall select the resistance material for using ADD-ONS in different weather conditions.\nADD-ONS should be dismantled for recycling purposes.",
+    "crumbs": [
+      "Product development and use analysis",
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>product dvt -constrains</span>"
+    ]
+  },
+  {
+    "objectID": "content/036_product_dvt_-capability.html",
+    "href": "content/036_product_dvt_-capability.html",
+    "title": "42  product dvt -capability",
+    "section": "",
+    "text": "A service or capability is an effect intended by a actor/user resulting from the interaction of the product with its environment (i.e. what the product is for).\nNB: this will relate to the user analysis section of the documentation that defines the actors and interactions.\n\nServices can be stated as follows: The [Product] shall enable [the actor] to [Action verb] (for example The product shall enable end-user to clean its teeth)\nServices provide users with an exchange value that can be included in an economic system.\nServices are intended effects that can be observed from outside the product (“black box” external view).\nServices are defined in a solution neutral-way.\n\n\nExample of services for ADD-ONS of XYZ Cargo\n\nThe ADD-ONS shall enable the food producer to store food\n\n1.1 solid (10 kilos)\n1.2 liquid (5 litrs)\n\nThe ADD-ONS shall enable the food producer to heat food\n\n2.1solid (150 deg Celcius)\n2.2 liquid (80 deg Celcius)",
+    "crumbs": [
+      "Product development and use analysis",
+      "<span class='chapter-number'>42</span>  <span class='chapter-title'>product dvt -capability</span>"
+    ]
+  },
+  {
+    "objectID": "content/101_user_analysis_-diverse_actors_and_ecosystem.html",
+    "href": "content/101_user_analysis_-diverse_actors_and_ecosystem.html",
+    "title": "48  Diverse actors and ecosystem",
+    "section": "",
+    "text": "this is sometimes refered to a \"stakeholder analysis\", but we avoided that term in this template.\nThe ecosystem generally refer to all the actors (human and non-human) who (may) have an interest in a product. Among them, there are both internal players, such as users and participants of the project, and external players that are represented by the potential user of products or external entities.\n\nIt is not necessarily a person (for example: airports as an actor when designing a two-deck aircraft).\nThey can indirectly affect, be affected by the product (for example: neighborhood or biodiversity when designing an airport).\n\nThe ecosystem is often best represented via a graphics or a mindmap. This analysis may be necessary to make design choice that will fit the ecosystem inside which the hardware is supposed to work.\nNB: The user target groups is one of these actors and should be determined with more accuracy, it is defined more extensively elsewhere.\n\nExample\nXYZ Cargo-ADD ONS",
+    "crumbs": [
+      "Product development and use analysis",
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Diverse actors and ecosystem</span>"
+    ]
+  },
+  {
+    "objectID": "content/043_user_analysis_-External_interfaces_(how_will_they_use_the_product).html",
+    "href": "content/043_user_analysis_-External_interfaces_(how_will_they_use_the_product).html",
+    "title": "50  user analysis - External interfaces (how will they use the product)",
+    "section": "",
+    "text": "External interfaces are interactions between the product and the actors (including users).\n\nAn interface has a direction (in, out, or in-out)\nAn interface is made of a flow (matter, energy, or signal)\n\n\nExample: XYZ Cargo ADD-ONS\nIdentify the interactions between food producer and the product, specify needs and uses: - out: mechanical countainment - out: warmer and cooler - out: thermal energy\n\n\n\nImage of External interfaces of XYZ cargo-ADD ONS",
+    "crumbs": [
+      "Product development and use analysis",
+      "<span class='chapter-number'>50</span>  <span class='chapter-title'>user analysis - External interfaces (how will they use the product)</span>"
+    ]
+  },
+  {
+    "objectID": "content/044_user_analysis_-skills_needed_to_use.html",
+    "href": "content/044_user_analysis_-skills_needed_to_use.html",
+    "title": "51  user analysis -skills needed to use",
+    "section": "",
+    "text": "What is the specific knowledge a maker shall own to reuse - without modification - your product ??\nFor example:\n\nThe project echopen need basic knowledge about the medical ultrasound technology such as ultrasound imaging, a matter of acoustical impedance, etc.",
+    "crumbs": [
+      "Product development and use analysis",
+      "<span class='chapter-number'>51</span>  <span class='chapter-title'>user analysis -skills needed to use</span>"
+    ]
+  },
+  {
+    "objectID": "content/045_functional_model.html",
+    "href": "content/045_functional_model.html",
+    "title": "52  Functional model",
+    "section": "",
+    "text": "A Functional model explains what the product is made for. It is:\n\nA description of the functions performed by a product.\nAn opportunity to break down a product into smaller pieces (modules) that can be more easily understood.\nAt the highest level of a functional breakdown (black box view), service functions are the effects (intended by its ecosystem actors) of the interaction of the product with its environment. (See actors analysis, Chapter 48).\nAt the intermediate and lowest levels of a functional breakdown (white box view), technical functions are input-output relationships transforming matter, energy or information flows. They are expressing in a non-solution neutral way and observable from inside the product. A set of technical functions is necessary for the realization of a service function (in contrast to solution neutral expression of the capabilities, ?sec-product-dvt–capability).\n\n\n52.0.1 Why should you define functional model?\n\nA functional model helps to break down a complicated problem into simple sub-problems.\nA functional model helps to anticipate failures occurring when an intended effect of the product is no longer produced on its environment.\nA function is the main input to derive the functional requirements required to define the conditions of use of the product as well as to provide objective evidences through the validation and verification activities.\n\n\n\n52.0.2 How to document a functional model?\n\nThe documentation of technical functions, which requires adopting an internal (white box) viewpoint on the product, consists in breaking down the service function into sub-functions. The decomposition process is no more solution neutral as it requires to make a decision at every indenture level. The functional decomposition requires two modelling approaches: function tree and functional graph.\n\n\n52.0.2.1 Function tree\nThe function tree is a top-down decomposition of function into sub-functions that helps to simplify the problem to solve.\n\nA top-down and bottom-up reading of the functional tree provides insight on the “how” and “why”, respectively.\nThe decomposition process should be stopped when the technical function is sufficiently detailed to reuse, make, or buy a design solution.\n\n\nExample\n\n\n\nImage of functional tree of XYZ cargo-ADD ONS\n\n\n\n\n1. What minimum documentation should the functional tree provide?\n  - A model specifying the kinds of technical functions and their sub-functions in the format of a tree (refer to the functional tree of XYZ Cargo-ADD ONS)\n\n2. How to implement the functional tree?\n  - Use functional modeling language for representation, such as  \n    - UML (Use Case diagram)\n    - SysML (Block Definition, Activity, or Internal Block diagram)\n    - SADT/IDEF0 \n    - Functional flow block diagram \n  - Use open-source software for modeling the tree representation, such as\n    - Papyrus\n    - Modelio\n    - Capella  \n\n\n\nClick to see the example!\n\nWe show some kinds of functional tree of open-source projects.\n\n\n52.0.2.2 Example 1: project of XYZ CARGO ADD-ONS\n\n\n52.0.2.3 Functional tree of XYZ Cargo-ADD ONS\nThe decomposition of technical functions creates a functional tree and, the technical functions are defined based on the functional requirements. Functional tree of example about the refrigerator on the ADD-ONS for food producers represented in the figure below.\n\n\n\nImage of functional tree of XYZ cargo-ADD ONS\n\n\nEdit As New | Edit in diagrams.net\n\n\n\n\n52.0.3 Template of functional tree\n\nA model specifying the kinds of technical functions\n\n\n\n\nImage of functional tree of template\n\n\nYou can use this template on the App diagram to define the functional tree of your project/product.\nEdit As New | Edit in diagrams.net\n\nName of modeling language\n\n…\n…\n\nName of software\n\nOnline app diagram\n…\n\n\n\n\n52.0.4 2. Functional graph\n\n\nClick to see the guideline!\n\n\nDefinition: The functional graph is a multi-level logical articulation of technical functions.\nComments:\n\nRelationships between functions are in/out-going flows of matter, energy, or information.\nLogical AND/OR gates can be used to define concurrent or sequential functions.\nArticulation of technical function can describe as input-output relationships transforming flows by using the functional modeling language in the format of the graph\n\n1. What minimum documentation should the functional graph provide?\n - A model specifying a multi-level logic of relationships between technical functions (refer to functional graph of XYZ Cargo-ADD ONS)\n\n2. How to implement the functional tree?\n - Use functional modeling language for representation, such as \n   - UML (Use Case diagram)\n   - SysML (Block Definition, Activity, or Internal Block diagram)\n   - SADT/IDEF0 \n   - Functional flow block diagram\n - Use open-source software for modeling the tree representation, such as\n   - Papyrus\n   - Modelio\n   - Capella   \n\n\n\n\nClick to see the example!\n\n\n52.0.4.1 Example 1: Functional graph of XYZ Cargo-ADD ONS:\nThe image below shows the functional graph of the relationship between technical functions for maintaining food quality by ADD-ONS of XYZ cargo\n\n\n\nImage of functional graph of XYZ cargo-ADD ONS\n\n\nEdit As New | Edit in diagrams.net\n\n\n52.0.4.2 Example 2:\nThe link below shows an example of functional block diagrams of an open-source project\nFunctional diagram of Renesas ventilator\n\n\n\n\n52.0.5 Template of functional graph\n\nA model specifying the relationships between technical functions\n\n\n\n\nImage of template of functional graph\n\n\nYou can use the link below to define the functional graph of your project/product.\nEdit As New | Edit in diagrams.net\n\nName of modeling language\n\n…\n…\n\nName of Software\n\nOnline app diagram\n…",
+    "crumbs": [
+      "Product development and use analysis",
+      "<span class='chapter-number'>52</span>  <span class='chapter-title'>Functional model</span>"
+    ]
+  },
+  {
+    "objectID": "content/046_behavioral_model_-_Modelling_tool_list.html",
+    "href": "content/046_behavioral_model_-_Modelling_tool_list.html",
+    "title": "53  Behavioral model",
+    "section": "",
+    "text": "The model will enable the makers to understand the analysis of the physical behavior of a product, this analysis supports the decision made at the later stages of design. This analysis is most often done using simulation software, or is made unconsciously in the designer head. Having some explicit model (even when no software is used) can be very useful to share ideas between designers.\nThe behavior model:\n\ndescribe the behavior of a product when it receives a stimulus.\ncould be the mathematical description of the physical product, this description may be made via a modelling software (Simulation model) that should be included in the documentation.\nis the physical interactions between the components of a design, as well as between the design and its environment. An artifact exhibits certain behaviors not only by the change or maintaining of its physical state, but also by several interactions that take place inside the artifact, as well as with its environment.\n\n\n53.0.1 Why should you define behavioral model?\n\nThe behavioral model identifies the properties for understanding the calculation, simulation, and environment of the product.\nThe behavioral model could provide the simulation of any given physical phenomenon using numerical techniques.\nBehavior model describes how the artifact implements its function and is managed by engineering principles and physical rules that are included in a behavioral model.\n\n\n\n53.0.2 How to document a behavioral model?\nDocumentation should indicate the type of model, variables used to define the model, software used for the simulation, and results of the simulations.\n\n\n53.0.3 Examples\n\ntype of model:\n\nmechanical simulation (finite element analysis (FEA) and computational fluid dynamics (CFD) are two types of mechanical simulation)\nphysical simulation\nThermo-mechanical simulation\nElectronical simulations\n\nvariables used in the model:\n\nSpecification of the geometrical model (refer to editable file format in the structural model)\nMaterial characteristics (refer to structural model)\nInitial conditions such as initial stresses, temperatures, velocities.\nBoundary conditions can be imposed on individual solution variables such as displacements or rotations.\nKinematic constraints that are several of the fundamental solution variables in the model (Linear constraint equations) or multi-point constraints (General multi-point constraints) can be defined.\nInteractions that are contact and other interactions between parts can be defined.\n\n(open-source) Software :\n\nOpen Modelica\nADINA\n\n\n\nExamples\nExample 1: FinEtools: Finite Element tools\nExample 2: Image below shows the simulation of the torsion of the fixed part from below and its evaluation of the reality.\n\n\n\nImage of Finite element analysis",
+    "crumbs": [
+      "Product development and use analysis",
+      "<span class='chapter-number'>53</span>  <span class='chapter-title'>Behavioral model</span>"
+    ]
+  },
+  {
+    "objectID": "content/068_Product_build_-Manufacturing__skills.html",
+    "href": "content/068_Product_build_-Manufacturing__skills.html",
+    "title": "75  Product build -Manufacturing skills",
+    "section": "",
+    "text": "What is the specific knowledge a maker shall own to manufacture the different parts of the hardware ?",
+    "crumbs": [
+      "Production",
+      "<span class='chapter-number'>75</span>  <span class='chapter-title'>Product build -Manufacturing  skills</span>"
+    ]
+  },
+  {
+    "objectID": "content/073_Product_build_-Assembly_skills.html",
+    "href": "content/073_Product_build_-Assembly_skills.html",
+    "title": "80  Product build -Assembly skills",
+    "section": "",
+    "text": "What is the specific knowledge a maker shall own to assembly the hardware product ??",
+    "crumbs": [
+      "Production",
+      "<span class='chapter-number'>80</span>  <span class='chapter-title'>Product build -Assembly skills</span>"
+    ]
+  }
+]
