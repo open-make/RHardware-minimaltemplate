@@ -1,4 +1,4 @@
-## product dvt -capability {#sec-product-dvt--capability}
+## product dvt -capability {#sec-product-dvt-capability}
 
 A service or capability is an effect intended by a actor/user resulting from the interaction of the product with its environment (i.e. what the product is for).
 
