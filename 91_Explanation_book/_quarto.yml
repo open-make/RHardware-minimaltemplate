@@ -59,6 +59,7 @@ book:
       - content/037_product_dvt_-use_cases_and_application.qmd
       - content/038_product_dvt_-reuse_possibilities.qmd
       - content/039_product_dvt_-architectural_structure.qmd
+      - content/102_product_dvt_-mechanica_architecture.qmd
       - content/040_product_dvt_-Software_firmware_architecture.qmd
       - content/041_product_dvt_-electrical_design_architecture.qmd
       - content/101_user_analysis_-diverse_actors_and_ecosystem.qmd

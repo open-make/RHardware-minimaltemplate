@@ -103,8 +103,10 @@ Here the work on the design starts! Continous documentation of choice made, succ
 
   
 - [ ] Product development
-  - [ ] Software/firmware architecture
-  - [ ] electrical design architecture
+  - [ ] Structural architecture
+    - [ ] Mechanical architecture
+    - [ ] Software/firmware architecture
+    - [ ] Electrical design architecture
 
 ### Step 4b: iteration of design
 - [ ] Complete the readme file
