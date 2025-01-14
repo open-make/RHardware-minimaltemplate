@@ -1,4 +1,4 @@
-> add at before ## architectural structure
+> add at at the end
 
 ## Component lifetime
 
