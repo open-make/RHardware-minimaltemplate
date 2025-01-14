@@ -67,7 +67,7 @@ Note: using a canva to analyse the project may be useful at this point.
   - [ ] dependencies 
   - [ ] *conclusions*
   - [ ] software used for development
-  - [ ] harware summary overview
+  - [ ] hardware summary overview
 
   
 - [ ] History

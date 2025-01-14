@@ -5,7 +5,7 @@
 
 > To Add before "## Problem description"
 
-### harware summary overview
+### hardware summary overview
 
 > To Add before "## Roadmap" or before "## Problem description" 
 

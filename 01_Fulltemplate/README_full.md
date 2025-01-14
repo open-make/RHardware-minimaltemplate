@@ -11,7 +11,7 @@ This paragraph explains the ultimate goal of the project, its specificity and ma
 
 Please also indicates the problem this project aims at solving
 
-### harware summary overview
+### hardware summary overview
 
 ### Standard compliance
 
