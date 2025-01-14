@@ -37,7 +37,7 @@ Summary
 This readme contains the first level of information.
 in 
 - 01_community are saved our detailed documentation about the community practices
-- 02_product_dvt you will find high level analysis of the hardware design like the list or requirements and user analysis
-- 03_project_history you will find information about past decisions in the project
+- 02_project_history you will find information about past decisions in the project
+- 03_specification_concept you will find high level analysis of the hardware design like the list or requirements and user analysis
 
 

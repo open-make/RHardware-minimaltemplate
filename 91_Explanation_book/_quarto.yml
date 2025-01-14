@@ -6,6 +6,7 @@ book:
   date: 12/6/2024
   chapters:
   - index.qmd
+  - content/960_prototypingasstep1.qmd
   - part: "Steps"
     chapters: 
         - content/910_step-ideations.qmd

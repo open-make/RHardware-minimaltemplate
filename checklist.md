@@ -45,13 +45,13 @@ Note: using a canva to analyse the project may be useful at this point.
   - [ ] work culture that you want to promote
   - [ ] Code of conduct  
 
-- [ ] Product development
+- [ ] Concept development
   - [ ] requirements
   - [ ] constrains
   - [ ] capability
   
 
-- [ ] User analysis (this can be a personas analysis)
+- [ ] Actors analysis (this can be a personas analysis)
   - [ ] Ecosystem analysis (`stakeholder`)
   - [ ] target groups (who will use the product)
   - [ ] External interfaces (how will they use the product)
@@ -67,7 +67,7 @@ Note: using a canva to analyse the project may be useful at this point.
   - [ ] dependencies 
   - [ ] *conclusions*
   - [ ] software used for development
-  - [ ] harware summary overview
+  - [ ] hardware summary overview
 
   
 - [ ] History
@@ -76,14 +76,14 @@ Note: using a canva to analyse the project may be useful at this point.
   - [ ]  update change log
   
   
-- [ ] Product development
+- [ ] Concept development
   - [ ] update hardwareoverview
     - [ ] application, use cases
     - [ ] *reuse potential*
     - [ ] architectural structure
     - [ ] *foreseen cost + time cost*
   - [ ] functional model
-  - [ ] behavioral model: *Modelling tool list*
+  - [ ] behavioral model
   - [ ] Similar projects
 
   
@@ -102,7 +102,7 @@ Here the work on the design starts! Continous documentation of choice made, succ
   - [ ] Citing information
 
   
-- [ ] Product development
+- [ ] Concept development
   - [ ] Structural architecture
     - [ ] Mechanical architecture
     - [ ] Software/firmware architecture
@@ -112,7 +112,7 @@ Here the work on the design starts! Continous documentation of choice made, succ
 - [ ] Complete the readme file
   - [ ] Update Documentation structure
 
-- [ ] Product design
+- [ ] Hardware documentation
   - [ ] Bill of material
   - [ ] material characteristics
   - [ ] electrical design
@@ -156,7 +156,7 @@ Here the prototype is mature enough that it should be replicated in different pl
 - [ ] Assembly instructions
   - [ ] disassembly instructions
 
-- [ ] Product design
+- [ ] Concept
   - [ ] component lifespan
   
 - [ ] User guide
