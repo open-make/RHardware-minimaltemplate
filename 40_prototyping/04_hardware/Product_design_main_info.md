@@ -1,16 +1,15 @@
-## Bill of material
+# Hardware documentation
 
-## material characteristics
+The hardware is divided into different parts, each part is described  with its own manufacturing and assembly manual.
 
-## electrical design
+This document presents the overall design, once the parts are put together.
 
-## firmware/Software: Documentation of different parts
 
-## Manufacturing instructions
+## Electrical design
 
-- skills
-- tools
-- link to instructions
+## Firmware/Software
+
+Code is developed independently at [URL].
 
 ## Assembly instructions
 
