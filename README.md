@@ -1,13 +1,20 @@
 # Vision: a template for OSH projects
 
 In this repository, we are building templates for elements of an open source hardware project.
-The aim is to facilitate the work of designers, helping them to easily create a documentation that grows with the project.
+The aim is to facilitate the work of designers and makers, helping them to easily create a documentation that grows with the project.
 
 # How to use this template
 
-This repository has one folder for each steps in the hardware projects, including elements that may or should be added to the documentation, and a checklist is provided to be able to follow the process.
-The documentator may simply start by coping the 01_ideation folder, and change content where asked.
-When finished, the documentator can go to the next step, copying files and adding elements to the readmes: the checklist will help them find elements they want to add.
+We propose two ways to the creation of the documentation the full-template and the Incremental-template.
+If you are early in the hardware design, we advice to use the incremental-template, where the documentation grows with the project.
+If you are already a prototype, it might be easier and more satisfactory to use the full-template, filling the main readme and the 04_hardware folder at first, and (maybe) adding more information later on.
+The accompanying book explains elements of the template in the order they are found in the full-template: <https://open-make.github.io/RHardware-minimaltemplate/>
+
+## The Incremental-template
+
+This version has one folder for each steps in the hardware projects, including elements that may or should be added to the documentation, and a checklist is provided to be able to follow the process.
+The person or team documenting may simply start by coping the 01_ideation folder, and change content where asked.
+When finished, they can go to the next step, copying files and adding elements to the readmes: the checklist will help them find elements they want to add.
 It is good practice to review the documentation in the team at each step.
 One can use forks and branches (when one is using a Git forge), if one want to go forward before the review of the team.
 
@@ -39,13 +46,17 @@ In the **replicator** phase, the prototype is moved to a market-ready product, a
 Using analyses of at several examples of hardware and software project, we derived a large amount of elements that may be included in an hardware project.
 We then categorizing them following their goal (process or product documentation) and indicated whether it should be created or updated at different stage of development.
 
-From this we created a miminal template for the ideation stage, and provide a checklist of additional elements to add.
+From this we created a template for the ideation stage, and provide a checklist of additional elements to add.
 Templates for each additional elements are also provided.
 
 # Roadmap and future work
 
 We plan on providing template files and good guidelines in November 2024.
-Then, we plan on testing them in specific projects (internal and external).\
+Then, we plan on testing them in specific projects (internal and external).
+In early 2025, we created the full-template workflow, specifically for the LAUDS factories project.
+We are now working on the book, including information from previous projects in that form.
+
+\
 In the future, we hope to build some software to help with the additions instead of using a checklist.
 
 ## Community, Contributions funding
@@ -60,12 +71,9 @@ OpenMake is funded by the Federal Ministry of Education and Research (BMBF) and 
 
 ## Main contributors:
 
-Julien Colomb: julien.colomb [at] fu-berlin.de
-
-Sacha Hodencq
-
-Jean-François Boujut
-
-Robert Mies
-
-Moritz Maxeiner
+-   Julien Colomb: julien.colomb [at] fu-berlin.de
+-   Sacha Hodencq
+-   Jean-François Boujut
+-   Robert Mies
+-   Moritz Maxeiner
+-   Michel Langhammer
