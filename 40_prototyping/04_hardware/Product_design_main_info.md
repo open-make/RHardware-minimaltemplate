@@ -2,12 +2,16 @@
 
 The hardware is divided into different parts, each part is described  with its own manufacturing and assembly manual.
 
-This document presents the overall design, once the parts are put together.
+The final assembly (and disassembly) guides are : in the 01_docs folder /below /at URL:
+
+This  file  presents an overview of the design, somthing like a summary of the strucutral architecture of the hardware.
 
 
-## Electrical design
+## Mechanical design summary
 
-## Firmware/Software
+## Electrical design summary
+
+## Firmware/Software summary
 
 Code is developed independently at [URL].
 

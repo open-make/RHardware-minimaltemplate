@@ -1,24 +1,21 @@
-## Bill of material
+# Hardware documentation
 
-## material characteristics
+The hardware is divided into different parts, each part is described  with its own manufacturing and assembly manual.
 
-## electrical design
+The final assembly (and disassembly) guides are : in the 01_docs folder /below /at URL:
 
-## firmware/Software: Documentation of different parts
+This  file  presents an overview of the design, somthing like a summary of the strucutral architecture of the hardware.
 
-## Manufacturing instructions
 
-- skills
-- tools
-- link to instructions
+## Mechanical design summary
+
+## Electrical design summary
+
+## Firmware/Software summary
+
+Code is developed independently at [URL].
 
 ## Assembly instructions
-
-- skills
-- tools
-- link to instructions
-
-## Dis-assembly instructions
 
 - skills
 - tools
