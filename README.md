@@ -41,6 +41,10 @@ In the **concept** phase, the team is describing some implementation possibiliti
 In the **prototyping** phase, the team is iteratively designing a prototype, the product documentation is starting now, while the process documentation may be expanded as new collaborators comes in.
 In the **replicator** phase, the prototype is moved to a market-ready product, and the documentation aimed at users and producers of hardware will become more important.
 
+### Related projects
+
+The content of the 04_hardware folder is loosely derived from <https://github.com/hoijui/osh-dir-std/tree/main> in discussion with one of the author.
+
 ## Growing documentation with project size
 
 Using analyses of at several examples of hardware and software project, we derived a large amount of elements that may be included in an hardware project.
