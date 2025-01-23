@@ -1,4 +1,6 @@
-# product dvt - mechanical architecture/Architectural structure
+# product dvt - mechanical architecture
+
+## Mechanical Architectural structure
 
 
  The architectural structure is a physical or logical layout of the components of a system design and their internal and external connections.
@@ -24,4 +26,5 @@
 
 
 Provide both an image and the editable files, as well as instruction how to use them.
+ 
  
