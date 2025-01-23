@@ -72,6 +72,7 @@ book:
   - part: content/102_product_dvt_structuralmodel.qmd
     chapters:      
       - content/039_product_dvt_-mechanical_architecture.qmd
+      - content/103-product_dvt_CAD.qmd
       - content/040_product_dvt_-Software_firmware_architecture.qmd
       - content/041_product_dvt_-electrical_design_architecture.qmd      
   - part: "Project history"
