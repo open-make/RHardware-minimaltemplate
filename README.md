@@ -60,6 +60,8 @@ Then, we plan on testing them in specific projects (internal and external).
 In early 2025, we created the full-template workflow, specifically for the LAUDS factories project.
 We are now working on the book, including information from previous projects in that form.
 
+We created a first archive on zenodo, while the book is not finished and some important issues are still open, but we hope to get a beta version very soon.
+
 \
 In the future, we hope to build some software to help with the additions instead of using a checklist.
 
