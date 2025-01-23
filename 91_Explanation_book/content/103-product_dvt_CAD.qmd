@@ -1,0 +1,93 @@
+
+
+# product dvt - Design models
+
+## Providing the design
+
+Model design should be provided in a format that can be used to manufacture each piece (usually STL file for 3D and SVG file for 2D design).
+
+
+## Modelling a design in an editable file format 
+
+ 
+An editable file format is a standard way that information is encoded for storage and allows the makers to study, modify the geometry of a model and reuse it.
+
+
+To reuse a design model, it should provide information consist of:
+
+ 1. Preferable 3D/2D file format
+   - Editable file formats that could be:
+     - Native formats such as .FCStd format of FreeCAD 
+     - Neutral formats such as STEP files
+ 2. Preferable open-source software 
+   - OpensCAD
+   - Inkscape
+   - FreeCAD
+
+
+<details>
+  <summary>Click to see the examples!</summary>
+ 
+#### *Example of editable file formats:* 
+
+*1. [Farmbot, Native CAD files](https://genesis.farm.bot/v1.5/Extras/cad)*
+
+*2. [MIT Emergency Ventilator, Neutral CAD files](https://e-vent.mit.edu/resources/downloads/)*
+
+*3. Types of CAD format of [transmagic](https://transmagic.com/cad-formats/)*
+</details>
+
+### Template of file format
+
+ #### Documentation a design in an editable file format
+  1. 3D/2D file format
+     * Native formats
+     * Neutral formats
+  2. Name of software
+     * FreeCAD
+     * ...
+
+ 
+### **3. Characteristics of the materials**
+<details>
+  <summary>Click to see the guideline!</summary>
+ 
+- **Definition:** *The characteristics of the materials are those that identify the reactions of materials reactions to heat, electricity, light, force, etc.* 
+
+  - *Selection of materials  based on factors including properties for [behavioral](https://github.com/OPEN-NEXT/wp2.3_template/tree/main/Documentation/3.%20Design/Behavioral%20model) analysis, [environmental impact](https://github.com/OPEN-NEXT/wp2.3_Guideline-for-documentation-of-OSH-design-reuse/tree/main/Documentation/8.%20Disposal), [manufacturing](https://github.com/OPEN-NEXT/wp2.3_template/tree/main/Documentation/4.%20Manufacturing) processes in design reuse.* 
+
+```
+  The material characteristics of mechanical parts consist of: 
+  
+  1- Identifying the kind of characteristics and their properties: 
+  
+    - Mechanical characteristics like hardness, elasticity, plasticity, toughness, etc. 
+    - Manufacturing properties like castability, machinability rating, etc.
+    - Thermal characteristics like melting point, thermal conductivity, etc.
+    - Electrical characteristics like electrical resistivity and conductibility, etc.
+    - Chemical properties like corrosion resistance, surface tension, etc.
+     
+  ```
+  </details>
+  
+  <details>
+  <summary>Click to see the examples!</summary>
+ 
+  #### *Example of material characteristics*:
+  
+*Figure below shows some physical properties of superalloy base elements.*
+
+![Image of material characteristics](https://github.com/OPEN-NEXT/WP2.3-Guideline-and-templatefor-documentation-of-OSH-design-reuse/blob/main/Sources/Images/material%20characteristics%20example.jpg)
+
+> Source: Kutz, M. ed., 2002. Handbook of materials selection. John Wiley & Sons.
+  </details>
+  
+### Template of material Characteristics
+ 
+  #### Documentation of material characteristics
+  1. Name of characteristic
+     * Properties
+     * Unit of property
+     * ...
+ 
+

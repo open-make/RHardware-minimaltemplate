@@ -1,0 +1,30 @@
+# product dvt - mechanical architecture
+
+## Mechanical Architectural structure
+
+
+ The architectural structure is a physical or logical layout of the components of a system design and their internal and external connections.
+
+
+  - A model specifying the kind of components and their sub-components in the format of a tree or a graph
+
+## How to implement the architectural model?
+
+  - Use modeling language for representation, such as 
+    - SysML (Block Definition, Activity, or Internal Block diagram)
+    - UML
+  - Use open-source software for modeling the tree or graph representation, such as
+    - Papyrus
+    - Modelio
+    - Capella 
+
+
+
+> Examples
+>
+> ![Image of architecture of MPS ventilator](mechanical-model.jpg)
+
+
+Provide both an image and the editable files, as well as instruction how to use them.
+ 
+ 
