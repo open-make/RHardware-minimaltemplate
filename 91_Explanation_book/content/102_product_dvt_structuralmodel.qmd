@@ -1,6 +1,7 @@
 # Structural model {#sec-product-dvt---structural-model}
 
-This section will give an overview of the structural model, while details are given in the specific mechanical (also called architectural, ), electrical () and software () architectures sections.
+This section will give an overview of the structural model, while details are given in the specific mechanical (also called architectural, @sec-mechanical-architecture), electrical (@sec-electrical-architecture) and software (@sec-software-and-firmware-architecture) architectures sections.
+Note that sometimes, these different models are presented together in a single graphics.
 
 The Structural model explains the physical structure of the product and its components, it is:
 
@@ -15,3 +16,15 @@ The Structural model explains the physical structure of the product and its comp
 -   A structural model helps to decide the physical form of the product and its components to ensure that the structure is fit for its intended purpose.
 -   Structural model provides users with a physical model of the product, components, and characteristics of the material at the design phase that enable the stakeholder to understand the geometry, material reaction to external factors, etc.
 -   The structural model ensures that the structures are safe and fulfill the functions for which they were built.
+
+**How should you define structural model?**
+
+The first level of definition is often to show how things are related together in a tree or graph, using "modeling language" such as "SysML (Block Definition, Activity, or Internal Block diagram)" or "UML".
+
+Several software may help create these graphs:
+
+-   Papyrus
+-   Modelio
+-   Capella
+-   diagrams.net (previously draw.io)
+-   <https://excalidraw.com>
