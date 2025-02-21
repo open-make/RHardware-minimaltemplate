@@ -1,4 +1,4 @@
-## Product build -Assembly instructions {#sec-product-build--assembly-instructions}
+## Product build -Assembly instructions {#sec-product-build-assembly-instructions}
 
 # **Assembly**
 

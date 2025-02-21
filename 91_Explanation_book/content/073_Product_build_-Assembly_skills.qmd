@@ -1,4 +1,5 @@
-## Product build -Assembly skills
+## Product Build: Assembly skills and tools {#sec-product-build-assembly-skills-and-tools}
 
-What is the specific knowledge a maker shall own to assembly the hardware product ??
+What is the specific knowledge a maker shall own to assembly the hardware product, and what tools are necessary?
 
+In particular, how many people are needed to assemble the hardware ?

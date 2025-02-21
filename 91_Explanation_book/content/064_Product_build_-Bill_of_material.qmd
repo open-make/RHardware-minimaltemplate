@@ -1,1 +1,34 @@
-## Product build -Bill of material
+## Product Build: Bill of material {#sec-product-build-bill-of-material}
+
+A bill of materials (BOM) is a comprehensive list of parts, items, and other materials required to create a product, as well as instructions required for gathering and using the required materials.
+
+A bill of material usually includes:
+
+1.  Part number
+2.  Item name
+3.  Manufacturer part number
+4.  Digi-Key part number
+5.  Description
+6.  Manufactured part (link to manufacturing instruction)
+7.  Purchased part (link to seller website)
+8.  Quantity
+9.  Price
+10. Manufacturing standard lead time
+11. Packaging instruction
+12. BOM notes
+
+## Modularisation
+
+When there are multiple parts, it is best practice to have a BOM for each part, and one BOM for the whole hardware.
+For complex project, it is therefore best to create BOM automatically.
+Some software are meant to created BOM from the CAD files (CAD-coupled documentation, <https://doi.org/10.5334/joh.56>) or from the assembly instruction (using [Gitbuilding](https://gitbuilding.io)).
+
+> Example
+>
+> #### *Example 1: [JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover/tree/master/bill_of_materials)*
+>
+> ![image](https://user-images.githubusercontent.com/59058909/126754681-8afeaaa9-619e-49c5-94ca-962bd0d225c3.png)
+>
+> *Example 2: [SatNOGS Rotator v3](https://gitlab.com/librespacefoundation/satnogs/satnogs-rotator/blob/master/rotator-bom.ods)*
+>
+> #### *Example 3: [Krab v1.0](https://projects.fablabs.io/@avishek/krab-v10)*

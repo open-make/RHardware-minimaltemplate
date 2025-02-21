@@ -7,26 +7,19 @@ Provide both an image and the editable files, as well as instruction how to use 
 
 ## Details
 
-Please provide 
-- Clear installation guide
-- Description of programming algorithm   
+Please provide :
+
+- Clear installation guide 
+- Description of programming algorithm\
 - The source code 
 - Version of software and its dependencies (both hardware and software dependencies)
 
-
-
-
-
-
-
 \### **2. Documentation of different parts of software**
 
-
->Examples:
+> Examples:
 >
-> [Nasa-JPL](https://github.com/nasa-jpl/open-source-rover/tree/master/software)*
+> [Nasa-JPL](https://github.com/nasa-jpl/open-source-rover/tree/master/software)\*
 >
-> [AmboVent](https://github.com/AmboVent-1690-108/AmboVent/tree/master/3-Software)*
+> [AmboVent](https://github.com/AmboVent-1690-108/AmboVent/tree/master/3-Software)\*
 >
->[Poppy project](https://docs.poppy-project.org/en/installation/)*
-
+> [Poppy project](https://docs.poppy-project.org/en/installation/)\*

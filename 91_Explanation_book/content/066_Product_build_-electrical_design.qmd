@@ -1,1 +1,1 @@
-## Product build -electrical design
+## Product Build: Electrical design {#sec-product-buildelectrical-design}
