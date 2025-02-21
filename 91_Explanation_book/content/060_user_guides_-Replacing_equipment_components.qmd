@@ -1,1 +1,10 @@
-## user guides -Replacing equipment components
+## User Guides: Replacing equipment components {#sec-user-guides-replacing-equipment-components}
+
+This is very similar to the repairing section @sec-user-guides-repair, even if this is planned modifications.
+
+-   Links to step-by-step procedures describing the replacing sequence.
+-   Required tools for replacing the components
+
+> Example
+>
+> Replacing Ink cartridge in a printer or a lamp bulb in a video projector.

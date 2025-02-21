@@ -1,5 +1,21 @@
-## user guides : Repair {#sec-user-guides-repair}
+# User Guides : Repair {#sec-user-guides-repair}
 
 ## Identifying the defective components
 
+This can be linked to scheduled tests, or be done when an issue is seen.
+The guide should answer these questions, it may be written as a table:
+
+-   How to monitor the performance of the equipment? (what additional equipment may be necessary for this monitoring)
+-   How to detect a defective component, and determine what is defective ?
+-   How to eliminate the fault (see below) ?
+-   How to verify that the fault was eliminated
+
 ## Repairing the defective components
+
+For each element which may be defective:
+
+-   Step-by-step procedures describing the repairing sequence
+-   Refer to the technical documentation where you can find the manufacturing (and assembly) instructions to rebuild the defective components
+-   Indicate the required tools for repairing
+-   Verification of repair
+-   It may be interesting to add images and photos.
