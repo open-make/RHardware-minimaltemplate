@@ -80,13 +80,13 @@ book:
       - content/051_Project_history_-changelog.md.qmd
       - content/052_Project_history_-_release_notes.qmd
       - content/053_Project_history_-design_choices.qmd
-  - part: "Guides"
+  - part: content/104_user_guides_Overview.qmd
     chapters:
       - content/054_user_guides_-Safety_information.qmd
       - content/055_user_guides_-overview_of_the_hardware.qmd
       - content/056_user_guides_-Operation_instructions.qmd
       - content/057_user_guides_-Testing_instructions_and_troubleshooting.qmd
-      - content/058_user_guides_-Identifying_the_defective_components.qmd
+      - content/058_user_guides_calibration.qmd
       - content/059_user_guides_-Repairing_the_defective_components.qmd
       - content/060_user_guides_-Replacing_equipment_components.qmd
       - content/061_user_guides_-Summary_maintenance_+_schedule.qmd

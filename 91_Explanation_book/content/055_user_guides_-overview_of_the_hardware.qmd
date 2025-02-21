@@ -1,1 +1,8 @@
-## user guides -overview of the hardware
+## User Guides - Overview of the hardware {#sec-user-guides-overview-of-the-hardware}
+
+including:
+
+```         
+-   Device name (and its parts) and their definition
+-   Essentials and technical specifications
+```

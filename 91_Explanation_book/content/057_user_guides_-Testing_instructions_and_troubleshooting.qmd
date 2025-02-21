@@ -1,1 +1,14 @@
-## user guides -Testing instructions and troubleshooting
+## User Guides: Troubleshooting {#sec-user-guides-troubleshooting}
+
+## Testing instructions
+
+The user guide should give information on methods to test the accuracy of the hardware.
+This may include specific data to give the hardware as input and some information about how to interpret the quality of the output.
+
+> Example: Ink Printers usually have a testing mode where a specific data file is used where the printed output will inform the user about the accuracy of the printer.
+> The guide then explain what users should look for in order to make a diagnostic.
+
+## Troubleshooting
+
+-   Instructions on how to solve common problems
+-   Instruction to get additional help and report problems (Git forge issues, forums, chat,...)s

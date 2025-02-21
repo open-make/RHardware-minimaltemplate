@@ -1,0 +1,53 @@
+# Guide for Users
+
+*I would like to provide important information to end-users on 'how to use my product'.*
+
+## **What is the user guide?**
+
+The user guide consists of information that allows end-users to operate the product properly.
+This may includes information on setting the hardware, operating the hardware, recognizing and solving problems, run the maintenance of the hardware and dispose of the hardware when it is beyond repair.
+The user guide is written for non-technical people.
+
+Note the user guide may link to other parts of the documentation (especially for installation instruction/first use instrutions), or even to specific online help (for troubleshooting, a forum may be indicated on to of "usual problems").
+It usually includes:
+
+1.  Description of the device :@sec-user-guides-overview-of-the-hardware
+
+2.  Safety information: @sec-user-guides-safety-information
+
+3.  Use of the product: @sec-operation-instructions
+
+4.  Calibration instructions: @sec-user-guides-calibration
+
+5.  Troubleshooting section: @sec-user-guides-troubleshooting
+
+6.  Environmental management: @sec-user-guidesenvironmental-management
+
+7.  Maintenance and Repair information: @sec-maintenance, @sec-user-guides-repair
+
+8.  Disposal information: @sec-user-guides-disposal
+
+## How to create a user guide ?
+
+The form of the guide is usually a printable document or a website.
+It is advised to use markdown file for its creation and deliver a printable pdf for the users.
+The use of screenshots, photos and videos are usually welcome.
+
+Some popular software used to create webpage and pdf from markdown files:
+
+-   [GitBook](https://www.gitbook.com)
+-   [readthedoc](https://about.readthedocs.com)
+-   [quarto](https://quarto.org)
+-   [Gitbuilding](https://gitbuilding.io) can also be used to this purpose.
+
+> Some examples of open-source projects that show the user guide.
+>
+> [PSLab oscilloscope](https://docs.pslab.io/tutorials/oscilloscope.html#tutorials-oscilloscope--page-root)
+>
+> [PX4 vision userguide](https://docs.px4.io/master/en/#how-do-i-get-started)
+>
+> [Echopen project](https://echopen.gitbooks.io/echopen_prototyping/content/introduction/new_introduction.html)
+>
+> [Poppy project](https://docs.poppy-project.org/en/)
+>
+> [FarmBot Genesis V1.5](https://genesis.farm.bot/v1.5/Extras/troubleshooting)
