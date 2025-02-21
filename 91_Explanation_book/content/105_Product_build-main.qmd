@@ -1,0 +1,21 @@
+# Hardware production {#sec-production}
+
+Production instructions mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture and assembly of the product.
+This includes also skills and tools needed for manufacture and assembly.
+
+Production usually starts with the sourcing of material, and a bill of material (BOM) is required.
+It describes all the components and their references.
+If the component is to be purchased, one should find all the information required to buy the part.
+If the part is to be manufactured, one should find all the descriptions of the manufacturing instructions, as well as all the components needed for this manufacture (for instance, The BOM should report the amount of PLA needed when parts are 3D-printed).
+
+## Production instructions should include:
+
+-   A bill of material: @sec-product-build-bill-of-material
+-   Manufacturing skills needed: @sec-product-build-manufacturing-skills
+-   Manufacturing tools: @sec-product-build-manufacturing-tools
+-   Manufacturing sequences: @sec-product-build-manufacturing-instructions
+-   Assembly tools and skills needed: @sec-product-build-assembly-skills-and-tools
+-   Assembly instructions: @sec-product-build-assembly-instructions
+
+If relevant, the electric and electronic plan should be provided (\@ec-product-buildelectrical-design).
+Note that firmware and software installation (described at @sec-product-buildelectrical-design) may be included in the assembly manual.

@@ -92,7 +92,7 @@ book:
       - content/061_user_guides_-Summary_maintenance_+_schedule.qmd
       - content/062_user_guides_-Summary_disposal.qmd
       - content/063_user_guides_-Environmental_management.qmd
-  - part: "Production"
+  - part: content/105_Product_build-main.qmd
     chapters:      
       - content/064_Product_build_-Bill_of_material.qmd
       
@@ -102,10 +102,10 @@ book:
       - content/068_Product_build_-Manufacturing__skills.qmd
       - content/069_Product_build_-Manufacturing__tools.qmd
       - content/070_Product_build_-Manufacturing_instructions.qmd
-      - content/071_Product_build_-Assembly_instructions.qmd
+
       - content/072_Product_build_-Assembly_instructions.qmd
       - content/073_Product_build_-Assembly_skills.qmd
-      - content/074_Product_build_-Assembly_tools.qmd
+
   - references.qmd
 bibliography: references.bib
 format:
