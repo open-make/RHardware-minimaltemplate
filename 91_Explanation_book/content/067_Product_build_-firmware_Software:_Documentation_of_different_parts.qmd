@@ -1,6 +1,7 @@
-# Product build -firmware/Software
+# Product build -firmware/Software {#sec-product-build-firmwaresoftware}
 
-Here comes the elements that were more briefly described in @sec-software-and-firmware-architecture. Since software/firmware development follows different practices that often needs a more detailed version control system, they are usually developed independently of the hardware.
+Here comes the elements that were more briefly described in @sec-software-and-firmware-architecture.
+Since software/firmware development follows different practices that often needs a more detailed version control system, they are usually developed independently of the hardware.
 
 In all cases, it is important to keep track of which version of the soft/firmwares are used with which version of the hardware.
 

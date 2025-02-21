@@ -1,6 +1,8 @@
 ## Product Build: Bill of material {#sec-product-build-bill-of-material}
 
 A bill of materials (BOM) is a comprehensive list of parts, items, and other materials required to create a product, as well as instructions required for gathering and using the required materials.
+If the component is to be purchased, one should find all the information required to buy the part.
+If the part is to be manufactured, one should find all the descriptions of the manufacturing instructions as described below.
 
 A bill of material usually includes:
 
