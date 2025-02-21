@@ -1,1 +1,4 @@
-## user guides -Environmental management
+# User guides: Environmental management {#sec-user-guidesenvironmental-management}
+
+    -   Protection against weather conditions
+    -   Determining the acceptable temperature range

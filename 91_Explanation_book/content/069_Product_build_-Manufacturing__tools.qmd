@@ -1,1 +1,35 @@
-## Product build -Manufacturing  tools
+# Product build: Manufacturing tool {#sec-product-build-manufacturing-tools}
+
+Manufacturing tools means all the machinery, equipment, and processes used to manufacture products.
+Manufacturing technology guide to find the type of necessary technology to produce the part.
+In that case, it should describe the most suitable technology according to the context.
+
+## Type of machines
+
+Type of machines used
+
+1.  CNC machine tools for machining metal or other rigid materials
+    -   Milling
+
+    -   Lathe
+
+    -   Cutting
+
+    -   Drilling
+2.  Other common manufacturing tools
+    -   3D printing (FDM, SLS...)
+    -   Thermoforming
+    -   Burning machining technology (laser cutting, Plasma cutting, ...)
+    -   Bonding technologies (Solder, cold welding, arc welding, adhesive bonding ...)
+3.  Finishing: to achieve the right properties such as surface quality, geometrical accuracy, and mechanical properties, finishing is essential.
+    -   Sanding after 3D printing
+    -   Gap filling
+    -   Blasting
+    -   Polishing
+    -   Priming and painting
+
+> Examples
+>
+> [JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover/tree/master/mechanical/body_assembly#3-machiningfabrication)
+>
+> [SatNOGS Rotator v3](https://wiki.satnogs.org/SatNOGS_Rotator_v3#Build_Sequence)

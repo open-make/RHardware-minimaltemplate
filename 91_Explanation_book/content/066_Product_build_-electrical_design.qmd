@@ -1,1 +1,12 @@
-## Product build -electrical design
+# Product Build: Electrical design {#sec-product-buildelectrical-design}
+
+Datasheet of components for electronic parts:
+
+-   Description of features
+    -   Core
+    -   Memories
+    -   Advanced connectivity
+-   Device summary
+    -   Reference
+    -   Part number
+-   How to use the parts?
