@@ -1,4 +1,10 @@
-## Step 1 Ideation
+## Step 1 Ideation {.unnumbered}
+
+### Ideation 
+
+At this step, you want to share your idea, usually with a small number of people, and want to "test the water".
+
+### Checklist ideation
 
 This should all be included in the readme file:
 

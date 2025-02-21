@@ -1,8 +1,12 @@
-# When starting the documentation ? {#sec-when-starting-the-documentation}
+# Using this template  {.unnumbered}
+
+## When should you start ? {#sec-when-starting-the-documentation}
 
 This template allows you to start documenting your project at the ideation phase.
 While it might seem too early, it is useful when you want to present your ideas to collect feedback or even find collaborators.
 This allows to make clearer what are the important aspects of your idea, and can start interesting discussions.
+
+## If you have a prototype
 
 We expect most readers will come to this documentation template when they actually already have a prototype, and are mostly interested in the documentation of the technical parts of the project (mostly what will be in the 04_hardware folder).
 If you are in this situation, our advice is to go through each steps rapidely, making either short description of what you had in mind when doing the project or noting what you may have done only sub-consciously.

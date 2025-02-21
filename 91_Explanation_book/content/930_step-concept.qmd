@@ -1,4 +1,6 @@
-## Step 3: Concept development
+## Step 3: Concept development {.unnumbered}
+
+### Concept development
 
 After having an idea and defining the problems, now is time to look at putative solution. This step aims at researching the technology that will be best adapted to fulfill the requirement and constrains.
 
@@ -10,7 +12,7 @@ Usually, this step ends with a redefinition of the needs and vision, and the thr
 
 > Durability and repairability constrains should be included at this point of the design. While this will be mostly documented in step 5 with repair and dissassembly instructions, these concepts should be incorporated early in the design.
 
-### FBS design
+### FBS design methodology
 
 The concept phase is the main design phase of the hardware. While in practice, it is often made in parallel to the prototyping, larger project should invest some time at this step, and the use of the Function-Behaviour-Structure (FBS) design approach will facilitate future co-design: 
 
@@ -20,7 +22,7 @@ The concept phase is the main design phase of the hardware. While in practice, i
 
 
 
-
+### Checklist concept development
 
 - [ ] Complete the readme file
   - [ ] development stage: concept development

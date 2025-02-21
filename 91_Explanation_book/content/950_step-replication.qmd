@@ -1,6 +1,10 @@
-## Step 5: replicator step
+## Step 5: replicator step {.unnumbered}
+
+### Replication and maturation
 
 Here the prototype is mature enough that it should be replicated in different places. While most of the work was already present at step 4, here we go into more quality and details.
+
+### Checklist replication
 
 - [ ] Complete the readme file
   - [ ] development stage: replication ready

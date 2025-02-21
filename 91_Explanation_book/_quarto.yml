@@ -1,9 +1,15 @@
 project:
   type: book
+number-depth: 1
 book:
   title: Hardware documentation explanation
   author: Julien Colomb
   date: 12/6/2024
+  search: true
+  repo-url: https://github.com/open-make/RHardware-minimaltemplate/
+  repo-subdir: 91_Explanation_book
+  repo-actions: [edit, issue, source]
+  downloads: [pdf, epub]
   chapters:
   - index.qmd
   - content/960_prototypingasstep1.qmd

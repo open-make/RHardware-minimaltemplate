@@ -1,4 +1,6 @@
-## Step 4: product development and prototyping
+## Step 4: product development and prototyping {.unnumbered}
+
+### Prototyping
 
 Here the work on the design starts! Continuous documentation of choice made, successes and failuress are welcome, so this step has an iterative components: with every development can come specific documentation.
 
@@ -8,7 +10,9 @@ Importantly, the Product design, manufacturing and assembling instruction may be
 
 This step is also divided in two: a preparatory phase defining the main components and an iterative phase which can change with the different version of the hardware.
 
-### Step 4a: preparations
+
+### Checklist 4a: preparations
+
 - [ ] Complete the readme file
   - [ ] development stage: prototyping
   - [ ] Standard compliance
@@ -22,7 +26,7 @@ This step is also divided in two: a preparatory phase defining the main componen
     - [ ] Software/firmware architecture
     - [ ] Electrical design architecture
 
-### Step 4b: iteration of design
+### Checklist 4b: iteration of design
 - [ ] Complete the readme file
   - [ ] Update Documentation structure
 
