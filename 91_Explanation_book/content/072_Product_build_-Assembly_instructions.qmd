@@ -1,33 +1,27 @@
 # Product Build: Assembly sequence {#sec-product-build-assembly-instructions}
 
-The Assembly sequence usually start with a description and list of each part that will be assembled, and then provide a step-by-step guide. One can think of instruction for lego objects (In these special case, the part list is identical to a BOM and placed at the end). 
+The Assembly sequence usually start with a description and list of each part that will be assembled, and then provide a step-by-step guide.
+One can think of instruction for lego objects (In these special case, the part list is identical to a BOM and placed at the end).
 
 See @sec-production for information about software and dependence with guide for manufacturing.
 
 ## Part list
 
-The Part list for mechanical parts is a complete list of all parts needed to build the complete product. It is different from the BOM which list material needed for the manufacture of the parts, while this document list the manufactured parts. 
+The Part list for mechanical parts is a complete list of all parts needed to build the complete product.
+It is different from the BOM which list material needed for the manufacture of the parts, while this document list the manufactured parts.
 
-
-It constitutes of :
-- Item numbers: are based on the assembly structure, that is, the order in which parts are displayed in assembly.
-- Part number or drawing number: which is a reference back to the detail drawing (refer to the BOM). 
+It constitutes of : - Item numbers: are based on the assembly structure, that is, the order in which parts are displayed in assembly.
+- Part number or drawing number: which is a reference back to the detail drawing (refer to the BOM).
 - Description: is usually a part name or a complete description of parts.
-- Quantity is the number of that particular part used on this assembly. 
+- Quantity is the number of that particular part used on this assembly.
 - Image (or STL render) of each part.
 
-
-      
-## Sequence       
+## Sequence
 
 The set of steps necessary to properly assemble the parts should be well described at each step.
 
-- The joining technology at each step should be clearly described:
-          - Screwing
-          - Bolting
-          - Soldering
-          - Gluing (or "gluing and screwing")
-  
+-   The joining technology at each step should be clearly described: - Screwing - Bolting - Soldering - Gluing (or "gluing and screwing")
+
 > Example
 >
 > [Poppy Robot](https://docs.poppy-project.org/en/assembly-guides/ergo-jr/mechanical-construction.html)
@@ -38,10 +32,10 @@ The set of steps necessary to properly assemble the parts should be well describ
 >
 > [Open Source Powered Prosthetic Leg](https://www.hackster.io/open-source-bionics/open-source-powered-prosthetic-leg-56be8e#toc-electronics-assembly-4)
 
-
 ## Notes
 
-It is good practice to design the parts such that the assembly is easier. One can for instance include the item number on the parts and make sure that it is difficult to assemble parts at the wrong step, for instance by designing asymetrical parts.
+It is good practice to design the parts such that the assembly is easier.
+One can for instance include the item number on the parts and make sure that it is difficult to assemble parts at the wrong step, for instance by designing asymetrical parts.
 
 ------------------------------------------------------------------------
 
