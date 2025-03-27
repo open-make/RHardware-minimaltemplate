@@ -20,7 +20,7 @@ book:
         - content/930_step-concept.qmd
         - content/940_step-prototyping.qmd
         - content/950_step-replication.qmd
-  - part: "Readme"
+  - part: "Readme as a first entry door"
     chapters:      
         - content/001_Vision_and_motivation.qmd
         - content/002_harware_summary_overview.qmd
@@ -75,8 +75,9 @@ book:
       - content/048_similar_projects.qmd
       - content/049_electronics_-Software_firmware_architecture.qmd
       - content/050_electronics_-electrical_design_architecture.qmd
-  - part: content/102_product_dvt_structuralmodel.qmd
+  - part: "Structural models"
     chapters:      
+      - content/102_product_dvt_structuralmodel.qmd
       - content/039_product_dvt_-mechanical_architecture.qmd
       - content/103-product_dvt_CAD.qmd
       - content/040_product_dvt_-Software_firmware_architecture.qmd
@@ -86,8 +87,9 @@ book:
       - content/051_Project_history_-changelog.md.qmd
       - content/052_Project_history_-_release_notes.qmd
       - content/053_Project_history_-design_choices.qmd
-  - part: content/104_user_guides_Overview.qmd
+  - part: "user guides"
     chapters:
+      - content/104_user_guides_Overview.qmd
       - content/054_user_guides_-Safety_information.qmd
       - content/055_user_guides_-overview_of_the_hardware.qmd
       - content/056_user_guides_-Operation_instructions.qmd
@@ -98,8 +100,9 @@ book:
       - content/061_user_guides_-Summary_maintenance_+_schedule.qmd
       - content/062_user_guides_-Summary_disposal.qmd
       - content/063_user_guides_-Environmental_management.qmd
-  - part: content/105_Product_build-main.qmd
-    chapters:      
+  - part:  "Product build"
+    chapters:  
+      - content/105_Product_build-main.qmd
       - content/064_Product_build_-Bill_of_material.qmd
       
       - content/065_Product_build_-material_characteristics.qmd
@@ -113,10 +116,10 @@ book:
       - content/073_Product_build_-Assembly_skills.qmd
 
   - content/200-sources.qmd
-  - references.qmd
 
-bibliography: references.bib
 format:
   html:
     theme: cosmo
+  pdf:
+    documentclass: scrreport  
 editor: visual

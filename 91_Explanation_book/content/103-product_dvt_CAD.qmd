@@ -77,7 +77,7 @@ To reuse a design model, it should provide information consist of:
   
 *Figure below shows some physical properties of superalloy base elements.*
 
-![Image of material characteristics](https://github.com/OPEN-NEXT/WP2.3-Guideline-and-templatefor-documentation-of-OSH-design-reuse/blob/main/Sources/Images/material%20characteristics%20example.jpg)
+![Image of material characteristics](img/material_characteristics_example.jpg)
 
 > Source: Kutz, M. ed., 2002. Handbook of materials selection. John Wiley & Sons.
   </details>

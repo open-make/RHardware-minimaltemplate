@@ -6,9 +6,9 @@ The documentation should grow with the project size, and should not limit itself
 The book chapters follows the different elements of the template (readme,community, project history,conceptualisation and specification, hardware design, and user guides).
 In addition, the firsts chapters present the steps proposed for the development of the project (ideation, needs analysis, concept development, prototype, replication and use), linking to the sections relevant for that development step.
 
-Because we expect most project to see this template when already having a prototype, we added a special chapter on starting at this stage (@sec-when-starting-the-documentation).
+Because we expect most project to see this template when already having a prototype, we added a special chapter on starting at this stage (\@sec-whenstartingdocumentations).
 
-Note_1: hardware development per se starts only in step four, the preparation phase is important if one does not want to end up reinventing the wheel or producing useless hardware.
+Note_1: hardware development per se starts only in step four, the preparatisec-whenstartingdocumentationon phase is important if one does not want to end up reinventing the wheel or producing useless hardware.
 Note_2: Step 1-3 have an iterative nature: Especially, the analysis of "Similar projects" coming in step 3, and the prototyping (step 4) are often giving new ideas and refining use cases.
 
 ## Technicality

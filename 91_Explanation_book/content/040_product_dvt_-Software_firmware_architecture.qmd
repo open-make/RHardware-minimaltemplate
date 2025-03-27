@@ -2,17 +2,18 @@
 
 The software architecture represents the repository details of all the software and firmware that is necessary for reusing and running the project.
 
-See @sec-product-dvt---structural-model for information about how to document this.
+See @sec-structural-model for information about how to document this.
 Provide both an image and the editable files, as well as instruction how to use them.
+
 
 ## Details
 
 Please provide :
 
-- Clear installation guide 
-- Description of programming algorithm\
-- The source code 
-- Version of software and its dependencies (both hardware and software dependencies)
+-   Clear installation guide
+-   Description of programming algorithm\
+-   The source code
+-   Version of software and its dependencies (both hardware and software dependencies)
 
 \### **2. Documentation of different parts of software**
 
@@ -23,7 +24,6 @@ Please provide :
 > [AmboVent](https://github.com/AmboVent-1690-108/AmboVent/tree/master/3-Software)\*
 >
 > [Poppy project](https://docs.poppy-project.org/en/installation/)\*
-
 
 ------------------------------------------------------------------------
 

@@ -1,8 +1,9 @@
-## **Disposal instructions :**
+## **Disposal instructions** {#sec-disposal-instructions}
 
 Disposal instructions identify the process of removing a system or its component, ensuring the proper handling of any environmentally sensitive materials, and sending the remainder to surplus storage or sale.
 
-They describe each component with information about their end of life (depending on their material content). Each element will be classed corresponding to their "recyclability", and infromation is given to reduce the negative environemental impact of the disposal and recycling of the hardware componenent.
+They describe each component with information about their end of life (depending on their material content).
+Each element will be classed corresponding to their "recyclability", and infromation is given to reduce the negative environemental impact of the disposal and recycling of the hardware componenent.
 
 ### Classing elements
 
@@ -12,52 +13,47 @@ They describe each component with information about their end of life (depending
 >
 > Conditionally recyclable: component which needs specific treatment before being recycled.
 
- 
-
-- Distinguishing the recyclable, Conditionally recyclable and Non-recyclable components or products. 
-- Determining what material can recycle many times
-- Identify the product lifespan for disposing and/or recycling.
-- Describe how to recycle the components or products and their type of materials?
-- Describe how to dispose of components which cannot be recycled.
+-   Distinguishing the recyclable, Conditionally recyclable and Non-recyclable components or products.
+-   Determining what material can recycle many times
+-   Identify the product lifespan for disposing and/or recycling.
+-   Describe how to recycle the components or products and their type of materials?
+-   Describe how to dispose of components which cannot be recycled.
 
 Disposable products are most often made from Polystyrene and Cotton, Non-recyclable products from Textiles and Ceramics.
 
-### Types of disposal: 
-- Incineration: This type of waste disposal involves the dumping off method where you eliminate waste materials via combustion.
-- Landfill: It involves collecting, transporting, dumping, and burying waste in a designated land.
+### Types of disposal:
 
- 
+-   Incineration: This type of waste disposal involves the dumping off method where you eliminate waste materials via combustion.
+-   Landfill: It involves collecting, transporting, dumping, and burying waste in a designated land.
 
-### disassembly 
+### disassembly
 
 Indicate how to disassemble the components a product for recycling/disposing?
 
 ### environmental assessment
 
 it is the assessment of the environmental consequences of disposing or recycling a product before the decision to move forward with the proposed action.
-   - The negative consequences of disposable products on the environment if sustainability isn't factored into disposal options.
-   - How to select the disposal or recycling process to have a less environmental impact?
- 
+- The negative consequences of disposable products on the environment if sustainability isn't factored into disposal options.
+- How to select the disposal or recycling process to have a less environmental impact?
 
 ### Template of disposal
 
 For each element or part, indicate:
 
-- sub-part name
-- parent part number and name, with links
-- link to dissassembly instructions (see @sec-product-build--assembly-instructions)
-- material used + how many times can it be recycled
-- recyclable (yes/no/conditional)
-- disposition information, for each option:
-  - how to
-  - environmental assessment of disposal options:
-    - described the negative consequences of disposal
-    - Define and describe the main parameters and processes to decrease these negative environmental impacts
-- end of life information
+-   sub-part name
+-   parent part number and name, with links
+-   link to dissassembly instructions (see sec-product-build-assembly-instructions)
+-   material used + how many times can it be recycled
+-   recyclable (yes/no/conditional)
+-   disposition information, for each option:
+    -   how to
+    -   environmental assessment of disposal options:
+        -   described the negative consequences of disposal
+        -   Define and describe the main parameters and processes to decrease these negative environmental impacts
+-   end of life information
 
 ------------------------------------------------------------------------
 
 **Sources**
 
 OpenNext work project resutls: @sec-open-next-work
-

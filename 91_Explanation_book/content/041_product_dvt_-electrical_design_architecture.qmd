@@ -18,7 +18,7 @@ The architectural structure is a physical or logical layout of the components of
         -   Sensors
         -   Etc.
 
-See @sec-product-dvt---structural-model for information about how to document this.
+See \@sec-structural-model for information about how to document this.
 Provide both an image and the editable files, as well as instruction how to use them.
 
 > example
@@ -43,9 +43,9 @@ To reuse a electrical design, it should provide information consist of:
 
 > Examples:
 >
-> [Nasa-JPL, source files](https://github.com/nasa-jpl/open-source-rover/tree/master/electrical/pcb/arduino_uno_sheild/gerbers/rev_b)*
+> [Nasa-JPL, source files](https://github.com/nasa-jpl/open-source-rover/tree/master/electrical/pcb/arduino_uno_sheild/gerbers/rev_b)\*
 >
-> [AmbovVent, Neutral files](https://github.com/AmboVent-1690-108/AmboVent/tree/master/1-Electronics)*
+> [AmbovVent, Neutral files](https://github.com/AmboVent-1690-108/AmboVent/tree/master/1-Electronics)\*
 
 ------------------------------------------------------------------------
 

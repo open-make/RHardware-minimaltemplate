@@ -38,13 +38,17 @@ Documentation should indicate the type of model, variables used to define the mo
     -   Open Modelica
     -   ADINA
 
->Examples
+> Examples
 >
->Example 1: [FinEtools: Finite Element tools](https://github.com/PetrKryslUCSD/FinEtools.jl)
-> 
+> Example 1: [FinEtools: Finite Element tools](https://github.com/PetrKryslUCSD/FinEtools.jl)
+>
 > Example 2: Image below shows the simulation of the torsion of the fixed part from below and its evaluation of the reality.
-> 
->  ![Image of Finite element analysis](img/FEA-image.gif)
+
+![Image of Finite element analysis](img/FEA-image.jpg)
+
+::: {fig-env="figure*" .content-hidden unless-format="html"}
+![Image of Finite element analysis](img/FEA-image.gif) GIF image of the model.
+:::
 
 ------------------------------------------------------------------------
 

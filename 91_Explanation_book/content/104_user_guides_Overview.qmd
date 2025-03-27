@@ -25,7 +25,7 @@ It usually includes:
 
 7.  Maintenance and Repair information: @sec-maintenance, @sec-user-guides-repair
 
-8.  Disposal information: @sec-user-guides-disposal
+8.  Disposal information: @sec-disposal-instructions
 
 ## How to create a user guide ?
 
@@ -51,7 +51,6 @@ Some popular software used to create webpage and pdf from markdown files:
 > [Poppy project](https://docs.poppy-project.org/en/)
 >
 > [FarmBot Genesis V1.5](https://genesis.farm.bot/v1.5/Extras/troubleshooting)
-
 
 ------------------------------------------------------------------------
 

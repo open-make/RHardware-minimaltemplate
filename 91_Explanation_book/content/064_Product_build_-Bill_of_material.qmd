@@ -29,7 +29,7 @@ Some software are meant to created BOM from the CAD files (CAD-coupled documenta
 >
 > #### *Example 1: [JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover/tree/master/bill_of_materials)*
 >
-> ![image](https://user-images.githubusercontent.com/59058909/126754681-8afeaaa9-619e-49c5-94ca-962bd0d225c3.png)
+> ![JPL BOM](img/D-JPL-1.png)
 >
 > *Example 2: [SatNOGS Rotator v3](https://gitlab.com/librespacefoundation/satnogs/satnogs-rotator/blob/master/rotator-bom.ods)*
 >

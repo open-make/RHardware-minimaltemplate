@@ -1,6 +1,6 @@
-# Using this template  {.unnumbered}
+# Using this template {.unnumbered}
 
-## When should you start ? {#sec-when-starting-the-documentation}
+## When should you start ? {#sec-whenstartingdocumentation}
 
 This template allows you to start documenting your project at the ideation phase.
 While it might seem too early, it is useful when you want to present your ideas to collect feedback or even find collaborators.
