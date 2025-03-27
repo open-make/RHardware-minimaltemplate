@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Hardware documentation explanation",
     "section": "",
-    "text": "A guide to open source hardware projects\nThis book presents explanations for elements of the hardware project documentation template. The documentation should grow with the project size, and should not limit itself to the technical aspects of the hardware (how to rebuild it), but should present the project in its entirety, such that new users and new collaborators can find the information they need to participate in the project.\nThe book chapters follows the different elements of the template (readme,community, project history,conceptualisation and specification, hardware design, and user guides). In addition, the firsts chapters present the steps proposed for the development of the project (ideation, needs analysis, concept development, prototype, replication and use), linking to the sections relevant for that development step.\nBecause we expect most project to see this template when already having a prototype, we added a special chapter on starting at this stage (@sec-whenstartingdocumentations).\nNote_1: hardware development per se starts only in step four, the preparatisec-whenstartingdocumentationon phase is important if one does not want to end up reinventing the wheel or producing useless hardware. Note_2: Step 1-3 have an iterative nature: Especially, the analysis of “Similar projects” coming in step 3, and the prototyping (step 4) are often giving new ideas and refining use cases.",
+    "text": "A guide to open source hardware projects\nThis book presents explanations for elements of the hardware project documentation template available at https://github.com/open-make/RHardware-minimaltemplate. The documentation should grow with the project size, and should not limit itself to the technical aspects of the hardware (how to rebuild it), but should present the project in its entirety, such that new users and new collaborators can find the information they need to participate in the project.\nThe book chapters follows the different elements of the template (readme,community, project history,conceptualisation and specification, hardware design, and user guides). In addition, the firsts chapters present the steps proposed for the development of the project (ideation, needs analysis, concept development, prototype, replication and use), linking to the sections relevant for that development step.\nBecause we expect most project to see this template when already having a prototype, we added a special chapter on starting at this stage (When should you start ?).",
     "crumbs": [
       "A guide to open source hardware projects"
     ]
@@ -14,7 +14,7 @@
     "href": "index.html#technicality",
     "title": "Hardware documentation explanation",
     "section": "Technicality",
-    "text": "Technicality\nThis is a quarto book, each element has its own quarto/markdown file. See the Git repository (https://github.com/open-make/RHardware-minimaltemplate) to modify this book.",
+    "text": "Technicality\nThis is a quarto book, each element has its own quarto/markdown file. See the Git repository (https://github.com/open-make/RHardware-minimaltemplate) to modify this book.\nOnline version of the book:",
     "crumbs": [
       "A guide to open source hardware projects"
     ]
