@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Hardware documentation explanation",
     "section": "",
-    "text": "A guide to open source hardware projects\nThis book presents explanations for elements of the hardware project documentation template. The documentation should grow with the project size, and should not limit itself to the technical aspects of the hardware (how to rebuild it), but should present the project in its entirety, such that new users and new collaborators can find the information they need to participate in the project.\nThe book chapters follows the different elements of the template (readme,community, project history,conceptualisation and specification, hardware design, and user guides). In addition, the firsts chapters present the steps proposed for the development of the project (ideation, needs analysis, concept development, prototype, replication and use), linking to the sections relevant for that development step.\nBecause we expect most project to see this template when already having a prototype, we added a special chapter on starting at this stage (When should you start ?).\nNote_1: hardware development per se starts only in step four, the preparation phase is important if one does not want to end up reinventing the wheel or producing useless hardware. Note_2: Step 1-3 have an iterative nature: Especially, the analysis of “Similar projects” coming in step 3, and the prototyping (step 4) are often giving new ideas and refining use cases.",
+    "text": "A guide to open source hardware projects\nThis book presents explanations for elements of the hardware project documentation template. The documentation should grow with the project size, and should not limit itself to the technical aspects of the hardware (how to rebuild it), but should present the project in its entirety, such that new users and new collaborators can find the information they need to participate in the project.\nThe book chapters follows the different elements of the template (readme,community, project history,conceptualisation and specification, hardware design, and user guides). In addition, the firsts chapters present the steps proposed for the development of the project (ideation, needs analysis, concept development, prototype, replication and use), linking to the sections relevant for that development step.\nBecause we expect most project to see this template when already having a prototype, we added a special chapter on starting at this stage (@sec-whenstartingdocumentations).\nNote_1: hardware development per se starts only in step four, the preparatisec-whenstartingdocumentationon phase is important if one does not want to end up reinventing the wheel or producing useless hardware. Note_2: Step 1-3 have an iterative nature: Especially, the analysis of “Similar projects” coming in step 3, and the prototyping (step 4) are often giving new ideas and refining use cases.",
     "crumbs": [
       "A guide to open source hardware projects"
     ]
@@ -99,9 +99,9 @@
     "href": "content/001_Vision_and_motivation.html",
     "title": "1  Vision and motivation",
     "section": "",
-    "text": "The vision provides details about the project ultimate goal, its specificity and main objectives: what, for whom and why do we have this project.\nIt serves to give meaning to the whole endeavor and is a representation of what we want to achieve. It may also present the problem the project aims at solving.\nIt addresses the question: Why are you starting this project?\nExamples:\n\nThe OpenFlexure project makes high precision mechanical positioning available to anyone with a 3D printer - for use in microscopes, micromanipulators, and more.\n\n\nThis projects aims at providing fablabs and makerspaces with pedal powered toolkit, in order to open discussions around the principles of low technologies: especially questioning needs (do we need the object), and designing while recognizing the ecological impact (choice of material, improving durability and repairability).\nOne single pedal “motor” will be connected with several tools usually requiring a rotating motor (sewing machine, saw, …). The main goal is to question the use of electrical power and show the simplicity of the tool in fablabs. The multi-functionality is important for the concept of sufficiency (less resources for a similar output). An additional goal may be to enhance collaborative work (one need two people to use the tools).\nWe think this may also help solves the problem of “building fancy but useless objects” we sometimes see in fablabs, when objects are build to show one’s skill and the possibilities of the machines, but they do not answer any needs.\n\n\nThe project BCN3D Moveo is motivated by the high cost of the materials that undergraduate students must use for learning how to engineer mechatronics systems.",
+    "text": "The vision provides details about the project ultimate goal, its specificity and main objectives: what, for whom and why do we have this project.\nIt serves to give meaning to the whole endeavor and is a representation of what we want to achieve. It may also present the problem the project aims at solving.\nIt addresses the question: Why are you starting this project?\nExamples:\n\nThe OpenFlexure project makes high precision mechanical positioning available to anyone with a 3D printer - for use in microscopes, micromanipulators, and more.\n\n\nThis projects aims at providing fablabs and makerspaces with pedal powered toolkit, in order to open discussions around the principles of low technologies: especially questioning needs (do we need the object), and designing while recognizing the ecological impact (choice of material, improving durability and repairability).\nOne single pedal “motor” will be connected with several tools usually requiring a rotating motor (sewing machine, saw, …). The main goal is to question the use of electrical power and show the simplicity of the tool in fablabs. The multi-functionality is important for the concept of sufficiency (less resources for a similar output). An additional goal may be to enhance collaborative work (one need two people to use the tools).\nWe think this may also help solves the problem of “building fancy but useless objects” we sometimes see in fablabs, when objects are build to show one’s skill and the possibilities of the machines, but they do not answer any needs.\n\n\nThe project BCN3D Moveo is motivated by the high cost of the materials that undergraduate students must use for learning how to engineer mechatronics systems.\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Readme",
+      "Readme as a first entry door",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Vision and motivation</span>"
     ]
   },
@@ -110,9 +110,9 @@
     "href": "content/002_harware_summary_overview.html",
     "title": "2  hardware summary overview",
     "section": "",
-    "text": "This part is meant to give an overview of the hardware, more detailed description should be given in the 03_product_dvt/hardware_overview.md file.\nA schema, a picture or a video may be added here.\nAt first, one can state what will be delivered in this project?\n\nExample:\n\nThe project BCN3D Moveo is an open source robotic arm that everyone should be able to replicate - with or without modification - at home without the need for highly technical knowledge and expensive materials. The robotic arm will support several of the existing training itineraries: mechanical design, automation, industrial programming, etc.",
+    "text": "This part is meant to give an overview of the hardware, more detailed description should be given in the 03_product_dvt/hardware_overview.md file.\nA schema, a picture or a video may be added here.\nAt first, one can state what will be delivered in this project?\n\nExample:\n\nThe project BCN3D Moveo is an open source robotic arm that everyone should be able to replicate - with or without modification - at home without the need for highly technical knowledge and expensive materials. The robotic arm will support several of the existing training itineraries: mechanical design, automation, industrial programming, etc.\n\n\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Readme",
+      "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>hardware summary overview</span>"
     ]
   },
@@ -123,7 +123,7 @@
     "section": "",
     "text": "Please indicate if the hardware is compliant with standards.",
     "crumbs": [
-      "Readme",
+      "Readme as a first entry door",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Standard compliance</span>"
     ]
   },
@@ -134,7 +134,7 @@
     "section": "",
     "text": "This section define the product or data produced by the hardware.\nexample:",
     "crumbs": [
-      "Readme",
+      "Readme as a first entry door",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Outputs: Products and data</span>"
     ]
   },
@@ -143,9 +143,9 @@
     "href": "content/010_dependencies.html",
     "title": "10  dependencies",
     "section": "",
-    "text": "Here it is welcome to acknowledge the existing sources that have been used in this project with locations, and name their initiators. At best, present dependencies following what these projects provide as citation information. But at least:\n\nInitiators of the original project\nURL of the original project\nYou may also cite projects that project is citing as dependencies or source, with the URL of other related projects",
+    "text": "Here it is welcome to acknowledge the existing sources that have been used in this project with locations, and name their initiators. At best, present dependencies following what these projects provide as citation information. But at least:\n\nInitiators of the original project\nURL of the original project\nYou may also cite projects that project is citing as dependencies or source, with the URL of other related projects\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Readme",
+      "Readme as a first entry door",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>dependencies</span>"
     ]
   },
@@ -156,7 +156,7 @@
     "section": "",
     "text": "Indicate main information about the history of the project, as well as the last updates in the project and in the documentation (especially if the documentation is not up to date).",
     "crumbs": [
-      "Readme",
+      "Readme as a first entry door",
       "<span class='chapter-number'>13</span>  <span class='chapter-title'>Project history summary</span>"
     ]
   },
@@ -167,7 +167,7 @@
     "section": "",
     "text": "Describe here who are the maintainers and the main contributors of the project, indicate their name, role in the project and link to further information.\n\nAvoid giving personal information (like emails) in the documentation itself. One non-personal email (or not recognisable email) can be given as a communication tool.*",
     "crumbs": [
-      "Readme",
+      "Readme as a first entry door",
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>List of team members / contributors</span>"
     ]
   },
@@ -178,7 +178,7 @@
     "section": "",
     "text": "Mention the specific knowledge a contributor shall own to contribute to the project, as a maker or as a different role, indicate what kind of skills you are looking for.\nDescribe here how people can contribute to your project. What is the preferred workflow and mention what is the agreement.\n\nExample of a contribution process:\nPost an issue on the Git Forge and briefly outline the changes you plan to make or would like to be made.",
     "crumbs": [
-      "Readme",
+      "Readme as a first entry door",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Who could contribute</span>"
     ]
   },
@@ -189,7 +189,7 @@
     "section": "",
     "text": "In first step, this can be restricted to give an email where newcomers can ask for further information. If you are using a Git Forge, the issue system of the forge may be linked here.\nIn developed project, a forum page or the use of a community communication tool like mattermost or matrix (to give two open source examples) is often better, as the community can work decentralised.",
     "crumbs": [
-      "Readme",
+      "Readme as a first entry door",
       "<span class='chapter-number'>18</span>  <span class='chapter-title'>Communication channel, how to contribute</span>"
     ]
   },
@@ -198,9 +198,9 @@
     "href": "content/022_License_and_rights.html",
     "title": "19  License and rights",
     "section": "",
-    "text": "Under what license is this open-source hardware documentation provided ? Specify when different part of the documentation have different license\n\nComparison of free and open-source software licences\nlicense of open hardware projects",
+    "text": "Under what license is this open-source hardware documentation provided ? Specify when different part of the documentation have different license\n\nComparison of free and open-source software licences\nlicense of open hardware projects\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Readme",
+      "Readme as a first entry door",
       "<span class='chapter-number'>19</span>  <span class='chapter-title'>License and rights</span>"
     ]
   },
@@ -209,9 +209,9 @@
     "href": "content/024_Sponsors_and_funding.html",
     "title": "21  Sponsors and funding",
     "section": "",
-    "text": "Who is sponsoring your project?\n\nURL:\nName:\nE-mail address:\ngrant number:",
+    "text": "Who is sponsoring your project?\n\nURL:\nName:\nE-mail address:\ngrant number:\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Readme",
+      "Readme as a first entry door",
       "<span class='chapter-number'>21</span>  <span class='chapter-title'>Sponsors and funding</span>"
     ]
   },
@@ -222,7 +222,7 @@
     "section": "",
     "text": "It is often a good idea to list putative funding opportunities when the project has no long term financing. An indication of the strategy followed by your community is also a sign of how open the project is and will be in the future.",
     "crumbs": [
-      "Readme",
+      "Readme as a first entry door",
       "<span class='chapter-number'>22</span>  <span class='chapter-title'>Future funding opportunities</span>"
     ]
   },
@@ -231,9 +231,9 @@
     "href": "content/030_Documentation_structure.html",
     "title": "27  Documentation structure",
     "section": "",
-    "text": "How is your documentation organized?\nThese guidelines will provide you with a standard structure that is mainly following the product life cycle and the technological decomposition. It is implemented in the documentation template available in this project.",
+    "text": "How is your documentation organized?\nThese guidelines will provide you with a standard structure that is mainly following the product life cycle and the technological decomposition. It is implemented in the documentation template available in this project.\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Readme",
+      "Readme as a first entry door",
       "<span class='chapter-number'>27</span>  <span class='chapter-title'>Documentation structure</span>"
     ]
   },
@@ -242,7 +242,7 @@
     "href": "content/034_product_dvt_-requirements.html",
     "title": "34  product dvt -requirements",
     "section": "",
-    "text": "A requirement is a formal statement that specifies when condition C is true, property P of object O is actual and its value shall belong to domain D.\nIt is usually defined at the end of the ecosystem and user analysis.\n\nThe minimum set of independent requirements can completely characterize the needs of the product in the functional domain.\nFunctional requirements describe qualitatively the system functions or tasks to be performed in operation.\nRequirement can state as follows: The [stakeholder] need [Property] [object] [Action verb] at [Condition]\n\n\nExample of the functional requirement that ADD-ONS of XYZ cargo provides for the food producers, as a stakeholder, to preserve the quality of food.\nIn this example, we assumed a refrigerator on the ADD-ONS could help the food producers to cool down and preserve the temperature of food.\nSo, we defined some functional requirements (FR) based on this assumption that consist:\n\nFR1: To maintain the quality of food, the food producer needs to main the material at cold temperature (between 3 °C and 10 °C) for short-term preservation (3h) or long-term preservation (24h).\nFR2: ADD-ONS shall fix the internal ADD-ONS &gt;temperature for 7 °C.\nFR3: To create a cold ambient in the cooling down system, the ADD-ONS shall compress the low temperature and pressured gas to start the cooling cycle.\nFR4: the cooling down system shall control the pressure of exit hot gas \nFR5: the hot and pressured exit gas needs to meet the cooler external ambient temperature to become a liquid.",
+    "text": "A requirement is a formal statement that specifies when condition C is true, property P of object O is actual and its value shall belong to domain D.\nIt is usually defined at the end of the ecosystem and user analysis.\n\nThe minimum set of independent requirements can completely characterize the needs of the product in the functional domain.\nFunctional requirements describe qualitatively the system functions or tasks to be performed in operation.\nRequirement can state as follows: The [stakeholder] need [Property] [object] [Action verb] at [Condition]\n\n\nExample of the functional requirement that ADD-ONS of XYZ cargo provides for the food producers, as a stakeholder, to preserve the quality of food.\nIn this example, we assumed a refrigerator on the ADD-ONS could help the food producers to cool down and preserve the temperature of food.\nSo, we defined some functional requirements (FR) based on this assumption that consist:\n\nFR1: To maintain the quality of food, the food producer needs to main the material at cold temperature (between 3 °C and 10 °C) for short-term preservation (3h) or long-term preservation (24h).\nFR2: ADD-ONS shall fix the internal ADD-ONS &gt;temperature for 7 °C.\nFR3: To create a cold ambient in the cooling down system, the ADD-ONS shall compress the low temperature and pressured gas to start the cooling cycle.\nFR4: the cooling down system shall control the pressure of exit hot gas \nFR5: the hot and pressured exit gas needs to meet the cooler external ambient temperature to become a liquid.\n\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
       "Product development and use analysis",
       "<span class='chapter-number'>34</span>  <span class='chapter-title'>product dvt -requirements</span>"
@@ -253,7 +253,7 @@
     "href": "content/035_product_dvt_-constrains.html",
     "title": "35  product dvt -constrains",
     "section": "",
-    "text": "A constraint is a choice that makes certain designs “not allowed” or inappropriate for their intended use.\n\nThe constraint is a restriction, limit, or regulation imposed on a product.\nThere are two kinds of constraints: input constraints and system constraints.\n\nInput constraints are imposed as part of the design specifications.\nSystem constraints are constraints imposed by the system in which the design solution must function.\n\n\n\nExample XYZ Cargo ADD-ONS, constraints for maker of ADD-ONS\n\nUser should be able to dismantle ADD-ONS with a maximum one wrench and one screwdriver\nUsers should be able to customize the modules of ADD-ONS to fit their use.\nThe ADD-ONS should enable the users to do the assembly of components in a short time (10 minutes) and the maker shall select the resistance material for using ADD-ONS in different weather conditions.\nADD-ONS should be dismantled for recycling purposes.",
+    "text": "A constraint is a choice that makes certain designs “not allowed” or inappropriate for their intended use.\n\nThe constraint is a restriction, limit, or regulation imposed on a product.\nThere are two kinds of constraints: input constraints and system constraints.\n\nInput constraints are imposed as part of the design specifications.\nSystem constraints are constraints imposed by the system in which the design solution must function.\n\n\n\nExample XYZ Cargo ADD-ONS, constraints for maker of ADD-ONS\n\nUser should be able to dismantle ADD-ONS with a maximum one wrench and one screwdriver\nUsers should be able to customize the modules of ADD-ONS to fit their use.\nThe ADD-ONS should enable the users to do the assembly of components in a short time (10 minutes) and the maker shall select the resistance material for using ADD-ONS in different weather conditions.\nADD-ONS should be dismantled for recycling purposes.\n\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
       "Product development and use analysis",
       "<span class='chapter-number'>35</span>  <span class='chapter-title'>product dvt -constrains</span>"
@@ -264,7 +264,7 @@
     "href": "content/036_product_dvt_-capability.html",
     "title": "36  product dvt -capability",
     "section": "",
-    "text": "A service or capability is an effect intended by a actor/user resulting from the interaction of the product with its environment (i.e. what the product is for).\nNB: this will relate to the user analysis section of the documentation that defines the actors and interactions.\n\nServices can be stated as follows: The [Product] shall enable [the actor] to [Action verb] (for example The product shall enable end-user to clean its teeth)\nServices provide users with an exchange value that can be included in an economic system.\nServices are intended effects that can be observed from outside the product (“black box” external view).\nServices are defined in a solution neutral-way.\n\n\nExample of services for ADD-ONS of XYZ Cargo\n\nThe ADD-ONS shall enable the food producer to store food\n\n1.1 solid (10 kilos)\n1.2 liquid (5 litrs)\n\nThe ADD-ONS shall enable the food producer to heat food\n\n2.1solid (150 deg Celcius)\n2.2 liquid (80 deg Celcius)",
+    "text": "A service or capability is an effect intended by a actor/user resulting from the interaction of the product with its environment (i.e. what the product is for).\nNB: this will relate to the user analysis section of the documentation that defines the actors and interactions.\n\nServices can be stated as follows: The [Product] shall enable [the actor] to [Action verb] (for example The product shall enable end-user to clean its teeth)\nServices provide users with an exchange value that can be included in an economic system.\nServices are intended effects that can be observed from outside the product (“black box” external view).\nServices are defined in a solution neutral-way.\n\n\nExample of services for ADD-ONS of XYZ Cargo\n\nThe ADD-ONS shall enable the food producer to store food\n\n1.1 solid (10 kilos)\n1.2 liquid (5 litrs)\n\nThe ADD-ONS shall enable the food producer to heat food\n\n2.1solid (150 deg Celcius)\n2.2 liquid (80 deg Celcius)\n\n\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
       "Product development and use analysis",
       "<span class='chapter-number'>36</span>  <span class='chapter-title'>product dvt -capability</span>"
@@ -275,7 +275,7 @@
     "href": "content/101_user_analysis_-diverse_actors_and_ecosystem.html",
     "title": "39  Diverse actors and ecosystem",
     "section": "",
-    "text": "this is sometimes refered to a \"stakeholder analysis\", but we avoided that term in this template.\nThe ecosystem generally refer to all the actors (human and non-human) who (may) have an interest in a product. Among them, there are both internal players, such as users and participants of the project, and external players that are represented by the potential user of products or external entities.\n\nIt is not necessarily a person (for example: airports as an actor when designing a two-deck aircraft).\nThey can indirectly affect, be affected by the product (for example: neighborhood or biodiversity when designing an airport).\n\nThe ecosystem is often best represented via a graphics or a mindmap. This analysis may be necessary to make design choice that will fit the ecosystem inside which the hardware is supposed to work.\nNB: The user target groups is one of these actors and should be determined with more accuracy, it is defined more extensively elsewhere.\n\nExample\nXYZ Cargo-ADD ONS",
+    "text": "this is sometimes refered to a \"stakeholder analysis\", but we avoided that term in this template.\nThe ecosystem generally refer to all the actors (human and non-human) who (may) have an interest in a product. Among them, there are both internal players, such as users and participants of the project, and external players that are represented by the potential user of products or external entities.\n\nIt is not necessarily a person (for example: airports as an actor when designing a two-deck aircraft).\nThey can indirectly affect, be affected by the product (for example: neighborhood or biodiversity when designing an airport).\n\nThe ecosystem is often best represented via a graphics or a mindmap. This analysis may be necessary to make design choice that will fit the ecosystem inside which the hardware is supposed to work.\nNB: The user target groups is one of these actors and should be determined with more accuracy, it is defined more extensively elsewhere.\n\nExample\nXYZ Cargo-ADD ONS \n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
       "Product development and use analysis",
       "<span class='chapter-number'>39</span>  <span class='chapter-title'>Diverse actors and ecosystem</span>"
@@ -286,7 +286,7 @@
     "href": "content/043_user_analysis_-External_interfaces_(how_will_they_use_the_product).html",
     "title": "41  user analysis - External interfaces (how will they use the product)",
     "section": "",
-    "text": "External interfaces are interactions between the product and the actors (including users).\n\nAn interface has a direction (in, out, or in-out)\nAn interface is made of a flow (matter, energy, or signal)\n\n\nExample: XYZ Cargo ADD-ONS\nIdentify the interactions between food producer and the product, specify needs and uses: - out: mechanical countainment - out: warmer and cooler - out: thermal energy\n\n\n\nImage of External interfaces of XYZ cargo-ADD ONS",
+    "text": "External interfaces are interactions between the product and the actors (including users).\n\nAn interface has a direction (in, out, or in-out)\nAn interface is made of a flow (matter, energy, or signal)\n\n\nExample: XYZ Cargo ADD-ONS\nIdentify the interactions between food producer and the product, specify needs and uses: - out: mechanical countainment - out: warmer and cooler - out: thermal energy\n\n\n\nImage of External interfaces of XYZ cargo-ADD ONS\n\n\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
       "Product development and use analysis",
       "<span class='chapter-number'>41</span>  <span class='chapter-title'>user analysis - External interfaces (how will they use the product)</span>"
@@ -297,7 +297,7 @@
     "href": "content/044_user_analysis_-skills_needed_to_use.html",
     "title": "42  user analysis -skills needed to use",
     "section": "",
-    "text": "What is the specific knowledge a maker shall own to reuse - without modification - your product ??\nFor example:\n\nThe project echopen need basic knowledge about the medical ultrasound technology such as ultrasound imaging, a matter of acoustical impedance, etc.",
+    "text": "What is the specific knowledge a maker shall own to reuse - without modification - your product ??\nFor example:\n\nThe project echopen need basic knowledge about the medical ultrasound technology such as ultrasound imaging, a matter of acoustical impedance, etc.\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
       "Product development and use analysis",
       "<span class='chapter-number'>42</span>  <span class='chapter-title'>user analysis -skills needed to use</span>"
@@ -330,7 +330,7 @@
     "href": "content/045_functional_model.html#how-to-document-a-functional-model",
     "title": "43  Functional model",
     "section": "How to document a functional model?",
-    "text": "How to document a functional model?\n\nThe documentation of technical functions, which requires adopting an internal (white box) viewpoint on the product, consists in breaking down the service function into sub-functions. The decomposition process is no more solution neutral as it requires to make a decision at every indenture level. The functional decomposition requires two modelling approaches: function tree and functional graph.\n\n\nFunctional tree\nThe functional tree is a top-down decomposition of function into sub-functions that helps to simplify the problem to solve.\nThe decomposition of technical functions creates a functional tree and, the technical functions are defined based on the functional requirements.\n\nA top-down and bottom-up reading of the functional tree provides insight on the “how” and “why”, respectively.\nThe decomposition process should be stopped when the technical function is sufficiently detailed to reuse, make, or buy a design solution.\n\n\nExample\n\n\n\nImage of functional tree of XYZ cargo-ADD ONS\n\n\n\n\n``` 1. What minimum documentation should the functional tree provide? - A model specifying the kinds of technical functions and their sub-functions in the format of a tree.\n\nHow to implement the functional tree?\n\n\nUse functional modeling language for representation, such as\n\nUML (Use Case diagram)\nSysML (Block Definition, Activity, or Internal Block diagram)\nSADT/IDEF0\nFunctional flow block diagram\n\nUse open-source software for modeling the tree representation, such as:\n\ndraw.io (diagram.net)\nexcalidraw\nPapyrus\nModelio\nCapella\n\n\n\n\n\n\nFunctional graph\nThe functional graph is a multi-level logical articulation of technical functions. - Relationships between functions are in/out-going flows of matter, energy, or information. - Logical AND/OR gates can be used to define concurrent or sequential functions. - Articulation of technical function can describe as input-output relationships transforming flows by using the functional modeling language in the format of the graph\n\nExample\n The image shows the functional graph of the relationship between technical functions for maintaining food quality by ADD-ONS of XYZ cargo.\n\n\n\nWhat minimum documentation should the functional graph provide? - A model specifying a multi-level logic of relationships between technical functions (refer to functional graph of XYZ Cargo-ADD ONS)\nHow to implement the functional tree? - Use functional modeling language for representation, such as\n\ndraw.io (diagram.net)\nexcalidraw\nUML (Use Case diagram)\nSysML (Block Definition, Activity, or Internal Block diagram)\nSADT/IDEF0\nFunctional flow block diagram\n\nUse open-source software for modeling the tree representation, such as\n\nPapyrus\nModelio\nCapella\n\n\n\n\nThe link below shows an example of functional block diagrams of an open-source project\nFunctional diagram of Renesas ventilator",
+    "text": "How to document a functional model?\n\nThe documentation of technical functions, which requires adopting an internal (white box) viewpoint on the product, consists in breaking down the service function into sub-functions. The decomposition process is no more solution neutral as it requires to make a decision at every indenture level. The functional decomposition requires two modelling approaches: function tree and functional graph.\n\nSee also Chapter 49 for the technical description of creating trees and graphs.\n\nFunctional tree\nThe functional tree is a top-down decomposition of function into sub-functions that helps to simplify the problem to solve.\nThe decomposition of technical functions creates a functional tree and, the technical functions are defined based on the functional requirements.\n\nA top-down and bottom-up reading of the functional tree provides insight on the “how” and “why”, respectively.\nThe decomposition process should be stopped when the technical function is sufficiently detailed to reuse, make, or buy a design solution.\n\n\nExample\n\n\n\nImage of functional tree of XYZ cargo-ADD ONS\n\n\n\n\n1. What minimum documentation should the functional tree provide?\n- A model specifying the kinds of technical functions and their sub\n-functions in the format of a tree.\n\nHow to implement the functional tree?\n\n\nUse functional modeling language for representation, such as\n\nUML (Use Case diagram)\nSysML (Block Definition, Activity, or Internal Block diagram)\nSADT/IDEF0\nFunctional flow block diagram\n\nUse open-source software for modeling the tree representation, such as:\n\ndraw.io (diagram.net)\nexcalidraw\nPapyrus\nModelio\nCapella\n\n\n\n\n\n\nFunctional graph\nThe functional graph is a multi-level logical articulation of technical functions. - Relationships between functions are in/out-going flows of matter, energy, or information. - Logical AND/OR gates can be used to define concurrent or sequential functions. - Articulation of technical function can describe as input-output relationships transforming flows by using the functional modeling language in the format of the graph\n\nExample\n The image shows the functional graph of the relationship between technical functions for maintaining food quality by ADD-ONS of XYZ cargo.\n\nSee Chapter 49 for information about creating tree and graph\n\n\nWhat minimum documentation should the functional graph provide?\n\nA model specifying a multi-level logic of relationships between technical functions (refer to functional graph of XYZ Cargo-ADD ONS)\n\nHow to implement the functional tree?\n\nUse functional modeling language for representation, such as\ndraw.io (diagram.net)\nexcalidraw\nUML (Use Case diagram)\nSysML (Block Definition, Activity, or Internal Block diagram)\nSADT/IDEF0\nFunctional flow block diagram\n\n\n\nUse open-source software for modeling the tree representation, such as\n\nPapyrus\nModelio\nCapella\n\n\n\n\nThe link below shows an example of functional block diagrams of an open-source project\nFunctional diagram of Renesas ventilator\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
       "Product development and use analysis",
       "<span class='chapter-number'>43</span>  <span class='chapter-title'>Functional model</span>"
@@ -341,7 +341,7 @@
     "href": "content/046_behavioral_model_-_Modelling_tool_list.html",
     "title": "44  Behavioral model",
     "section": "",
-    "text": "The model will enable the makers to understand the analysis of the physical behavior of a product, this analysis supports the decision made at the later stages of design. This analysis is most often done using simulation software, or is made unconsciously in the designer head. Having some explicit model (even when no software is used) can be very useful to share ideas between designers.\nThe behavior model:\n\ndescribe the behavior of a product when it receives a stimulus.\ncould be the mathematical description of the physical product, this description may be made via a modelling software (Simulation model) that should be included in the documentation.\nis the physical interactions between the components of a design, as well as between the design and its environment. An artifact exhibits certain behaviors not only by the change or maintaining of its physical state, but also by several interactions that take place inside the artifact, as well as with its environment.\n\n\nWhy should you define behavioral model?\n\nThe behavioral model identifies the properties for understanding the calculation, simulation, and environment of the product.\nThe behavioral model could provide the simulation of any given physical phenomenon using numerical techniques.\nBehavior model describes how the artifact implements its function and is managed by engineering principles and physical rules that are included in a behavioral model.\n\n\n\nHow to document a behavioral model?\nDocumentation should indicate the type of model, variables used to define the model, software used for the simulation, and results of the simulations.\n\n\nExamples\n\ntype of model:\n\nmechanical simulation (finite element analysis (FEA) and computational fluid dynamics (CFD) are two types of mechanical simulation)\nphysical simulation\nThermo-mechanical simulation\nElectronical simulations\n\nvariables used in the model:\n\nSpecification of the geometrical model (refer to editable file format in the structural model)\nMaterial characteristics (refer to structural model)\nInitial conditions such as initial stresses, temperatures, velocities.\nBoundary conditions can be imposed on individual solution variables such as displacements or rotations.\nKinematic constraints that are several of the fundamental solution variables in the model (Linear constraint equations) or multi-point constraints (General multi-point constraints) can be defined.\nInteractions that are contact and other interactions between parts can be defined.\n\n(open-source) Software :\n\nOpen Modelica\nADINA\n\n\n\nExamples\nExample 1: FinEtools: Finite Element tools\nExample 2: Image below shows the simulation of the torsion of the fixed part from below and its evaluation of the reality.\n\n\n\nImage of Finite element analysis",
+    "text": "The model will enable the makers to understand the analysis of the physical behavior of a product, this analysis supports the decision made at the later stages of design. This analysis is most often done using simulation software, or is made unconsciously in the designer head. Having some explicit model (even when no software is used) can be very useful to share ideas between designers.\nThe behavior model:\n\ndescribe the behavior of a product when it receives a stimulus.\ncould be the mathematical description of the physical product, this description may be made via a modelling software (Simulation model) that should be included in the documentation.\nis the physical interactions between the components of a design, as well as between the design and its environment. An artifact exhibits certain behaviors not only by the change or maintaining of its physical state, but also by several interactions that take place inside the artifact, as well as with its environment.\n\n\nWhy should you define behavioral model?\n\nThe behavioral model identifies the properties for understanding the calculation, simulation, and environment of the product.\nThe behavioral model could provide the simulation of any given physical phenomenon using numerical techniques.\nBehavior model describes how the artifact implements its function and is managed by engineering principles and physical rules that are included in a behavioral model.\n\n\n\nHow to document a behavioral model?\nDocumentation should indicate the type of model, variables used to define the model, software used for the simulation, and results of the simulations.\n\n\nExamples\n\ntype of model:\n\nmechanical simulation (finite element analysis (FEA) and computational fluid dynamics (CFD) are two types of mechanical simulation)\nphysical simulation\nThermo-mechanical simulation\nElectronical simulations\n\nvariables used in the model:\n\nSpecification of the geometrical model (refer to editable file format in the structural model)\nMaterial characteristics (refer to structural model)\nInitial conditions such as initial stresses, temperatures, velocities.\nBoundary conditions can be imposed on individual solution variables such as displacements or rotations.\nKinematic constraints that are several of the fundamental solution variables in the model (Linear constraint equations) or multi-point constraints (General multi-point constraints) can be defined.\nInteractions that are contact and other interactions between parts can be defined.\n\n(open-source) Software :\n\nOpen Modelica\nADINA\n\n\n\nExamples\nExample 1: FinEtools: Finite Element tools\nExample 2: Image below shows the simulation of the torsion of the fixed part from below and its evaluation of the reality.\n\n\n\n\nImage of Finite element analysis\n\n\n GIF image of the model.\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
       "Product development and use analysis",
       "<span class='chapter-number'>44</span>  <span class='chapter-title'>Behavioral model</span>"
@@ -350,456 +350,473 @@
   {
     "objectID": "content/102_product_dvt_structuralmodel.html",
     "href": "content/102_product_dvt_structuralmodel.html",
-    "title": "Structural model",
+    "title": "49  Structural model",
     "section": "",
-    "text": "This section will give an overview of the structural model, while details are given in the specific mechanical (also called architectural, 49  Mechanical architecture), electrical (52  Electrical architecture) and software (51  Software and Firmware architecture) architectures sections. Note that sometimes, these different models are presented together in a single graphics.\nThe Structural model explains the physical structure of the product and its components, it is:\n\nA description of the components (the combination of parts) of a product and their relationships.\nAn opportunity to specify the geometric elements, dimensions, topology, and other physical properties of the product.\nThe potential solutions (concepts), which are the result of the conceptual design phase.\nThe set of mechanics theories that obey physical laws required to study and predict the behavior of structures.\n\nWhy should you define structural model?\n\nA structural model helps to describe the geometric elements (design feature, dimensions, constraints, etc.), topology (assembly constraint between components, tolerances, components mating conditions, etc.), and characteristics of the product.\nA structural model helps to decide the physical form of the product and its components to ensure that the structure is fit for its intended purpose.\nStructural model provides users with a physical model of the product, components, and characteristics of the material at the design phase that enable the stakeholder to understand the geometry, material reaction to external factors, etc.\nThe structural model ensures that the structures are safe and fulfill the functions for which they were built.\n\nHow should you define structural model?\nThe first level of definition is often to show how things are related together in a tree or graph, using “modeling language” such as “SysML (Block Definition, Activity, or Internal Block diagram)” or “UML”.\nSeveral software may help create these graphs:\n\nPapyrus\nModelio\nCapella\ndiagrams.net (previously draw.io)\nhttps://excalidraw.com",
+    "text": "This section will give an overview of the structural model, while details are given in the specific mechanical (also called architectural, Chapter 50), electrical (Chapter 53) and software (Chapter 52) architectures sections. Note that sometimes, these different models are presented together in a single graphics.\nThe Structural model explains the physical structure of the product and its components, it is:\n\nA description of the components (the combination of parts) of a product and their relationships.\nAn opportunity to specify the geometric elements, dimensions, topology, and other physical properties of the product.\nThe potential solutions (concepts), which are the result of the conceptual design phase.\nThe set of mechanics theories that obey physical laws required to study and predict the behavior of structures.\n\nWhy should you define structural model?\n\nA structural model helps to describe the geometric elements (design feature, dimensions, constraints, etc.), topology (assembly constraint between components, tolerances, components mating conditions, etc.), and characteristics of the product.\nA structural model helps to decide the physical form of the product and its components to ensure that the structure is fit for its intended purpose.\nStructural model provides users with a physical model of the product, components, and characteristics of the material at the design phase that enable the stakeholder to understand the geometry, material reaction to external factors, etc.\nThe structural model ensures that the structures are safe and fulfill the functions for which they were built.\n\nHow should you define structural model?\nThe first level of definition is often to show how things are related together in a tree or graph, using “modeling language” such as “SysML (Block Definition, Activity, or Internal Block diagram)” or “UML”.\nSeveral software may help create these graphs:\n\nPapyrus\nModelio\nCapella\ndiagrams.net (previously draw.io)\nhttps://excalidraw.com\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Structural model"
+      "Structural models",
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Structural model</span>"
     ]
   },
   {
     "objectID": "content/039_product_dvt_-mechanical_architecture.html",
     "href": "content/039_product_dvt_-mechanical_architecture.html",
-    "title": "49  Mechanical architecture",
+    "title": "50  Mechanical architecture",
     "section": "",
-    "text": "The architectural structure is a physical or logical layout of the components of a system design and their internal and external connections.\n\nA model specifying the kind of components and their sub-components in the format of a tree or a graph\n\nSee ?sec-product-dvt—structural-model for information about how to document this. Provide both an image and the editable files, as well as instruction how to use them.\n\nExamples MPS ventilator:",
+    "text": "The architectural structure is a physical or logical layout of the components of a system design and their internal and external connections.\n\nA model specifying the kind of components and their sub-components in the format of a tree or a graph\n\nSee for information about how to document this. Provide both an image and the editable files, as well as instruction how to use them.\n\nExamples MPS ventilator: \n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Structural model",
-      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Mechanical architecture</span>"
+      "Structural models",
+      "<span class='chapter-number'>50</span>  <span class='chapter-title'>Mechanical architecture</span>"
     ]
   },
   {
     "objectID": "content/103-product_dvt_CAD.html",
     "href": "content/103-product_dvt_CAD.html",
-    "title": "50  product dvt - Design models",
+    "title": "51  product dvt - Design models",
     "section": "",
     "text": "Providing the design\nModel design should be provided in a format that can be used to manufacture each piece (usually STL file for 3D and SVG file for 2D design).",
     "crumbs": [
-      "Structural model",
-      "<span class='chapter-number'>50</span>  <span class='chapter-title'>product dvt - Design models</span>"
+      "Structural models",
+      "<span class='chapter-number'>51</span>  <span class='chapter-title'>product dvt - Design models</span>"
     ]
   },
   {
     "objectID": "content/103-product_dvt_CAD.html#modelling-a-design-in-an-editable-file-format",
     "href": "content/103-product_dvt_CAD.html#modelling-a-design-in-an-editable-file-format",
-    "title": "50  product dvt - Design models",
+    "title": "51  product dvt - Design models",
     "section": "Modelling a design in an editable file format",
     "text": "Modelling a design in an editable file format\nAn editable file format is a standard way that information is encoded for storage and allows the makers to study, modify the geometry of a model and reuse it.\nTo reuse a design model, it should provide information consist of:\n\nPreferable 3D/2D file format\n\n\nEditable file formats that could be:\n\nNative formats such as .FCStd format of FreeCAD\nNeutral formats such as STEP files\n\n\n\nPreferable open-source software\n\n\nOpensCAD\nInkscape\nFreeCAD\n\n\n\nClick to see the examples!\n\n\nExample of editable file formats:\n1. Farmbot, Native CAD files\n2. MIT Emergency Ventilator, Neutral CAD files\n3. Types of CAD format of transmagic",
     "crumbs": [
-      "Structural model",
-      "<span class='chapter-number'>50</span>  <span class='chapter-title'>product dvt - Design models</span>"
+      "Structural models",
+      "<span class='chapter-number'>51</span>  <span class='chapter-title'>product dvt - Design models</span>"
     ]
   },
   {
     "objectID": "content/040_product_dvt_-Software_firmware_architecture.html",
     "href": "content/040_product_dvt_-Software_firmware_architecture.html",
-    "title": "51  Software and Firmware architecture",
+    "title": "52  Software and Firmware architecture",
     "section": "",
-    "text": "Details\nThe software architecture represents the repository details of all the software and firmware that is necessary for reusing and running the project.\nSee ?sec-product-dvt—structural-model for information about how to document this. Provide both an image and the editable files, as well as instruction how to use them.\nPlease provide :\n### 2. Documentation of different parts of software",
+    "text": "Details\nThe software architecture represents the repository details of all the software and firmware that is necessary for reusing and running the project.\nSee Chapter 49 for information about how to document this. Provide both an image and the editable files, as well as instruction how to use them.\nPlease provide :\n### 2. Documentation of different parts of software\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Structural model",
-      "<span class='chapter-number'>51</span>  <span class='chapter-title'>Software and Firmware architecture</span>"
+      "Structural models",
+      "<span class='chapter-number'>52</span>  <span class='chapter-title'>Software and Firmware architecture</span>"
     ]
   },
   {
     "objectID": "content/040_product_dvt_-Software_firmware_architecture.html#details",
     "href": "content/040_product_dvt_-Software_firmware_architecture.html#details",
-    "title": "51  Software and Firmware architecture",
+    "title": "52  Software and Firmware architecture",
     "section": "",
     "text": "Clear installation guide\nDescription of programming algorithm\n\nThe source code\nVersion of software and its dependencies (both hardware and software dependencies)\n\n\n\nExamples:\nNasa-JPL*\nAmboVent*\nPoppy project*",
     "crumbs": [
-      "Structural model",
-      "<span class='chapter-number'>51</span>  <span class='chapter-title'>Software and Firmware architecture</span>"
+      "Structural models",
+      "<span class='chapter-number'>52</span>  <span class='chapter-title'>Software and Firmware architecture</span>"
     ]
   },
   {
     "objectID": "content/041_product_dvt_-electrical_design_architecture.html",
     "href": "content/041_product_dvt_-electrical_design_architecture.html",
-    "title": "52  Electrical architecture",
+    "title": "53  Electrical architecture",
     "section": "",
-    "text": "Details and editable format: PCB design\nThe architectural structure is a physical or logical layout of the components of a system design and their internal and external connections.\nSee ?sec-product-dvt—structural-model for information about how to document this. Provide both an image and the editable files, as well as instruction how to use them.\nTo reuse a electrical design, it should provide information consist of:",
+    "text": "Details and editable format: PCB design\nThe architectural structure is a physical or logical layout of the components of a system design and their internal and external connections.\nSee @sec-structural-model for information about how to document this. Provide both an image and the editable files, as well as instruction how to use them.\nTo reuse a electrical design, it should provide information consist of:\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Structural model",
-      "<span class='chapter-number'>52</span>  <span class='chapter-title'>Electrical architecture</span>"
+      "Structural models",
+      "<span class='chapter-number'>53</span>  <span class='chapter-title'>Electrical architecture</span>"
     ]
   },
   {
     "objectID": "content/041_product_dvt_-electrical_design_architecture.html#details-and-editable-format-pcb-design",
     "href": "content/041_product_dvt_-electrical_design_architecture.html#details-and-editable-format-pcb-design",
-    "title": "52  Electrical architecture",
+    "title": "53  Electrical architecture",
     "section": "",
     "text": "Preferable file format\n\n\nEditable file formats that could be:\n\nSource formats such as .gbr, .lib format\n\nNeutral formats such as Kicad_mod, kicad_pcb\n\n\n\nPreferable open-source software\n\n\nTiny CAD\nKiCAD\nADINA\n\n\nExamples:\nNasa-JPL, source files*\nAmbovVent, Neutral files*",
     "crumbs": [
-      "Structural model",
-      "<span class='chapter-number'>52</span>  <span class='chapter-title'>Electrical architecture</span>"
+      "Structural models",
+      "<span class='chapter-number'>53</span>  <span class='chapter-title'>Electrical architecture</span>"
     ]
   },
   {
     "objectID": "content/104_user_guides_Overview.html",
     "href": "content/104_user_guides_Overview.html",
-    "title": "Guide for Users",
+    "title": "57  Guide for Users",
     "section": "",
     "text": "What is the user guide?\nI would like to provide important information to end-users on ‘how to use my product’.\nThe user guide consists of information that allows end-users to operate the product properly. This may includes information on setting the hardware, operating the hardware, recognizing and solving problems, run the maintenance of the hardware and dispose of the hardware when it is beyond repair. The user guide is written for non-technical people.\nNote the user guide may link to other parts of the documentation (especially for installation instruction/first use instrutions), or even to specific online help (for troubleshooting, a forum may be indicated on to of “usual problems”). It usually includes:",
     "crumbs": [
-      "Guide for Users"
+      "user guides",
+      "<span class='chapter-number'>57</span>  <span class='chapter-title'>Guide for Users</span>"
     ]
   },
   {
     "objectID": "content/104_user_guides_Overview.html#what-is-the-user-guide",
     "href": "content/104_user_guides_Overview.html#what-is-the-user-guide",
-    "title": "Guide for Users",
+    "title": "57  Guide for Users",
     "section": "",
-    "text": "Description of the device :57  User Guides - Overview of the hardware\nSafety information: 56  User Guides : Safety information\nUse of the product: 58  Operation instructions\nCalibration instructions: 60  User Guides: Calibration\nTroubleshooting section: 59  User Guides: Troubleshooting\nEnvironmental management: 65  User guides: Environmental management\nMaintenance and Repair information: 63  Maintenance, 61  User Guides : Repair\nDisposal information: ?sec-user-guides-disposal",
+    "text": "Description of the device :Chapter 59\nSafety information: Chapter 58\nUse of the product: Chapter 60\nCalibration instructions: Chapter 62\nTroubleshooting section: Chapter 61\nEnvironmental management: Chapter 67\nMaintenance and Repair information: Chapter 65, Chapter 63\nDisposal information: Chapter 66",
     "crumbs": [
-      "Guide for Users"
+      "user guides",
+      "<span class='chapter-number'>57</span>  <span class='chapter-title'>Guide for Users</span>"
     ]
   },
   {
     "objectID": "content/104_user_guides_Overview.html#how-to-create-a-user-guide",
     "href": "content/104_user_guides_Overview.html#how-to-create-a-user-guide",
-    "title": "Guide for Users",
+    "title": "57  Guide for Users",
     "section": "How to create a user guide ?",
-    "text": "How to create a user guide ?\nThe form of the guide is usually a printable document or a website. It is advised to use markdown file for its creation and deliver a printable pdf for the users. The use of screenshots, photos and videos are usually welcome.\nSome popular software used to create webpage and pdf from markdown files:\n\nGitBook\nreadthedoc\nquarto\nGitbuilding can also be used to this purpose.\n\n\nSome examples of open-source projects that show the user guide.\nPSLab oscilloscope\nPX4 vision userguide\nEchopen project\nPoppy project\nFarmBot Genesis V1.5",
+    "text": "How to create a user guide ?\nThe form of the guide is usually a printable document or a website. It is advised to use markdown file for its creation and deliver a printable pdf for the users. The use of screenshots, photos and videos are usually welcome.\nSome popular software used to create webpage and pdf from markdown files:\n\nGitBook\nreadthedoc\nquarto\nGitbuilding can also be used to this purpose.\n\n\nSome examples of open-source projects that show the user guide.\nPSLab oscilloscope\nPX4 vision userguide\nEchopen project\nPoppy project\nFarmBot Genesis V1.5\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Guide for Users"
+      "user guides",
+      "<span class='chapter-number'>57</span>  <span class='chapter-title'>Guide for Users</span>"
     ]
   },
   {
     "objectID": "content/055_user_guides_-overview_of_the_hardware.html",
     "href": "content/055_user_guides_-overview_of_the_hardware.html",
-    "title": "57  User Guides - Overview of the hardware",
+    "title": "59  User Guides - Overview of the hardware",
     "section": "",
-    "text": "including:\n-   Device name (and its parts) and their definition\n-   Essentials and technical specifications",
+    "text": "including:\n-   Device name (and its parts) and their definition\n-   Essentials and technical specifications\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Guide for Users",
-      "<span class='chapter-number'>57</span>  <span class='chapter-title'>User Guides - Overview of the hardware</span>"
+      "user guides",
+      "<span class='chapter-number'>59</span>  <span class='chapter-title'>User Guides - Overview of the hardware</span>"
     ]
   },
   {
     "objectID": "content/056_user_guides_-Operation_instructions.html",
     "href": "content/056_user_guides_-Operation_instructions.html",
-    "title": "58  Operation instructions",
+    "title": "60  Operation instructions",
     "section": "",
-    "text": "The operation instruction gives information on the use of the product, in particular in term of software. Note that it may include the calibration chapter (Chapter 60) when calibration is necessary for each use.\nIt may includes\n\nMaterials required\n\nApp\nSoftware\nFirmware\n\nProcedure\n\nInstallation instructions including\n\nFirmware installation\nSoftware installation\nApp installation\n\nSetup instructions containing\n\nSoftware setup\nFirmware setup\nApp setup\n\nExplains how to update the firmware to the latest version",
+    "text": "The operation instruction gives information on the use of the product, in particular in term of software. Note that it may include the calibration chapter (Chapter 62) when calibration is necessary for each use.\nIt may includes\n\nMaterials required\n\nApp\nSoftware\nFirmware\n\nProcedure\n\nInstallation instructions including\n\nFirmware installation\nSoftware installation\nApp installation\n\nSetup instructions containing\n\nSoftware setup\nFirmware setup\nApp setup\n\nExplains how to update the firmware to the latest version\n\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Guide for Users",
-      "<span class='chapter-number'>58</span>  <span class='chapter-title'>Operation instructions</span>"
+      "user guides",
+      "<span class='chapter-number'>60</span>  <span class='chapter-title'>Operation instructions</span>"
     ]
   },
   {
     "objectID": "content/057_user_guides_-Testing_instructions_and_troubleshooting.html",
     "href": "content/057_user_guides_-Testing_instructions_and_troubleshooting.html",
-    "title": "59  User Guides: Troubleshooting",
+    "title": "61  User Guides: Troubleshooting",
     "section": "",
     "text": "Testing instructions\nThe user guide should give information on methods to test the accuracy of the hardware. This may include specific data to give the hardware as input and some information about how to interpret the quality of the output.",
     "crumbs": [
-      "Guide for Users",
-      "<span class='chapter-number'>59</span>  <span class='chapter-title'>User Guides: Troubleshooting</span>"
+      "user guides",
+      "<span class='chapter-number'>61</span>  <span class='chapter-title'>User Guides: Troubleshooting</span>"
     ]
   },
   {
     "objectID": "content/057_user_guides_-Testing_instructions_and_troubleshooting.html#testing-instructions",
     "href": "content/057_user_guides_-Testing_instructions_and_troubleshooting.html#testing-instructions",
-    "title": "59  User Guides: Troubleshooting",
+    "title": "61  User Guides: Troubleshooting",
     "section": "",
     "text": "Example: Ink Printers usually have a testing mode where a specific data file is used where the printed output will inform the user about the accuracy of the printer. The guide then explain what users should look for in order to make a diagnostic.",
     "crumbs": [
-      "Guide for Users",
-      "<span class='chapter-number'>59</span>  <span class='chapter-title'>User Guides: Troubleshooting</span>"
+      "user guides",
+      "<span class='chapter-number'>61</span>  <span class='chapter-title'>User Guides: Troubleshooting</span>"
     ]
   },
   {
     "objectID": "content/057_user_guides_-Testing_instructions_and_troubleshooting.html#troubleshooting",
     "href": "content/057_user_guides_-Testing_instructions_and_troubleshooting.html#troubleshooting",
-    "title": "59  User Guides: Troubleshooting",
+    "title": "61  User Guides: Troubleshooting",
     "section": "Troubleshooting",
-    "text": "Troubleshooting\n\nInstructions on how to solve common problems\nInstruction to get additional help and report problems (Git forge issues, forums, chat,…)s",
+    "text": "Troubleshooting\n\nInstructions on how to solve common problems\nInstruction to get additional help and report problems (Git forge issues, forums, chat,…).\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Guide for Users",
-      "<span class='chapter-number'>59</span>  <span class='chapter-title'>User Guides: Troubleshooting</span>"
+      "user guides",
+      "<span class='chapter-number'>61</span>  <span class='chapter-title'>User Guides: Troubleshooting</span>"
     ]
   },
   {
     "objectID": "content/059_user_guides_-Repairing_the_defective_components.html",
     "href": "content/059_user_guides_-Repairing_the_defective_components.html",
-    "title": "61  User Guides : Repair",
+    "title": "63  User Guides : Repair",
     "section": "",
     "text": "Identifying the defective components\nThis can be linked to scheduled tests, or be done when an issue is seen. The guide should answer these questions, it may be written as a table:",
     "crumbs": [
-      "Guide for Users",
-      "<span class='chapter-number'>61</span>  <span class='chapter-title'>User Guides : Repair</span>"
+      "user guides",
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>User Guides : Repair</span>"
     ]
   },
   {
     "objectID": "content/059_user_guides_-Repairing_the_defective_components.html#identifying-the-defective-components",
     "href": "content/059_user_guides_-Repairing_the_defective_components.html#identifying-the-defective-components",
-    "title": "61  User Guides : Repair",
+    "title": "63  User Guides : Repair",
     "section": "",
     "text": "How to monitor the performance of the equipment? (what additional equipment may be necessary for this monitoring)\nHow to detect a defective component, and determine what is defective ?\nHow to eliminate the fault (see below) ?\nHow to verify that the fault was eliminated",
     "crumbs": [
-      "Guide for Users",
-      "<span class='chapter-number'>61</span>  <span class='chapter-title'>User Guides : Repair</span>"
+      "user guides",
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>User Guides : Repair</span>"
     ]
   },
   {
     "objectID": "content/059_user_guides_-Repairing_the_defective_components.html#repairing-the-defective-components",
     "href": "content/059_user_guides_-Repairing_the_defective_components.html#repairing-the-defective-components",
-    "title": "61  User Guides : Repair",
+    "title": "63  User Guides : Repair",
     "section": "Repairing the defective components",
-    "text": "Repairing the defective components\nFor each element which may be defective:\n\nStep-by-step procedures describing the repairing sequence\nRefer to the technical documentation where you can find the manufacturing (and assembly) instructions to rebuild the defective components\nIndicate the required tools for repairing\nVerification of repair\nIt may be interesting to add images and photos.",
+    "text": "Repairing the defective components\nFor each element which may be defective:\n\nStep-by-step procedures describing the repairing sequence\nRefer to the technical documentation where you can find the manufacturing (and assembly) instructions to rebuild the defective components\nIndicate the required tools for repairing\nVerification of repair\nIt may be interesting to add images and photos.\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Guide for Users",
-      "<span class='chapter-number'>61</span>  <span class='chapter-title'>User Guides : Repair</span>"
+      "user guides",
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>User Guides : Repair</span>"
     ]
   },
   {
     "objectID": "content/060_user_guides_-Replacing_equipment_components.html",
     "href": "content/060_user_guides_-Replacing_equipment_components.html",
-    "title": "62  User Guides: Replacing equipment components",
+    "title": "64  User Guides: Replacing equipment components",
     "section": "",
-    "text": "This is very similar to the repairing section Chapter 61, even if this is planned modifications.\n\nLinks to step-by-step procedures describing the replacing sequence.\nRequired tools for replacing the components\n\n\nExample\nReplacing Ink cartridge in a printer or a lamp bulb in a video projector.",
+    "text": "This is very similar to the repairing section Chapter 63, even if this is planned modifications.\n\nLinks to step-by-step procedures describing the replacing sequence.\nRequired tools for replacing the components\n\n\nExample\nReplacing Ink cartridge in a printer or a lamp bulb in a video projector.\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Guide for Users",
-      "<span class='chapter-number'>62</span>  <span class='chapter-title'>User Guides: Replacing equipment components</span>"
+      "user guides",
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>User Guides: Replacing equipment components</span>"
     ]
   },
   {
     "objectID": "content/061_user_guides_-Summary_maintenance_+_schedule.html",
     "href": "content/061_user_guides_-Summary_maintenance_+_schedule.html",
-    "title": "63  Maintenance",
+    "title": "65  Maintenance",
     "section": "",
     "text": "Maintenance instructions\nMaintenance instructions provide the necessary information to maintain the system effectively and perform the required operations to system works properly in the long run. This includes advice on the frequency of the maintenance and the risks of failure.\nIt may also include information on the process of modifying a system or component after delivery, in order to correct faults, improve performance or other attributes, or adapt to a changing environment.\nA maintenance instruction is a technical communication document intended to give recommendations and necessary information to maintain the system effectively. In this book, we treat the identification of defective components and their repair as separate tasks, while others have defined it as part of the maintenance.\nNote that the instructions are meant for the users and should therefore be focused on the schedule of maintenance. The maintenance information (what to do) may be directed toward experienced/professional people. In addition, this latter (technical) information may be best linked to the technical documentation of each part, in order to avoid giving outdated information (for example giving repair information for version 1, while the rest of the documentation is for version 2 of a hardware).\nThe maintenance user guide may include:",
     "crumbs": [
-      "Guide for Users",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Maintenance</span>"
+      "user guides",
+      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Maintenance</span>"
     ]
   },
   {
     "objectID": "content/061_user_guides_-Summary_maintenance_+_schedule.html#maintenance-instructions",
     "href": "content/061_user_guides_-Summary_maintenance_+_schedule.html#maintenance-instructions",
-    "title": "63  Maintenance",
+    "title": "65  Maintenance",
     "section": "",
-    "text": "Introduction of general maintenance\n\nCleaning\nLubricating\nRegular inspections or services. These can be carried out on a time-based schedule or a usage-based schedule. See also Chapter 61:\n\nMaintenance according to predetermined intervals\nMaintenance according to prescribed criteria\nMaintenance by integrating analysis, measurement, and periodic test activities\n\nRegular adjusting machinery\nMaintenance tools (Various tools necessary to perform the maintenance operation)\nSchedule for Replacing equipment, see also Chapter 62\n\n\n\nexamples FarmBot Genesis V1.5\n\n\nTemplate of maintenance\nCommon procedures: - cleaning - lubricating - machine adjustments - calibrations - (periodic) test activities\nInformation to give: - predetermined interval - prescribed criteria - tools - verification procedure",
+    "text": "Introduction of general maintenance\n\nCleaning\nLubricating\nRegular inspections or services. These can be carried out on a time-based schedule or a usage-based schedule. See also Chapter 63:\n\nMaintenance according to predetermined intervals\nMaintenance according to prescribed criteria\nMaintenance by integrating analysis, measurement, and periodic test activities\n\nRegular adjusting machinery\nMaintenance tools (Various tools necessary to perform the maintenance operation)\nSchedule for Replacing equipment, see also Chapter 64\n\n\n\nexamples FarmBot Genesis V1.5\n\n\nTemplate of maintenance\nCommon procedures: - cleaning - lubricating - machine adjustments - calibrations - (periodic) test activities\nInformation to give: - predetermined interval - prescribed criteria - tools - verification procedure\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Guide for Users",
-      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Maintenance</span>"
+      "user guides",
+      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Maintenance</span>"
     ]
   },
   {
     "objectID": "content/062_user_guides_-Summary_disposal.html",
     "href": "content/062_user_guides_-Summary_disposal.html",
-    "title": "64  Disposal instructions :",
+    "title": "66  Disposal instructions",
     "section": "",
-    "text": "Disposal instructions identify the process of removing a system or its component, ensuring the proper handling of any environmentally sensitive materials, and sending the remainder to surplus storage or sale.\nThey describe each component with information about their end of life (depending on their material content). Each element will be classed corresponding to their “recyclability”, and infromation is given to reduce the negative environemental impact of the disposal and recycling of the hardware componenent.\n\nClassing elements\n\nRecyclable: waste wich can be turn into another form of new and reusable materials without specific treatment.\nNon-recyclable: the components or products that design for single-use, which means they get discarded immediately after use.\nConditionally recyclable: component which needs specific treatment before being recycled.\n\n\nDistinguishing the recyclable, Conditionally recyclable and Non-recyclable components or products.\nDetermining what material can recycle many times\nIdentify the product lifespan for disposing and/or recycling.\nDescribe how to recycle the components or products and their type of materials?\nDescribe how to dispose of components which cannot be recycled.\n\nDisposable products are most often made from Polystyrene and Cotton, Non-recyclable products from Textiles and Ceramics.\n\n\nTypes of disposal:\n\nIncineration: This type of waste disposal involves the dumping off method where you eliminate waste materials via combustion.\nLandfill: It involves collecting, transporting, dumping, and burying waste in a designated land.\n\n\n\ndisassembly\nIndicate how to disassemble the components a product for recycling/disposing?\n\n\nenvironmental assessment\nit is the assessment of the environmental consequences of disposing or recycling a product before the decision to move forward with the proposed action. - The negative consequences of disposable products on the environment if sustainability isn’t factored into disposal options. - How to select the disposal or recycling process to have a less environmental impact?\n\n\nTemplate of disposal\nFor each element or part, indicate:\n\nsub-part name\nparent part number and name, with links\nlink to dissassembly instructions (see ?sec-product-build–assembly-instructions)\nmaterial used + how many times can it be recycled\nrecyclable (yes/no/conditional)\ndisposition information, for each option:\n\nhow to\nenvironmental assessment of disposal options:\n\ndescribed the negative consequences of disposal\nDefine and describe the main parameters and processes to decrease these negative environmental impacts\n\n\nend of life information",
+    "text": "Disposal instructions identify the process of removing a system or its component, ensuring the proper handling of any environmentally sensitive materials, and sending the remainder to surplus storage or sale.\nThey describe each component with information about their end of life (depending on their material content). Each element will be classed corresponding to their “recyclability”, and infromation is given to reduce the negative environemental impact of the disposal and recycling of the hardware componenent.\n\nClassing elements\n\nRecyclable: waste wich can be turn into another form of new and reusable materials without specific treatment.\nNon-recyclable: the components or products that design for single-use, which means they get discarded immediately after use.\nConditionally recyclable: component which needs specific treatment before being recycled.\n\n\nDistinguishing the recyclable, Conditionally recyclable and Non-recyclable components or products.\nDetermining what material can recycle many times\nIdentify the product lifespan for disposing and/or recycling.\nDescribe how to recycle the components or products and their type of materials?\nDescribe how to dispose of components which cannot be recycled.\n\nDisposable products are most often made from Polystyrene and Cotton, Non-recyclable products from Textiles and Ceramics.\n\n\nTypes of disposal:\n\nIncineration: This type of waste disposal involves the dumping off method where you eliminate waste materials via combustion.\nLandfill: It involves collecting, transporting, dumping, and burying waste in a designated land.\n\n\n\ndisassembly\nIndicate how to disassemble the components a product for recycling/disposing?\n\n\nenvironmental assessment\nit is the assessment of the environmental consequences of disposing or recycling a product before the decision to move forward with the proposed action. - The negative consequences of disposable products on the environment if sustainability isn’t factored into disposal options. - How to select the disposal or recycling process to have a less environmental impact?\n\n\nTemplate of disposal\nFor each element or part, indicate:\n\nsub-part name\nparent part number and name, with links\nlink to dissassembly instructions (see sec-product-build-assembly-instructions)\nmaterial used + how many times can it be recycled\nrecyclable (yes/no/conditional)\ndisposition information, for each option:\n\nhow to\nenvironmental assessment of disposal options:\n\ndescribed the negative consequences of disposal\nDefine and describe the main parameters and processes to decrease these negative environmental impacts\n\n\nend of life information\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Guide for Users",
-      "<span class='chapter-number'>64</span>  <span class='chapter-title'>**Disposal instructions :**</span>"
+      "user guides",
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>**Disposal instructions**</span>"
     ]
   },
   {
     "objectID": "content/063_user_guides_-Environmental_management.html",
     "href": "content/063_user_guides_-Environmental_management.html",
-    "title": "65  User guides: Environmental management",
+    "title": "67  User guides: Environmental management",
     "section": "",
-    "text": "-   Protection against weather conditions\n-   Determining the acceptable temperature range",
+    "text": "-   Protection against weather conditions\n-   Determining the acceptable temperature range\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Guide for Users",
-      "<span class='chapter-number'>65</span>  <span class='chapter-title'>User guides: Environmental management</span>"
+      "user guides",
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>User guides: Environmental management</span>"
     ]
   },
   {
     "objectID": "content/105_Product_build-main.html",
     "href": "content/105_Product_build-main.html",
-    "title": "Hardware production",
+    "title": "68  Hardware production",
     "section": "",
     "text": "Production instructions should include:\nProduction instructions mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture and assembly of the product. This includes also skills and tools needed for manufacture and assembly.\nProduction usually starts with the sourcing of material, and a bill of material (BOM) is required. It describes all the components and their references. If the component is to be purchased, one should find all the information required to buy the part. If the part is to be manufactured, one should find all the descriptions of the manufacturing instructions, as well as all the components needed for this manufacture (for instance, The BOM should report the amount of PLA needed when parts are 3D-printed).",
     "crumbs": [
-      "Hardware production"
+      "Product build",
+      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Hardware production</span>"
     ]
   },
   {
     "objectID": "content/105_Product_build-main.html#production-instructions-should-include",
     "href": "content/105_Product_build-main.html#production-instructions-should-include",
-    "title": "Hardware production",
+    "title": "68  Hardware production",
     "section": "",
-    "text": "A bill of material (BOM): it gives an overview of all the material that needs to be sourced and/or manufactured, and describes all the components and their references: 66  Product Build: Bill of material\nManufacturing information: they can guide the makers to follow a process for replicating a product, and mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture of the hardware parts.\n\nManufacturing skills needed: 70  Product Build: Manufacturing skills\nManufacturing tools needed: 71  Product build: Manufacturing tool\nManufacturing sequences: 72  Product build: Manufacturing sequence\n\nAssembly instructions: they can guide the makers to follow the process of assembly or disassembly of components of a product, and illustrate visually and with words and text how to assemble or disassemble the mechanical and electrical components of the product.\n\nAssembly tools and skills needed: 74  Product Build: Assembly skills and tools\nAssembly sequences: 73  Product Build: Assembly sequence\n\nIf relevant, the electric and electronic plan should be provided (68  Product Build: Electrical design). Note that firmware and software installation (described at 69  Product build -firmware/Software ) may be included in the assembly sequence.",
+    "text": "A bill of material (BOM): it gives an overview of all the material that needs to be sourced and/or manufactured, and describes all the components and their references: Chapter 69\nManufacturing information: they can guide the makers to follow a process for replicating a product, and mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture of the hardware parts.\n\nManufacturing skills needed: Chapter 73\nManufacturing tools needed: Chapter 74\nManufacturing sequences: Chapter 75\n\nAssembly instructions: they can guide the makers to follow the process of assembly or disassembly of components of a product, and illustrate visually and with words and text how to assemble or disassemble the mechanical and electrical components of the product.\n\nAssembly tools and skills needed: Chapter 77\nAssembly sequences: Chapter 76\n\nIf relevant, the electric and electronic plan should be provided (Chapter 71). Note that firmware and software installation (described at Chapter 72 ) may be included in the assembly sequence.",
     "crumbs": [
-      "Hardware production"
+      "Product build",
+      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Hardware production</span>"
     ]
   },
   {
     "objectID": "content/105_Product_build-main.html#helping-workflow-and-software",
     "href": "content/105_Product_build-main.html#helping-workflow-and-software",
-    "title": "Hardware production",
+    "title": "68  Hardware production",
     "section": "Helping workflow and software",
-    "text": "Helping workflow and software\nIt is sometimes easier to create a guide for manufacturing and assembly. For instance, using the Gitbuilding software, one can write the manufacture and assembly instructions, and when using specific tags for tools and material, the software creates BOM, part lists and tool lists for each step and for the whole project.",
+    "text": "Helping workflow and software\nIt is sometimes easier to create a guide for manufacturing and assembly. For instance, using the Gitbuilding software, one can write the manufacture and assembly instructions, and when using specific tags for tools and material, the software creates BOM, part lists and tool lists for each step and for the whole project.\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Hardware production"
+      "Product build",
+      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Hardware production</span>"
     ]
   },
   {
     "objectID": "content/064_Product_build_-Bill_of_material.html",
     "href": "content/064_Product_build_-Bill_of_material.html",
-    "title": "66  Product Build: Bill of material",
+    "title": "69  Product Build: Bill of material",
     "section": "",
-    "text": "Modularisation\nA bill of materials (BOM) is a comprehensive list of parts, items, and other materials required to create a product, as well as instructions required for gathering and using the required materials. If the component is to be purchased, one should find all the information required to buy the part. If the part is to be manufactured, one should find all the descriptions of the manufacturing instructions as described below.\nA bill of material usually includes:\nWhen there are multiple parts, it is best practice to have a BOM for each part, and one BOM for the whole hardware. For complex project, it is therefore best to create BOM automatically. Some software are meant to created BOM from the CAD files (CAD-coupled documentation, https://doi.org/10.5334/joh.56) or from the assembly instruction (using Gitbuilding).",
+    "text": "Modularisation\nA bill of materials (BOM) is a comprehensive list of parts, items, and other materials required to create a product, as well as instructions required for gathering and using the required materials. If the component is to be purchased, one should find all the information required to buy the part. If the part is to be manufactured, one should find all the descriptions of the manufacturing instructions as described below.\nA bill of material usually includes:\nWhen there are multiple parts, it is best practice to have a BOM for each part, and one BOM for the whole hardware. For complex project, it is therefore best to create BOM automatically. Some software are meant to created BOM from the CAD files (CAD-coupled documentation, https://doi.org/10.5334/joh.56) or from the assembly instruction (using Gitbuilding).\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Hardware production",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Product Build: Bill of material</span>"
+      "Product build",
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Product Build: Bill of material</span>"
     ]
   },
   {
     "objectID": "content/064_Product_build_-Bill_of_material.html#modularisation",
     "href": "content/064_Product_build_-Bill_of_material.html#modularisation",
-    "title": "66  Product Build: Bill of material",
+    "title": "69  Product Build: Bill of material",
     "section": "",
-    "text": "Example\nExample 1: JPL Open Source Rover\n\n\n\nimage\n\n\nExample 2: SatNOGS Rotator v3\nExample 3: Krab v1.0",
+    "text": "Example\nExample 1: JPL Open Source Rover\n\n\n\nJPL BOM\n\n\nExample 2: SatNOGS Rotator v3\nExample 3: Krab v1.0",
     "crumbs": [
-      "Hardware production",
-      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Product Build: Bill of material</span>"
+      "Product build",
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Product Build: Bill of material</span>"
     ]
   },
   {
     "objectID": "content/066_Product_build_-electrical_design.html",
     "href": "content/066_Product_build_-electrical_design.html",
-    "title": "68  Product Build: Electrical design",
+    "title": "71  Product Build: Electrical design",
     "section": "",
-    "text": "Datasheet of components for electronic parts:\n\nDescription of features\n\nCore\nMemories\nAdvanced connectivity\n\nDevice summary\n\nReference\nPart number\n\nHow to use the parts?",
+    "text": "Datasheet of components for electronic parts:\n\nDescription of features\n\nCore\nMemories\nAdvanced connectivity\n\nDevice summary\n\nReference\nPart number\n\nHow to use the parts?\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Hardware production",
-      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Product Build: Electrical design</span>"
+      "Product build",
+      "<span class='chapter-number'>71</span>  <span class='chapter-title'>Product Build: Electrical design</span>"
     ]
   },
   {
     "objectID": "content/067_Product_build_-firmware_Software:_Documentation_of_different_parts.html",
     "href": "content/067_Product_build_-firmware_Software:_Documentation_of_different_parts.html",
-    "title": "69  Product build -firmware/Software",
+    "title": "72  Product build -firmware/Software",
     "section": "",
-    "text": "Here comes the elements that were more briefly described in Chapter 51. Since software/firmware development follows different practices that often needs a more detailed version control system, they are usually developed independently of the hardware.\nIn all cases, it is important to keep track of which version of the soft/firmwares are used with which version of the hardware.\n\nExample: the airtrack hardware: https://codeberg.org/openmake/airtrack-hardware, software: https://github.com/open-make/code-airtrack\n\nThe Airtrack hardware was developed using pixycam. The hardware and the software are developed in different repositories with different people involved. In 2025, as the pixycam was not produced anymore, a new version of the hardware was created, using the pixycam2 component. This had little effects on the hardware design, but, the firmware and software needed to be modified.",
+    "text": "Here comes the elements that were more briefly described in Chapter 52. Since software/firmware development follows different practices that often needs a more detailed version control system, they are usually developed independently of the hardware.\nIn all cases, it is important to keep track of which version of the soft/firmwares are used with which version of the hardware.\n\nExample: the airtrack hardware: https://codeberg.org/openmake/airtrack-hardware, software: https://github.com/open-make/code-airtrack\n\nThe Airtrack hardware was developed using pixycam. The hardware and the software are developed in different repositories with different people involved. In 2025, as the pixycam was not produced anymore, a new version of the hardware was created, using the pixycam2 component. This had little effects on the hardware design, but, the firmware and software needed to be modified.\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Hardware production",
-      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Product build -firmware/Software</span>"
+      "Product build",
+      "<span class='chapter-number'>72</span>  <span class='chapter-title'>Product build -firmware/Software</span>"
     ]
   },
   {
     "objectID": "content/068_Product_build_-Manufacturing__skills.html",
     "href": "content/068_Product_build_-Manufacturing__skills.html",
-    "title": "70  Product Build: Manufacturing skills",
+    "title": "73  Product Build: Manufacturing skills",
     "section": "",
     "text": "What is the specific knowledge a maker shall own to manufacture the different parts of the hardware ?",
     "crumbs": [
-      "Hardware production",
-      "<span class='chapter-number'>70</span>  <span class='chapter-title'>Product Build: Manufacturing skills</span>"
+      "Product build",
+      "<span class='chapter-number'>73</span>  <span class='chapter-title'>Product Build: Manufacturing skills</span>"
     ]
   },
   {
     "objectID": "content/069_Product_build_-Manufacturing__tools.html",
     "href": "content/069_Product_build_-Manufacturing__tools.html",
-    "title": "71  Product build: Manufacturing tool",
+    "title": "74  Product build: Manufacturing tool",
     "section": "",
-    "text": "Type of machines\nManufacturing tools means all the machinery, equipment, and processes used to manufacture products. Manufacturing technology guide to find the type of necessary technology to produce the part. In that case, it should describe the most suitable technology according to the context.\nType of machines used",
+    "text": "Type of machines\nManufacturing tools means all the machinery, equipment, and processes used to manufacture products. Manufacturing technology guide to find the type of necessary technology to produce the part. In that case, it should describe the most suitable technology according to the context.\nType of machines used\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Hardware production",
-      "<span class='chapter-number'>71</span>  <span class='chapter-title'>Product build: Manufacturing tool</span>"
+      "Product build",
+      "<span class='chapter-number'>74</span>  <span class='chapter-title'>Product build: Manufacturing tool</span>"
     ]
   },
   {
     "objectID": "content/069_Product_build_-Manufacturing__tools.html#type-of-machines",
     "href": "content/069_Product_build_-Manufacturing__tools.html#type-of-machines",
-    "title": "71  Product build: Manufacturing tool",
+    "title": "74  Product build: Manufacturing tool",
     "section": "",
     "text": "CNC machine tools for machining metal or other rigid materials\n\nMilling\nLathe\nCutting\nDrilling\n\nOther common manufacturing tools\n\n3D printing (FDM, SLS…)\nThermoforming\nBurning machining technology (laser cutting, Plasma cutting, …)\nBonding technologies (Solder, cold welding, arc welding, adhesive bonding …)\n\nFinishing: to achieve the right properties such as surface quality, geometrical accuracy, and mechanical properties, finishing is essential.\n\nSanding after 3D printing\nGap filling\nBlasting\nPolishing\nPriming and painting\n\n\n\nExamples\nJPL Open Source Rover\nSatNOGS Rotator v3",
     "crumbs": [
-      "Hardware production",
-      "<span class='chapter-number'>71</span>  <span class='chapter-title'>Product build: Manufacturing tool</span>"
+      "Product build",
+      "<span class='chapter-number'>74</span>  <span class='chapter-title'>Product build: Manufacturing tool</span>"
     ]
   },
   {
     "objectID": "content/070_Product_build_-Manufacturing_instructions.html",
     "href": "content/070_Product_build_-Manufacturing_instructions.html",
-    "title": "72  Product build: Manufacturing sequence",
+    "title": "75  Product build: Manufacturing sequence",
     "section": "",
     "text": "What does include the documentation of manufacturing sequences and instructions?\nThe Manufacturing sequences refer to step-by-step machining and manufacturing processes in a target-oriented arrangement to enable manufacturing.\nNote: types of CAD format of transmagic",
     "crumbs": [
-      "Hardware production",
-      "<span class='chapter-number'>72</span>  <span class='chapter-title'>Product build: Manufacturing sequence</span>"
+      "Product build",
+      "<span class='chapter-number'>75</span>  <span class='chapter-title'>Product build: Manufacturing sequence</span>"
     ]
   },
   {
     "objectID": "content/070_Product_build_-Manufacturing_instructions.html#what-does-include-the-documentation-of-manufacturing-sequences-and-instructions",
     "href": "content/070_Product_build_-Manufacturing_instructions.html#what-does-include-the-documentation-of-manufacturing-sequences-and-instructions",
-    "title": "72  Product build: Manufacturing sequence",
+    "title": "75  Product build: Manufacturing sequence",
     "section": "",
     "text": "Name of the related machine of each step\nDescribing step by step sequence of the machining process - Machine - Type of operation - Tools description - Process parameters of each machining operation\n\nProcess parameters of 3D printing\nProcess parameters of Laser cutting\nProcess parameters of CNC machines such as Lathe, Milling, etc.\nProcess parameters of arc welding\n\nRaw material (including size if relevant)\nManufacturing files (STL, SVG or G-code, …)\n\nCAD files in an interchange format such as STL that is suitable for 3D printing\nNominal geometry and its allowable variation by using symbolic language on 2D drawings like SVG, JPEG, and PDF format that is suitable for laser cutting\nManufacturing export formats such as G-code, STEP-NC is suitable for CNC machining\nCircuit board design formats such as Gerber RS-274X, excellon that is suitable for vector photoplotters 2D mechanical NC machines\n\n\n\nExamples\n\n\n\nimage of manufacturing sequence\n\n\nJPL Open Source Rover\nDIY Dremel CNC design and parts and its CAM file for machining\nSatNOGS Rotator v3, 2D drawing file",
     "crumbs": [
-      "Hardware production",
-      "<span class='chapter-number'>72</span>  <span class='chapter-title'>Product build: Manufacturing sequence</span>"
+      "Product build",
+      "<span class='chapter-number'>75</span>  <span class='chapter-title'>Product build: Manufacturing sequence</span>"
     ]
   },
   {
     "objectID": "content/070_Product_build_-Manufacturing_instructions.html#example-of-parameters",
     "href": "content/070_Product_build_-Manufacturing_instructions.html#example-of-parameters",
-    "title": "72  Product build: Manufacturing sequence",
+    "title": "75  Product build: Manufacturing sequence",
     "section": "Example of parameters",
-    "text": "Example of parameters\n\n3D printer parameters\n\n\nExtruder setting\n\nExtrusion multiplier\nRetraction distance\nRetraction speed\nCoasting\n\nLayer setting\n\nFirst layer height\nFirst layer speed\n\nLaver height\nPrinting bed temperature\nInfill setting\n\nInternal/Eternal fill pattern\n\nTemperature setting\nCooling setting\n\n\nCNC machines parameters such as Lathe, Milling, etc.\n\n\nCutting parameters\n\nCutting speed\nFeed rate\nCutting depth\nCutting width\nCutting force\nSpindle speed\nCutting temperature\n\nCutting tool\n\nTool Geometry\nTool setting\n\nCoolant\n\n\nBurning machining parameters such as laser cutting\n\n\nBeam parameters\n\nWavelength\nPower and intensity\nPolarization\n\nProcess Parameters\n\nFocusing of laser beams (the focal length of the lens)\nFocal position\nAngle of incidence\nCutting speed\nGas pressure\nStand-off distance\nExpected duration\n\n\n\nBonding technologies parameters such as Arc welding\n\n\nWelding current\nWelding voltage\nArc travel speed\nTorch angle\n\nLongitudinal\nTransverse\n\nElectrode force\nElectrode diameters\nLength of arc",
+    "text": "Example of parameters\n\n3D printer parameters\n\n\nExtruder setting\n\nExtrusion multiplier\nRetraction distance\nRetraction speed\nCoasting\n\nLayer setting\n\nFirst layer height\nFirst layer speed\n\nLaver height\nPrinting bed temperature\nInfill setting\n\nInternal/Eternal fill pattern\n\nTemperature setting\nCooling setting\n\n\nCNC machines parameters such as Lathe, Milling, etc.\n\n\nCutting parameters\n\nCutting speed\nFeed rate\nCutting depth\nCutting width\nCutting force\nSpindle speed\nCutting temperature\n\nCutting tool\n\nTool Geometry\nTool setting\n\nCoolant\n\n\nBurning machining parameters such as laser cutting\n\n\nBeam parameters\n\nWavelength\nPower and intensity\nPolarization\n\nProcess Parameters\n\nFocusing of laser beams (the focal length of the lens)\nFocal position\nAngle of incidence\nCutting speed\nGas pressure\nStand-off distance\nExpected duration\n\n\n\nBonding technologies parameters such as Arc welding\n\n\nWelding current\nWelding voltage\nArc travel speed\nTorch angle\n\nLongitudinal\nTransverse\n\nElectrode force\nElectrode diameters\nLength of arc\n\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Hardware production",
-      "<span class='chapter-number'>72</span>  <span class='chapter-title'>Product build: Manufacturing sequence</span>"
+      "Product build",
+      "<span class='chapter-number'>75</span>  <span class='chapter-title'>Product build: Manufacturing sequence</span>"
     ]
   },
   {
     "objectID": "content/072_Product_build_-Assembly_instructions.html",
     "href": "content/072_Product_build_-Assembly_instructions.html",
-    "title": "73  Product Build: Assembly sequence",
+    "title": "76  Product Build: Assembly sequence",
     "section": "",
-    "text": "Part list\nThe Assembly sequence usually start with a description and list of each part that will be assembled, and then provide a step-by-step guide. One can think of instruction for lego objects (In these special case, the part list is identical to a BOM and placed at the end).\nSee ?sec-production for information about software and dependence with guide for manufacturing.\nThe Part list for mechanical parts is a complete list of all parts needed to build the complete product. It is different from the BOM which list material needed for the manufacture of the parts, while this document list the manufactured parts.\nIt constitutes of : - Item numbers: are based on the assembly structure, that is, the order in which parts are displayed in assembly. - Part number or drawing number: which is a reference back to the detail drawing (refer to the BOM). - Description: is usually a part name or a complete description of parts. - Quantity is the number of that particular part used on this assembly. - Image (or STL render) of each part.",
+    "text": "Part list\nThe Assembly sequence usually start with a description and list of each part that will be assembled, and then provide a step-by-step guide. One can think of instruction for lego objects (In these special case, the part list is identical to a BOM and placed at the end).\nSee Chapter 68 for information about software and dependence with guide for manufacturing.\nThe Part list for mechanical parts is a complete list of all parts needed to build the complete product. It is different from the BOM which list material needed for the manufacture of the parts, while this document list the manufactured parts.\nIt constitutes of : - Item numbers: are based on the assembly structure, that is, the order in which parts are displayed in assembly. - Part number or drawing number: which is a reference back to the detail drawing (refer to the BOM). - Description: is usually a part name or a complete description of parts. - Quantity is the number of that particular part used on this assembly. - Image (or STL render) of each part.",
     "crumbs": [
-      "Hardware production",
-      "<span class='chapter-number'>73</span>  <span class='chapter-title'>Product Build: Assembly sequence</span>"
+      "Product build",
+      "<span class='chapter-number'>76</span>  <span class='chapter-title'>Product Build: Assembly sequence</span>"
     ]
   },
   {
     "objectID": "content/072_Product_build_-Assembly_instructions.html#sequence",
     "href": "content/072_Product_build_-Assembly_instructions.html#sequence",
-    "title": "73  Product Build: Assembly sequence",
+    "title": "76  Product Build: Assembly sequence",
     "section": "Sequence",
     "text": "Sequence\nThe set of steps necessary to properly assemble the parts should be well described at each step.\n\nThe joining technology at each step should be clearly described: - Screwing - Bolting - Soldering - Gluing (or “gluing and screwing”)\n\n\nExample\nPoppy Robot\nJPL Open Source Rover\nSatNOGS Rotator v3 , Assembly instructions\nOpen Source Powered Prosthetic Leg",
     "crumbs": [
-      "Hardware production",
-      "<span class='chapter-number'>73</span>  <span class='chapter-title'>Product Build: Assembly sequence</span>"
+      "Product build",
+      "<span class='chapter-number'>76</span>  <span class='chapter-title'>Product Build: Assembly sequence</span>"
     ]
   },
   {
     "objectID": "content/072_Product_build_-Assembly_instructions.html#notes",
     "href": "content/072_Product_build_-Assembly_instructions.html#notes",
-    "title": "73  Product Build: Assembly sequence",
+    "title": "76  Product Build: Assembly sequence",
     "section": "Notes",
-    "text": "Notes\nIt is good practice to design the parts such that the assembly is easier. One can for instance include the item number on the parts and make sure that it is difficult to assemble parts at the wrong step, for instance by designing asymetrical parts.",
+    "text": "Notes\nIt is good practice to design the parts such that the assembly is easier. One can for instance include the item number on the parts and make sure that it is difficult to assemble parts at the wrong step, for instance by designing asymetrical parts.\n\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Hardware production",
-      "<span class='chapter-number'>73</span>  <span class='chapter-title'>Product Build: Assembly sequence</span>"
+      "Product build",
+      "<span class='chapter-number'>76</span>  <span class='chapter-title'>Product Build: Assembly sequence</span>"
     ]
   },
   {
     "objectID": "content/073_Product_build_-Assembly_skills.html",
     "href": "content/073_Product_build_-Assembly_skills.html",
-    "title": "74  Product Build: Assembly skills and tools",
+    "title": "77  Product Build: Assembly skills and tools",
     "section": "",
-    "text": "Example of skills and machines:\nThis document should provide information about the specific knowledge a maker shall own to assembly the hardware product, and what tools are necessary. For example, one can report how many people are needed to assemble the hardware.\nThe skills can be listed by name and a description. In many case, it might be interesting to link skills with tools, as being able to operate each tool is a needed skill.",
+    "text": "Example of skills and machines:\nThis document should provide information about the specific knowledge a maker shall own to assembly the hardware product, and what tools are necessary. For example, one can report how many people are needed to assemble the hardware.\nThe skills can be listed by name and a description. In many case, it might be interesting to link skills with tools, as being able to operate each tool is a needed skill.\nSources\nOpenNext work project resutls: Section 78.1",
     "crumbs": [
-      "Hardware production",
-      "<span class='chapter-number'>74</span>  <span class='chapter-title'>Product Build: Assembly skills and tools</span>"
+      "Product build",
+      "<span class='chapter-number'>77</span>  <span class='chapter-title'>Product Build: Assembly skills and tools</span>"
     ]
   },
   {
     "objectID": "content/073_Product_build_-Assembly_skills.html#example-of-skills-and-machines",
     "href": "content/073_Product_build_-Assembly_skills.html#example-of-skills-and-machines",
-    "title": "74  Product Build: Assembly skills and tools",
+    "title": "77  Product Build: Assembly skills and tools",
     "section": "",
     "text": "Required skills for assembly\n\nOperate drilling machine\nOperate Band Saw/Dremel\n\nList of the tools for assembly or disassembly\n\nMandatory\n\nAllen Keyset\nImperial wrench set\n\nOptional\n\nDrill press\n\n\n\n\n\nExample\nTo build the Airtrack, it is optional to use specific UV glue and its specific equipment. One should nevertheless have some experience in using plastic glue.",
     "crumbs": [
-      "Hardware production",
-      "<span class='chapter-number'>74</span>  <span class='chapter-title'>Product Build: Assembly skills and tools</span>"
+      "Product build",
+      "<span class='chapter-number'>77</span>  <span class='chapter-title'>Product Build: Assembly skills and tools</span>"
+    ]
+  },
+  {
+    "objectID": "content/200-sources.html",
+    "href": "content/200-sources.html",
+    "title": "78  Sources",
+    "section": "",
+    "text": "Open next work",
+    "crumbs": [
+      "<span class='chapter-number'>78</span>  <span class='chapter-title'>Sources</span>"
     ]
   }
 ]
