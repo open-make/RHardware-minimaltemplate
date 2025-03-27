@@ -1,17 +1,30 @@
 # A guide to open source hardware projects {.unnumbered}
 
-This book presents explanations for elements of the hardware project documentation template.
+```{r, echo=FALSE}
+repositoryhome ="https://github.com/open-make/RHardware-minimaltemplate"
+bookurl = "https://open-make.github.io/RHardware-minimaltemplate/"
+```
+
+This book presents explanations for elements of the hardware project documentation template available at [`r repositoryhome`](`r repositoryhome`).
 The documentation should grow with the project size, and should not limit itself to the technical aspects of the hardware (how to rebuild it), but should present the project in its entirety, such that new users and new collaborators can find the information they need to participate in the project.
 
 The book chapters follows the different elements of the template (readme,community, project history,conceptualisation and specification, hardware design, and user guides).
 In addition, the firsts chapters present the steps proposed for the development of the project (ideation, needs analysis, concept development, prototype, replication and use), linking to the sections relevant for that development step.
 
-Because we expect most project to see this template when already having a prototype, we added a special chapter on starting at this stage (\@sec-whenstartingdocumentations).
+Because we expect most project to see this template when already having a prototype, we added a special chapter on starting at this stage (@sec-whenstartingdocumentation).
 
-Note_1: hardware development per se starts only in step four, the preparatisec-whenstartingdocumentationon phase is important if one does not want to end up reinventing the wheel or producing useless hardware.
-Note_2: Step 1-3 have an iterative nature: Especially, the analysis of "Similar projects" coming in step 3, and the prototyping (step 4) are often giving new ideas and refining use cases.
+-   Note_1: hardware development per se starts only in step four, the preparation phase is important if one does not want to end up reinventing the wheel or producing useless hardware.
+-   Note_2: Step 1-3 have an iterative nature: Especially, the analysis of "Similar projects" coming in step 3, and the prototyping (step 4) are often giving new ideas and refining use cases.
 
 ## Technicality
 
 This is a quarto book, each element has its own quarto/markdown file.
 See the Git repository (https://github.com/open-make/RHardware-minimaltemplate) to modify this book.
+
+Online version of the book:
+
+```{r, echo=FALSE}
+
+qr=qrcode::qr_code(bookurl)
+plot(qr)
+```
