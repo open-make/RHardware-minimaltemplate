@@ -19,3 +19,11 @@ For each element which may be defective:
 -   Indicate the required tools for repairing
 -   Verification of repair
 -   It may be interesting to add images and photos.
+
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+

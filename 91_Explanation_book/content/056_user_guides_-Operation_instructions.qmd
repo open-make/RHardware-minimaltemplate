@@ -24,3 +24,8 @@ It may includes
         -   App setup
     -   Explains how to update the firmware to the latest version
 
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

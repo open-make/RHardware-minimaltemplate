@@ -4,3 +4,10 @@
 
 These guidelines will provide you with a standard structure that is mainly following the product life cycle and the technological decomposition.
 It is implemented in the documentation template available in this project.
+
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

@@ -45,3 +45,9 @@ Documentation should indicate the type of model, variables used to define the mo
 > Example 2: Image below shows the simulation of the torsion of the fixed part from below and its evaluation of the reality.
 > 
 >  ![Image of Finite element analysis](img/FEA-image.gif)
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

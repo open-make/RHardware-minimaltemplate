@@ -11,3 +11,10 @@ In all cases, it is important to keep track of which version of the soft/firmwar
 > The hardware and the software are developed in different repositories with different people involved.
 > In 2025, as the pixycam was not produced anymore, a new version of the hardware was created, using the pixycam2 component.
 > This had little effects on the hardware design, but, the firmware and software needed to be modified.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+

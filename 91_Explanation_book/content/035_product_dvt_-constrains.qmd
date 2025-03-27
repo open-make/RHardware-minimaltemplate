@@ -13,3 +13,9 @@ A constraint is a choice that makes certain designs "not allowed" or inappropria
 > -   Users should be able to customize the modules of ADD-ONS to fit their use.
 > -   The ADD-ONS should enable the users to do the assembly of components in a short time (10 minutes) and the maker shall select the resistance material for using ADD-ONS in different weather conditions.
 > -   ADD-ONS should be dismantled for recycling purposes.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

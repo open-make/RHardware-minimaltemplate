@@ -26,3 +26,9 @@ If the part is to be manufactured, one should find all the descriptions of the m
 
 It is sometimes easier to create a guide for manufacturing and assembly.
 For instance, using the Gitbuilding software, one can write the manufacture and assembly instructions, and when using specific tags for tools and material, the software creates BOM, part lists and tool lists for each step and for the whole project.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

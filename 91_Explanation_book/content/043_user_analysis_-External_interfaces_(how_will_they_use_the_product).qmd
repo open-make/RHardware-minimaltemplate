@@ -16,4 +16,9 @@ External interfaces are interactions between the product and the actors (includi
 >
 > ![Image of External interfaces of XYZ cargo-ADD ONS](img/interfaces_xyz.jpg)
 
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
 

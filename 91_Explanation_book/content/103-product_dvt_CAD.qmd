@@ -90,4 +90,10 @@ To reuse a design model, it should provide information consist of:
      * Unit of property
      * ...
  
+ 
+ ------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
 

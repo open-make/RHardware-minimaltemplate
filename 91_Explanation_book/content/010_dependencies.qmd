@@ -7,3 +7,10 @@ Here it is welcome to acknowledge the existing sources that have been used in th
 -   URL of the original project
 
     You may also cite projects that project is citing as dependencies or source, with the URL of other related projects
+
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

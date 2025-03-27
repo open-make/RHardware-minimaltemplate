@@ -45,3 +45,9 @@ Examples:
 > The project BCN3D Moveo is motivated by the high cost of the materials
 > that undergraduate students must use for learning how to engineer
 > mechatronics systems.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

@@ -10,3 +10,9 @@ Datasheet of components for electronic parts:
     -   Reference
     -   Part number
 -   How to use the parts?
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

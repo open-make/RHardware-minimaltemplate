@@ -45,3 +45,8 @@ Information to give:
   - tools
   - verification procedure
 
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

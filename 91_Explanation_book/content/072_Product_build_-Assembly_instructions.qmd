@@ -42,3 +42,9 @@ The set of steps necessary to properly assemble the parts should be well describ
 ## Notes
 
 It is good practice to design the parts such that the assembly is easier. One can for instance include the item number on the parts and make sure that it is difficult to assemble parts at the wrong step, for instance by designing asymetrical parts.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

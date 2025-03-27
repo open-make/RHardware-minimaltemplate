@@ -28,3 +28,9 @@ Several software may help create these graphs:
 -   Capella
 -   diagrams.net (previously draw.io)
 -   <https://excalidraw.com>
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

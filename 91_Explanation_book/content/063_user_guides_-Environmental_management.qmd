@@ -2,3 +2,9 @@
 
     -   Protection against weather conditions
     -   Determining the acceptable temperature range
+    
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

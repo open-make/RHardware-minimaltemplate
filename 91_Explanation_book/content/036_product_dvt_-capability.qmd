@@ -20,3 +20,9 @@ NB: this will relate to the user analysis section of the documentation that defi
 > -   The ADD-ONS shall enable the food producer to heat food
 >     -   2.1solid (150 deg Celcius)
 >     -   2.2 liquid (80 deg Celcius)
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

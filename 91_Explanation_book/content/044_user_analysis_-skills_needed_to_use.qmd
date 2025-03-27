@@ -5,3 +5,9 @@ What is the specific knowledge a maker shall own to reuse - without modification
 For example:
 
 > The project echopen need basic knowledge about the medical ultrasound technology such as ultrasound imaging, a matter of acoustical impedance, etc.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

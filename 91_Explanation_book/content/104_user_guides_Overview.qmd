@@ -51,3 +51,10 @@ Some popular software used to create webpage and pdf from markdown files:
 > [Poppy project](https://docs.poppy-project.org/en/)
 >
 > [FarmBot Genesis V1.5](https://genesis.farm.bot/v1.5/Extras/troubleshooting)
+
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

@@ -23,3 +23,10 @@ Please provide :
 > [AmboVent](https://github.com/AmboVent-1690-108/AmboVent/tree/master/3-Software)\*
 >
 > [Poppy project](https://docs.poppy-project.org/en/installation/)\*
+
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

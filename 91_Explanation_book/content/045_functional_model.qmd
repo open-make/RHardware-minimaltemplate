@@ -95,5 +95,10 @@ The functional graph is a multi-level logical articulation of technical function
 
 
 
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
 
 

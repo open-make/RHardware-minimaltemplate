@@ -6,3 +6,9 @@ including:
 -   Device name (and its parts) and their definition
 -   Essentials and technical specifications
 ```
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

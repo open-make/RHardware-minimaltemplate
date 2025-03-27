@@ -55,4 +55,9 @@ For each element or part, indicate:
     - Define and describe the main parameters and processes to decrease these negative environmental impacts
 - end of life information
 
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
 

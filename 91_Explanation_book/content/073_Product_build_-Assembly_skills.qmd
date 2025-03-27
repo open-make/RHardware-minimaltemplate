@@ -22,3 +22,9 @@ In many case, it might be interesting to link skills with tools, as being able t
 >
 > To build the Airtrack, it is optional to use specific UV glue and its specific equipment.
 > One should nevertheless have some experience in using plastic glue.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

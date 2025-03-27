@@ -8,3 +8,10 @@ This is very similar to the repairing section @sec-user-guides-repair, even if t
 > Example
 >
 > Replacing Ink cartridge in a printer or a lamp bulb in a video projector.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+

@@ -34,3 +34,10 @@ Some software are meant to created BOM from the CAD files (CAD-coupled documenta
 > *Example 2: [SatNOGS Rotator v3](https://gitlab.com/librespacefoundation/satnogs/satnogs-rotator/blob/master/rotator-bom.ods)*
 >
 > #### *Example 3: [Krab v1.0](https://projects.fablabs.io/@avishek/krab-v10)*
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+

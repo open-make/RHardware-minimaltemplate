@@ -46,3 +46,9 @@ To reuse a electrical design, it should provide information consist of:
 > [Nasa-JPL, source files](https://github.com/nasa-jpl/open-source-rover/tree/master/electrical/pcb/arduino_uno_sheild/gerbers/rev_b)*
 >
 > [AmbovVent, Neutral files](https://github.com/AmboVent-1690-108/AmboVent/tree/master/1-Electronics)*
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

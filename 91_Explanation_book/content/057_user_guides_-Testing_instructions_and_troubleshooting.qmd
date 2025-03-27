@@ -11,4 +11,10 @@ This may include specific data to give the hardware as input and some informatio
 ## Troubleshooting
 
 -   Instructions on how to solve common problems
--   Instruction to get additional help and report problems (Git forge issues, forums, chat,...)s
+-   Instruction to get additional help and report problems (Git forge issues, forums, chat,...).
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

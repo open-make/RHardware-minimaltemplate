@@ -11,3 +11,9 @@ At first, one can state what will be delivered in this project?
 > The project [BCN3D Moveo](https://github.com/BCN3D/BCN3D-Moveo/) is an open source robotic arm that everyone should be able to replicate - with or without modification - at home without the need for highly technical knowledge and expensive materials.
 > The robotic arm will support several of the existing training itineraries: mechanical design, automation, industrial programming, etc.\
 > \
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work

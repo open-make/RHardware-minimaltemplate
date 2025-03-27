@@ -112,7 +112,9 @@ book:
       - content/072_Product_build_-Assembly_instructions.qmd
       - content/073_Product_build_-Assembly_skills.qmd
 
+  - content/200-sources.qmd
   - references.qmd
+
 bibliography: references.bib
 format:
   html:

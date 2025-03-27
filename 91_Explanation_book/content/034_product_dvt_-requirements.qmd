@@ -23,3 +23,9 @@ It is usually defined at the end of the ecosystem and user analysis.
     - FR5: the hot and pressured exit gas needs to meet the cooler external ambient temperature to become a liquid.
    
 
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
