@@ -5,26 +5,48 @@ repositoryhome ="https://github.com/open-make/RHardware-minimaltemplate"
 bookurl = "https://open-make.github.io/RHardware-minimaltemplate/"
 ```
 
+After analyzing open source hardware documentation and existing templates, we are convinced that (1) documentation should grow with the different phases of a project and (2) the documentation should not restrict itself to the technical documentation necessary to reproduce the hardware, but should have a larger scope: the goal is not only to make the hardware (re-)producible, but to facilitate collaborative work in the development of the hardware (see Fig below).
+
+![Hardware project documentation is diverse, it grows with project development (depicted by orange boxes from left to right: ideation, specification, concept development, prototyping), and go beyond the technical documentation (black box)](images/makinglabopening-finalword.001.jpeg)
+
+Accordingly, we created a \[template for hardware project\](`r repositoryhome`), including different folders and files, and this guide to facilitate the creation of hardware project documentation. The guide starts with a description of the steps, with a checklist of information to add at each step, which corresponds to the elements of the template. In the checklist, we added linked to the corresponding sub-chapters of the guide. 
 
 
-
-This book presents explanations for elements of the hardware project documentation template available at [`r repositoryhome`](`r repositoryhome`).
-The documentation should grow with the project size, and should not limit itself to the technical aspects of the hardware (how to rebuild it), but should present the project in its entirety, such that new users and new collaborators can find the information they need to participate in the project.
-
-The book chapters follows the different elements of the template (readme,community, project history,conceptualisation and specification, hardware design, and user guides).
-In addition, the firsts chapters present the steps proposed for the development of the project (ideation, needs analysis, concept development, prototype, replication and use), linking to the sections relevant for that development step.
+The next book chapters indeed provide information for each elements, organised following the different files and folders of the template (readme,community, project history, conceptualisation and specification, hardware design, and user guides).
 
 Because we expect most project to see this template when already having a prototype, we added a special chapter on starting at this stage (@sec-if-you-have-a-prototype).
 
--   Note_1: hardware development per se starts only in step four, the preparation phase is important if one does not want to end up reinventing the wheel or producing useless hardware.
--   Note_2: Step 1-3 have an iterative nature: Especially, the analysis of "Similar projects" coming in step 3, and the prototyping (step 4) are often giving new ideas and refining use cases.
+## FAQ
+
+1. How iterative is the process ?
+
+    - At each step, the whole content may be modified. Especially, the analysis of "Similar projects" coming in step 3, and the prototyping (step 4) are often giving new ideas and refining use cases. The vision may change when new team members enter the project, independently of the development stage.
+  
+  
+1. What is the minimal documentation? My project is tiny.
+
+    - The size of the project is not really affecting the number of elements that are important, it will affect the size of each element, though. 
+    - While you may tend to skip the community aspects of the documentation, we think these are important aspects of the development process, unless you really want to do it alone.
+
+1. Why is the technical documentation description so small?
+
+    - Technical documentation will be very different depending on the hardware created, we only gave general hints in this guide. As a rule of thumb, developing a hardware collaboratively with at least one other human will help you define how to organise the technical documentation.
+
+
+
+
+## Navigating the book
+
+On the web version, a first table of content of chapters is found on the left bar. Once a chapter is chosen, a table of content of that chapter is available on the right bar. One can also search for specific terms.
 
 ## Technicality
 
-This is a quarto book, each element has its own quarto/markdown file.
-See the Git repository (https://github.com/open-make/RHardware-minimaltemplate) to modify this book.
+This is a quarto book, each element has its own quarto/markdown file and a specific code merge them together to create chapters.
+See the [Git repository](`r repositoryhome`) to modify this book.
 
-Online version of the book:
+Online version of the book: 
+
+URL: [`r bookurl`](`r bookurl`)
 
 ```{r, echo=FALSE}
 
