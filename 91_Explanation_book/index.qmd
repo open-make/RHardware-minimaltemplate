@@ -11,7 +11,7 @@ After analyzing open source hardware documentation and existing templates, we ar
 
 ![Hardware project documentation is diverse, it grows with project development (depicted by orange boxes from left to right: ideation, specification, concept development, prototyping), and go beyond the technical documentation (black box)](images/makinglabopening-finalword.001.jpeg)
 
-Accordingly, we created a \[template for hardware project\](`r repositoryhome`), including different folders and files, and this guide to facilitate the creation of hardware project documentation. The guide starts with a description of the steps, with a checklist of information to add at each step, which corresponds to the elements of the template. In the checklist, we added linked to the corresponding sub-chapters of the guide. 
+Accordingly, we created a [template for hardware project](`r repositoryhome`), including different folders and files, and this guide to facilitate the creation of hardware project documentation. The guide starts with a description of the steps, with a checklist of information to add at each step, which corresponds to the elements of the template. In the checklist, we added linked to the corresponding sub-chapters of the guide. 
 
 
 The next book chapters indeed provide information for each elements, organised following the different files and folders of the template (readme,community, project history, conceptualisation and specification, hardware design, and user guides).
@@ -56,6 +56,6 @@ plot(qr)
 
     - Technical documentation will be very different depending on the hardware created, we only gave general hints in this guide. As a rule of thumb, developing a hardware collaboratively with at least one other human will help you define how to organise the technical documentation.
 
-1. When should I start documenting? {#sec-whenstartingdocumentation}
+1. When should I start documenting?
 
     - As soon as possible. This template allows you to start documenting your project at the ideation phase. While it might seem too early, it is useful when you want to present your ideas to collect feedback or even find collaborators. This allows to make clearer what are the important aspects of your idea, and can start interesting discussions.
