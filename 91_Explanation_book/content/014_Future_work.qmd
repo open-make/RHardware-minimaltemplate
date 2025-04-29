@@ -1,1 +1,9 @@
 ## Future work
+
+Further work pursued by the authors or collaborators; known issues; suggestions for others to improve on the hardware design or testing, given what you have learned from your design iterations.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware

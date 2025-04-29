@@ -2,9 +2,11 @@
 
 This part is meant to give an overview of the hardware, more detailed description should be given in the 03_product_dvt/hardware_overview.md file.
 
-A schema, a picture or a video may be added here.
 
-At first, one can state what will be delivered in this project?
+
+Give an overview of the hardware, what it does, how it was produced, and, if relevant, the research for which it has been used. Describe how the hardware was implemented/created, with relevant details of the architecture and design, including general materials. You may also describe any variants and associated implementation differences.
+
+A schema, a picture or a video may be added here.
 
 > Example:\
 >
@@ -16,4 +18,4 @@ At first, one can state what will be delivered in this project?
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work, @sec-journal-of-open-hardware

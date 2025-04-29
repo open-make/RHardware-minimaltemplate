@@ -1,1 +1,11 @@
 ## scientific publication
+
+Include experiment results or the reference to a publication (published or to be published) where these results are detailed. 
+
+You may also point to ongoing work.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware

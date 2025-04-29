@@ -1,1 +1,10 @@
-## competing interest
+## Competing interest
+
+If any of the authors have any competing interests then these must be declared. The authors’ initials should be used to denote differing competing interests. For example: “BH has minority shares in [company name], which part funded the research grant for this project. All other authors have no competing interests." Or “BH is selling kits and parts connected to the here presented hardware via platform XX. A fundraising via Crowdfunding platform YY is planned to start commercialisation.”
+If there are no competing interests, please add the statement:
+“The authors declare that they have no competing interests.”
+
+-------------------------------------------------------------
+**Sources**
+
+@sec-journal-of-open-hardware

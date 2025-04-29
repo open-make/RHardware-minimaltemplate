@@ -1,1 +1,9 @@
-## validation
+## Validation
+
+Elaborate how the hardware technically/methodologically advances the state-of-the-art, including references to relevant research articles and online references.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware

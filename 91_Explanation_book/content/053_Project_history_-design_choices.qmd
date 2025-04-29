@@ -1,1 +1,9 @@
 ## Project history -design choices
+
+What were the decisions made in designing this hardware? Were other designs/options tried? please describe also what did not work.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware

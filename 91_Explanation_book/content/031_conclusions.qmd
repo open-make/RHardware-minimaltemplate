@@ -1,1 +1,9 @@
-## conclusions
+## Conclusions
+
+This may include conclusions, learned lessons from design iterations, learned lessons from use cases, and/or a summary of results.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware

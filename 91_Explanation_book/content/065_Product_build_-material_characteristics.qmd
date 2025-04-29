@@ -1,1 +1,9 @@
-## Product build -material characteristics
+## Product build - material characteristics
+
+Summarise what materials have been used to construct the hardware and what methods to process the materials (as well as the assembly). Provide more details or references where important materials or methods are non-standard, not globally available, or produced only by one manufacturer.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware

@@ -5,6 +5,10 @@
 The user guide should give information on methods to test the accuracy of the hardware.
 This may include specific data to give the hardware as input and some information about how to interpret the quality of the output.
 
+Details can be provided on the testing of hardware functionalities, that are not directly essential for the precision operation of the hardware in the given context (which are in turn, where applicable, handled under Calibration), such as automated movements to position the hardware, repeatability of tool exchanges, recyclability, water-tightness, weight or other possibly relevant characteristics.
+
+The testing should define the safe/reliable limits in which the components can be operated (e.g. step size and repeatability of linear motion, force ranges, ratio of devices with leaks when built in a workshop, etc). This will enhance the usability of the hardware or method in other contexts.
+
 > Example: Ink Printers usually have a testing mode where a specific data file is used where the printed output will inform the user about the accuracy of the printer.
 > The guide then explain what users should look for in order to make a diagnostic.
 
@@ -17,4 +21,6 @@ This may include specific data to give the hardware as input and some informatio
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work, @sec-journal-of-open-hardware
+
+

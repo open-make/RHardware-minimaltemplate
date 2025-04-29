@@ -1,1 +1,9 @@
 ## Funding information
+
+Indicate the funder and grant number.
+
+-------------------------------------------------------------
+**Sources**
+
+@sec-journal-of-open-hardware
+

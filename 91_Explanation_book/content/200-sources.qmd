@@ -4,3 +4,12 @@
 
 The work was presented in a template at.
 <https://github.com/OPEN-NEXT/WP2.3-Guideline-and-template-for-documentation-of-OSH-design-reuse/tree/main>, based on the results provided as deliverable 2.6 at <https://github.com/OPEN-NEXT/WP2.3-Guideline-and-template-for-documentation-of-OSH-design-reuse/blob/main/Sources/Deliverable2_6%20_Final%20release%20of%20models%20and%20standards%20for%20design%20reuse_V4_20220930.pdf>
+
+## OSH-dir-std work
+
+The content of the 04_hardware folder is loosely derived from <https://github.com/hoijui/osh-dir-std/tree/main> in discussion with one of the author.
+
+## Journal of open hardware {#sec-journal-of-open-hardware}
+
+The journal of open hardware provides a template with several information required in hardware metadata papers.
+We included some of the indication of the template into this guide.

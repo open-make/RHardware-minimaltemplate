@@ -1,1 +1,16 @@
 ## Community and Contributions {#sec-community-and-contributions}
+
+This section may be split in different categories of contributors.
+For example, one can separate authors, contributors and aknowledged people.
+There is presently no definition of these categories or standard way to report contributions.
+
+\
+For each contributor, you may indicate tasks performend (design, assembly, use cases contribution, documentation, paper
+writing,...)
+
+One may use a spreadsheet or a specific tool like the allcontributor bot to record contributions.
+
+-------------------------------------------------------------
+**Sources**
+
+@sec-journal-of-open-hardware

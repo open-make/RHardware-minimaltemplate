@@ -5,6 +5,9 @@ Since software/firmware development follows different practices that often needs
 
 In all cases, it is important to keep track of which version of the soft/firmwares are used with which version of the hardware.
 
+Also indicate details on the operating software and programming language, and include minimum version compatibility, and dditional system requirements, like memory, disk space, processor, input or output devices.
+
+
 > Example: the airtrack hardware: <https://codeberg.org/openmake/airtrack-hardware>, software: <https://github.com/open-make/code-airtrack>\
 > \
 > The Airtrack hardware was developed using pixycam.
@@ -16,5 +19,5 @@ In all cases, it is important to keep track of which version of the soft/firmwar
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work, @sec-journal-of-open-hardware
 

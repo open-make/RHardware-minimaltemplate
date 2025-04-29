@@ -1,1 +1,10 @@
 ## User Guides: Calibration {#sec-user-guides-calibration}
+
+If the hardware is used for measurements, please detail here how the reliability of measurements, or other hardware properties that are relevant for measurements, has been quantified and explain the results. Be clear about the processes or procedures used to compare the hardware to a standard, as well as the description of the standard calibrated against.
+Detail the general procedures in place for users to calibrate their hardware before or during use. What methods can be used to relate user-generated data to data from other sources? 
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware

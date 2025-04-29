@@ -1,1 +1,9 @@
 ## Problem description
+
+Describe the problem in this section and how the hardware addresses the problem.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware

@@ -2,4 +2,14 @@
 
 This section define the product or data produced by the hardware.
 
-example:
+It may describes examples of applications of the hardware. This should include some evidence of output, like data produced by the use of the device or a picture of other types of results.
+
+It may also present or link to a standard data structure used, or involve the explanation of the data structure used.
+
+One may link to other repositories or add data directly in the hardware documentation, as an extra folder.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware

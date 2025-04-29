@@ -1,1 +1,9 @@
 ## User Guides : Safety information {#sec-user-guides-safety-information}
+
+Describe all relevant safety issues or references to a risk assessment if included (for example high voltage, chemical safety etc.). If appropriate, discuss the wider context of the use of the hardware and safety issues or risks that may arise in the use environment.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware
