@@ -1,4 +1,4 @@
-## Step 5: replicator step {.unnumbered}
+## Step 5: replicator step
 
 ### Replication and maturation
 

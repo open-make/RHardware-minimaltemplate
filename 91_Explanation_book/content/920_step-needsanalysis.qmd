@@ -1,4 +1,4 @@
-## Step 2 Needs analysis {.unnumbered}
+## Step 2 Specification, Needs analysis 
 
 ### Needs and ecosystem analysis
 
@@ -8,7 +8,7 @@ A lot of the user analysis and the problem description part aims at the definiti
 
 It may also be time to work on community engagement.
 
-### Checklist needs analysis
+### Checklist specifications
 
 -   [ ] Complete the readme file
     -   [ ] *ethics statement (human/animal use or Informed Consent Statement)*

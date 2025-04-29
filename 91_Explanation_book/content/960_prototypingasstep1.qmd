@@ -1,15 +1,24 @@
-# How to use of the template
+# Development stages
 
-## When should you start ? {#sec-whenstartingdocumentation}
+The documentation will grow with your project.
+Usually, an hardware project follows different stages of development, which may be seen as particular milestones where the team check that they gathered enough information and documented their process, before going to the next stage. 
 
-This template allows you to start documenting your project at the ideation phase.
-While it might seem too early, it is useful when you want to present your ideas to collect feedback or even find collaborators.
-This allows to make clearer what are the important aspects of your idea, and can start interesting discussions.
+The guide propose 5 stages of developement:
+- ideation
+- specification (needs analysis)
+- concept development
+- protoyping
+- replication phase
+
 
 ### If you have a prototype {#sec-if-you-have-a-prototype}
 
-We expect most readers will come to this documentation template when they actually already have a prototype, and are mostly interested in the documentation of the technical parts of the project (mostly what will be in the 04_hardware folder).
-If you are in this situation, our advice is to go through each steps rapidely, making either short description of what you had in mind when doing the project or noting what you may have done only sub-consciously.
-Look at the checklist below and the provided template "Full_Project_prototype", and go rapidly through it to get to the prototyping phase early.
-When you are happy with the results, go back to the things you noted earlier and see what is still relevant.
-For example, the needs and actors analysis may help you find or define a target group for your hardware, and help you find your users, and the conceptualisation documentation may help discussion with contributors.
+We expect some or even most readers will come to this documentation template when they actually already have a prototype, and are mostly interested in the documentation of the technical parts of the project (mostly what will be in the 04_hardware folder). Most of the advantages of documenting the project exhaustively will then be obsolete, and you may want to restrict the document to its essentials.
+
+As explained in the FAQ though, all elements may be important and we encourage you to go through each steps (rapidely), making short description of what you had in mind when developing the project so far. These descriptions may be shorter than what you would have written if done earlier, but it may be important to ask these different questions even when the project seems quite advanced. So, look at the checklists of each step. You may want to use the provided template "Full_Project_prototype", going rapidly through it to get to the prototyping phase early. 
+
+
+The process may help you to refine the scope of your project, potentially help you find your users and facilitate discussions with other contributors or investors.
+
+
+
