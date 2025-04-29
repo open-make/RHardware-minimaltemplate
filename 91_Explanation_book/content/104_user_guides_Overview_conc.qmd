@@ -1,0 +1,315 @@
+
+# Guide for Users
+
+*I would like to provide important information to end-users on 'how to use my product'.*
+
+## **What is the user guide?**
+
+The user guide consists of information that allows end-users to operate the product properly.
+This may includes information on setting the hardware, operating the hardware, recognizing and solving problems, run the maintenance of the hardware and dispose of the hardware when it is beyond repair.
+The user guide is written for non-technical people.
+
+Note the user guide may link to other parts of the documentation (especially for installation instruction/first use instrutions), or even to specific online help (for troubleshooting, a forum may be indicated on to of "usual problems").
+It usually includes:
+
+1.  Description of the device :@sec-user-guides-overview-of-the-hardware
+
+2.  Safety information: @sec-user-guides-safety-information
+
+3.  Use of the product: @sec-operation-instructions
+
+4.  Calibration instructions: @sec-user-guides-calibration
+
+5.  Troubleshooting section: @sec-user-guides-troubleshooting
+
+6.  Environmental management: @sec-user-guidesenvironmental-management
+
+7.  Maintenance and Repair information: @sec-maintenance, @sec-user-guides-repair
+
+8.  Disposal information: @sec-disposal-instructions
+
+## How to create a user guide ?
+
+The form of the guide is usually a printable document or a website.
+It is advised to use markdown file for its creation and deliver a printable pdf for the users.
+The use of screenshots, photos and videos are usually welcome.
+
+Some popular software used to create webpage and pdf from markdown files:
+
+-   [GitBook](https://www.gitbook.com)
+-   [readthedoc](https://about.readthedocs.com)
+-   [quarto](https://quarto.org)
+-   [Gitbuilding](https://gitbuilding.io) can also be used to this purpose.
+
+> Some examples of open-source projects that show the user guide.
+>
+> [PSLab oscilloscope](https://docs.pslab.io/tutorials/oscilloscope.html#tutorials-oscilloscope--page-root)
+>
+> [PX4 vision userguide](https://docs.px4.io/master/en/#how-do-i-get-started)
+>
+> [Echopen project](https://echopen.gitbooks.io/echopen_prototyping/content/introduction/new_introduction.html)
+>
+> [Poppy project](https://docs.poppy-project.org/en/)
+>
+> [FarmBot Genesis V1.5](https://genesis.farm.bot/v1.5/Extras/troubleshooting)
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+
+## User Guides : Safety information {#sec-user-guides-safety-information}
+
+
+## User Guides - Overview of the hardware {#sec-user-guides-overview-of-the-hardware}
+
+including:
+
+```         
+-   Device name (and its parts) and their definition
+-   Essentials and technical specifications
+```
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+
+## Operation instructions {#sec-operation-instructions}
+
+The operation instruction gives information on the use of the product, in particular in term of software.
+Note that it may include the calibration chapter (@sec-user-guides-calibration) when calibration is necessary for each use.
+
+It may includes
+
+     
+-   Materials required
+
+    -   App
+    -   Software
+    -   Firmware
+
+-   Procedure
+
+    -   Installation instructions including
+        -   Firmware installation
+        -   Software installation
+        -   App installation
+    -   Setup instructions containing
+        -   Software setup
+        -   Firmware setup
+        -   App setup
+    -   Explains how to update the firmware to the latest version
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+
+## User Guides: Troubleshooting {#sec-user-guides-troubleshooting}
+
+## Testing instructions
+
+The user guide should give information on methods to test the accuracy of the hardware.
+This may include specific data to give the hardware as input and some information about how to interpret the quality of the output.
+
+> Example: Ink Printers usually have a testing mode where a specific data file is used where the printed output will inform the user about the accuracy of the printer.
+> The guide then explain what users should look for in order to make a diagnostic.
+
+## Troubleshooting
+
+-   Instructions on how to solve common problems
+-   Instruction to get additional help and report problems (Git forge issues, forums, chat,...).
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+
+## User Guides: Calibration {#sec-user-guides-calibration}
+
+
+## User Guides : Repair {#sec-user-guides-repair}
+
+### Identifying the defective components
+
+This can be linked to scheduled tests, or be done when an issue is seen.
+The guide should answer these questions, it may be written as a table:
+
+-   How to monitor the performance of the equipment? (what additional equipment may be necessary for this monitoring)
+-   How to detect a defective component, and determine what is defective ?
+-   How to eliminate the fault (see below) ?
+-   How to verify that the fault was eliminated
+
+### Repairing the defective components
+
+For each element which may be defective:
+
+-   Step-by-step procedures describing the repairing sequence
+-   Refer to the technical documentation where you can find the manufacturing (and assembly) instructions to rebuild the defective components
+-   Indicate the required tools for repairing
+-   Verification of repair
+-   It may be interesting to add images and photos.
+
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+
+
+## User Guides: Replacing equipment components {#sec-user-guides-replacing-equipment-components}
+
+This is very similar to the repairing section @sec-user-guides-repair, even if this is planned modifications.
+
+-   Links to step-by-step procedures describing the replacing sequence.
+-   Required tools for replacing the components
+
+> Example
+>
+> Replacing Ink cartridge in a printer or a lamp bulb in a video projector.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+
+
+## Maintenance {#sec-maintenance}
+
+Maintenance instructions provide the necessary information to maintain the system effectively and perform the required operations to system works properly in the long run.
+This includes advice on the frequency of the maintenance and the risks of failure.
+
+It may also include information on the process of modifying a system or component after delivery, in order to correct faults, improve performance or other attributes, or adapt to a changing environment.
+
+### Maintenance instructions
+
+A maintenance instruction is a technical communication document intended to give recommendations and necessary information to maintain the system effectively.
+In this book, we treat the identification of defective components and their repair as separate tasks, while others have defined it as part of the maintenance.
+
+Note that the instructions are meant for the users and should therefore be focused on the schedule of maintenance.
+The maintenance information (what to do) may be directed toward experienced/professional people.
+In addition, this latter (technical) information may be best linked to the technical documentation of each part, in order to avoid giving outdated information (for example giving repair information for version 1, while the rest of the documentation is for version 2 of a hardware).
+
+The maintenance user guide may include:
+
+1.  Introduction of general maintenance
+    -   Cleaning
+    -   Lubricating
+    -   Regular inspections or services. These can be carried out on a time-based schedule or a usage-based schedule. See also @sec-user-guides-repair:
+        -   Maintenance according to predetermined intervals
+        -   Maintenance according to prescribed criteria
+        -   Maintenance by integrating analysis, measurement, and periodic test activities
+    -   Regular adjusting machinery 
+    -   Maintenance tools (Various tools necessary to perform the maintenance operation)
+    -   Schedule for Replacing equipment, see also @sec-user-guides-replacing-equipment-components
+
+> examples [FarmBot Genesis V1.5](https://genesis.farm.bot/v1.5/Extras/maintenance)
+
+### Template of maintenance
+
+
+Common procedures:
+  - cleaning
+  - lubricating
+  - machine adjustments
+  - calibrations
+  - (periodic) test activities
+  
+Information to give:
+  - predetermined interval
+  - prescribed criteria
+  - tools
+  - verification procedure
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+
+## **Disposal instructions** {#sec-disposal-instructions}
+
+Disposal instructions identify the process of removing a system or its component, ensuring the proper handling of any environmentally sensitive materials, and sending the remainder to surplus storage or sale.
+
+They describe each component with information about their end of life (depending on their material content).
+Each element will be classed corresponding to their "recyclability", and infromation is given to reduce the negative environemental impact of the disposal and recycling of the hardware componenent.
+
+### Classing elements
+
+> Recyclable: waste wich can be turn into another form of new and reusable materials without specific treatment.
+>
+> Non-recyclable: the components or products that design for single-use, which means they get discarded immediately after use.
+>
+> Conditionally recyclable: component which needs specific treatment before being recycled.
+
+-   Distinguishing the recyclable, Conditionally recyclable and Non-recyclable components or products.
+-   Determining what material can recycle many times
+-   Identify the product lifespan for disposing and/or recycling.
+-   Describe how to recycle the components or products and their type of materials?
+-   Describe how to dispose of components which cannot be recycled.
+
+Disposable products are most often made from Polystyrene and Cotton, Non-recyclable products from Textiles and Ceramics.
+
+### Types of disposal:
+
+-   Incineration: This type of waste disposal involves the dumping off method where you eliminate waste materials via combustion.
+-   Landfill: It involves collecting, transporting, dumping, and burying waste in a designated land.
+
+### disassembly
+
+Indicate how to disassemble the components a product for recycling/disposing?
+
+### environmental assessment
+
+it is the assessment of the environmental consequences of disposing or recycling a product before the decision to move forward with the proposed action.
+- The negative consequences of disposable products on the environment if sustainability isn't factored into disposal options.
+- How to select the disposal or recycling process to have a less environmental impact?
+
+### Template of disposal
+
+For each element or part, indicate:
+
+-   sub-part name
+-   parent part number and name, with links
+-   link to dissassembly instructions (see sec-product-build-assembly-instructions)
+-   material used + how many times can it be recycled
+-   recyclable (yes/no/conditional)
+-   disposition information, for each option:
+    -   how to
+    -   environmental assessment of disposal options:
+        -   described the negative consequences of disposal
+        -   Define and describe the main parameters and processes to decrease these negative environmental impacts
+-   end of life information
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+
+## User guides: Environmental management {#sec-user-guidesenvironmental-management}
+
+    -   Protection against weather conditions
+    -   Determining the acceptable temperature range
+    
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+

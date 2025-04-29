@@ -1,0 +1,214 @@
+# How to use of the template
+
+## When should you start ? {#sec-whenstartingdocumentation}
+
+This template allows you to start documenting your project at the ideation phase.
+While it might seem too early, it is useful when you want to present your ideas to collect feedback or even find collaborators.
+This allows to make clearer what are the important aspects of your idea, and can start interesting discussions.
+
+### If you have a prototype {#sec-if-you-have-a-prototype}
+
+We expect most readers will come to this documentation template when they actually already have a prototype, and are mostly interested in the documentation of the technical parts of the project (mostly what will be in the 04_hardware folder).
+If you are in this situation, our advice is to go through each steps rapidely, making either short description of what you had in mind when doing the project or noting what you may have done only sub-consciously.
+Look at the checklist below and the provided template "Full_Project_prototype", and go rapidly through it to get to the prototyping phase early.
+When you are happy with the results, go back to the things you noted earlier and see what is still relevant.
+For example, the needs and actors analysis may help you find or define a target group for your hardware, and help you find your users, and the conceptualisation documentation may help discussion with contributors.
+
+# Step 1 Ideation
+
+### Ideation
+
+At this step, you want to share your idea, usually with a small number of people, and want to "test the water".
+
+### Checklist ideation
+
+This should all be included in the readme file:
+
+-   [ ] General information
+
+    -   [ ] name of the project
+    -   [ ] development stage: idea generation
+    -   [ ] *type of hardware, subject area*
+    -   [ ] **License(s)**
+    -   [ ] FOR WHO IS MADE THIS DOCUMENT
+    -   [ ] short problem description
+
+-   [ ] vision and motivations @sec-vision-and-motivation
+
+-   [ ] Contributions
+
+    -   [ ] List of team members / contributors @sec-list-of-team-members-contributors
+
+    -   [ ] skills required, who could contribute (at this point) @sec-who-could-contribute
+
+    -   [ ] contact point information / communication channel and tools used for communication (this can also be one email address) @sec-communication-channel-how-to-contribute
+
+-   [ ] Funding information
+
+    -   [ ] List of Sponsors and funding @sec-sponsors-and-funding
+    -   [ ] List of putative funding opportunities @sec-future-funding-opportunities
+
+# Step 2 Needs analysis {.unnumbered}
+
+### Needs and ecosystem analysis
+
+Using a open source hardware canva to analyse the project may be useful at this point (defining users, contributors, communication channels, resources required).
+
+A lot of the user analysis and the problem description part aims at the definition of the constrains and requirements for the hardware which is included in the product development part of the documentation.
+
+It may also be time to work on community engagement.
+
+### Checklist needs analysis
+
+-   [ ] Complete the readme file
+    -   [ ] *ethics statement (human/animal use or Informed Consent Statement)*
+    -   [ ] *competing interest*
+    -   [ ] future work, roadmap
+    -   [ ] development stage: needs analysis
+    -   [ ] *Project history summary*
+    -   [ ] longer problem description
+    -   [ ] Documentation structure
+-   [ ] Contributions
+    -   [ ] Contribution guidelines
+    -   [ ] work culture that you want to promote
+    -   [ ] Code of conduct
+-   [ ] User analysis (this can be a personas analysis)
+    -   [ ] Ecosystem analysis (`stakeholder`)
+    -   [ ] target groups (who will use the product)
+    -   [ ] External interfaces (how will they use the product)
+    -   [ ] skills needed to use
+-   [ ] Product development
+    -   [ ] requirements
+    -   [ ] constrains
+    -   [ ] capability
+-   [ ] History
+    -   [ ] *changes log*
+
+## Step 3: Concept development {.unnumbered}
+
+### Concept development
+
+After having an idea and defining the problems, now is time to look at putative solution.
+This step aims at researching the technology that will be best adapted to fulfill the requirement and constrains.
+
+If possible, one should try to define the **Modular architecture** of the hardware, which describes **architecture of functions and instructions of the product**.
+
+An important part of this step is the research of similar project.
+You may end up joining an existing community and extending (adding a new module) or adapting an (or combining several) existing open hardware solutions.
+
+Usually, this step ends with a redefinition of the needs and vision, and the three first steps often are iteratively determined until a concept is chosen for the first prototype.
+
+> Durability and repairability constrains should be included at this point of the design.
+> While this will be mostly documented in step 5 with repair and dissassembly instructions, these concepts should be incorporated early in the design.
+
+### FBS design methodology
+
+The concept phase is the main design phase of the hardware.
+While in practice, it is often made in parallel to the prototyping, larger project should invest some time at this step, and the use of the Function-Behaviour-Structure (FBS) design approach will facilitate future co-design:
+
+-   **Function (F)** stands for **“what the object is for”.**
+-   **Behaviour (B)** stands for **“what the object does”.**
+-   **Structure (S)** stands for **“what the object consists of”.**
+
+### Checklist concept development
+
+-   [ ] Complete the readme file
+    -   [ ] development stage: concept development
+    -   [ ] dependencies
+    -   [ ] *conclusions*
+    -   [ ] software used for development
+    -   [ ] harware summary overview
+-   [ ] History
+    -   [ ] release note
+    -   [ ] design_choices
+    -   [ ] update change log
+-   [ ] Product development
+    -   [ ] update hardwareoverview
+        -   [ ] application, use cases
+        -   [ ] *reuse potential*
+        -   [ ] architectural structure
+        -   [ ] *foreseen cost + time cost*
+    -   [ ] functional model
+    -   [ ] Behavioral model: *Modelling tool list* @sec-behavioral-model
+    -   [ ] Similar projects
+
+## Step 4: product development and prototyping {.unnumbered}
+
+### Prototyping
+
+Here the work on the design starts!
+Continuous documentation of choice made, successes and failuress are welcome, so this step has an iterative components: with every development can come specific documentation.
+
+In addition, the documentation may need to be performed for different parts (or modules) of the hardware.
+
+Importantly, the Product design, manufacturing and assembling instruction may be organised using different strategies.
+Some projects may write simple text files like the rest of the documentation; other projects may using Gitbuilding to write the assembly instruction, and deriving the bill of material from it; other projects may derive assembly instructions from their CAD files.
+
+This step is also divided in two: a preparatory phase defining the main components and an iterative phase which can change with the different version of the hardware.
+
+### Checklist 4a: preparations
+
+-   [ ] Complete the readme file
+    -   [ ] development stage: prototyping
+    -   [ ] Standard compliance
+    -   [ ] Product outputs (if relevant: data outputs)
+    -   [ ] Citing information
+-   [ ] Product development
+    -   [ ] Structural architecture
+        -   [ ] Mechanical architecture
+        -   [ ] Software/firmware architecture
+        -   [ ] Electrical design architecture
+
+### Checklist 4b: iteration of design
+
+-   [ ] Complete the readme file
+    -   [ ] Update Documentation structure
+-   [ ] Product design
+    -   [ ] Bill of material
+    -   [ ] material characteristics
+    -   [ ] electrical design
+    -   [ ] Software: Documentation of different parts
+-   [ ] Manufacturing instructions
+    -   [ ] Manufacturing skills and tools
+    -   [ ] Manufacturing sequences and instruction
+-   [ ] Assembly instructions
+    -   [ ] assembly skills and tools
+    -   [ ] Safety information
+    -   [ ] Assembly sequence and instruction
+-   [ ] User guide
+    -   [ ] Safety information
+    -   [ ] overview of the hardware
+    -   [ ] Operation instructions
+    -   [ ] Testing instructions and troubleshooting
+    -   [ ] basic maintenance + schedule
+    -   [ ] basic disposal
+-   [ ] History
+    -   [ ] update changelog/release note
+    -   [ ] update design choice history
+
+## Step 5: replicator step {.unnumbered}
+
+### Replication and maturation
+
+Here the prototype is mature enough that it should be replicated in different places.
+While most of the work was already present at step 4, here we go into more quality and details.
+
+### Checklist replication
+
+-   [ ] Complete the readme file
+    -   [ ] development stage: replication ready
+    -   [ ] scientific publication
+    -   [ ] education resources
+    -   [ ] Institutional Review Board Statement
+    -   [ ] discussions
+    -   [ ] validation
+    -   [ ] cost
+-   [ ] Assembly instructions
+    -   [ ] disassembly instructions
+-   [ ] Product design
+    -   [ ] component lifespan
+-   [ ] User guide
+    -   [ ] Environmental management
+    -   [ ] Identifying the defective components
+    -   [ ] Repairing the defective components
+    -   [ ] Replacing equipment components

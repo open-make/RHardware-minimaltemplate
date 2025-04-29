@@ -1,0 +1,189 @@
+# Readme as entry door
+
+## Vision and motivation {#sec-vision-and-motivation}
+
+The vision provides details about the project ultimate goal, its specificity and main objectives: what, for whom and why do we have this project.
+
+It serves to give meaning to the whole endeavor and is a representation of what we want to achieve.
+It may also present the problem the project aims at solving.
+
+It addresses the question: Why are you starting this project?
+
+Examples:
+
+> The OpenFlexure project makes high precision mechanical positioning available to anyone with a 3D printer - for use in microscopes, micromanipulators, and more.
+
+> This projects aims at providing fablabs and makerspaces with pedal powered toolkit, in order to open discussions around the principles of [low technologies](https://en.wikipedia.org/wiki/Low_technology): especially questioning needs (do we need the object), and designing while recognizing the ecological impact (choice of material, improving durability and repairability).
+>
+> One single pedal "motor" will be connected with several tools usually requiring a rotating motor (sewing machine, saw, ...).
+> The main goal is to question the use of electrical power and show the simplicity of the tool in fablabs.
+> The multi-functionality is important for the concept of sufficiency (less resources for a similar output).
+> An additional goal may be to enhance collaborative work (one need two people to use the tools).
+>
+> We think this may also help solves the problem of "building fancy but useless objects" we sometimes see in fablabs, when objects are build to show one's skill and the possibilities of the machines, but they do not answer any needs.
+
+> The project BCN3D Moveo is motivated by the high cost of the materials that undergraduate students must use for learning how to engineer mechatronics systems.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+## hardware summary overview
+
+This part is meant to give an overview of the hardware, more detailed description should be given in the 03_product_dvt/hardware_overview.md file.
+
+A schema, a picture or a video may be added here.
+
+At first, one can state what will be delivered in this project?
+
+> Example:\
+>
+> The project [BCN3D Moveo](https://github.com/BCN3D/BCN3D-Moveo/) is an open source robotic arm that everyone should be able to replicate - with or without modification - at home without the need for highly technical knowledge and expensive materials.
+> The robotic arm will support several of the existing training itineraries: mechanical design, automation, industrial programming, etc.\
+> \
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+## Standard compliance
+
+Please indicate if the hardware is compliant with standards.
+
+## Outputs: Products and data
+
+This section define the product or data produced by the hardware.
+
+example:
+
+## validation
+
+## education resources
+
+## Cite this project
+
+## scientific publication
+
+## Problem description
+
+## dependencies
+
+Here it is welcome to acknowledge the existing sources that have been used in this project with locations, and name their initiators.
+At best, present dependencies following what these projects provide as citation information.
+But at least:
+
+-   Initiators of the original project
+
+-   URL of the original project
+
+    You may also cite projects that project is citing as dependencies or source, with the URL of other related projects
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+## software used for development
+
+## Roadmap
+
+## Project history summary
+
+Indicate main information about the history of the project, as well as the last updates in the project and in the documentation (especially if the documentation is not up to date).
+
+## Future work
+
+## Community and Contributions {#sec-community-and-contributions}
+
+## List of team members / contributors {#sec-list-of-team-members-contributors}
+
+Describe here who are the maintainers and the main contributors of the project, indicate their name, role in the project and link to further information.
+
+-   Avoid giving personal information (like emails) in the documentation itself. One non-personal email (or not recognisable email) can be given as a communication tool.\*
+
+## Who could contribute {#sec-who-could-contribute}
+
+Mention the specific knowledge a contributor shall own to contribute to the project, as a maker or as a different role, indicate what kind of skills you are looking for.
+
+Describe here how people can contribute to your project.
+What is the preferred workflow and mention what is the agreement.
+
+> Example of a contribution process:
+>
+> Post an issue on the Git Forge and briefly outline the changes you plan to make or would like to be made.
+
+## Communication channel, how to contribute {#sec-communication-channel-how-to-contribute}
+
+In first step, this can be restricted to give an email where newcomers can ask for further information.
+If you are using a Git Forge, the issue system of the forge may be linked here.
+
+In developed project, a forum page or the use of a community communication tool like mattermost or matrix (to give two open source examples) is often better, as the community can work decentralised.
+
+## License and rights
+
+*Under what license is this open-source hardware documentation provided ? Specify when different part of the documentation have different license*
+
+-   [Comparison of free and open-source software licences](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licences)
+
+-   [license of open hardware projects](https://opensource.com/law/15/2/intro-open-hardware-licensing#:~:text=Open%20source%20hardware%20is%20hardware,on%20their%20hardware%20at%20all.)
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+## Funding information
+
+## Sponsors and funding {#sec-sponsors-and-funding}
+
+Who is sponsoring your project?
+
+-   URL:
+
+-   Name:
+
+-   E-mail address:
+
+-   grant number:
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+## Future funding opportunities {#sec-future-funding-opportunities}
+
+It is often a good idea to list putative funding opportunities when the project has no long term financing.
+An indication of the strategy followed by your community is also a sign of how open the project is and will be in the future.
+
+## Administrative information
+
+## ethics statement
+
+## competing interest
+
+## Institutional Review Board Statement
+
+## Documentation structure
+
+*How is your documentation organized?*
+
+These guidelines will provide you with a standard structure that is mainly following the product life cycle and the technological decomposition.
+It is implemented in the documentation template available in this project.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+## conclusions
+
+## discussions

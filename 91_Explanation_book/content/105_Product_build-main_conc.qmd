@@ -1,0 +1,368 @@
+
+## Hardware production {#sec-production}
+
+Production instructions mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture and assembly of the product.
+This includes also skills and tools needed for manufacture and assembly.
+
+Production usually starts with the sourcing of material, and a bill of material (BOM) is required.
+It describes all the components and their references.
+If the component is to be purchased, one should find all the information required to buy the part.
+If the part is to be manufactured, one should find all the descriptions of the manufacturing instructions, as well as all the components needed for this manufacture (for instance, The BOM should report the amount of PLA needed when parts are 3D-printed).
+
+### Production instructions
+
+Production instructions should include: - A bill of material (BOM): it gives an overview of all the material that needs to be sourced and/or manufactured, and describes all the components and their references: @sec-product-build-bill-of-material - Manufacturing information: they can guide the makers to follow a process for replicating a product, and mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture of the hardware parts.
+- Manufacturing skills needed: @sec-product-build-manufacturing-skills
+
+```         
+-   Manufacturing tools needed: @sec-product-build-manufacturing-tools
+
+-   Manufacturing sequences: @sec-product-build-manufacturing-instructions
+```
+
+-   Assembly instructions: they can guide the makers to follow the process of assembly or disassembly of components of a product, and illustrate visually and with words and text how to assemble or disassemble the mechanical and electrical components of the product.
+    -   Assembly tools and skills needed: @sec-product-build-assembly-skills-and-tools
+    -   Assembly sequences: @sec-product-build-assembly-instructions
+-   If relevant, the electric and electronic plan should be provided (@sec-product-buildelectrical-design). Note that firmware and software installation (described at @sec-product-build-firmwaresoftware ) may be included in the assembly sequence.
+
+### Helping workflow and software
+
+It is sometimes easier to create a guide for manufacturing and assembly.
+For instance, using the Gitbuilding software, one can write the manufacture and assembly instructions, and when using specific tags for tools and material, the software creates BOM, part lists and tool lists for each step and for the whole project.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+
+## Product Build: Bill of material {#sec-product-build-bill-of-material}
+
+A bill of materials (BOM) is a comprehensive list of parts, items, and other materials required to create a product, as well as instructions required for gathering and using the required materials.
+If the component is to be purchased, one should find all the information required to buy the part.
+If the part is to be manufactured, one should find all the descriptions of the manufacturing instructions as described below.
+
+A bill of material usually includes:
+
+1.  Part number
+2.  Item name
+3.  Manufacturer part number
+4.  Digi-Key part number
+5.  Description
+6.  Manufactured part (link to manufacturing instruction)
+7.  Purchased part (link to seller website)
+8.  Quantity
+9.  Price
+10. Manufacturing standard lead time
+11. Packaging instruction
+12. BOM notes
+
+## Modularisation
+
+When there are multiple parts, it is best practice to have a BOM for each part, and one BOM for the whole hardware.
+For complex project, it is therefore best to create BOM automatically.
+Some software are meant to created BOM from the CAD files (CAD-coupled documentation, <https://doi.org/10.5334/joh.56>) or from the assembly instruction (using [Gitbuilding](https://gitbuilding.io)).
+
+> Example
+>
+> #### *Example 1: [JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover/tree/master/bill_of_materials)*
+>
+> ![JPL BOM](img/D-JPL-1.png)
+>
+> *Example 2: [SatNOGS Rotator v3](https://gitlab.com/librespacefoundation/satnogs/satnogs-rotator/blob/master/rotator-bom.ods)*
+>
+> #### *Example 3: [Krab v1.0](https://projects.fablabs.io/@avishek/krab-v10)*
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+
+
+## Product build -material characteristics
+
+
+## Product Build: Electrical design {#sec-product-buildelectrical-design}
+
+Datasheet of components for electronic parts:
+
+-   Description of features
+    -   Core
+    -   Memories
+    -   Advanced connectivity
+-   Device summary
+    -   Reference
+    -   Part number
+-   How to use the parts?
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+
+## Product build -firmware/Software {#sec-product-build-firmwaresoftware}
+
+Here comes the elements that were more briefly described in @sec-software-and-firmware-architecture.
+Since software/firmware development follows different practices that often needs a more detailed version control system, they are usually developed independently of the hardware.
+
+In all cases, it is important to keep track of which version of the soft/firmwares are used with which version of the hardware.
+
+> Example: the airtrack hardware: <https://codeberg.org/openmake/airtrack-hardware>, software: <https://github.com/open-make/code-airtrack>\
+> \
+> The Airtrack hardware was developed using pixycam.
+> The hardware and the software are developed in different repositories with different people involved.
+> In 2025, as the pixycam was not produced anymore, a new version of the hardware was created, using the pixycam2 component.
+> This had little effects on the hardware design, but, the firmware and software needed to be modified.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+
+
+## Product Build: Manufacturing skills {#sec-product-build-manufacturing-skills}
+
+What is the specific knowledge a maker shall own to manufacture the different parts of the hardware ?
+
+
+## Product build: Manufacturing tool {#sec-product-build-manufacturing-tools}
+
+Manufacturing tools means all the machinery, equipment, and processes used to manufacture products.
+Manufacturing technology guide to find the type of necessary technology to produce the part.
+In that case, it should describe the most suitable technology according to the context.
+
+### Type of machines
+
+Type of machines used
+
+1.  CNC machine tools for machining metal or other rigid materials
+    -   Milling
+
+    -   Lathe
+
+    -   Cutting
+
+    -   Drilling
+2.  Other common manufacturing tools
+    -   3D printing (FDM, SLS...)
+    -   Thermoforming
+    -   Burning machining technology (laser cutting, Plasma cutting, ...)
+    -   Bonding technologies (Solder, cold welding, arc welding, adhesive bonding ...)
+3.  Finishing: to achieve the right properties such as surface quality, geometrical accuracy, and mechanical properties, finishing is essential.
+    -   Sanding after 3D printing
+    -   Gap filling
+    -   Blasting
+    -   Polishing
+    -   Priming and painting
+
+> Examples
+>
+> [JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover/tree/master/mechanical/body_assembly#3-machiningfabrication)
+>
+> [SatNOGS Rotator v3](https://wiki.satnogs.org/SatNOGS_Rotator_v3#Build_Sequence)
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+
+## Product build: Manufacturing sequence {#sec-product-build-manufacturing-instructions}
+ 
+
+The Manufacturing sequences refer to step-by-step machining and manufacturing processes in a target-oriented arrangement to enable manufacturing.
+
+        -   The machining sequence should define for the manufacturing of each part.
+        -   Process parameters are all those parameters that are inherent to any machining operation and should have a suitable finite value to smooth and efficient removal of materials.
+        -   Manufacturing standard file formats support some of the manufacturing processes and the surface geometry of a design without the possibility of modification.
+
+
+      
+### What does include the documentation of manufacturing sequences and instructions?
+ 
+  1. Name of the related machine of each step
+  2. Describing step by step sequence of the machining process
+    - Machine
+    - Type of operation
+    - Tools description 
+    - Process parameters of each machining operation
+       - Process parameters of 3D printing
+       - Process parameters of Laser cutting
+       - Process parameters of CNC machines such as Lathe, Milling, etc.
+       - Process parameters of arc welding
+    - Raw material (including size if relevant)
+    - Manufacturing files (STL, SVG or G-code, ...)
+       - CAD files in an interchange format such as STL that is suitable for 3D printing 
+       - Nominal geometry and its allowable variation by using symbolic language on 2D drawings like SVG, JPEG, and PDF format that is suitable for laser cutting
+       - Manufacturing export formats such as G-code, STEP-NC is suitable for CNC machining
+       - Circuit board design formats such as Gerber RS-274X, excellon that is suitable for vector photoplotters 2D mechanical NC machines
+
+
+> Examples
+>
+>![image of manufacturing sequence](img/Manufacturing-sequences.jpg)
+>
+>[JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover/tree/master/mechanical/body_assembly#3-machiningfabrication)
+>
+> [DIY Dremel CNC design and parts](https://www.thingiverse.com/thing:3004773) and [its CAM file for machining](https://www.estlcam.de/)
+>
+> [SatNOGS Rotator v3](https://wiki.satnogs.org/SatNOGS_Rotator_v3#Specifications), [2D drawing file](https://wiki.satnogs.org/File:C1001.png)
+>
+
+
+Note: types of CAD format of [transmagic](https://transmagic.com/cad-formats/)
+
+### Example of parameters
+1. 3D printer parameters
+
+-   Extruder setting
+    -   Extrusion multiplier
+    -   Retraction distance
+    -   Retraction speed
+    -   Coasting
+-   Layer setting
+    -   First layer height
+    -   First layer speed
+-   Laver height
+-   Printing bed temperature
+-   Infill setting
+    -   Internal/Eternal fill pattern
+-   Temperature setting
+-   Cooling setting
+
+2. CNC machines parameters such as Lathe, Milling, etc.
+
+-   Cutting parameters
+    -   Cutting speed
+    -   Feed rate
+    -   Cutting depth
+    -   Cutting width
+    -   Cutting force
+    -   Spindle speed
+    -   Cutting temperature
+-   Cutting tool
+    -   Tool Geometry
+    -   Tool setting
+-   Coolant
+
+
+3. Burning machining parameters such as laser cutting
+
+-   Beam parameters
+    -   Wavelength
+    -   Power and intensity
+    -   Polarization
+-   Process Parameters
+    -   Focusing of laser beams (the focal length of the lens)
+    -   Focal position
+    -   Angle of incidence
+    -   Cutting speed
+    -   Gas pressure
+    -   Stand-off distance
+    -   Expected duration
+
+4. Bonding technologies parameters such as Arc welding
+
+-   Welding current
+-   Welding voltage
+-   Arc travel speed
+-   Torch angle
+    -   Longitudinal
+    -   Transverse
+-   Electrode force
+-   Electrode diameters
+-   Length of arc
+
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+
+## Product Build: Assembly sequence {#sec-product-build-assembly-instructions}
+
+The Assembly sequence usually start with a description and list of each part that will be assembled, and then provide a step-by-step guide.
+One can think of instruction for lego objects (In these special case, the part list is identical to a BOM and placed at the end).
+
+See @sec-production for information about software and dependence with guide for manufacturing.
+
+### Part list
+
+The Part list for mechanical parts is a complete list of all parts needed to build the complete product.
+It is different from the BOM which list material needed for the manufacture of the parts, while this document list the manufactured parts.
+
+It constitutes of : - Item numbers: are based on the assembly structure, that is, the order in which parts are displayed in assembly.
+- Part number or drawing number: which is a reference back to the detail drawing (refer to the BOM).
+- Description: is usually a part name or a complete description of parts.
+- Quantity is the number of that particular part used on this assembly.
+- Image (or STL render) of each part.
+
+### Sequence
+
+The set of steps necessary to properly assemble the parts should be well described at each step.
+
+-   The joining technology at each step should be clearly described: - Screwing - Bolting - Soldering - Gluing (or "gluing and screwing")
+
+> Example
+>
+> [Poppy Robot](https://docs.poppy-project.org/en/assembly-guides/ergo-jr/mechanical-construction.html)
+>
+> [JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover/tree/master/mechanical/body_assembly)
+>
+> [SatNOGS Rotator v3](https://wiki.satnogs.org/SatNOGS_Rotator_v3#Assembly) , [Assembly instructions](https://ohai.satnogs.org/project/satnogs-rotator-v3-mechanical-assembly/hardware/)
+>
+> [Open Source Powered Prosthetic Leg](https://www.hackster.io/open-source-bionics/open-source-powered-prosthetic-leg-56be8e#toc-electronics-assembly-4)
+
+### Notes
+
+It is good practice to design the parts such that the assembly is easier.
+One can for instance include the item number on the parts and make sure that it is difficult to assemble parts at the wrong step, for instance by designing asymetrical parts.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
+
+## Product Build: Assembly skills and tools {#sec-product-build-assembly-skills-and-tools}
+
+This document should provide information about the specific knowledge a maker shall own to assembly the hardware product, and what tools are necessary.
+For example, one can report how many people are needed to assemble the hardware.
+
+## Example of skills and machines:
+
+1.  Required skills for assembly
+    -   Operate drilling machine
+    -   Operate Band Saw/Dremel
+2.  List of the tools for assembly or disassembly
+    -   Mandatory
+        -   Allen Keyset
+        -   Imperial wrench set
+    -   Optional
+        -   Drill press
+
+The skills can be listed by name and a description.
+In many case, it might be interesting to link skills with tools, as being able to operate each tool is a needed skill.
+
+> Example
+>
+> To build the Airtrack, it is optional to use specific UV glue and its specific equipment.
+> One should nevertheless have some experience in using plastic glue.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+OpenNext work project resutls: @sec-open-next-work
+
