@@ -1,4 +1,4 @@
-## Structural model {#sec-structural-model}
+# Structural model {#sec-structural-model}
 
 This section will give an overview of the structural model, while details are given in the specific mechanical (also called architectural, @sec-mechanical-architecture), electrical (@sec-electrical-architecture) and software (@sec-software-and-firmware-architecture) architectures sections.
 Note that sometimes, these different models are presented together in a single graphics.

@@ -1,13 +1,11 @@
+## product dvt - Design models
 
-
-# product dvt - Design models
-
-## Providing the design
+### Providing the design
 
 Model design should be provided in a format that can be used to manufacture each piece (usually STL file for 3D and SVG file for 2D design).
 
 
-## Modelling a design in an editable file format 
+### Modelling a design in an editable file format 
 
  
 An editable file format is a standard way that information is encoded for storage and allows the makers to study, modify the geometry of a model and reuse it.
@@ -37,7 +35,7 @@ To reuse a design model, it should provide information consist of:
 *3. Types of CAD format of [transmagic](https://transmagic.com/cad-formats/)*
 </details>
 
-### Template of file format
+#### Template of file format
 
  #### Documentation a design in an editable file format
   1. 3D/2D file format
@@ -48,7 +46,7 @@ To reuse a design model, it should provide information consist of:
      * ...
 
  
-### **3. Characteristics of the materials**
+### Characteristics of the materials
 <details>
   <summary>Click to see the guideline!</summary>
  
@@ -82,7 +80,7 @@ To reuse a design model, it should provide information consist of:
 > Source: Kutz, M. ed., 2002. Handbook of materials selection. John Wiley & Sons.
   </details>
   
-### Template of material Characteristics
+#### Template of material Characteristics
  
   #### Documentation of material characteristics
   1. Name of characteristic

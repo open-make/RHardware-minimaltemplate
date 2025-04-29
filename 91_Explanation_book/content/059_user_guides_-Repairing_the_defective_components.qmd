@@ -1,6 +1,6 @@
-# User Guides : Repair {#sec-user-guides-repair}
+## User Guides : Repair {#sec-user-guides-repair}
 
-## Identifying the defective components
+### Identifying the defective components
 
 This can be linked to scheduled tests, or be done when an issue is seen.
 The guide should answer these questions, it may be written as a table:
@@ -10,7 +10,7 @@ The guide should answer these questions, it may be written as a table:
 -   How to eliminate the fault (see below) ?
 -   How to verify that the fault was eliminated
 
-## Repairing the defective components
+### Repairing the defective components
 
 For each element which may be defective:
 

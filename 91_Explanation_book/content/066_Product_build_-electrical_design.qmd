@@ -1,4 +1,4 @@
-# Product Build: Electrical design {#sec-product-buildelectrical-design}
+## Product Build: Electrical design {#sec-product-buildelectrical-design}
 
 Datasheet of components for electronic parts:
 

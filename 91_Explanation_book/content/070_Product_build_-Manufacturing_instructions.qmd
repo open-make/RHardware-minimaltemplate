@@ -1,4 +1,4 @@
-# Product build: Manufacturing sequence {#sec-product-build-manufacturing-instructions}
+## Product build: Manufacturing sequence {#sec-product-build-manufacturing-instructions}
  
 
 The Manufacturing sequences refer to step-by-step machining and manufacturing processes in a target-oriented arrangement to enable manufacturing.
@@ -9,7 +9,7 @@ The Manufacturing sequences refer to step-by-step machining and manufacturing pr
 
 
       
-## What does include the documentation of manufacturing sequences and instructions?
+### What does include the documentation of manufacturing sequences and instructions?
  
   1. Name of the related machine of each step
   2. Describing step by step sequence of the machining process
@@ -43,7 +43,7 @@ The Manufacturing sequences refer to step-by-step machining and manufacturing pr
 
 Note: types of CAD format of [transmagic](https://transmagic.com/cad-formats/)
 
-## Example of parameters
+### Example of parameters
 1. 3D printer parameters
 
 -   Extruder setting

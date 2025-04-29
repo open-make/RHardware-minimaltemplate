@@ -1,5 +1,7 @@
 # Hardware production {#sec-production}
 
+## Generalities
+
 Production instructions mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture and assembly of the product.
 This includes also skills and tools needed for manufacture and assembly.
 
@@ -8,21 +10,23 @@ It describes all the components and their references.
 If the component is to be purchased, one should find all the information required to buy the part.
 If the part is to be manufactured, one should find all the descriptions of the manufacturing instructions, as well as all the components needed for this manufacture (for instance, The BOM should report the amount of PLA needed when parts are 3D-printed).
 
-## Production instructions should include:
+### Production instructions
 
--   A bill of material (BOM): it gives an overview of all the material that needs to be sourced and/or manufactured, and describes all the components and their references: @sec-product-build-bill-of-material
--   Manufacturing information: they can guide the makers to follow a process for replicating a product, and mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture of the hardware parts.
-    -   Manufacturing skills needed: @sec-product-build-manufacturing-skills
+Production instructions should include: - A bill of material (BOM): it gives an overview of all the material that needs to be sourced and/or manufactured, and describes all the components and their references: @sec-product-build-bill-of-material - Manufacturing information: they can guide the makers to follow a process for replicating a product, and mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture of the hardware parts.
+- Manufacturing skills needed: @sec-product-build-manufacturing-skills
 
-    -   Manufacturing tools needed: @sec-product-build-manufacturing-tools
+```         
+-   Manufacturing tools needed: @sec-product-build-manufacturing-tools
 
-    -   Manufacturing sequences: @sec-product-build-manufacturing-instructions
+-   Manufacturing sequences: @sec-product-build-manufacturing-instructions
+```
+
 -   Assembly instructions: they can guide the makers to follow the process of assembly or disassembly of components of a product, and illustrate visually and with words and text how to assemble or disassemble the mechanical and electrical components of the product.
     -   Assembly tools and skills needed: @sec-product-build-assembly-skills-and-tools
     -   Assembly sequences: @sec-product-build-assembly-instructions
 -   If relevant, the electric and electronic plan should be provided (@sec-product-buildelectrical-design). Note that firmware and software installation (described at @sec-product-build-firmwaresoftware ) may be included in the assembly sequence.
 
-## Helping workflow and software
+### Helping workflow and software
 
 It is sometimes easier to create a guide for manufacturing and assembly.
 For instance, using the Gitbuilding software, one can write the manufacture and assembly instructions, and when using specific tags for tools and material, the software creates BOM, part lists and tool lists for each step and for the whole project.

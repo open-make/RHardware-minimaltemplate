@@ -1,31 +1,29 @@
-## product dvt -requirements
+## Product development - requirements
 
 A requirement is a formal statement that specifies when condition *C* is true, property *P* of object *O* is actual and its value shall belong to domain *D*.
 
 It is usually defined at the end of the ecosystem and user analysis.
 
-- The minimum set of independent requirements can completely characterize the needs of the product in the functional domain.
+-   The minimum set of independent requirements can completely characterize the needs of the product in the functional domain.
 
-- Functional requirements describe qualitatively the system functions or tasks to be performed in operation.
+-   Functional requirements describe qualitatively the system functions or tasks to be performed in operation.
 
-- Requirement can state as follows: The \[stakeholder\] need \[Property\] \[object\] \[Action verb\] at \[Condition\]
+-   Requirement can state as follows: The \[stakeholder\] need \[Property\] \[object\] \[Action verb\] at \[Condition\]
 
 > Example of the functional requirement that ADD-ONS of XYZ cargo provides for the food producers, as a stakeholder, to preserve the quality of food.
-> 
->  In this example, we assumed a refrigerator on the ADD-ONS could help the food producers to cool down and preserve the temperature of food. 
->  
->  So, we defined some  functional requirements (FR) based on this assumption that consist:
-> 
->    - FR1: To maintain the quality of food, the food producer needs to main the material at cold temperature (between 3 °C and 10 °C) for short-term preservation (3h) or long-term preservation (24h).
->    - FR2: ADD-ONS shall fix the internal ADD-ONS >temperature for 7 °C.
->    - FR3: To create a cold ambient in the cooling down system, the ADD-ONS shall compress the low temperature and pressured gas to start the cooling cycle.
->    - FR4: the cooling down system shall control the pressure of exit hot gas 
-    - FR5: the hot and pressured exit gas needs to meet the cooler external ambient temperature to become a liquid.
-   
+>
+> In this example, we assumed a refrigerator on the ADD-ONS could help the food producers to cool down and preserve the temperature of food.
+>
+> So, we defined some functional requirements (FR) based on this assumption that consist:
+>
+> -   FR1: To maintain the quality of food, the food producer needs to main the material at cold temperature (between 3 °C and 10 °C) for short-term preservation (3h) or long-term preservation (24h).
+> -   FR2: ADD-ONS shall fix the internal ADD-ONS \>temperature for 7 °C.
+> -   FR3: To create a cold ambient in the cooling down system, the ADD-ONS shall compress the low temperature and pressured gas to start the cooling cycle.
+> -   FR4: the cooling down system shall control the pressure of exit hot gas 
+> -   FR5: the hot and pressured exit gas needs to meet the cooler external ambient temperature to become a liquid.
 
 ------------------------------------------------------------------------
 
 **Sources**
 
 OpenNext work project resutls: @sec-open-next-work
-

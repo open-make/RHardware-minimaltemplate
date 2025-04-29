@@ -1,4 +1,4 @@
-# Functional model
+## Functional model
 
 A Functional model explains what the product is made for.
 It is:
@@ -8,19 +8,19 @@ It is:
 -   At the highest level of a functional breakdown (black box view), service functions are the effects (intended by its ecosystem actors) of the interaction of the product with its environment. (See actors analysis, @sec-diverse-actors-and-ecosystem).
 -   At the intermediate and lowest levels of a functional breakdown (white box view), technical functions are input-output relationships transforming matter, energy or information flows. They are expressing in a non-solution neutral way and observable from inside the product. A set of technical functions is necessary for the realization of a service function (in contrast to solution neutral expression of the capabilities, @sec-productdvt-capability).
 
-## Why should you define functional model?
+### Why should you define functional model?
 
 -   A functional model helps to break down a complicated problem into simple sub-problems.
 -   A functional model helps to anticipate failures occurring when an intended effect of the product is no longer produced on its environment.
 -   A function is the main input to derive the functional requirements required to define the conditions of use of the product as well as to provide objective evidences through the validation and verification activities.
 
-## How to document a functional model?
+### How to document a functional model?
 
 -   The documentation of technical functions, which requires adopting an internal (white box) viewpoint on the product, consists in breaking down the service function into sub-functions. The decomposition process is no more solution neutral as it requires to make a decision at every indenture level. The functional decomposition requires two modelling approaches: function tree and functional graph.
 
 See also @sec-structural-model for the technical description of creating trees and graphs.
 
-### Functional tree
+#### Functional tree
 
 The functional tree is a top-down decomposition of function into sub-functions that helps to simplify the problem to solve.
 
@@ -58,7 +58,7 @@ What minimum documentation should the functional tree provide?
 
 </details>
 
-### Functional graph
+#### Functional graph
 
 The functional graph is a multi-level logical articulation of technical functions.
 - Relationships between functions are in/out-going flows of matter, energy, or information.

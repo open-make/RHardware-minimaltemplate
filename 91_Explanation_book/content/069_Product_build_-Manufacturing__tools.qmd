@@ -1,10 +1,10 @@
-# Product build: Manufacturing tool {#sec-product-build-manufacturing-tools}
+## Product build: Manufacturing tool {#sec-product-build-manufacturing-tools}
 
 Manufacturing tools means all the machinery, equipment, and processes used to manufacture products.
 Manufacturing technology guide to find the type of necessary technology to produce the part.
 In that case, it should describe the most suitable technology according to the context.
 
-## Type of machines
+### Type of machines
 
 Type of machines used
 

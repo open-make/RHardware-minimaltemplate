@@ -1,3 +1,6 @@
 # Sources
 
 ## Open next work {#sec-open-next-work}
+
+The work was presented in a template at.
+<https://github.com/OPEN-NEXT/WP2.3-Guideline-and-template-for-documentation-of-OSH-design-reuse/tree/main>, based on the results provided as deliverable 2.6 at <https://github.com/OPEN-NEXT/WP2.3-Guideline-and-template-for-documentation-of-OSH-design-reuse/blob/main/Sources/Deliverable2_6%20_Final%20release%20of%20models%20and%20standards%20for%20design%20reuse_V4_20220930.pdf>

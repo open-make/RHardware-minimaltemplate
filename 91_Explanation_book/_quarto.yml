@@ -2,124 +2,51 @@ project:
   type: book
 number-depth: 1
 book:
-  title: Hardware documentation explanation
+  title: Hardware documentation Guide
   author: Julien Colomb
-  date: 12/6/2024
+  date: 2025-03-27
   search: true
   repo-url: https://github.com/open-make/RHardware-minimaltemplate/
   repo-subdir: 91_Explanation_book
-  repo-actions: [edit, issue, source]
-  downloads: [pdf, epub]
+  repo-actions:
+  - edit
+  - issue
+  - source
+  downloads:
+  - pdf
+  - epub
   chapters:
   - index.qmd
-  - content/960_prototypingasstep1.qmd
-  - part: "Steps"
+  - part: Steps
     chapters: 
-        - content/910_step-ideations.qmd
-        - content/920_step-needsanalysis.qmd
-        - content/930_step-concept.qmd
-        - content/940_step-prototyping.qmd
-        - content/950_step-replication.qmd
-  - part: "Readme as a first entry door"
-    chapters:      
-        - content/001_Vision_and_motivation.qmd
-        - content/002_harware_summary_overview.qmd
-        - content/003_Standard_compliance.qmd
-        - content/004_Outputs:_Products_and_data.qmd
-        - content/005_validation.qmd
-        - content/006_education_resources.qmd
-        - content/007_Cite_this_project.qmd
-        - content/008_scientific_publication.qmd
-        - content/009_Problem_description.qmd
-        - content/010_dependencies.qmd
-        - content/011_software_used_for_development.qmd
-        - content/012_Roadmap.qmd
-        - content/013_Project_history_summary.qmd
-        - content/014_Future_work.qmd
-        - content/015_Community_and_Contributions.qmd
-        - content/016_List_of_team_members___contributors.qmd
-        - content/017_Who_could_contribute.qmd
-        - content/018_Communication_channel,_how_to_contribute.qmd
-
-        - content/022_License_and_rights.qmd
-        - content/023_Funding_information.qmd
-        - content/024_Sponsors_and_funding.qmd
-        - content/025_Future_funding_opportunities.qmd
-        - content/026_Administrative_information.qmd
-        - content/027_ethics_statement.qmd
-        - content/028_competing_interest.qmd
-        - content/029_Institutional_Review_Board_Statement.qmd
-        - content/030_Documentation_structure.qmd
-        - content/031_conclusions.qmd
-        - content/032_discussions.qmd
-  - part: "Community"
+    - content/960_prototypingasstep1_conc.qmd
+  - part: Readme as a first entry door
+    chapters: 
+    - content/001_Vision_and_motivation_conc.qmd
+  - part: Community
+    chapters: 
+    - content/019_Community_-_work_culture_conc.qmd
+  - part: Product development and use analysis
+    chapters: 
+    - content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.qmd
+  - part: Structural models
+    chapters: 
+    - content/102_product_dvt_structuralmodel_conc.qmd
+  - part: Project history
+    chapters: 
+    - content/051_Project_history_-changelog.md_conc.qmd
+  - part: user guides
+    chapters: 
+    - content/104_user_guides_Overview_conc.qmd
+  - part: Product build
+    chapters: 
+    - content/105_Product_build-main_conc.qmd
+  - part: Appendix
     chapters:
-      - content/019_Community_-_work_culture.qmd
-      - content/020_Community_-guidelines.qmd
-      - content/021_Community_–Code_of_conduct.qmd  
-  - part: "Product development and use analysis"
-    chapters:
-      - content/033_product_dvt_-foreseen_cost_(money_and_time).qmd
-      - content/034_product_dvt_-requirements.qmd
-      - content/035_product_dvt_-constrains.qmd
-      - content/036_product_dvt_-capability.qmd
-      - content/037_product_dvt_-use_cases_and_application.qmd
-      - content/038_product_dvt_-reuse_possibilities.qmd
-      - content/101_user_analysis_-diverse_actors_and_ecosystem.qmd
-      - content/042_user_analysis_-target_groups_(who_will_use_the_product).qmd
-      - content/043_user_analysis_-External_interfaces_(how_will_they_use_the_product).qmd
-      - content/044_user_analysis_-skills_needed_to_use.qmd
-      - content/045_functional_model.qmd
-      - content/046_behavioral_model_-_Modelling_tool_list.qmd
-      - content/047_behavioral_model_-_behavioral_model.qmd
-      - content/048_similar_projects.qmd
-      - content/049_electronics_-Software_firmware_architecture.qmd
-      - content/050_electronics_-electrical_design_architecture.qmd
-  - part: "Structural models"
-    chapters:      
-      - content/102_product_dvt_structuralmodel.qmd
-      - content/039_product_dvt_-mechanical_architecture.qmd
-      - content/103-product_dvt_CAD.qmd
-      - content/040_product_dvt_-Software_firmware_architecture.qmd
-      - content/041_product_dvt_-electrical_design_architecture.qmd      
-  - part: "Project history"
-    chapters:
-      - content/051_Project_history_-changelog.md.qmd
-      - content/052_Project_history_-_release_notes.qmd
-      - content/053_Project_history_-design_choices.qmd
-  - part: "user guides"
-    chapters:
-      - content/104_user_guides_Overview.qmd
-      - content/054_user_guides_-Safety_information.qmd
-      - content/055_user_guides_-overview_of_the_hardware.qmd
-      - content/056_user_guides_-Operation_instructions.qmd
-      - content/057_user_guides_-Testing_instructions_and_troubleshooting.qmd
-      - content/058_user_guides_calibration.qmd
-      - content/059_user_guides_-Repairing_the_defective_components.qmd
-      - content/060_user_guides_-Replacing_equipment_components.qmd
-      - content/061_user_guides_-Summary_maintenance_+_schedule.qmd
-      - content/062_user_guides_-Summary_disposal.qmd
-      - content/063_user_guides_-Environmental_management.qmd
-  - part:  "Product build"
-    chapters:  
-      - content/105_Product_build-main.qmd
-      - content/064_Product_build_-Bill_of_material.qmd
-      
-      - content/065_Product_build_-material_characteristics.qmd
-      - content/066_Product_build_-electrical_design.qmd
-      - content/067_Product_build_-firmware_Software:_Documentation_of_different_parts.qmd
-      - content/068_Product_build_-Manufacturing__skills.qmd
-      - content/069_Product_build_-Manufacturing__tools.qmd
-      - content/070_Product_build_-Manufacturing_instructions.qmd
-
-      - content/072_Product_build_-Assembly_instructions.qmd
-      - content/073_Product_build_-Assembly_skills.qmd
-
-  - content/200-sources.qmd
-
+    - content/200-sources.qmd
 format:
   html:
     theme: cosmo
   pdf:
-    documentclass: scrreport  
+    documentclass: scrreport
 editor: visual

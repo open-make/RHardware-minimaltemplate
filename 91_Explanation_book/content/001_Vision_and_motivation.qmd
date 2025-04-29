@@ -4,6 +4,8 @@ editor:
     wrap: 72
 ---
 
+# Readme as entry door
+
 ## Vision and motivation {#sec-vision-and-motivation}
 
 The vision provides details about the project ultimate goal, its

@@ -1,4 +1,4 @@
-# Electrical architecture {#sec-electrical-architecture}
+## Electrical architecture {#sec-electrical-architecture}
 
 The architectural structure is a physical or logical layout of the components of a system design and their internal and external connections.
 
@@ -25,7 +25,7 @@ Provide both an image and the editable files, as well as instruction how to use 
 >
 > ![Image of Structural graph of Open-Source-Ventilator](img/elecstructure.png)
 
-## Details and editable format: PCB design
+### Details and editable format: PCB design
 
 To reuse a electrical design, it should provide information consist of:
 

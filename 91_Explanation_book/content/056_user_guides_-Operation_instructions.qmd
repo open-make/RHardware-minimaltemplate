@@ -1,4 +1,4 @@
-# Operation instructions {#sec-operation-instructions}
+## Operation instructions {#sec-operation-instructions}
 
 The operation instruction gives information on the use of the product, in particular in term of software.
 Note that it may include the calibration chapter (@sec-user-guides-calibration) when calibration is necessary for each use.
