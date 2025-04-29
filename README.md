@@ -2,13 +2,15 @@
 
 In this repository, we are building templates for elements of an open source hardware project.
 The aim is to facilitate the work of designers and makers, helping them to easily create a documentation that grows with the project.
+While initially meant to be an helping tool, the guide (developed inside the 91_Explanation_book folder) has become the main entry point to use the template: <https://open-make.github.io/RHardware-minimaltemplate/>.
+We briefly outline elements better explained in the guide here:
 
 # How to use this template
 
 We propose two ways to the creation of the documentation the full-template and the Incremental-template.
 If you are early in the hardware design, we advice to use the incremental-template, where the documentation grows with the project.
 If you are already a prototype, it might be easier and more satisfactory to use the full-template, filling the main readme and the 04_hardware folder at first, and (maybe) adding more information later on.
-The accompanying book explains elements of the template in the order they are found in the full-template: <https://open-make.github.io/RHardware-minimaltemplate/>
+The accompanying book explains elements of the template in the order they are found in the full-template:
 
 ## The Incremental-template
 
@@ -43,7 +45,7 @@ In the **replicator** phase, the prototype is moved to a market-ready product, a
 
 ### Related projects
 
-The content of the 04_hardware folder is loosely derived from <https://github.com/hoijui/osh-dir-std/tree/main> in discussion with one of the author.
+see [source description file](/91_Explanation_book/content/22-sources.qmd)
 
 ## Growing documentation with project size
 
@@ -55,7 +57,7 @@ Templates for each additional elements are also provided.
 
 # Roadmap and future work
 
-We plan on providing template files and good guidelines in November 2024.
+We plan on providing template files and good guidelines in Mai 2025.
 Then, we plan on testing them in specific projects (internal and external).
 In early 2025, we created the full-template workflow, specifically for the LAUDS factories project.
 We are now working on the book, including information from previous projects in that form.
@@ -83,3 +85,11 @@ OpenMake is funded by the Federal Ministry of Education and Research (BMBF) and 
 -   Robert Mies
 -   Moritz Maxeiner
 -   Michel Langhammer
+
+# Technicalities
+
+To create a new version of the book:
+
+-   modify the chapters. careful, do not modify the `_conc` files but modify the chapters files
+-   run the concatenatechapters.r code to create concatenated chapters (the `_conc` files) from the chapter files
+-   run `quarto preview` and `quarto publish` in the book folder in a terminal window
