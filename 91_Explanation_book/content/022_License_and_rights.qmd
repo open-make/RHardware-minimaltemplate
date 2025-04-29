@@ -15,6 +15,7 @@ Suggested license:
 > Example:
 >
 > This readme file, the 01_community, 02_project_history, and 05_user_guides folders are shared under a CC-BY 4.0 license, the 03_specification_concept and 04_hardware folders are shared undear a CERN-OHL-P license. The 11_software folder is shared under a MIT license.
+
 ------------------------------------------------------------------------
 
 **Sources**

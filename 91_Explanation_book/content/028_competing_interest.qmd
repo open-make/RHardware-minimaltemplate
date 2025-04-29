@@ -5,6 +5,7 @@ If there are no competing interests, please add the statement:
 “The authors declare that they have no competing interests.”
 
 -------------------------------------------------------------
+
 **Sources**
 
 @sec-journal-of-open-hardware

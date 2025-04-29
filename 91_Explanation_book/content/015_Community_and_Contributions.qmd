@@ -11,6 +11,7 @@ writing,...)
 One may use a spreadsheet or a specific tool like the allcontributor bot to record contributions.
 
 -------------------------------------------------------------
+
 **Sources**
 
 @sec-journal-of-open-hardware

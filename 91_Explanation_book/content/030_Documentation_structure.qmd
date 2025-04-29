@@ -10,4 +10,4 @@ It is implemented in the documentation template available in this project.
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work
