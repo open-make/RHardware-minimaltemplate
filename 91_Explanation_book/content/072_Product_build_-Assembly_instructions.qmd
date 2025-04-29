@@ -37,8 +37,11 @@ The set of steps necessary to properly assemble the parts should be well describ
 It is good practice to design the parts such that the assembly is easier.
 One can for instance include the item number on the parts and make sure that it is difficult to assemble parts at the wrong step, for instance by designing asymetrical parts.
 
+You may indicate any measures that have been taken in the design to make the hardware easy to build for other users (reduction of parts, features in the design to make the hardware assembly more reliable, ...)
+
 ------------------------------------------------------------------------
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work, @sec-journal-of-open-hardware
+
