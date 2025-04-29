@@ -27,4 +27,4 @@ In many case, it might be interesting to link skills with tools, as being able t
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work

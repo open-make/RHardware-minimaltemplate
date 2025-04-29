@@ -19,4 +19,4 @@ Suggested license:
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work, @sec-journal-of-open-hardware

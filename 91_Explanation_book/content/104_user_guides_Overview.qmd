@@ -56,4 +56,4 @@ Some popular software used to create webpage and pdf from markdown files:
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work

@@ -93,5 +93,5 @@ To reuse a design model, it should provide information consist of:
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work
 

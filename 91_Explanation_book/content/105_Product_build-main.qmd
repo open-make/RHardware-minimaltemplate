@@ -35,4 +35,4 @@ For instance, using the Gitbuilding software, one can write the manufacture and 
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work

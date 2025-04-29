@@ -38,4 +38,4 @@ Type of machines used
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work
