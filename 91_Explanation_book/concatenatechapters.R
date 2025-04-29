@@ -1,3 +1,5 @@
+#setwd("~/github_repo/03_openmake/RHardware-minimaltemplate/91_Explanation_book")
+
 bookyml =yaml::read_yaml("_quarto-ori.yml")
 
 ### write function concatenating text to a  text files 
@@ -27,7 +29,7 @@ textconcatenate = function (files, before = function(f, x) NULL, after = functio
     t = textwithout_metadata(f)
     c(call_fun(before, f, t), t, call_fun(after, f, t))
   }))
-  raw_string(x)
+  xfun::raw_string(x)
 }
 
 
@@ -42,7 +44,7 @@ for (i in c(1:length(bookyml$book$chapters))){
     newchapter = textconcatenate (chapter$chapters, before = "", after = "")
     namefile = paste0 (gsub(".qmd", "_",chapter$chapters[1]),"conc.qmd")
     fileConn=file(namefile)
-    write_utf8 (newchapter, fileConn)
+    xfun::write_utf8 (newchapter, fileConn)
     close(fileConn)
     
     bookyml$book$chapters[[i]]$chapters <- namefile
