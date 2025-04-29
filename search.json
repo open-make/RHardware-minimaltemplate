@@ -65,7 +65,7 @@
     "href": "content/960_prototypingasstep1_conc.html#step-1-ideation",
     "title": "1  Development stages",
     "section": "Step 1 Ideation",
-    "text": "Step 1 Ideation\n\nIdeation\nAt this step, you want to share your idea, usually with a small number of people, and want to “test the water”.\n\n\nChecklist ideation\nThis should all be included in the readme file:\n\nGeneral information\n\nname of the project\ndevelopment stage: idea generation\ntype of hardware, subject area\nLicense(s)\nFOR WHO IS MADE THIS DOCUMENT\nshort problem description\n\nvision and motivations Section 2.1\nContributions\n\nList of team members / contributors ?sec-list-of-team-members-contributors\nskills required, who could contribute (at this point) ?sec-who-could-contribute\ncontact point information / communication channel and tools used for communication (this can also be one email address) ?sec-communication-channel-how-to-contribute\n\nFunding information\n\nList of Sponsors and funding ?sec-sponsors-and-funding\nList of putative funding opportunities Section 2.17",
+    "text": "Step 1 Ideation\n\nIdeation\nAt this step, you want to share your idea, usually with a small number of people, and want to “test the water”.\n\n\nChecklist ideation\nThis should all be included in the readme file:\n\nGeneral information\n\nname of the project\ndevelopment stage: idea generation\ntype of hardware, subject area\nLicense(s)\nFOR WHO IS MADE THIS DOCUMENT\nshort problem description\n\nvision and motivations Section 2.1\nContributions\n\nList of team members / contributors Section 2.16\nskills required, who could contribute (at this point) Section 2.17\ncontact point information / communication channel and tools used for communication (this can also be one email address) Section 2.18\n\nFunding information\n\nList of Sponsors and funding Section 2.21\nList of putative funding opportunities Section 2.22",
     "crumbs": [
       "Steps",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Development stages</span>"
@@ -285,7 +285,51 @@
     "href": "content/001_Vision_and_motivation_conc.html#sec-community-and-contributions",
     "title": "2  Readme as entry door",
     "section": "Community and Contributions",
-    "text": "Community and Contributions\nThis section may be split in different categories of contributors. For example, one can separate authors, contributors and aknowledged people. There is presently no definition of these categories or standard way to report contributions.\n\nFor each contributor, you may indicate tasks performend (design, assembly, use cases contribution, documentation, paper writing,…)\nOne may use a spreadsheet or a specific tool like the allcontributor bot to record contributions.\n\n\n\nSources\n\n\nSection 9.3\n\n\n## List of team members / contributors {#sec-list-of-team-members-contributors}\n\n\nDescribe here who are the maintainers and the main contributors of the project, indicate their name, role in the project and link to further information.\n\n\n- Avoid giving personal information (like emails) in the documentation itself. One non-personal email (or not recognisable email) can be given as a communication tool.*\n\n\n## Who could contribute {#sec-who-could-contribute}\n\n\nMention the specific knowledge a contributor shall own to contribute to the project, as a maker or as a different role, indicate what kind of skills you are looking for.\n\n\nDescribe here how people can contribute to your project. What is the preferred workflow and mention what is the agreement.\n\n\n&gt; Example of a contribution process: &gt; &gt; Post an issue on the Git Forge and briefly outline the changes you plan to make or would like to be made.\n\n\n## Communication channel, how to contribute {#sec-communication-channel-how-to-contribute}\n\n\nIn first step, this can be restricted to give an email where newcomers can ask for further information. If you are using a Git Forge, the issue system of the forge may be linked here.\n\n\nIn developed project, a forum page or the use of a community communication tool like mattermost or matrix (to give two open source examples) is often better, as the community can work decentralised.\n\n\n## License and rights\n\n\nUnder what license is this open-source hardware documentation provided ? Specify when different parts of the documentation have different licenses\n\n\n- Comparison of free and open-source software licences\n\n\n- license of open hardware projects\n\n\nSuggested license:\n\n\n- Texts and guides: CC-BY 4.0. See: https://creativecommons.org/share-your-work/cclicenses/ - Hardware: CERN-OHL-S Strongly reciprocal (most restrictive); CERN-OHL-W Weakly reciprocal; CERN-OHL-P Permissive (less restrictive). See: https://cern-ohl.web.cern.ch - Software: Any of the Open Source Initiative approved license (https://opensource.org/licenses)\n\n\n&gt; Example: &gt; &gt; This readme file, the 01_community, 02_project_history, and 05_user_guides folders are shared under a CC-BY 4.0 license, the 03_specification_concept and 04_hardware folders are shared undear a CERN-OHL-P license. The 11_software folder is shared under a MIT license.\n\n\n\nSources\nSection 9.1, Section 9.3",
+    "text": "Community and Contributions\nThis section may be split in different categories of contributors. For example, one can separate authors, contributors and aknowledged people. There is presently no definition of these categories or standard way to report contributions.\n\nFor each contributor, you may indicate tasks performend (design, assembly, use cases contribution, documentation, paper writing,…)\nOne may use a spreadsheet or a specific tool like the allcontributor bot to record contributions.\n\nSources\nSection 9.3",
+    "crumbs": [
+      "Readme as a first entry door",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
+    ]
+  },
+  {
+    "objectID": "content/001_Vision_and_motivation_conc.html#sec-list-of-team-members-contributors",
+    "href": "content/001_Vision_and_motivation_conc.html#sec-list-of-team-members-contributors",
+    "title": "2  Readme as entry door",
+    "section": "List of team members / contributors",
+    "text": "List of team members / contributors\nDescribe here who are the maintainers and the main contributors of the project, indicate their name, role in the project and link to further information.\n\nAvoid giving personal information (like emails) in the documentation itself. One non-personal email (or not recognisable email) can be given as a communication tool.\n\n\nSources\nSection 9.1",
+    "crumbs": [
+      "Readme as a first entry door",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
+    ]
+  },
+  {
+    "objectID": "content/001_Vision_and_motivation_conc.html#sec-who-could-contribute",
+    "href": "content/001_Vision_and_motivation_conc.html#sec-who-could-contribute",
+    "title": "2  Readme as entry door",
+    "section": "Who could contribute",
+    "text": "Who could contribute\nMention the specific knowledge a contributor shall own to contribute to the project, as a maker or as a different role, indicate what kind of skills you are looking for.\nDescribe here how people can contribute to your project. What is the preferred workflow and mention what is the agreement.\n\nExample of a contribution process:\nPost an issue on the Git Forge and briefly outline the changes you plan to make or would like to be made.",
+    "crumbs": [
+      "Readme as a first entry door",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
+    ]
+  },
+  {
+    "objectID": "content/001_Vision_and_motivation_conc.html#sec-communication-channel-how-to-contribute",
+    "href": "content/001_Vision_and_motivation_conc.html#sec-communication-channel-how-to-contribute",
+    "title": "2  Readme as entry door",
+    "section": "Communication channel, how to contribute",
+    "text": "Communication channel, how to contribute\nIn first step, this can be restricted to give an email where newcomers can ask for further information. If you are using a Git Forge, the issue system of the forge may be linked here.\nIn developed project, a forum page or the use of a community communication tool like mattermost or matrix (to give two open source examples) is often better, as the community can work decentralised.",
+    "crumbs": [
+      "Readme as a first entry door",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
+    ]
+  },
+  {
+    "objectID": "content/001_Vision_and_motivation_conc.html#license-and-rights",
+    "href": "content/001_Vision_and_motivation_conc.html#license-and-rights",
+    "title": "2  Readme as entry door",
+    "section": "License and rights",
+    "text": "License and rights\nUnder what license is this open-source hardware documentation provided ? Specify when different parts of the documentation have different licenses\n\nComparison of free and open-source software licences\nlicense of open hardware projects\n\nSuggested license:\n\nTexts and guides: CC-BY 4.0. See: https://creativecommons.org/share-your-work/cclicenses/\nHardware: CERN-OHL-S Strongly reciprocal (most restrictive); CERN-OHL-W Weakly reciprocal; CERN-OHL-P Permissive (less restrictive). See: https://cern-ohl.web.cern.ch\nSoftware: Any of the Open Source Initiative approved license (https://opensource.org/licenses)\n\n\nExample:\nThis readme file, the 01_community, 02_project_history, and 05_user_guides folders are shared under a CC-BY 4.0 license, the 03_specification_concept and 04_hardware folders are shared undear a CERN-OHL-P license. The 11_software folder is shared under a MIT license.\n\n\nSources\nSection 9.1, Section 9.3",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -296,7 +340,18 @@
     "href": "content/001_Vision_and_motivation_conc.html#funding-information",
     "title": "2  Readme as entry door",
     "section": "Funding information",
-    "text": "Funding information\nIndicate the funder and grant number.\n\n\n\n\n\n\nSources\n\n\nSection 9.3\n\n\n## Sponsors and funding {#sec-sponsors-and-funding}\n\n\nWho is sponsoring your project?\n\n\n- URL:\n\n\n- Name:\n\n\n- E-mail address:\n\n\n- grant number:\n\n\n\nSources\nOpenNext work project resutls: Section 9.1",
+    "text": "Funding information\nSee #sec-sponsors-and-funding",
+    "crumbs": [
+      "Readme as a first entry door",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
+    ]
+  },
+  {
+    "objectID": "content/001_Vision_and_motivation_conc.html#sec-sponsors-and-funding",
+    "href": "content/001_Vision_and_motivation_conc.html#sec-sponsors-and-funding",
+    "title": "2  Readme as entry door",
+    "section": "Sponsors and funding",
+    "text": "Sponsors and funding\nWho is sponsoring your project? If funded by research grant, indicate the funder and grant number.\n\nURL:\nName:\nE-mail address:\ngrant number:\n\n\nSources\nSection 9.1, Section 9.3",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -340,7 +395,29 @@
     "href": "content/001_Vision_and_motivation_conc.html#competing-interest",
     "title": "2  Readme as entry door",
     "section": "Competing interest",
-    "text": "Competing interest\nIf any of the authors have any competing interests then these must be declared. The authors’ initials should be used to denote differing competing interests. For example: “BH has minority shares in [company name], which part funded the research grant for this project. All other authors have no competing interests.” Or “BH is selling kits and parts connected to the here presented hardware via platform XX. A fundraising via Crowdfunding platform YY is planned to start commercialisation.” If there are no competing interests, please add the statement: “The authors declare that they have no competing interests.”\n\n\n\n\n\n\nSources\n\n\nSection 9.3\n\n\n## Institutional Review Board Statement\n\n\n## Documentation structure\n\n\nHow is your documentation organized?\n\n\nThese guidelines will provide you with a standard structure that is mainly following the product life cycle and the technological decomposition. It is implemented in the documentation template available in this project.\n\n\n\nSources\nOpenNext work project resutls: Section 9.1",
+    "text": "Competing interest\nIf any of the authors have any competing interests then these must be declared. The authors’ initials should be used to denote differing competing interests. For example: “BH has minority shares in [company name], which part funded the research grant for this project. All other authors have no competing interests.” Or “BH is selling kits and parts connected to the here presented hardware via platform XX. A fundraising via Crowdfunding platform YY is planned to start commercialisation.” If there are no competing interests, please add the statement: “The authors declare that they have no competing interests.”\n\nSources\nSection 9.3",
+    "crumbs": [
+      "Readme as a first entry door",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
+    ]
+  },
+  {
+    "objectID": "content/001_Vision_and_motivation_conc.html#institutional-review-board-statement",
+    "href": "content/001_Vision_and_motivation_conc.html#institutional-review-board-statement",
+    "title": "2  Readme as entry door",
+    "section": "Institutional Review Board Statement",
+    "text": "Institutional Review Board Statement",
+    "crumbs": [
+      "Readme as a first entry door",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
+    ]
+  },
+  {
+    "objectID": "content/001_Vision_and_motivation_conc.html#documentation-structure",
+    "href": "content/001_Vision_and_motivation_conc.html#documentation-structure",
+    "title": "2  Readme as entry door",
+    "section": "Documentation structure",
+    "text": "Documentation structure\nHow is your documentation organized?\nThese guidelines will provide you with a standard structure that is mainly following the product life cycle and the technological decomposition. It is implemented in the documentation template available in this project.\n\nSources\nSection 9.1",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
