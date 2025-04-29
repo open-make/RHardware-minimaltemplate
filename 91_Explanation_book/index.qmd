@@ -1,5 +1,7 @@
 # A guide to open source hardware projects documentation {.unnumbered}
 
+## Overview of the guide
+
 ```{r, echo=FALSE}
 repositoryhome ="https://github.com/open-make/RHardware-minimaltemplate"
 bookurl = "https://open-make.github.io/RHardware-minimaltemplate/"
@@ -15,22 +17,6 @@ Accordingly, we created a \[template for hardware project\](`r repositoryhome`),
 The next book chapters indeed provide information for each elements, organised following the different files and folders of the template (readme,community, project history, conceptualisation and specification, hardware design, and user guides).
 
 Because we expect most project to see this template when already having a prototype, we added a special chapter on starting at this stage (@sec-if-you-have-a-prototype).
-
-## FAQ
-
-1. How iterative is the process ?
-
-    - At each step, the whole content may be modified. Especially, the analysis of "Similar projects" coming in step 3, and the prototyping (step 4) are often giving new ideas and refining use cases. The vision may change when new team members enter the project, independently of the development stage.
-  
-  
-1. What is the minimal documentation? My project is tiny.
-
-    - The size of the project is not really affecting the number of elements that are important, it will affect the size of each element, though. 
-    - While you may tend to skip the community aspects of the documentation, we think these are important aspects of the development process, unless you really want to do it alone.
-
-1. Why is the technical documentation description so small?
-
-    - Technical documentation will be very different depending on the hardware created, we only gave general hints in this guide. As a rule of thumb, developing a hardware collaboratively with at least one other human will help you define how to organise the technical documentation.
 
 
 
@@ -53,3 +39,23 @@ URL: [`r bookurl`](`r bookurl`)
 qr=qrcode::qr_code(bookurl)
 plot(qr)
 ```
+
+## FAQ
+
+1. How iterative is the process ?
+
+    - At each step, the whole content may be modified. Especially, the analysis of "Similar projects" coming in step 3, and the prototyping (step 4) are often giving new ideas and refining use cases. The vision may change when new team members enter the project, independently of the development stage.
+  
+  
+1. What is the minimal documentation? My project is tiny.
+
+    - The size of the project is not really affecting the number of elements that are important, it will affect the size of each element, though. 
+    - While you may tend to skip the community aspects of the documentation, we think these are important aspects of the development process, unless you really want to do it alone.
+
+1. Why is the technical documentation description so small?
+
+    - Technical documentation will be very different depending on the hardware created, we only gave general hints in this guide. As a rule of thumb, developing a hardware collaboratively with at least one other human will help you define how to organise the technical documentation.
+
+1. When should I start documenting? {#sec-whenstartingdocumentation}
+
+    - As soon as possible. This template allows you to start documenting your project at the ideation phase. While it might seem too early, it is useful when you want to present your ideas to collect feedback or even find collaborators. This allows to make clearer what are the important aspects of your idea, and can start interesting discussions.
