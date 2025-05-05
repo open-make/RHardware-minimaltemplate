@@ -3,6 +3,8 @@
 Here comes the elements that were more briefly described in @sec-software-and-firmware-architecture.
 Since software/firmware development follows different practices that often needs a more detailed version control system, they are usually developed independently of the hardware.
 
+Any code or firmware required to operate the hardware should be shared. This will allow others to use it with their hardware or modify it along with their modifications to your hardware. Document the process required to build your software, including links to any dependencies (for example, third-party libraries or tools). In addition, it is helpful to provide an overview of the state of the software (for example, “stable” or “beta” or “barely-working hack”).
+
 In all cases, it is important to keep track of which version of the soft/firmwares are used with which version of the hardware.
 
 Also indicate details on the operating software and programming language, and include minimum version compatibility, and dditional system requirements, like memory, disk space, processor, input or output devices.

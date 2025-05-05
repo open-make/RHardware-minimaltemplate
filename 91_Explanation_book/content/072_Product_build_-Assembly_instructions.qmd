@@ -1,5 +1,7 @@
 ## Product Build: Assembly sequence {#sec-product-build-assembly-instructions}
 
+To help others make and modify your hardware design, you should provide instructions for going from your design files to the working physical hardware. It is good to publish annotated photographs (or video) from multiple viewpoints and at various stages of assembly. If you do not have photos, posting annotated 3D renderings of your design is a good alternative. Either way, it is good to provide captions or text that explain what is shown in each image and why it is useful.
+
 The Assembly sequence usually start with a description and list of each part that will be assembled, and then provide a step-by-step guide.
 One can think of instruction for lego objects (In these special case, the part list is identical to a BOM and placed at the end).
 
@@ -43,5 +45,5 @@ You may indicate any measures that have been taken in the design to make the har
 
 **Sources**
 
-@sec-open-next-work, @sec-journal-of-open-hardware
+@sec-open-next-work, @sec-journal-of-open-hardware,  @sec-source-turing
 

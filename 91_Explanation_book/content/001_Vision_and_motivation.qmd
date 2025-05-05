@@ -6,6 +6,8 @@ editor:
 
 # Readme as entry door
 
+Think about your audience when writing OSH documentation. Indeed, your project might be reused by people with different skills, roles, objectives, and socio-economic and cultural environments. Because of this it can be useful to create a list of skills that are required to build  (manufacture @sec-product-build-manufacturing-skills, and assemble @sec-product-build-assembly-skills-and-tools) or use the hardware (@sec-user-skills). Someone trying to build it from scratch, for example, will require specific set of prior knowledge, skills, and tools. A different set is needed to perform maintenance tasks. An end user operating the assembled project might require an entirely distinct skillset (and documentation).
+
 ## Vision and motivation {#sec-vision-and-motivation}
 
 The vision provides details about the project ultimate goal, its
@@ -52,4 +54,4 @@ Examples:
 
 **Sources**
 
-@sec-open-next-work
+@sec-open-next-work, @sec-source-turing

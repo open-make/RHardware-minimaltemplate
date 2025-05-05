@@ -4,7 +4,9 @@ This part is meant to give an overview of the hardware, more detailed descriptio
 
 
 
-Give an overview of the hardware, what it does, how it was produced, and, if relevant, the research for which it has been used. Describe how the hardware was implemented/created, with relevant details of the architecture and design, including general materials. You may also describe any variants and associated implementation differences.
+Give an overview of the hardware, what it does, how it was produced, and, if relevant, the research for which it has been used. Write as much as possible for a general audience. That is, explain what the project is and what it is for, before you get into the technical details. Describe how the hardware was implemented/created, with relevant details of the architecture and design, including general materials. You may also describe any variants and associated implementation differences.
+
+
 
 A schema, a picture or a video may be added here.
 
@@ -18,4 +20,4 @@ A schema, a picture or a video may be added here.
 
 **Sources**
 
-@sec-open-next-work, @sec-journal-of-open-hardware
+@sec-open-next-work, @sec-journal-of-open-hardware, @sec-source-turing

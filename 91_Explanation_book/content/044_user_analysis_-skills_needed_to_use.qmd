@@ -1,4 +1,4 @@
-## user analysis -skills needed to use
+## User analysis - Skills needed to use {#sec-user-skills}
 
 What is the specific knowledge a maker shall own to reuse - without modification - your product ??
 
