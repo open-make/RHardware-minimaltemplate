@@ -20,5 +20,5 @@ External interfaces are interactions between the product and the actors (includi
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work
 

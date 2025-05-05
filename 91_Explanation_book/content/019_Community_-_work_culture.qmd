@@ -1,1 +1,19 @@
+# Community building
+
+While scoping your project, it is well advised to think about the different people who may engage with your OSH (see @sec-diverse-actors-and-ecosystem). Different OSH projects have included different partners at varying stages of their development. On top of user and contributor roles that OSH have in common with open source software, local or global hardware manufacturers may become important partners of your project. You may also think early about the people who will eventually have to maintain and repair the hardware. To make it easier for them, it also helps to make your hardware designs modular (splitting your hardware in modules which may have alternative designs). Another specificity of hardware may be the importance of the creation of replication tutorials, workshops, seminars, or training materials (@sec-education-resources), which can impact the adoption of hardware designs. This is particularly relevant if the OSH is meant to be produced in Do-It-Yourself environments or as a teaching opportunity.
+
+It is important to decide whether, when and where you want to engage with, or build a community. Most OSH communities are local in comparison to open source software project. You may not have the time or skills to build a community, and your project may not need a community to flourish. Always be honest with your collaborators and yourself about what support they can expect.
+
+Documentation which may help build a community can range from a simple note on the work culture in the readme, toward a full, implemented code of conduct and community guidelines on ways to interact in the community and with the project documentation.
+
+
+
 ## Community - work culture
+
+Communicate the work culture that you want to promote and policies that ensures the safety and security of both your data and people.
+
+-------------------------------------------------------------
+
+**Sources**
+
+@sec-source-turing
