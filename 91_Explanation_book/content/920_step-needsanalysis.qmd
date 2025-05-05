@@ -11,26 +11,26 @@ It may also be time to work on community engagement.
 ### Checklist specifications
 
 -   [ ] Complete the readme file
-    -   [ ] *ethics statement (human/animal use or Informed Consent Statement)*
-    -   [ ] *competing interest*
-    -   [ ] future work, roadmap
     -   [ ] development stage: needs analysis
-    -   [ ] *Project history summary*
-    -   [ ] longer problem description
-    -   [ ] Documentation structure
+    -   [ ] *ethics statement (human/animal use or Informed Consent Statement)* @sec-ethics-statement
+    -   [ ] *competing interest* @sec-competing-interest
+    -   [ ] future work (@sec-future-work), roadmap (@sec-roadmap)
+    -   [ ] *Project history summary* @sec-project-history-summary
+    -   [ ] longer problem description @sec-problem-description
+    -   [ ] Documentation structure @sec-documentation-structure
 -   [ ] Contributions
-    -   [ ] Contribution guidelines
-    -   [ ] work culture that you want to promote
-    -   [ ] Code of conduct
-    -   [ ] Governance
+    -   [ ] Contribution guidelines @sec-community-guidelines
+    -   [ ] work culture that you want to promote @sec-community-work-culture
+    -   [ ] Code of conduct @sec-community-code-of-conduct
+    -   [ ] Governance @sec-community-governance
 -   [ ] User analysis (this can be a personas analysis)
-    -   [ ] Ecosystem analysis (`stakeholder`)
-    -   [ ] target groups (who will use the product)
-    -   [ ] External interfaces (how will they use the product)
-    -   [ ] skills needed to use
+    -   [ ] Ecosystem analysis (`stakeholder`) @sec-diverse-actors-and-ecosystem
+    -   [ ] target groups (who will use the product) @sec-user-analysis-target-groups
+    -   [ ] External interfaces (how will they use the product) @sec-user-analysis-external-interfaces
+    -   [ ] skills needed to use @sec-user-skills
 -   [ ] Product development
-    -   [ ] requirements
-    -   [ ] constrains
-    -   [ ] capability
+    -   [ ] requirements @sec-product-development-requirements
+    -   [ ] constrains @sec-product-dev-constrains
+    -   [ ] capability @sec-productdvt-capability
 -   [ ] History
-    -   [ ] *changes log*
+    -   [ ] *changes log* @sec-project-history-changelog

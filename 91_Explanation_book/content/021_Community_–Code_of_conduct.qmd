@@ -1,1 +1,15 @@
-## Community –Code of conduct
+## Community – Code of conduct {#sec-community-code-of-conduct}
+
+Add an Open Source Project Codes of Conduct to your project, see https://opensourceconduct.com/ for examples
+
+-   This document should not be used as a token, it is very important to put intentional effort into it.
+
+-   List the expected and unacceptable behaviors, describe the reporting and enforcement process, explicitly define the scope, and use an inclusive tone.
+
+-   Whenever you update your code of conduct, invite comments from your members to ensure that their concerns are addressed.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-source-turing, https://book.the-turing-way.org/collaboration/new-community/new-community-guide

@@ -25,4 +25,4 @@ NB: this will relate to the user analysis section of the documentation that defi
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work

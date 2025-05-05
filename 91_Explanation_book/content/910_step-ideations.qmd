@@ -13,9 +13,9 @@ This should all be included in the readme file:
     -   [ ] name of the project
     -   [ ] development stage: idea generation
     -   [ ] *type of hardware, subject area*
-    -   [ ] **License(s)**
-    -   [ ] FOR WHO IS MADE THIS DOCUMENT
-    -   [ ] short problem description
+    -   [ ] **License(s)** @sec-license-and-rights
+    -   [ ] FOR WHO IS MADE THIS DOCUMENT @sec-community-building
+    -   [ ] short problem description @sec-problem-description
 
 -   [ ] vision and motivations @sec-vision-and-motivation
 

@@ -1,6 +1,7 @@
-## Roadmap
+## Roadmap {#sec-roadmap}
 
-Provide overarching as well as short-term goals and describe expected outcomes to help contributors move away from focusing on a single idea of the feature. Describe the possible expansion of features in pre-determined and agreed on ways at stages beyond the initial implementation.
+Provide overarching as well as short-term goals and describe expected outcomes to help contributors move away from focusing on a single idea of the feature.
+Describe the possible expansion of features in pre-determined and agreed on ways at stages beyond the initial implementation.
 
 Provide sufficient information for what the expected outcomes and deliverables are.
 

@@ -1,1 +1,3 @@
-## user analysis -target groups (who will use the product)
+## User analysis - target groups (who will use the product) {#sec-user-analysis-target-groups}
+
+Target group is a specific actor in hardware development, one should take much care in defining who they are and what they want.

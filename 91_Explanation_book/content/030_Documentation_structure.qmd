@@ -1,10 +1,9 @@
-## Documentation structure
+## Documentation structure {#sec-documentation-structure}
 
 *How is your documentation organized?*
 
 These guidelines will provide you with a standard structure that is mainly following the product life cycle and the technological decomposition.
 It is implemented in the documentation template available in this project.
-
 
 ------------------------------------------------------------------------
 

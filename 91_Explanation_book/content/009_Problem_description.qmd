@@ -1,4 +1,4 @@
-## Problem description
+## Problem description {#sec-problem-description}
 
 Describe the problem in this section and how the hardware addresses the problem.
 

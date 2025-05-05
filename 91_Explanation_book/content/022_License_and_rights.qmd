@@ -1,8 +1,10 @@
-## License and rights
+## License and rights {#sec-license-and-rights}
 
 *Under what license is this open-source hardware documentation provided ? Specify when different parts of the documentation have different licenses*
 
-Without an open license, others cannot legally use, copy, distribute, or modify that project. The situation of hardware licensing is a bit more complex than for research outputs like software, as there are some cases where patent law and not copyright law will apply. Also note that you may use different licenses for different part of the project.
+Without an open license, others cannot legally use, copy, distribute, or modify that project.
+The situation of hardware licensing is a bit more complex than for research outputs like software, as there are some cases where patent law and not copyright law will apply.
+Also note that you may use different licenses for different part of the project.
 
 -   [Comparison of free and open-source software licences](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licences)
 
@@ -10,13 +12,14 @@ Without an open license, others cannot legally use, copy, distribute, or modify 
 
 Suggested license:
 
-- Texts and guides: CC-BY 4.0. See: https://creativecommons.org/share-your-work/cclicenses/ 
-- Hardware: CERN-OHL-S Strongly reciprocal (most restrictive); CERN-OHL-W Weakly reciprocal; CERN-OHL-P Permissive (less restrictive). See: https://cern-ohl.web.cern.ch 
-- Software: Any of the Open Source Initiative approved license (https://opensource.org/licenses) 
+-   Texts and guides: CC-BY 4.0. See: https://creativecommons.org/share-your-work/cclicenses/
+-   Hardware: CERN-OHL-S Strongly reciprocal (most restrictive); CERN-OHL-W Weakly reciprocal; CERN-OHL-P Permissive (less restrictive). See: https://cern-ohl.web.cern.ch
+-   Software: Any of the Open Source Initiative approved license (https://opensource.org/licenses)
 
 > Example:
 >
-> This readme file, the 01_community, 02_project_history, and 05_user_guides folders are shared under a CC-BY 4.0 license, the 03_specification_concept and 04_hardware folders are shared undear a CERN-OHL-P license. The 11_software folder is shared under a MIT license.
+> This readme file, the 01_community, 02_project_history, and 05_user_guides folders are shared under a CC-BY 4.0 license, the 03_specification_concept and 04_hardware folders are shared undear a CERN-OHL-P license.
+> The 11_software folder is shared under a MIT license.
 
 ------------------------------------------------------------------------
 

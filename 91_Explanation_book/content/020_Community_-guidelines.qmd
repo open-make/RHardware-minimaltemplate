@@ -1,16 +1,30 @@
-## Community - Guidelines
+## Community - Guidelines {#sec-community-guidelines}
 
-Describe what opportunities for collaboration different members will have. When possible, such as in an open source project, provide these details for those outside the current group, especially when you want to encourage people outside the project to be involved.
+Describe what opportunities for collaboration different members will have.
+When possible, such as in an open source project, provide these details for those outside the current group, especially when you want to encourage people outside the project to be involved.
 
-Provide resources on ways of working to ensure fair participation of contributors who collaborate on short- and long-term milestones within the project. It reduces or addresses concerns about the project’s progress towards meeting goals and prevents potential fallout between project contributors.
+Provide resources on ways of working to ensure fair participation of contributors who collaborate on short- and long-term milestones within the project.
+It reduces or addresses concerns about the project’s progress towards meeting goals and prevents potential fallout between project contributors.
 
-Considering the variety of different backgrounds and skills your members bring, describe how they can participate and start contributing. You should also think about your audience. Your project might be reused by people with different skills, roles, objectives, and socio-economic and cultural environments.
+Considering the variety of different backgrounds and skills your members bring, describe how they can participate and start contributing.
+You should also think about your audience.
+Your project might be reused by people with different skills, roles, objectives, and socio-economic and cultural environments.
 
-Provide clear opportunities for contributions, review, management, mentoring, and support. Provide an overview of how different contributions or resources are connected and how new contributions will fit into existing materials.
+Provide clear opportunities for contributions, review, management, mentoring, and support.
+Provide an overview of how different contributions or resources are connected and how new contributions will fit into existing materials.
 
-Describe how your research objects are available or will be published and how different contributors will be recognised. It helps when everyone feel appreciated and acknowledged for their contribution to the overall vision.
+Describe how your research objects are available or will be published and how different contributors will be recognised.
+It helps when everyone feel appreciated and acknowledged for their contribution to the overall vision.
 
--------------------------------------------------------------
+-   A thoughtful guideline helps people decide which pathway they can choose to contribute to your project, or if they want to be in your community at all.
+
+-   Make sure that your community interactions and different pathways to contribute are open, inclusive, and clearly stated.
+
+    -   If people can’t figure out how to contribute they will drop off without helping.
+
+-   Value different types of contributions - coding projects are not only about code, therefore list documentation and other management skills as well.
+
+------------------------------------------------------------------------
 
 **Sources**
 
