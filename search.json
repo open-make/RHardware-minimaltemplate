@@ -14,7 +14,7 @@
     "href": "index.html#overview-of-the-guide",
     "title": "Hardware documentation Guide",
     "section": "Overview of the guide",
-    "text": "Overview of the guide\nAfter analyzing open source hardware documentation and existing templates, we are convinced that (1) documentation should grow with the different phases of a project and (2) the documentation should not restrict itself to the technical documentation necessary to reproduce the hardware, but should have a larger scope: the goal is not only to make the hardware (re-)producible, but to facilitate collaborative work in the development of the hardware (see Fig below).\n\n\n\nHardware project documentation is diverse, it grows with project development (depicted by orange boxes from left to right: ideation, specification, concept development, prototyping), and go beyond the technical documentation (black box)\n\n\nAccordingly, we created a template for hardware project, including different folders and files, and this guide to facilitate the creation of hardware project documentation. The guide starts with a description of the steps, with a checklist of information to add at each step, which corresponds to the elements of the template. In the checklist, we added linked to the corresponding sub-chapters of the guide.\nThe next book chapters indeed provide information for each elements, organised following the different files and folders of the template (readme,community, project history, conceptualisation and specification, hardware design, and user guides).\nBecause we expect most project to see this template when already having a prototype, we added a special chapter on starting at this stage (If you have a prototype).",
+    "text": "Overview of the guide\nAfter analyzing open source hardware documentation and existing templates, we are convinced that (1) documentation should grow with the different phases of a project and (2) the documentation should not restrict itself to the technical documentation necessary to reproduce the hardware, but should have a larger scope: the goal is not only to make the hardware (re-)producible, but to facilitate collaborative work in the development of the hardware (see Fig below).\n\n\n\nHardware project documentation is diverse, it grows with project development (depicted by orange boxes from left to right: ideation, specification, concept development, prototyping), and go beyond the technical documentation (black box)\n\n\nAccordingly, we created a template for hardware project, including different folders and files, and this guide to facilitate the creation of hardware project documentation. The guide starts with a description of the steps, with a checklist of information to add at each step, which corresponds to the elements of the template. In the checklist, we added linked to the corresponding sub-chapters of the guide.\nThe next book chapters indeed provide information for each elements, organised following the different files and folders of the template (readme,community, project history, conceptualisation and specification, hardware design, and user guides).\nBecause we expect most project to see this template when already having a prototype, we added a special chapter on starting at this stage (Document when you already have a prototype).",
     "crumbs": [
       "A guide to open source hardware projects documentation"
     ]
@@ -54,7 +54,18 @@
     "href": "content/960_prototypingasstep1_conc.html",
     "title": "1  Development stages",
     "section": "",
-    "text": "If you have a prototype\nThe documentation will grow with your project. Usually, an hardware project follows different stages of development, which may be seen as particular milestones where the team check that they gathered enough information and documented their process, before going to the next stage.\nThe guide propose 5 stages of developement: - ideation - specification (needs analysis) - concept development - protoyping - replication phase\nWe expect some or even most readers will come to this documentation template when they actually already have a prototype, and are mostly interested in the documentation of the technical parts of the project (mostly what will be in the 04_hardware folder). Most of the advantages of documenting the project exhaustively will then be obsolete, and you may want to restrict the document to its essentials.\nAs explained in the FAQ though, all elements may be important and we encourage you to go through each steps (rapidely), making short description of what you had in mind when developing the project so far. These descriptions may be shorter than what you would have written if done earlier, but it may be important to ask these different questions even when the project seems quite advanced. So, look at the checklists of each step. You may want to use the provided template “Full_Project_prototype”, going rapidly through it to get to the prototyping phase early.\nThe process may help you to refine the scope of your project, potentially help you find your users and facilitate discussions with other contributors or investors.",
+    "text": "From prototype, to demonstrator and market ready product\nThe documentation will grow with your project. Usually, an hardware project follows different stages of development, which may be seen as particular milestones where the team check that they gathered enough information and documented their process, before going to the next stage.\nThe guide propose 5 stages of developement: - ideation - specification (needs analysis) - concept development - protoyping - replication phase\nWhen some ideas to address a particular need are tested, the process is called prototyping. After many iterations and testing, a prototype will be selected for further development. The design that solves the needs but is not yet complete nor ready to be replicated (usually because some parts are not well documented or requires a lot of manual adjustments) is called a demonstrator. When the design and documentation are polished and are ready to be used by hardware producers, the hardware is usually labeled as a market-ready product.",
+    "crumbs": [
+      "Steps",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Development stages</span>"
+    ]
+  },
+  {
+    "objectID": "content/960_prototypingasstep1_conc.html#from-prototype-to-demonstrator-and-market-ready-product",
+    "href": "content/960_prototypingasstep1_conc.html#from-prototype-to-demonstrator-and-market-ready-product",
+    "title": "1  Development stages",
+    "section": "",
+    "text": "Document when you already have a prototype\nWe expect some (or even most) readers will come to this documentation template when they actually already have a prototype, and are mostly interested in the documentation of the technical parts of the project (mostly what will be in the 04_hardware folder). Most of the advantages of documenting the project exhaustively will then be obsolete, and authors may want to restrict the document to its essentials.\nAs explained in the FAQ though, all elements may be important and we encourage everyone to go through each steps (even rapidely), making short description of what they had in mind when developing the project so far. These descriptions may be shorter than what you would have written if done earlier, but it may be important to ask these different questions, even when the project seems quite advanced. So, our advice is to look at the checklists of each step also when you have a prototype. You may want to use the provided template “Full_Project_prototype”, going rapidly through it to get to some documentation done fast.\nThere are different degrees for how open an OSH project can be, but every step in this direction is welcome and an opportunity to contribute to better research and open new career paths.\nThe process may help you to refine the scope of your project, potentially help you find your users and facilitate discussions with other contributors or investors.",
     "crumbs": [
       "Steps",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Development stages</span>"
@@ -65,7 +76,7 @@
     "href": "content/960_prototypingasstep1_conc.html#step-1-ideation",
     "title": "1  Development stages",
     "section": "Step 1 Ideation",
-    "text": "Step 1 Ideation\n\nIdeation\nAt this step, you want to share your idea, usually with a small number of people, and want to “test the water”.\n\n\nChecklist ideation\nThis should all be included in the readme file:\n\nGeneral information\n\nname of the project\ndevelopment stage: idea generation\ntype of hardware, subject area\nLicense(s)\nFOR WHO IS MADE THIS DOCUMENT\nshort problem description\n\nvision and motivations Section 2.1\nContributions\n\nList of team members / contributors Section 2.16\nskills required, who could contribute (at this point) Section 2.17\ncontact point information / communication channel and tools used for communication (this can also be one email address) Section 2.18\n\nFunding information\n\nList of Sponsors and funding Section 2.21\nList of putative funding opportunities Section 2.22",
+    "text": "Step 1 Ideation\n\nIdeation\nAt this step, you want to share your idea, usually with a small number of people, and want to “test the water”.\n\n\nChecklist ideation\nThis should all be included in the readme file:\n\nGeneral information\n\nname of the project\ndevelopment stage: idea generation\ntype of hardware, subject area\nLicense(s) Section 2.19\nFOR WHO IS MADE THIS DOCUMENT Chapter 3\nshort problem description Section 2.9\n\nvision and motivations Section 2.1\nContributions\n\nList of team members / contributors Section 2.16\nskills required, who could contribute (at this point) Section 2.17\ncontact point information / communication channel and tools used for communication (this can also be one email address) Section 2.18\n\nFunding information\n\nList of Sponsors and funding Section 2.21\nList of putative funding opportunities Section 2.22",
     "crumbs": [
       "Steps",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Development stages</span>"
@@ -76,7 +87,7 @@
     "href": "content/960_prototypingasstep1_conc.html#step-2-specification-needs-analysis",
     "title": "1  Development stages",
     "section": "Step 2 Specification, Needs analysis",
-    "text": "Step 2 Specification, Needs analysis\n\nNeeds and ecosystem analysis\nUsing a open source hardware canva to analyse the project may be useful at this point (defining users, contributors, communication channels, resources required).\nA lot of the user analysis and the problem description part aims at the definition of the constrains and requirements for the hardware which is included in the product development part of the documentation.\nIt may also be time to work on community engagement.\n\n\nChecklist specifications\n\nComplete the readme file\n\nethics statement (human/animal use or Informed Consent Statement)\ncompeting interest\nfuture work, roadmap\ndevelopment stage: needs analysis\nProject history summary\nlonger problem description\nDocumentation structure\n\nContributions\n\nContribution guidelines\nwork culture that you want to promote\nCode of conduct\n\nUser analysis (this can be a personas analysis)\n\nEcosystem analysis (stakeholder)\ntarget groups (who will use the product)\nExternal interfaces (how will they use the product)\nskills needed to use\n\nProduct development\n\nrequirements\nconstrains\ncapability\n\nHistory\n\nchanges log",
+    "text": "Step 2 Specification, Needs analysis\n\nNeeds and ecosystem analysis\nUsing a open source hardware canva to analyse the project may be useful at this point (defining users, contributors, communication channels, resources required).\nA lot of the user analysis and the problem description part aims at the definition of the constrains and requirements for the hardware which is included in the product development part of the documentation.\nIt may also be time to work on community engagement.\n\n\nChecklist specifications\n\nComplete the readme file\n\ndevelopment stage: needs analysis\nethics statement (human/animal use or Informed Consent Statement) Section 2.24\ncompeting interest Section 2.25\nfuture work (Section 2.14), roadmap (Section 2.12)\nProject history summary Section 2.13\nlonger problem description Section 2.9\nDocumentation structure Section 2.27\n\nContributions\n\nContribution guidelines Section 3.2\nwork culture that you want to promote Section 3.1\nCode of conduct Section 3.3\nGovernance Section 3.4\n\nUser analysis (this can be a personas analysis)\n\nEcosystem analysis (stakeholder) Section 4.7\ntarget groups (who will use the product) Section 4.8\nExternal interfaces (how will they use the product) Section 4.9\nskills needed to use Section 4.10\n\nProduct development\n\nrequirements Section 4.2\nconstrains Section 4.3\ncapability Section 4.4\n\nHistory\n\nchanges log Section 6.1",
     "crumbs": [
       "Steps",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Development stages</span>"
@@ -120,7 +131,7 @@
     "href": "content/001_Vision_and_motivation_conc.html",
     "title": "2  Readme as entry door",
     "section": "",
-    "text": "Vision and motivation\nThe vision provides details about the project ultimate goal, its specificity and main objectives: what, for whom and why do we have this project.\nIt serves to give meaning to the whole endeavor and is a representation of what we want to achieve. It may also present the problem the project aims at solving.\nIt addresses the question: Why are you starting this project?\nExamples:\nSources\nSection 9.1",
+    "text": "Vision and motivation\nThink about your audience when writing OSH documentation. Indeed, your project might be reused by people with different skills, roles, objectives, and socio-economic and cultural environments. Because of this it can be useful to create a list of skills that are required to build (manufacture Section 8.9, and assemble Section 8.13) or use the hardware (Section 4.10). Someone trying to build it from scratch, for example, will require specific set of prior knowledge, skills, and tools. A different set is needed to perform maintenance tasks. An end user operating the assembled project might require an entirely distinct skillset (and documentation).\nThe vision provides details about the project ultimate goal, its specificity and main objectives: what, for whom and why do we have this project.\nIt serves to give meaning to the whole endeavor and is a representation of what we want to achieve. It may also present the problem the project aims at solving.\nIt addresses the question: Why are you starting this project?\nExamples:\nSources\nSection 9.1, Section 9.4",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -142,7 +153,7 @@
     "href": "content/001_Vision_and_motivation_conc.html#hardware-summary-overview",
     "title": "2  Readme as entry door",
     "section": "hardware summary overview",
-    "text": "hardware summary overview\nThis part is meant to give an overview of the hardware, more detailed description should be given in the 03_product_dvt/hardware_overview.md file.\nGive an overview of the hardware, what it does, how it was produced, and, if relevant, the research for which it has been used. Describe how the hardware was implemented/created, with relevant details of the architecture and design, including general materials. You may also describe any variants and associated implementation differences.\nA schema, a picture or a video may be added here.\n\nExample:\n\nThe project BCN3D Moveo is an open source robotic arm that everyone should be able to replicate - with or without modification - at home without the need for highly technical knowledge and expensive materials. The robotic arm will support several of the existing training itineraries: mechanical design, automation, industrial programming, etc.\n\n\n\n\nSources\nSection 9.1, Section 9.3",
+    "text": "hardware summary overview\nThis part is meant to give an overview of the hardware, more detailed description should be given in the 03_product_dvt/hardware_overview.md file.\nGive an overview of the hardware, what it does, how it was produced, and, if relevant, the research for which it has been used. Write as much as possible for a general audience. That is, explain what the project is and what it is for, before you get into the technical details. Describe how the hardware was implemented/created, with relevant details of the architecture and design, including general materials. You may also describe any variants and associated implementation differences.\nA schema, a picture or a video may be added here.\n\nExample:\n\nThe project BCN3D Moveo is an open source robotic arm that everyone should be able to replicate - with or without modification - at home without the need for highly technical knowledge and expensive materials. The robotic arm will support several of the existing training itineraries: mechanical design, automation, industrial programming, etc.\n\n\n\n\nSources\nSection 9.1, Section 9.3, Section 9.4",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -182,11 +193,11 @@
     ]
   },
   {
-    "objectID": "content/001_Vision_and_motivation_conc.html#education-resources",
-    "href": "content/001_Vision_and_motivation_conc.html#education-resources",
+    "objectID": "content/001_Vision_and_motivation_conc.html#sec-education-resources",
+    "href": "content/001_Vision_and_motivation_conc.html#sec-education-resources",
     "title": "2  Readme as entry door",
-    "section": "education resources",
-    "text": "education resources",
+    "section": "Education resources",
+    "text": "Education resources",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -197,7 +208,7 @@
     "href": "content/001_Vision_and_motivation_conc.html#cite-this-project",
     "title": "2  Readme as entry door",
     "section": "Cite this project",
-    "text": "Cite this project",
+    "text": "Cite this project\nIt is good practice to treat hardware citation similarly to other research outputs. The use of archives that can assign persistent identifiers (like a DOI) can help to guarantee specific versions/releases of the hardware project available over the long term. Though within the open hardware community this is not the practice, it would be beneficial to adopt going forward. For research to be reproducible, long term archiving through a platform that is dedicated to it would be necessary.\nZenodo is a good example of the type of archive that can issue a persistent identifier and provide a good citation metadata, if authors are set correctly. The use of a Citation.cff file may be recommended. You may refer to the Turing way book for more information: https://book.the-turing-way.org/communication/citable\n\nSources\nSection 9.4",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -215,8 +226,8 @@
     ]
   },
   {
-    "objectID": "content/001_Vision_and_motivation_conc.html#problem-description",
-    "href": "content/001_Vision_and_motivation_conc.html#problem-description",
+    "objectID": "content/001_Vision_and_motivation_conc.html#sec-problem-description",
+    "href": "content/001_Vision_and_motivation_conc.html#sec-problem-description",
     "title": "2  Readme as entry door",
     "section": "Problem description",
     "text": "Problem description\nDescribe the problem in this section and how the hardware addresses the problem.\n\nSources\nSection 9.3",
@@ -248,19 +259,19 @@
     ]
   },
   {
-    "objectID": "content/001_Vision_and_motivation_conc.html#roadmap",
-    "href": "content/001_Vision_and_motivation_conc.html#roadmap",
+    "objectID": "content/001_Vision_and_motivation_conc.html#sec-roadmap",
+    "href": "content/001_Vision_and_motivation_conc.html#sec-roadmap",
     "title": "2  Readme as entry door",
     "section": "Roadmap",
-    "text": "Roadmap",
+    "text": "Roadmap\nProvide overarching as well as short-term goals and describe expected outcomes to help contributors move away from focusing on a single idea of the feature. Describe the possible expansion of features in pre-determined and agreed on ways at stages beyond the initial implementation.\nProvide sufficient information for what the expected outcomes and deliverables are.\n\nSources\nSection 9.4",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
     ]
   },
   {
-    "objectID": "content/001_Vision_and_motivation_conc.html#project-history-summary",
-    "href": "content/001_Vision_and_motivation_conc.html#project-history-summary",
+    "objectID": "content/001_Vision_and_motivation_conc.html#sec-project-history-summary",
+    "href": "content/001_Vision_and_motivation_conc.html#sec-project-history-summary",
     "title": "2  Readme as entry door",
     "section": "Project history summary",
     "text": "Project history summary\nIndicate main information about the history of the project, as well as the last updates in the project and in the documentation (especially if the documentation is not up to date).",
@@ -270,8 +281,8 @@
     ]
   },
   {
-    "objectID": "content/001_Vision_and_motivation_conc.html#future-work",
-    "href": "content/001_Vision_and_motivation_conc.html#future-work",
+    "objectID": "content/001_Vision_and_motivation_conc.html#sec-future-work",
+    "href": "content/001_Vision_and_motivation_conc.html#sec-future-work",
     "title": "2  Readme as entry door",
     "section": "Future work",
     "text": "Future work\nFurther work pursued by the authors or collaborators; known issues; suggestions for others to improve on the hardware design or testing, given what you have learned from your design iterations.\n\nSources\nSection 9.3",
@@ -325,11 +336,11 @@
     ]
   },
   {
-    "objectID": "content/001_Vision_and_motivation_conc.html#license-and-rights",
-    "href": "content/001_Vision_and_motivation_conc.html#license-and-rights",
+    "objectID": "content/001_Vision_and_motivation_conc.html#sec-license-and-rights",
+    "href": "content/001_Vision_and_motivation_conc.html#sec-license-and-rights",
     "title": "2  Readme as entry door",
     "section": "License and rights",
-    "text": "License and rights\nUnder what license is this open-source hardware documentation provided ? Specify when different parts of the documentation have different licenses\n\nComparison of free and open-source software licences\nlicense of open hardware projects\n\nSuggested license:\n\nTexts and guides: CC-BY 4.0. See: https://creativecommons.org/share-your-work/cclicenses/\nHardware: CERN-OHL-S Strongly reciprocal (most restrictive); CERN-OHL-W Weakly reciprocal; CERN-OHL-P Permissive (less restrictive). See: https://cern-ohl.web.cern.ch\nSoftware: Any of the Open Source Initiative approved license (https://opensource.org/licenses)\n\n\nExample:\nThis readme file, the 01_community, 02_project_history, and 05_user_guides folders are shared under a CC-BY 4.0 license, the 03_specification_concept and 04_hardware folders are shared undear a CERN-OHL-P license. The 11_software folder is shared under a MIT license.\n\n\nSources\nSection 9.1, Section 9.3",
+    "text": "License and rights\nUnder what license is this open-source hardware documentation provided ? Specify when different parts of the documentation have different licenses\nWithout an open license, others cannot legally use, copy, distribute, or modify that project. The situation of hardware licensing is a bit more complex than for research outputs like software, as there are some cases where patent law and not copyright law will apply. Also note that you may use different licenses for different part of the project.\n\nComparison of free and open-source software licences\nlicense of open hardware projects\n\nSuggested license:\n\nTexts and guides: CC-BY 4.0. See: https://creativecommons.org/share-your-work/cclicenses/\nHardware: CERN-OHL-S Strongly reciprocal (most restrictive); CERN-OHL-W Weakly reciprocal; CERN-OHL-P Permissive (less restrictive). See: https://cern-ohl.web.cern.ch\nSoftware: Any of the Open Source Initiative approved license (https://opensource.org/licenses)\n\n\nExample:\nThis readme file, the 01_community, 02_project_history, and 05_user_guides folders are shared under a CC-BY 4.0 license, the 03_specification_concept and 04_hardware folders are shared undear a CERN-OHL-P license. The 11_software folder is shared under a MIT license.\n\n\nSources\nSection 9.1, Section 9.3, Section 9.4",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -380,19 +391,19 @@
     ]
   },
   {
-    "objectID": "content/001_Vision_and_motivation_conc.html#ethics-statement",
-    "href": "content/001_Vision_and_motivation_conc.html#ethics-statement",
+    "objectID": "content/001_Vision_and_motivation_conc.html#sec-ethics-statement",
+    "href": "content/001_Vision_and_motivation_conc.html#sec-ethics-statement",
     "title": "2  Readme as entry door",
-    "section": "ethics statement",
-    "text": "ethics statement",
+    "section": "Ethics statement",
+    "text": "Ethics statement\nState any ethics issue you project may have, and whether an ethics committee has been reviewing the project.",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
     ]
   },
   {
-    "objectID": "content/001_Vision_and_motivation_conc.html#competing-interest",
-    "href": "content/001_Vision_and_motivation_conc.html#competing-interest",
+    "objectID": "content/001_Vision_and_motivation_conc.html#sec-competing-interest",
+    "href": "content/001_Vision_and_motivation_conc.html#sec-competing-interest",
     "title": "2  Readme as entry door",
     "section": "Competing interest",
     "text": "Competing interest\nIf any of the authors have any competing interests then these must be declared. The authors’ initials should be used to denote differing competing interests. For example: “BH has minority shares in [company name], which part funded the research grant for this project. All other authors have no competing interests.” Or “BH is selling kits and parts connected to the here presented hardware via platform XX. A fundraising via Crowdfunding platform YY is planned to start commercialisation.” If there are no competing interests, please add the statement: “The authors declare that they have no competing interests.”\n\nSources\nSection 9.3",
@@ -413,8 +424,8 @@
     ]
   },
   {
-    "objectID": "content/001_Vision_and_motivation_conc.html#documentation-structure",
-    "href": "content/001_Vision_and_motivation_conc.html#documentation-structure",
+    "objectID": "content/001_Vision_and_motivation_conc.html#sec-documentation-structure",
+    "href": "content/001_Vision_and_motivation_conc.html#sec-documentation-structure",
     "title": "2  Readme as entry door",
     "section": "Documentation structure",
     "text": "Documentation structure\nHow is your documentation organized?\nThese guidelines will provide you with a standard structure that is mainly following the product life cycle and the technological decomposition. It is implemented in the documentation template available in this project.\n\nSources\nSection 9.1",
@@ -448,23 +459,45 @@
   {
     "objectID": "content/019_Community_-_work_culture_conc.html",
     "href": "content/019_Community_-_work_culture_conc.html",
-    "title": "3  Community - work culture",
+    "title": "3  Community building",
     "section": "",
-    "text": "Community -guidelines",
+    "text": "Community - work culture\nWhile scoping your project, it is well advised to think about the different people who may engage with your OSH (see Section 4.7). Different OSH projects have included different partners at varying stages of their development. On top of user and contributor roles that OSH have in common with open source software, local or global hardware manufacturers may become important partners of your project. You may also think early about the people who will eventually have to maintain and repair the hardware. To make it easier for them, it also helps to make your hardware designs modular (splitting your hardware in modules which may have alternative designs). Another specificity of hardware may be the importance of the creation of replication tutorials, workshops, seminars, or training materials (Section 2.6), which can impact the adoption of hardware designs. This is particularly relevant if the OSH is meant to be produced in Do-It-Yourself environments or as a teaching opportunity.\nIt is important to decide whether, when and where you want to engage with, or build a community. Most OSH communities are local in comparison to open source software project. You may not have the time or skills to build a community, and your project may not need a community to flourish. Always be honest with your collaborators and yourself about what support they can expect.\nDocumentation which may help build a community can range from a simple note on the work culture in the readme, toward a full, implemented code of conduct and community guidelines on ways to interact in the community and with the project documentation.\nCommunicate the work culture that you want to promote and policies that ensures the safety and security of both your data and people.\nSources\nSection 9.4",
     "crumbs": [
       "Community",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Community - work culture</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Community building</span>"
     ]
   },
   {
-    "objectID": "content/019_Community_-_work_culture_conc.html#community-code-of-conduct",
-    "href": "content/019_Community_-_work_culture_conc.html#community-code-of-conduct",
-    "title": "3  Community - work culture",
-    "section": "Community –Code of conduct",
-    "text": "Community –Code of conduct",
+    "objectID": "content/019_Community_-_work_culture_conc.html#sec-community-guidelines",
+    "href": "content/019_Community_-_work_culture_conc.html#sec-community-guidelines",
+    "title": "3  Community building",
+    "section": "Community - Guidelines",
+    "text": "Community - Guidelines\nDescribe what opportunities for collaboration different members will have. When possible, such as in an open source project, provide these details for those outside the current group, especially when you want to encourage people outside the project to be involved.\nProvide resources on ways of working to ensure fair participation of contributors who collaborate on short- and long-term milestones within the project. It reduces or addresses concerns about the project’s progress towards meeting goals and prevents potential fallout between project contributors.\nConsidering the variety of different backgrounds and skills your members bring, describe how they can participate and start contributing. You should also think about your audience. Your project might be reused by people with different skills, roles, objectives, and socio-economic and cultural environments.\nProvide clear opportunities for contributions, review, management, mentoring, and support. Provide an overview of how different contributions or resources are connected and how new contributions will fit into existing materials.\nDescribe how your research objects are available or will be published and how different contributors will be recognised. It helps when everyone feel appreciated and acknowledged for their contribution to the overall vision.\n\nA thoughtful guideline helps people decide which pathway they can choose to contribute to your project, or if they want to be in your community at all.\nMake sure that your community interactions and different pathways to contribute are open, inclusive, and clearly stated.\n\nIf people can’t figure out how to contribute they will drop off without helping.\n\nValue different types of contributions - coding projects are not only about code, therefore list documentation and other management skills as well.\n\n\nSources\nSection 9.4",
     "crumbs": [
       "Community",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Community - work culture</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Community building</span>"
+    ]
+  },
+  {
+    "objectID": "content/019_Community_-_work_culture_conc.html#sec-community-code-of-conduct",
+    "href": "content/019_Community_-_work_culture_conc.html#sec-community-code-of-conduct",
+    "title": "3  Community building",
+    "section": "Community – Code of conduct",
+    "text": "Community – Code of conduct\nAdd an Open Source Project Codes of Conduct to your project, see https://opensourceconduct.com/ for examples\n\nThis document should not be used as a token, it is very important to put intentional effort into it.\nList the expected and unacceptable behaviors, describe the reporting and enforcement process, explicitly define the scope, and use an inclusive tone.\nWhenever you update your code of conduct, invite comments from your members to ensure that their concerns are addressed.\n\n\nSources\nSection 9.4, https://book.the-turing-way.org/collaboration/new-community/new-community-guide",
+    "crumbs": [
+      "Community",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Community building</span>"
+    ]
+  },
+  {
+    "objectID": "content/019_Community_-_work_culture_conc.html#sec-community-governance",
+    "href": "content/019_Community_-_work_culture_conc.html#sec-community-governance",
+    "title": "3  Community building",
+    "section": "Community - Governance",
+    "text": "Community - Governance\nProvide a decision-making framework to facilitate discussions and reaching a shared conclusion. In the context of software and hardware, open source projects are often as much about communication as they are about coding or building (if not more). Allow informed discussions when a particular project design has reached the end or when it is useful to update it for efficiency and sustainability.\nA leadership structure in an open project should aim to empower others and develop agency and accountability in your community. You can start by listing different tasks within your project and inviting your members to lead those tasks. Provide appropriate incentives and acknowledgment for the contributions made by your community members. Create opportunities for members to share some leadership responsibilities with you in the project. When inviting suggestions and ideas from the community, provide the first set of plans where your community can develop from.\nSee https://opensource.guide/leadership-and-governance/ for more information.\n\nSources\nSection 9.4",
+    "crumbs": [
+      "Community",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Community building</span>"
     ]
   },
   {
@@ -479,8 +512,8 @@
     ]
   },
   {
-    "objectID": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#product-development---requirements",
-    "href": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#product-development---requirements",
+    "objectID": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#sec-product-development-requirements",
+    "href": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#sec-product-development-requirements",
     "title": "4  Product development",
     "section": "Product development - requirements",
     "text": "Product development - requirements\nA requirement is a formal statement that specifies when condition C is true, property P of object O is actual and its value shall belong to domain D.\nIt is usually defined at the end of the ecosystem and user analysis.\n\nThe minimum set of independent requirements can completely characterize the needs of the product in the functional domain.\nFunctional requirements describe qualitatively the system functions or tasks to be performed in operation.\nRequirement can state as follows: The [stakeholder] need [Property] [object] [Action verb] at [Condition]\n\n\nExample of the functional requirement that ADD-ONS of XYZ cargo provides for the food producers, as a stakeholder, to preserve the quality of food.\nIn this example, we assumed a refrigerator on the ADD-ONS could help the food producers to cool down and preserve the temperature of food.\nSo, we defined some functional requirements (FR) based on this assumption that consist:\n\nFR1: To maintain the quality of food, the food producer needs to main the material at cold temperature (between 3 °C and 10 °C) for short-term preservation (3h) or long-term preservation (24h).\nFR2: ADD-ONS shall fix the internal ADD-ONS &gt;temperature for 7 °C.\nFR3: To create a cold ambient in the cooling down system, the ADD-ONS shall compress the low temperature and pressured gas to start the cooling cycle.\nFR4: the cooling down system shall control the pressure of exit hot gas \nFR5: the hot and pressured exit gas needs to meet the cooler external ambient temperature to become a liquid.\n\n\n\nSources\nOpenNext work project resutls: Section 9.1",
@@ -490,11 +523,11 @@
     ]
   },
   {
-    "objectID": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#product-dvt--constrains",
-    "href": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#product-dvt--constrains",
+    "objectID": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#sec-product-dev-constrains",
+    "href": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#sec-product-dev-constrains",
     "title": "4  Product development",
-    "section": "product dvt -constrains",
-    "text": "product dvt -constrains\nA constraint is a choice that makes certain designs “not allowed” or inappropriate for their intended use.\n\nThe constraint is a restriction, limit, or regulation imposed on a product.\nThere are two kinds of constraints: input constraints and system constraints.\n\nInput constraints are imposed as part of the design specifications.\nSystem constraints are constraints imposed by the system in which the design solution must function.\n\n\n\nExample XYZ Cargo ADD-ONS, constraints for maker of ADD-ONS\n\nUser should be able to dismantle ADD-ONS with a maximum one wrench and one screwdriver\nUsers should be able to customize the modules of ADD-ONS to fit their use.\nThe ADD-ONS should enable the users to do the assembly of components in a short time (10 minutes) and the maker shall select the resistance material for using ADD-ONS in different weather conditions.\nADD-ONS should be dismantled for recycling purposes.\n\n\n\nSources\nOpenNext work project resutls: Section 9.1",
+    "section": "Product development - Constrains",
+    "text": "Product development - Constrains\nA constraint is a choice that makes certain designs “not allowed” or inappropriate for their intended use.\n\nThe constraint is a restriction, limit, or regulation imposed on a product.\nThere are two kinds of constraints: input constraints and system constraints.\n\nInput constraints are imposed as part of the design specifications.\nSystem constraints are constraints imposed by the system in which the design solution must function.\n\n\n\nExample XYZ Cargo ADD-ONS, constraints for maker of ADD-ONS\n\nUser should be able to dismantle ADD-ONS with a maximum one wrench and one screwdriver\nUsers should be able to customize the modules of ADD-ONS to fit their use.\nThe ADD-ONS should enable the users to do the assembly of components in a short time (10 minutes) and the maker shall select the resistance material for using ADD-ONS in different weather conditions.\nADD-ONS should be dismantled for recycling purposes.\n\n\n\nSources\nOpenNext work project resutls: Section 9.1",
     "crumbs": [
       "Product development and use analysis",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Product development</span>"
@@ -505,18 +538,18 @@
     "href": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#sec-productdvt-capability",
     "title": "4  Product development",
     "section": "product dvt -capability",
-    "text": "product dvt -capability\nA service or capability is an effect intended by a actor/user resulting from the interaction of the product with its environment (i.e. what the product is for).\nNB: this will relate to the user analysis section of the documentation that defines the actors and interactions.\n\nServices can be stated as follows: The [Product] shall enable [the actor] to [Action verb] (for example The product shall enable end-user to clean its teeth)\nServices provide users with an exchange value that can be included in an economic system.\nServices are intended effects that can be observed from outside the product (“black box” external view).\nServices are defined in a solution neutral-way.\n\n\nExample of services for ADD-ONS of XYZ Cargo\n\nThe ADD-ONS shall enable the food producer to store food\n\n1.1 solid (10 kilos)\n1.2 liquid (5 litrs)\n\nThe ADD-ONS shall enable the food producer to heat food\n\n2.1solid (150 deg Celcius)\n2.2 liquid (80 deg Celcius)\n\n\n\n\nSources\nOpenNext work project resutls: Section 9.1",
+    "text": "product dvt -capability\nA service or capability is an effect intended by a actor/user resulting from the interaction of the product with its environment (i.e. what the product is for).\nNB: this will relate to the user analysis section of the documentation that defines the actors and interactions.\n\nServices can be stated as follows: The [Product] shall enable [the actor] to [Action verb] (for example The product shall enable end-user to clean its teeth)\nServices provide users with an exchange value that can be included in an economic system.\nServices are intended effects that can be observed from outside the product (“black box” external view).\nServices are defined in a solution neutral-way.\n\n\nExample of services for ADD-ONS of XYZ Cargo\n\nThe ADD-ONS shall enable the food producer to store food\n\n1.1 solid (10 kilos)\n1.2 liquid (5 litrs)\n\nThe ADD-ONS shall enable the food producer to heat food\n\n2.1solid (150 deg Celcius)\n2.2 liquid (80 deg Celcius)\n\n\n\n\nSources\nSection 9.1",
     "crumbs": [
       "Product development and use analysis",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Product development</span>"
     ]
   },
   {
-    "objectID": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#product-dvt--use-cases-and-application",
-    "href": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#product-dvt--use-cases-and-application",
+    "objectID": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#product-development---use-cases-and-application",
+    "href": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#product-development---use-cases-and-application",
     "title": "4  Product development",
-    "section": "product dvt -use cases and application",
-    "text": "product dvt -use cases and application",
+    "section": "Product development - Use cases and application",
+    "text": "Product development - Use cases and application",
     "crumbs": [
       "Product development and use analysis",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Product development</span>"
@@ -545,33 +578,33 @@
     ]
   },
   {
-    "objectID": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#user-analysis--target-groups-who-will-use-the-product",
-    "href": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#user-analysis--target-groups-who-will-use-the-product",
+    "objectID": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#sec-user-analysis-target-groups",
+    "href": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#sec-user-analysis-target-groups",
     "title": "4  Product development",
-    "section": "user analysis -target groups (who will use the product)",
-    "text": "user analysis -target groups (who will use the product)",
+    "section": "User analysis - target groups (who will use the product)",
+    "text": "User analysis - target groups (who will use the product)\nTarget group is a specific actor in hardware development, one should take much care in defining who they are and what they want.",
     "crumbs": [
       "Product development and use analysis",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Product development</span>"
     ]
   },
   {
-    "objectID": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#user-analysis---external-interfaces-how-will-they-use-the-product",
-    "href": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#user-analysis---external-interfaces-how-will-they-use-the-product",
+    "objectID": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#sec-user-analysis-external-interfaces",
+    "href": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#sec-user-analysis-external-interfaces",
     "title": "4  Product development",
-    "section": "user analysis - External interfaces (how will they use the product)",
-    "text": "user analysis - External interfaces (how will they use the product)\nExternal interfaces are interactions between the product and the actors (including users).\n\nAn interface has a direction (in, out, or in-out)\nAn interface is made of a flow (matter, energy, or signal)\n\n\nExample: XYZ Cargo ADD-ONS\nIdentify the interactions between food producer and the product, specify needs and uses: - out: mechanical countainment - out: warmer and cooler - out: thermal energy\n\n\n\nImage of External interfaces of XYZ cargo-ADD ONS\n\n\n\n\nSources\nOpenNext work project resutls: Section 9.1",
+    "section": "User analysis - External interfaces (how will they use the product)",
+    "text": "User analysis - External interfaces (how will they use the product)\nExternal interfaces are interactions between the product and the actors (including users).\n\nAn interface has a direction (in, out, or in-out)\nAn interface is made of a flow (matter, energy, or signal)\n\n\nExample: XYZ Cargo ADD-ONS\nIdentify the interactions between food producer and the product, specify needs and uses: - out: mechanical countainment - out: warmer and cooler - out: thermal energy\n\n\n\nImage of External interfaces of XYZ cargo-ADD ONS\n\n\n\n\nSources\nSection 9.1",
     "crumbs": [
       "Product development and use analysis",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Product development</span>"
     ]
   },
   {
-    "objectID": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#user-analysis--skills-needed-to-use",
-    "href": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#user-analysis--skills-needed-to-use",
+    "objectID": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#sec-user-skills",
+    "href": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#sec-user-skills",
     "title": "4  Product development",
-    "section": "user analysis -skills needed to use",
-    "text": "user analysis -skills needed to use\nWhat is the specific knowledge a maker shall own to reuse - without modification - your product ??\nFor example:\n\nThe project echopen need basic knowledge about the medical ultrasound technology such as ultrasound imaging, a matter of acoustical impedance, etc.\n\n\nSources\nOpenNext work project resutls: Section 9.1",
+    "section": "User analysis - Skills needed to use",
+    "text": "User analysis - Skills needed to use\nWhat is the specific knowledge a maker shall own to reuse - without modification - your product ??\nFor example:\n\nThe project echopen need basic knowledge about the medical ultrasound technology such as ultrasound imaging, a matter of acoustical impedance, etc.\n\n\nSources\nOpenNext work project resutls: Section 9.1",
     "crumbs": [
       "Product development and use analysis",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Product development</span>"
@@ -614,8 +647,8 @@
     "objectID": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#similar-projects",
     "href": "content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.html#similar-projects",
     "title": "4  Product development",
-    "section": "similar projects",
-    "text": "similar projects",
+    "section": "Similar projects",
+    "text": "Similar projects\nIt is advisable to look for similar project one can join, instead of starting a new one.\nIt is reasonable to invest quite a lot of time in looking for similar projects. OSH are often difficult to find and comprehend, but finding projects may save you a lot of time and hassle. Indeed, you may learn a lot about your needs, refine your ideas, and may even find collaborators while browsing existing OSH projects.\n\nSources\nSection 9.4",
     "crumbs": [
       "Product development and use analysis",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Product development</span>"
@@ -703,7 +736,18 @@
     "href": "content/051_Project_history_-changelog.md_conc.html",
     "title": "6  Project history",
     "section": "",
-    "text": "Project history -changelog.md",
+    "text": "Project history - Changelog\nA changelog is a plain text file that contains a record of what notable changes are made between versions of software.\nThe keep a changelog website provides a detailed explanation of what a change log is.\nGuiding Principles\nSources\nSection 9.4, https://keepachangelog.com/en/1.1.0/",
+    "crumbs": [
+      "Project history",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Project history</span>"
+    ]
+  },
+  {
+    "objectID": "content/051_Project_history_-changelog.md_conc.html#sec-project-history-changelog",
+    "href": "content/051_Project_history_-changelog.md_conc.html#sec-project-history-changelog",
+    "title": "6  Project history",
+    "section": "",
+    "text": "Changelogs are for humans, not machines.\nThere should be an entry for every single version.\nThe same types of changes should be grouped.\nVersions and sections should be linkable.\nThe latest version comes first.\nThe release date of each version is displayed.\nMention whether you follow Semantic Versioning.\nTypes of changes:\n\nAdded for new features.\nChanged for changes in existing functionality.\nDeprecated for soon-to-be removed features.\nRemoved for now removed features.\nFixed for any bug fixes.\nSecurity in case of vulnerabilities.",
     "crumbs": [
       "Project history",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Project history</span>"
@@ -769,7 +813,7 @@
     "href": "content/104_user_guides_Overview_conc.html#sec-user-guides-safety-information",
     "title": "7  Guide for Users",
     "section": "User Guides : Safety information",
-    "text": "User Guides : Safety information\nDescribe all relevant safety issues or references to a risk assessment if included (for example high voltage, chemical safety etc.). If appropriate, discuss the wider context of the use of the hardware and safety issues or risks that may arise in the use environment.\n\nSources\nSection 9.3",
+    "text": "User Guides : Safety information\nDescribe all relevant safety issues or references to a risk assessment if included (for example high voltage, chemical safety etc.). If appropriate, discuss the wider context of the use of the hardware and safety issues or risks that may arise in the use environment.\nOSH makers are not always formally trained engineers and may not be able to easily differentiate between dangerous and safe manipulations.\n\nSources\nSection 9.3, Section 9.4",
     "crumbs": [
       "user guides",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Guide for Users</span>"
@@ -879,7 +923,7 @@
     "href": "content/104_user_guides_Overview_conc.html#sec-disposal-instructions",
     "title": "7  Guide for Users",
     "section": "Disposal instructions",
-    "text": "Disposal instructions\nDisposal instructions identify the process of removing a system or its component, ensuring the proper handling of any environmentally sensitive materials, and sending the remainder to surplus storage or sale.\nThey describe each component with information about their end of life (depending on their material content). Each element will be classed corresponding to their “recyclability”, and infromation is given to reduce the negative environemental impact of the disposal and recycling of the hardware componenent.\n\nClassing elements\n\nRecyclable: waste wich can be turn into another form of new and reusable materials without specific treatment.\nNon-recyclable: the components or products that design for single-use, which means they get discarded immediately after use.\nConditionally recyclable: component which needs specific treatment before being recycled.\n\n\nDistinguishing the recyclable, Conditionally recyclable and Non-recyclable components or products.\nDetermining what material can recycle many times\nIdentify the product lifespan for disposing and/or recycling.\nDescribe how to recycle the components or products and their type of materials?\nDescribe how to dispose of components which cannot be recycled.\n\nDisposable products are most often made from Polystyrene and Cotton, Non-recyclable products from Textiles and Ceramics.\n\n\nTypes of disposal:\n\nIncineration: This type of waste disposal involves the dumping off method where you eliminate waste materials via combustion.\nLandfill: It involves collecting, transporting, dumping, and burying waste in a designated land.\n\n\n\ndisassembly\nIndicate how to disassemble the components a product for recycling/disposing?\n\n\nenvironmental assessment\nit is the assessment of the environmental consequences of disposing or recycling a product before the decision to move forward with the proposed action. - The negative consequences of disposable products on the environment if sustainability isn’t factored into disposal options. - How to select the disposal or recycling process to have a less environmental impact?\n\n\nTemplate of disposal\nFor each element or part, indicate:\n\nsub-part name\nparent part number and name, with links\nlink to dissassembly instructions (see sec-product-build-assembly-instructions)\nmaterial used + how many times can it be recycled\nrecyclable (yes/no/conditional)\ndisposition information, for each option:\n\nhow to\nenvironmental assessment of disposal options:\n\ndescribed the negative consequences of disposal\nDefine and describe the main parameters and processes to decrease these negative environmental impacts\n\n\nend of life information\n\n\nSources\nOpenNext work project resutls: Section 9.1",
+    "text": "Disposal instructions\nDisposal instructions identify the process of removing a system or its component, ensuring the proper handling of any environmentally sensitive materials, and sending the remainder to surplus storage or sale.\nThey describe each component with information about their end of life (depending on their material content). Each element will be classed corresponding to their “recyclability”, and infromation is given to reduce the negative environemental impact of the disposal and recycling of the hardware componenent.\n\nClassing elements\n\nRecyclable: waste wich can be turn into another form of new and reusable materials without specific treatment.\nNon-recyclable: the components or products that design for single-use, which means they get discarded immediately after use.\nConditionally recyclable: component which needs specific treatment before being recycled.\n\n\nDistinguishing the recyclable, Conditionally recyclable and Non-recyclable components or products.\nDetermining what material can recycle many times\nIdentify the product lifespan for disposing and/or recycling.\nDescribe how to recycle the components or products and their type of materials?\nDescribe how to dispose of components which cannot be recycled.\n\nDisposable products are most often made from Polystyrene and Cotton, Non-recyclable products from Textiles and Ceramics.\n\n\nTypes of disposal:\n\nIncineration: This type of waste disposal involves the dumping off method where you eliminate waste materials via combustion.\nLandfill: It involves collecting, transporting, dumping, and burying waste in a designated land.\n\n\n\ndisassembly\nIndicate how to disassemble the components a product for recycling/disposing?\n\n\nenvironmental assessment\nit is the assessment of the environmental consequences of disposing or recycling a product before the decision to move forward with the proposed action. - The negative consequences of disposable products on the environment if sustainability isn’t factored into disposal options. - How to select the disposal or recycling process to have a less environmental impact?\n\n\nTemplate of disposal\nFor each element or part, indicate:\n\nsub-part name\nparent part number and name, with links\nlink to dissassembly instructions (see sec-product-build-assembly-instructions)\nmaterial used + how many times can it be recycled\nrecyclable (yes/no/conditional)\ndisposition information, for each option:\n\nhow to\nenvironmental assessment of disposal options:\n\ndescribed the negative consequences of disposal\nDefine and describe the main parameters and processes to decrease these negative environmental impacts\n\n\nend of life information\n\n\nSources\nSection 9.1",
     "crumbs": [
       "user guides",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Guide for Users</span>"
@@ -890,7 +934,7 @@
     "href": "content/104_user_guides_Overview_conc.html#sec-user-guidesenvironmental-management",
     "title": "7  Guide for Users",
     "section": "User guides: Environmental management",
-    "text": "User guides: Environmental management\n-   Protection against weather conditions\n-   Determining the acceptable temperature range\n\nSources\nOpenNext work project resutls: Section 9.1",
+    "text": "User guides: Environmental management\n-   Protection against weather conditions\n-   Determining the acceptable temperature range\n\nSources\nSection 9.1",
     "crumbs": [
       "user guides",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Guide for Users</span>"
@@ -901,18 +945,29 @@
     "href": "content/105_Product_build-main_conc.html",
     "title": "8  Hardware production",
     "section": "",
-    "text": "Generalities\nProduction instructions mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture and assembly of the product. This includes also skills and tools needed for manufacture and assembly.\nProduction usually starts with the sourcing of material, and a bill of material (BOM) is required. It describes all the components and their references. If the component is to be purchased, one should find all the information required to buy the part. If the part is to be manufactured, one should find all the descriptions of the manufacturing instructions, as well as all the components needed for this manufacture (for instance, The BOM should report the amount of PLA needed when parts are 3D-printed).",
+    "text": "Generalities\nProduction instructions mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture and assembly of the product. This includes also skills and tools needed for manufacture and assembly.\nTechnical documents provide the source needed to study and replicate a hardware design. In contrast to project documentation and community building, technical documents for OSH are quite specific, but can be considered analogous to what source code is for software. Depending on the project, technical documents may include technical drawings, images describing electronic schematics, computer-aided design (CAD) files, or assembly instructions to replicate the design. A thoroughly documented project will have all types of documents. It may also include code (firmware and software) necessary to run the hardware. The source files (like CAD files) are best accompanied by textual and multi-medial documentation, such as guides for manufacturing, assembly, maintenance, and development.\nProduction usually starts with the sourcing of material, and a bill of material (BOM) is required. It describes all the components and their references. If the component is to be purchased, one should find all the information required to buy the part. If the part is to be manufactured, one should find all the descriptions of the manufacturing instructions, as well as all the components needed for this manufacture (for instance, The BOM should report the amount of PLA needed when parts are 3D-printed).",
     "crumbs": [
       "Product build",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hardware production</span>"
     ]
   },
   {
-    "objectID": "content/105_Product_build-main_conc.html#generalities",
-    "href": "content/105_Product_build-main_conc.html#generalities",
+    "objectID": "content/105_Product_build-main_conc.html#relation-to-structural-modeling",
+    "href": "content/105_Product_build-main_conc.html#relation-to-structural-modeling",
     "title": "8  Hardware production",
-    "section": "",
-    "text": "Production instructions\nProduction instructions should include: - A bill of material (BOM): it gives an overview of all the material that needs to be sourced and/or manufactured, and describes all the components and their references: Section 8.2 - Manufacturing information: they can guide the makers to follow a process for replicating a product, and mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture of the hardware parts. - Manufacturing skills needed: Section 8.7\n-   Manufacturing tools needed: @sec-product-build-manufacturing-tools\n\n-   Manufacturing sequences: @sec-product-build-manufacturing-instructions\n\nAssembly instructions: they can guide the makers to follow the process of assembly or disassembly of components of a product, and illustrate visually and with words and text how to assemble or disassemble the mechanical and electrical components of the product.\n\nAssembly tools and skills needed: Section 8.11\nAssembly sequences: Section 8.10\n\nIf relevant, the electric and electronic plan should be provided (Section 8.5). Note that firmware and software installation (described at Section 8.6 ) may be included in the assembly sequence.\n\n\n\nHelping workflow and software\nIt is sometimes easier to create a guide for manufacturing and assembly. For instance, using the Gitbuilding software, one can write the manufacture and assembly instructions, and when using specific tags for tools and material, the software creates BOM, part lists and tool lists for each step and for the whole project.\n\nSources\nSection 9.1",
+    "section": "Relation to structural modeling",
+    "text": "Relation to structural modeling\nTechnical documents include both the structural modeling and the production instructions, they provide the source needed to study and replicate a hardware design. In contrast to project documentation and community building, technical documents for OSH are quite specific, but can be considered analogous to what source code is for software. Depending on the project, technical documents may include technical drawings, images describing electronic schematics, computer-aided design (CAD) files, or assembly instructions to replicate the design. A thoroughly documented project will have all types of documents. It may also include code (firmware and software) necessary to run the hardware. The source files (like CAD files) are best accompanied by textual and multi-medial documentation, such as guides for manufacturing, assembly, maintenance, and development.\nFollowing the guide for structural modeling, one should share both raw and derived source files. For instance, 3D object designs should be shared as print-ready files (.stl file for instance), but also as modifiable 3D objects (the format of these files will depend on the software used). It is necessary to provide the raw files to enable modification, even if they can often only be opened in proprietary software, and their use requires specific skills. The derived versions are used to build the hardware, but often are not suited for modification. Users with access to the tools that can read and manipulate these raw source files can update and improve the physical device. If they wish, they can proceed to share such modifications.",
+    "crumbs": [
+      "Product build",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hardware production</span>"
+    ]
+  },
+  {
+    "objectID": "content/105_Product_build-main_conc.html#production-instructions",
+    "href": "content/105_Product_build-main_conc.html#production-instructions",
+    "title": "8  Hardware production",
+    "section": "Production instructions",
+    "text": "Production instructions\nProduction instructions should include:\n\nA bill of material (BOM): it gives an overview of all the material that needs to be sourced and/or manufactured, and describes all the components and their references: Section 8.4\nManufacturing information: they can guide the makers to follow a process for replicating a product, and mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture of the hardware parts.\n\nManufacturing skills needed: Section 8.9\nManufacturing tools needed: Section 8.10\nManufacturing sequences: Section 8.11\n\nAssembly instructions: they can guide the makers to follow the process of assembly or disassembly of components of a product, and illustrate visually and with words and text how to assemble or disassemble the mechanical and electrical components of the product.\n\nAssembly tools and skills needed: Section 8.13\nAssembly sequences: Section 8.12\nIf relevant, the electric and electronic plan should be provided (Section 8.7). Note that firmware and software installation (described at Section 8.8 ) may be included in the assembly sequence.\n\n\n\nHelping workflow and software\nIt is sometimes easier to create a guide for manufacturing and assembly. For instance, using the Gitbuilding software, one can write the manufacture and assembly instructions, and when using specific tags for tools and material, the software creates BOM, part lists and tool lists for each step and for the whole project.\n\nSources\nSection 9.1, Section 9.4",
     "crumbs": [
       "Product build",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hardware production</span>"
@@ -967,7 +1022,7 @@
     "href": "content/105_Product_build-main_conc.html#sec-product-build-firmwaresoftware",
     "title": "8  Hardware production",
     "section": "Product build -firmware/Software",
-    "text": "Product build -firmware/Software\nHere comes the elements that were more briefly described in Section 5.3. Since software/firmware development follows different practices that often needs a more detailed version control system, they are usually developed independently of the hardware.\nIn all cases, it is important to keep track of which version of the soft/firmwares are used with which version of the hardware.\nAlso indicate details on the operating software and programming language, and include minimum version compatibility, and dditional system requirements, like memory, disk space, processor, input or output devices.\n\nExample: the airtrack hardware: https://codeberg.org/openmake/airtrack-hardware, software: https://github.com/open-make/code-airtrack\n\nThe Airtrack hardware was developed using pixycam. The hardware and the software are developed in different repositories with different people involved. In 2025, as the pixycam was not produced anymore, a new version of the hardware was created, using the pixycam2 component. This had little effects on the hardware design, but, the firmware and software needed to be modified.\n\n\nSources\nSection 9.1, Section 9.3",
+    "text": "Product build -firmware/Software\nHere comes the elements that were more briefly described in Section 5.3. Since software/firmware development follows different practices that often needs a more detailed version control system, they are usually developed independently of the hardware.\nAny code or firmware required to operate the hardware should be shared. This will allow others to use it with their hardware or modify it along with their modifications to your hardware. Document the process required to build your software, including links to any dependencies (for example, third-party libraries or tools). In addition, it is helpful to provide an overview of the state of the software (for example, “stable” or “beta” or “barely-working hack”).\nIn all cases, it is important to keep track of which version of the soft/firmwares are used with which version of the hardware.\nAlso indicate details on the operating software and programming language, and include minimum version compatibility, and dditional system requirements, like memory, disk space, processor, input or output devices.\n\nExample: the airtrack hardware: https://codeberg.org/openmake/airtrack-hardware, software: https://github.com/open-make/code-airtrack\n\nThe Airtrack hardware was developed using pixycam. The hardware and the software are developed in different repositories with different people involved. In 2025, as the pixycam was not produced anymore, a new version of the hardware was created, using the pixycam2 component. This had little effects on the hardware design, but, the firmware and software needed to be modified.\n\n\nSources\nSection 9.1, Section 9.3",
     "crumbs": [
       "Product build",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hardware production</span>"
@@ -1011,7 +1066,7 @@
     "href": "content/105_Product_build-main_conc.html#sec-product-build-assembly-instructions",
     "title": "8  Hardware production",
     "section": "Product Build: Assembly sequence",
-    "text": "Product Build: Assembly sequence\nThe Assembly sequence usually start with a description and list of each part that will be assembled, and then provide a step-by-step guide. One can think of instruction for lego objects (In these special case, the part list is identical to a BOM and placed at the end).\nSee Chapter 8 for information about software and dependence with guide for manufacturing.\n\nPart list\nThe Part list for mechanical parts is a complete list of all parts needed to build the complete product. It is different from the BOM which list material needed for the manufacture of the parts, while this document list the manufactured parts.\nIt constitutes of : - Item numbers: are based on the assembly structure, that is, the order in which parts are displayed in assembly. - Part number or drawing number: which is a reference back to the detail drawing (refer to the BOM). - Description: is usually a part name or a complete description of parts. - Quantity is the number of that particular part used on this assembly. - Image (or STL render) of each part.\n\n\nSequence\nThe set of steps necessary to properly assemble the parts should be well described at each step.\n\nThe joining technology at each step should be clearly described: - Screwing - Bolting - Soldering - Gluing (or “gluing and screwing”)\n\n\nExample\nPoppy Robot\nJPL Open Source Rover\nSatNOGS Rotator v3 , Assembly instructions\nOpen Source Powered Prosthetic Leg\n\n\n\nNotes\nIt is good practice to design the parts such that the assembly is easier. One can for instance include the item number on the parts and make sure that it is difficult to assemble parts at the wrong step, for instance by designing asymetrical parts.\nYou may indicate any measures that have been taken in the design to make the hardware easy to build for other users (reduction of parts, features in the design to make the hardware assembly more reliable, …)\n\nSources\nSection 9.1, Section 9.3",
+    "text": "Product Build: Assembly sequence\nTo help others make and modify your hardware design, you should provide instructions for going from your design files to the working physical hardware. It is good to publish annotated photographs (or video) from multiple viewpoints and at various stages of assembly. If you do not have photos, posting annotated 3D renderings of your design is a good alternative. Either way, it is good to provide captions or text that explain what is shown in each image and why it is useful.\nThe Assembly sequence usually start with a description and list of each part that will be assembled, and then provide a step-by-step guide. One can think of instruction for lego objects (In these special case, the part list is identical to a BOM and placed at the end).\nSee Chapter 8 for information about software and dependence with guide for manufacturing.\n\nPart list\nThe Part list for mechanical parts is a complete list of all parts needed to build the complete product. It is different from the BOM which list material needed for the manufacture of the parts, while this document list the manufactured parts.\nIt constitutes of : - Item numbers: are based on the assembly structure, that is, the order in which parts are displayed in assembly. - Part number or drawing number: which is a reference back to the detail drawing (refer to the BOM). - Description: is usually a part name or a complete description of parts. - Quantity is the number of that particular part used on this assembly. - Image (or STL render) of each part.\n\n\nSequence\nThe set of steps necessary to properly assemble the parts should be well described at each step.\n\nThe joining technology at each step should be clearly described: - Screwing - Bolting - Soldering - Gluing (or “gluing and screwing”)\n\n\nExample\nPoppy Robot\nJPL Open Source Rover\nSatNOGS Rotator v3 , Assembly instructions\nOpen Source Powered Prosthetic Leg\n\n\n\nNotes\nIt is good practice to design the parts such that the assembly is easier. One can for instance include the item number on the parts and make sure that it is difficult to assemble parts at the wrong step, for instance by designing asymetrical parts.\nYou may indicate any measures that have been taken in the design to make the hardware easy to build for other users (reduction of parts, features in the design to make the hardware assembly more reliable, …)\n\nSources\nSection 9.1, Section 9.3, Section 9.4",
     "crumbs": [
       "Product build",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hardware production</span>"
@@ -1067,6 +1122,17 @@
     "title": "9  Sources",
     "section": "Journal of open hardware",
     "text": "Journal of open hardware\nThe journal of open hardware provides a template with several information required in hardware metadata papers. We included some of the indication of the template into this guide.",
+    "crumbs": [
+      "Appendix",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Sources</span>"
+    ]
+  },
+  {
+    "objectID": "content/200-sources.html#sec-source-turing",
+    "href": "content/200-sources.html#sec-source-turing",
+    "title": "9  Sources",
+    "section": "Turing way book",
+    "text": "Turing way book\nContent taken from The Turing Way Community. (2025). The Turing Way: A handbook for reproducible, ethical and collaborative research. Zenodo.  https://doi.org/10.5281/zenodo.15213042. (shared under a CC-BY license).\nA specific chapter on OSH and the linked chapter on OS project documentation. NB: The team behind this guide was involved in the redaction of these chapters.",
     "crumbs": [
       "Appendix",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Sources</span>"

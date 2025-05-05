@@ -178,7 +178,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/019_Community_-_work_culture_conc.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Community - work culture</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Community building</span></span></a>
   </div>
 </li>
       </ul>
@@ -295,9 +295,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#generalities" id="toc-generalities" class="nav-link active" data-scroll-target="#generalities">Generalities</a>
+  <li><a href="#generalities" id="toc-generalities" class="nav-link active" data-scroll-target="#generalities">Generalities</a></li>
+  <li><a href="#relation-to-structural-modeling" id="toc-relation-to-structural-modeling" class="nav-link" data-scroll-target="#relation-to-structural-modeling">Relation to structural modeling</a></li>
+  <li><a href="#production-instructions" id="toc-production-instructions" class="nav-link" data-scroll-target="#production-instructions">Production instructions</a>
   <ul class="collapse">
-  <li><a href="#production-instructions" id="toc-production-instructions" class="nav-link" data-scroll-target="#production-instructions">Production instructions</a></li>
   <li><a href="#helping-workflow-and-software" id="toc-helping-workflow-and-software" class="nav-link" data-scroll-target="#helping-workflow-and-software">Helping workflow and software</a></li>
   </ul></li>
   <li><a href="#sec-product-build-bill-of-material" id="toc-sec-product-build-bill-of-material" class="nav-link" data-scroll-target="#sec-product-build-bill-of-material">Product Build: Bill of material</a></li>
@@ -351,28 +352,38 @@ ul.task-list li input[type="checkbox"] {
 <section id="generalities" class="level2">
 <h2 class="anchored" data-anchor-id="generalities">Generalities</h2>
 <p>Production instructions mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture and assembly of the product. This includes also skills and tools needed for manufacture and assembly.</p>
+<p>Technical documents provide the source needed to study and replicate a hardware design. In contrast to project documentation and community building, technical documents for OSH are quite specific, but can be considered analogous to what source code is for software. Depending on the project, technical documents may include technical drawings, images describing electronic schematics, computer-aided design (CAD) files, or assembly instructions to replicate the design. A thoroughly documented project will have all types of documents. It may also include code (firmware and software) necessary to run the hardware. The source files (like CAD files) are best accompanied by textual and multi-medial documentation, such as guides for manufacturing, assembly, maintenance, and development.</p>
 <p>Production usually starts with the sourcing of material, and a bill of material (BOM) is required. It describes all the components and their references. If the component is to be purchased, one should find all the information required to buy the part. If the part is to be manufactured, one should find all the descriptions of the manufacturing instructions, as well as all the components needed for this manufacture (for instance, The BOM should report the amount of PLA needed when parts are 3D-printed).</p>
-<section id="production-instructions" class="level3">
-<h3 class="anchored" data-anchor-id="production-instructions">Production instructions</h3>
-<p>Production instructions should include: - A bill of material (BOM): it gives an overview of all the material that needs to be sourced and/or manufactured, and describes all the components and their references: <a href="#sec-product-build-bill-of-material" class="quarto-xref"><span>Section 8.2</span></a> - Manufacturing information: they can guide the makers to follow a process for replicating a product, and mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture of the hardware parts. - Manufacturing skills needed: <a href="#sec-product-build-manufacturing-skills" class="quarto-xref"><span>Section 8.7</span></a></p>
-<pre><code>-   Manufacturing tools needed: @sec-product-build-manufacturing-tools
-
--   Manufacturing sequences: @sec-product-build-manufacturing-instructions</code></pre>
-<ul>
-<li>Assembly instructions: they can guide the makers to follow the process of assembly or disassembly of components of a product, and illustrate visually and with words and text how to assemble or disassemble the mechanical and electrical components of the product.
-<ul>
-<li>Assembly tools and skills needed: <a href="#sec-product-build-assembly-skills-and-tools" class="quarto-xref"><span>Section 8.11</span></a></li>
-<li>Assembly sequences: <a href="#sec-product-build-assembly-instructions" class="quarto-xref"><span>Section 8.10</span></a></li>
-</ul></li>
-<li>If relevant, the electric and electronic plan should be provided (<a href="#sec-product-buildelectrical-design" class="quarto-xref"><span>Section 8.5</span></a>). Note that firmware and software installation (described at <a href="#sec-product-build-firmwaresoftware" class="quarto-xref"><span>Section 8.6</span></a> ) may be included in the assembly sequence.</li>
-</ul>
 </section>
+<section id="relation-to-structural-modeling" class="level2">
+<h2 class="anchored" data-anchor-id="relation-to-structural-modeling">Relation to structural modeling</h2>
+<p>Technical documents include both the structural modeling and the production instructions, they provide the source needed to study and replicate a hardware design. In contrast to project documentation and community building, technical documents for OSH are quite specific, but can be considered analogous to what source code is for software. Depending on the project, technical documents may include technical drawings, images describing electronic schematics, computer-aided design (CAD) files, or assembly instructions to replicate the design. A thoroughly documented project will have all types of documents. It may also include code (firmware and software) necessary to run the hardware. The source files (like CAD files) are best accompanied by textual and multi-medial documentation, such as guides for manufacturing, assembly, maintenance, and development.</p>
+<p>Following the guide for structural modeling, one should share both raw and derived source files. For instance, 3D object designs should be shared as print-ready files (.stl file for instance), but also as modifiable 3D objects (the format of these files will depend on the software used). It is necessary to provide the raw files to enable modification, even if they can often only be opened in proprietary software, and their use requires specific skills. The derived versions are used to build the hardware, but often are not suited for modification. Users with access to the tools that can read and manipulate these raw source files can update and improve the physical device. If they wish, they can proceed to share such modifications.</p>
+</section>
+<section id="production-instructions" class="level2">
+<h2 class="anchored" data-anchor-id="production-instructions">Production instructions</h2>
+<p>Production instructions should include:</p>
+<ul>
+<li><p>A bill of material (BOM): it gives an overview of all the material that needs to be sourced and/or manufactured, and describes all the components and their references: <a href="#sec-product-build-bill-of-material" class="quarto-xref"><span>Section 8.4</span></a></p></li>
+<li><p>Manufacturing information: they can guide the makers to follow a process for replicating a product, and mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture of the hardware parts.</p>
+<ul>
+<li><p>Manufacturing skills needed: <a href="#sec-product-build-manufacturing-skills" class="quarto-xref"><span>Section 8.9</span></a></p></li>
+<li><p>Manufacturing tools needed: <a href="#sec-product-build-manufacturing-tools" class="quarto-xref"><span>Section 8.10</span></a></p></li>
+<li><p>Manufacturing sequences: <a href="#sec-product-build-manufacturing-instructions" class="quarto-xref"><span>Section 8.11</span></a></p></li>
+</ul></li>
+<li><p>Assembly instructions: they can guide the makers to follow the process of assembly or disassembly of components of a product, and illustrate visually and with words and text how to assemble or disassemble the mechanical and electrical components of the product.</p>
+<ul>
+<li>Assembly tools and skills needed: <a href="#sec-product-build-assembly-skills-and-tools" class="quarto-xref"><span>Section 8.13</span></a></li>
+<li>Assembly sequences: <a href="#sec-product-build-assembly-instructions" class="quarto-xref"><span>Section 8.12</span></a></li>
+<li>If relevant, the electric and electronic plan should be provided (<a href="#sec-product-buildelectrical-design" class="quarto-xref"><span>Section 8.7</span></a>). Note that firmware and software installation (described at <a href="#sec-product-build-firmwaresoftware" class="quarto-xref"><span>Section 8.8</span></a> ) may be included in the assembly sequence.</li>
+</ul></li>
+</ul>
 <section id="helping-workflow-and-software" class="level3">
 <h3 class="anchored" data-anchor-id="helping-workflow-and-software">Helping workflow and software</h3>
 <p>It is sometimes easier to create a guide for manufacturing and assembly. For instance, using the Gitbuilding software, one can write the manufacture and assembly instructions, and when using specific tags for tools and material, the software creates BOM, part lists and tool lists for each step and for the whole project.</p>
 <hr>
 <p><strong>Sources</strong></p>
-<p><a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a></p>
+<p><a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a>, <a href="200-sources.html#sec-source-turing" class="quarto-xref"><span>Section 9.4</span></a></p>
 </section>
 </section>
 <section id="sec-product-build-bill-of-material" class="level2">
@@ -444,6 +455,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="sec-product-build-firmwaresoftware" class="level2">
 <h2 class="anchored" data-anchor-id="sec-product-build-firmwaresoftware">Product build -firmware/Software</h2>
 <p>Here comes the elements that were more briefly described in <a href="102_product_dvt_structuralmodel_conc.html#sec-software-and-firmware-architecture" class="quarto-xref"><span>Section 5.3</span></a>. Since software/firmware development follows different practices that often needs a more detailed version control system, they are usually developed independently of the hardware.</p>
+<p>Any code or firmware required to operate the hardware should be shared. This will allow others to use it with their hardware or modify it along with their modifications to your hardware. Document the process required to build your software, including links to any dependencies (for example, third-party libraries or tools). In addition, it is helpful to provide an overview of the state of the software (for example, “stable” or “beta” or “barely-working hack”).</p>
 <p>In all cases, it is important to keep track of which version of the soft/firmwares are used with which version of the hardware.</p>
 <p>Also indicate details on the operating software and programming language, and include minimum version compatibility, and dditional system requirements, like memory, disk space, processor, input or output devices.</p>
 <blockquote class="blockquote">
@@ -631,6 +643,7 @@ The Airtrack hardware was developed using pixycam. The hardware and the software
 </section>
 <section id="sec-product-build-assembly-instructions" class="level2">
 <h2 class="anchored" data-anchor-id="sec-product-build-assembly-instructions">Product Build: Assembly sequence</h2>
+<p>To help others make and modify your hardware design, you should provide instructions for going from your design files to the working physical hardware. It is good to publish annotated photographs (or video) from multiple viewpoints and at various stages of assembly. If you do not have photos, posting annotated 3D renderings of your design is a good alternative. Either way, it is good to provide captions or text that explain what is shown in each image and why it is useful.</p>
 <p>The Assembly sequence usually start with a description and list of each part that will be assembled, and then provide a step-by-step guide. One can think of instruction for lego objects (In these special case, the part list is identical to a BOM and placed at the end).</p>
 <p>See <a href="#sec-production" class="quarto-xref"><span>Chapter 8</span></a> for information about software and dependence with guide for manufacturing.</p>
 <section id="part-list" class="level3">
@@ -658,7 +671,7 @@ The Airtrack hardware was developed using pixycam. The hardware and the software
 <p>You may indicate any measures that have been taken in the design to make the hardware easy to build for other users (reduction of parts, features in the design to make the hardware assembly more reliable, …)</p>
 <hr>
 <p><strong>Sources</strong></p>
-<p><a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a>, <a href="200-sources.html#sec-journal-of-open-hardware" class="quarto-xref"><span>Section 9.3</span></a></p>
+<p><a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a>, <a href="200-sources.html#sec-journal-of-open-hardware" class="quarto-xref"><span>Section 9.3</span></a>, <a href="200-sources.html#sec-source-turing" class="quarto-xref"><span>Section 9.4</span></a></p>
 </section>
 </section>
 <section id="sec-product-build-assembly-skills-and-tools" class="level2">
