@@ -58,6 +58,7 @@ book:
       - content/019_Community_-_work_culture.qmd
       - content/020_Community_-guidelines.qmd
       - content/021_Community_–Code_of_conduct.qmd  
+      - content/120_Community-governance.qmd
   - part: "Product development and use analysis"
     chapters:
       - content/033_product_dvt_-foreseen_cost_(money_and_time).qmd

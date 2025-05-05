@@ -22,6 +22,7 @@ It may also be time to work on community engagement.
     -   [ ] Contribution guidelines
     -   [ ] work culture that you want to promote
     -   [ ] Code of conduct
+    -   [ ] Governance
 -   [ ] User analysis (this can be a personas analysis)
     -   [ ] Ecosystem analysis (`stakeholder`)
     -   [ ] target groups (who will use the product)

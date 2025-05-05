@@ -44,6 +44,7 @@ Note: using a canva to analyse the project may be useful at this point.
   - [ ] Contribution guidelines
   - [ ] work culture that you want to promote
   - [ ] Code of conduct  
+  - [ ] Governance
 
 - [ ] Concept development
   - [ ] requirements
