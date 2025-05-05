@@ -1,1 +1,11 @@
-## similar projects
+## Similar projects
+
+It is advisable to look for similar project one can join, instead of starting a new one.
+
+It is reasonable to invest quite a lot of time in looking for similar projects. OSH are often difficult to find and comprehend, but finding projects may save you a lot of time and hassle. Indeed, you may learn a lot about your needs, refine your ideas, and may even find collaborators while browsing existing OSH projects.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-source-turing

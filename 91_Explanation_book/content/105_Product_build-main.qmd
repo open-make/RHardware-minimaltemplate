@@ -13,17 +13,19 @@ If the part is to be manufactured, one should find all the descriptions of the m
 ### Production instructions
 
 Production instructions should include: - A bill of material (BOM): it gives an overview of all the material that needs to be sourced and/or manufactured, and describes all the components and their references: @sec-product-build-bill-of-material - Manufacturing information: they can guide the makers to follow a process for replicating a product, and mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture of the hardware parts.
+
+Following the structural modeling, one should share both raw and derived source files. For instance, 3D object designs should be shared as print-ready files (.stl file for instance), but also as modifiable 3D objects (the format of these files will depend on the software used). It is necessary to provide the raw files to enable modification, even if they can often only be opened in proprietary software, and their use requires specific skills. The derived versions are used to build the hardware, but often are not suited for modification. Users with access to the tools that can read and manipulate these raw source files can update and improve the physical device. If they wish, they can proceed to share such modifications.
+
 - Manufacturing skills needed: @sec-product-build-manufacturing-skills
 
-```         
 -   Manufacturing tools needed: @sec-product-build-manufacturing-tools
 
 -   Manufacturing sequences: @sec-product-build-manufacturing-instructions
-```
+
 
 -   Assembly instructions: they can guide the makers to follow the process of assembly or disassembly of components of a product, and illustrate visually and with words and text how to assemble or disassemble the mechanical and electrical components of the product.
-    -   Assembly tools and skills needed: @sec-product-build-assembly-skills-and-tools
-    -   Assembly sequences: @sec-product-build-assembly-instructions
+-   Assembly tools and skills needed: @sec-product-build-assembly-skills-and-tools
+-   Assembly sequences: @sec-product-build-assembly-instructions
 -   If relevant, the electric and electronic plan should be provided (@sec-product-buildelectrical-design). Note that firmware and software installation (described at @sec-product-build-firmwaresoftware ) may be included in the assembly sequence.
 
 ### Helping workflow and software
@@ -31,8 +33,10 @@ Production instructions should include: - A bill of material (BOM): it gives an 
 It is sometimes easier to create a guide for manufacturing and assembly.
 For instance, using the Gitbuilding software, one can write the manufacture and assembly instructions, and when using specific tags for tools and material, the software creates BOM, part lists and tool lists for each step and for the whole project.
 
+
+
 ------------------------------------------------------------------------
 
 **Sources**
 
-@sec-open-next-work
+@sec-open-next-work, @sec-source-turing

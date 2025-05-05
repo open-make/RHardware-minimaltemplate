@@ -13,3 +13,15 @@ The content of the 04_hardware folder is loosely derived from <https://github.co
 
 The journal of open hardware provides a template with several information required in hardware metadata papers.
 We included some of the indication of the template into this guide.
+
+## Turing way book {#sec-source-turing}
+
+Content taken from The Turing Way Community.
+(2025).
+The Turing Way: A handbook for reproducible, ethical and collaborative research.
+Zenodo. 
+<https://doi.org/10.5281/zenodo.15213042>. (shared under a CC-BY license).
+
+A specific [chapter on OSH](https://book.the-turing-way.org/reproducible-research/open/open-hardware#what-is-the-source-of-open-source-hardware) and the linked chapter on [OS project documentation](https://book.the-turing-way.org/project-design/pd-overview/pd-overview-repro). 
+NB: The team behind this guide was involved in the redaction of these chapters.
+

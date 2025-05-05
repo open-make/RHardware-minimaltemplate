@@ -10,12 +10,19 @@ The guide propose 5 stages of developement:
 - protoyping
 - replication phase
 
+## From prototype, to demonstrator and market ready product
 
-### If you have a prototype {#sec-if-you-have-a-prototype}
+ When some ideas to address a particular need are tested, the process is called prototyping. After many iterations and testing, a prototype will be selected for further development. The design that solves the needs but is not yet complete nor ready to be replicated (usually because some parts are not well documented or requires a lot of manual adjustments) is called a demonstrator. When the design and documentation are polished and are ready to be used by hardware producers, the hardware is usually labeled as a market-ready product.
 
-We expect some or even most readers will come to this documentation template when they actually already have a prototype, and are mostly interested in the documentation of the technical parts of the project (mostly what will be in the 04_hardware folder). Most of the advantages of documenting the project exhaustively will then be obsolete, and you may want to restrict the document to its essentials.
+### Document when you already have a prototype {#sec-if-you-have-a-prototype}
 
-As explained in the FAQ though, all elements may be important and we encourage you to go through each steps (rapidely), making short description of what you had in mind when developing the project so far. These descriptions may be shorter than what you would have written if done earlier, but it may be important to ask these different questions even when the project seems quite advanced. So, look at the checklists of each step. You may want to use the provided template "Full_Project_prototype", going rapidly through it to get to the prototyping phase early. 
+We expect some (or even most) readers will come to this documentation template when they actually already have a prototype, and are mostly interested in the documentation of the technical parts of the project (mostly what will be in the 04_hardware folder). Most of the advantages of documenting the project exhaustively will then be obsolete, and authors may want to restrict the document to its essentials.
+
+As explained in the FAQ though, all elements may be important and we encourage everyone to go through each steps (even rapidely), making short description of what they had in mind when developing the project so far. 
+These descriptions may be shorter than what you would have written if done earlier, but it may be important to ask these different questions, even when the project seems quite advanced.
+So, our advice is to look at the checklists of each step also when you have a prototype. You may want to use the provided template "Full_Project_prototype", going rapidly through it to get to some documentation done fast. 
+
+*There are different degrees for how open an OSH project can be, but every step in this direction is welcome and an opportunity to contribute to better research and open new career paths.*
 
 
 The process may help you to refine the scope of your project, potentially help you find your users and facilitate discussions with other contributors or investors.
