@@ -3,18 +3,17 @@
 This part is meant to give an overview of the hardware, more detailed description should be given in the 03_product_dvt/hardware_overview.md file.
 
 
-
 Give an overview of the hardware, what it does, how it was produced, and, if relevant, the research for which it has been used. Write as much as possible for a general audience. That is, explain what the project is and what it is for, before you get into the technical details. Describe how the hardware was implemented/created, with relevant details of the architecture and design, including general materials. You may also describe any variants and associated implementation differences.
-
-
 
 A schema, a picture or a video may be added here.
 
-> Example:\
+> Example:
 >
-> The project [BCN3D Moveo](https://github.com/BCN3D/BCN3D-Moveo/) is an open source robotic arm that everyone should be able to replicate - with or without modification - at home without the need for highly technical knowledge and expensive materials.
-> The robotic arm will support several of the existing training itineraries: mechanical design, automation, industrial programming, etc.\
-> \
+> The project [BCN3D Moveo](https://github.com/BCN3D/BCN3D-Moveo/) is an open source robotic arm that everyone should be able to replicate - with or without modification - at home without the need for highly technical knowledge and expensive materials.
+> The robotic arm will support several of the existing training itineraries: mechanical design, automation, industrial programming, etc.
+>
+> Pedal powered machine: https://codeberg.org/openmakeXlowtech/PedalPoweredMachine-4fablab : photo + "size: about 700x1000 mm, table is 1100 mm high."
+
 
 ------------------------------------------------------------------------
 

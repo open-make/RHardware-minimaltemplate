@@ -1,8 +1,21 @@
 ## Cite this project
 
-It is good practice to treat hardware citation similarly to other research outputs.  The use of archives that can assign persistent identifiers (like a DOI) can help to guarantee specific versions/releases of the hardware project available over the long term. Though within the open hardware community this is not the practice, it would be beneficial to adopt going forward. For research to be reproducible, long term archiving through a platform that is dedicated to it would be necessary.
+It is good practice to treat hardware citation similarly to other research outputs.
+The use of archives that can assign persistent identifiers (like a DOI) can help to guarantee specific versions/releases of the hardware project available over the long term. Though within the open hardware community this is not the practice, it would be beneficial to adopt going forward. For research to be reproducible, long term archiving through a platform that is dedicated to it would be necessary.
 
 Zenodo is a good example of the type of archive that can issue a persistent identifier and provide a good citation metadata, if authors are set correctly. The use of a Citation.cff file may be recommended. You may refer to the Turing way book for more information: https://book.the-turing-way.org/communication/citable
+
+> Example (fictive)
+>
+> Please cite this project by citing the article: Ho, I., Kumar, A. H., & Harris, D. M. 2022. Reconfigurable Mechanical Vibrations Laboratory Kit. Journal of Open Hardware,  6(1): 4, pp. 1–11. DOI: https:// doi.org/10.5334/joh.40
+>
+> Please cite this hardware as TUM Magnetic fields, & Bernhard Gleich. (2023). TUMMFE/Hardware: Hardware Release (Version 1). Zenodo. https://doi.org/10.5281/zenodo.10006096
+>
+> Citing White Rabbit
+>J. Serrano, P. Alvarez, M. Cattin, E. G. Cota, P. M. J. H. Lewis, T.
+Włostowski et al., The White Rabbit
+Project
+in Proceedings of ICALEPCS TUC004, Kobe, Japan, 2009.
 
 -------------------------------------------------------------
 

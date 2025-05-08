@@ -8,6 +8,12 @@ It may also present or link to a standard data structure used, or involve the ex
 
 One may link to other repositories or add data directly in the hardware documentation, as an extra folder.
 
+> example
+>
+> Data obtained with the plastic scanner can be found at https://github.com/Plastic-Scanner/Data
+>
+> https://docs.smartcitizen.me:  hardware documentation and data obtained are linked at the same level in the main documentation homepage.
+
 ------------------------------------------------------------------------
 
 **Sources**

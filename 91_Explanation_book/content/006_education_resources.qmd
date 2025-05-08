@@ -1,1 +1,8 @@
 ## Education resources {#sec-education-resources}
+
+Indicate and link to any resources for educating the users on why/how to use the hardware.
+The form of these resources may be online courses, videos, or in presence workshop, to name a few.
+
+> example:
+>
+> <https://docs.smartcitizen.me>: hardware documentation and education resources are linked at the same level in the main documentation homepage.

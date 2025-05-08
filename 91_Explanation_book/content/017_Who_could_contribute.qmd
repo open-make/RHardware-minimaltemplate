@@ -2,9 +2,9 @@
 
 Mention the specific knowledge a contributor shall own to contribute to the project, as a maker or as a different role, indicate what kind of skills you are looking for.
 
-Describe here how people can contribute to your project.
-What is the preferred workflow and mention what is the agreement.
+You may describe here briefly how people can contribute to your project (link the more detailed guidelines if existant @sec-community-guidelines) and what they can expect to be rewarded.
+Mention what is the agreement between contributors and maintainers of the project.
 
-> Example of a contribution process:
->
-> Post an issue on the Git Forge and briefly outline the changes you plan to make or would like to be made.
+> We are always looking for bright minds that want to help out making plastic identification possible.
+> Especially data science, spectroscopy, and electronics.
+> If you want to chip in with your skills please read the page here:

@@ -2,6 +2,14 @@
 
 Describe the problem in this section and how the hardware addresses the problem.
 
+> example
+>
+> As you might know, plastic recycling is important, but putting this into practice can be quite challenging.
+> One of the big things is identifying and sorting plastic.
+>
+> Discrete near-infrared spectroscopy makes it possible to identify over 75% of all plastic used in everyday life.
+> Therefore, it became my mission to make this technology accessible to recyclers in low and middle-income countries.
+
 ------------------------------------------------------------------------
 
 **Sources**

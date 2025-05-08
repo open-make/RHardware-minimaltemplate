@@ -5,6 +5,15 @@ Describe the possible expansion of features in pre-determined and agreed on ways
 
 Provide sufficient information for what the expected outcomes and deliverables are.
 
+> Example
+>
+> <https://plasticscanner.com/future-plans/> : With a focus on improving spectroscopy, writing coding, and continuous integration, we aim to create a practical and effective solution.
+> Be a part of the progress and join us in making a difference.
+>
+> In order to place the endeavors in the greater scheme of things, we have specific milestones we want to reach.
+> We want to achieve these milestones sequentially, this makes it a plan, not a planning.
+> We do not make any promises about when these milestones will be reached, it needs to stay fun for us to develop.
+
 ------------------------------------------------------------------------
 
 **Sources**

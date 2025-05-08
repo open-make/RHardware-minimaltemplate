@@ -1,6 +1,10 @@
 ## Validation
 
+> How do you know the hardware works ?
+
 Elaborate how the hardware technically/methodologically advances the state-of-the-art, including references to relevant research articles and online references.
+
+This may be important for future development, as new validation cycles would probably build on this documentation. Indicate any sofware/code used for validation of the design.
 
 ------------------------------------------------------------------------
 

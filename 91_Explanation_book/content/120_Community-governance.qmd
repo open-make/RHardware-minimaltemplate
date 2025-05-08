@@ -10,7 +10,10 @@ Provide appropriate incentives and acknowledgment for the contributions made by 
 Create opportunities for members to share some leadership responsibilities with you in the project.
 When inviting suggestions and ideas from the community, provide the first set of plans where your community can develop from.
 
-See https://opensource.guide/leadership-and-governance/ for more information.
+More information:
+
+- https://opensource.guide/leadership-and-governance/ 
+- https://book.the-turing-way.org/ethical-research/ethics-open-source-governance
 
 ------------------------------------------------------------------------
 

@@ -1,1 +1,23 @@
-## software used for development
+## Software used for development
+
+Indicate what software was used in the development, this is particularly important 
+for (expensive) CAD software, in order for collaborators to know if they have the right
+software and skills to help.
+
+> Example
+>
+> The CAD files were created using autodesk fusion 360 (version 2601.0.90)
+>
+> We use the following things:
+>
+> - Speech - That is by far the easiest, it make communication quick and fun, ideally in person but it can also be done digitally. For super important agreements we mail.
+- Discord, for finding others interested in development of the Plastic Scanner!
+- KiCAD 6.0 - We use KiCAD as a development tool for making our PCB's.
+- Fusion360 - We use Fusion360 as a tool to do 3D modelling.
+- Wordpress, The main website runs on wordpress, easy to add content!
+- Docusaurus, for all the documentation you are reading right now!
+- GitHub, for version control of software, firmware, hardware and documentation
+- Google Drive, for internal exchange of files.
+- Youtube, for update videos
+- Notion, project management
+- PlatformIO, for firmware development

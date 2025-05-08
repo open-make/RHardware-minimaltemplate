@@ -1,3 +1,10 @@
 ## Project history summary {#sec-project-history-summary}
 
 Indicate main information about the history of the project, as well as the last updates in the project and in the documentation (especially if the documentation is not up to date).
+
+> example:
+>
+> The White Rabbit project was **started in 2008** by Javier Serrano and his colleagues.
+> From the start it has been a collaborative effort where everyone works together to make a working solution.
+> By **summer 2012** we had built 18-port switches and used the [SPEC](https://gitlab.com/ohwr/project/spec/-/wikis) hardware as end nodes and had made a demonstration program where one could see that the WR protocol lived up to its promises.
+> <https://gitlab.com/ohwr/project/white-rabbit/-/wikis/Status>

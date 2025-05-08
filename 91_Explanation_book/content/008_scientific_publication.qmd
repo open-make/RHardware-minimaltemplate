@@ -3,6 +3,12 @@
 Include experiment results or the reference to a publication (published or to be published) where these results are detailed. 
 
 You may also point to ongoing work.
+This may be merge with the "how to cite section".
+
+> Example
+>
+> This project lead to the publications:
+> - Ho, I., Kumar, A. H., & Harris, D. M. 2022. Reconfigurable Mechanical Vibrations Laboratory Kit. Journal of Open Hardware,  6(1): 4, pp. 1–11. DOI: https:// doi.org/10.5334/joh.40
 
 ------------------------------------------------------------------------
 

@@ -1,3 +1,9 @@
 ## Standard compliance
 
-Please indicate if the hardware is compliant with standards.
+Please indicate if the hardware is compliant with standards (DIN, ISO, ...).
+
+You may also indicate why it is not, if relevant.
+
+> example
+>
+> The stairs are compliant with DIN 18065:2011-06
