@@ -1,5 +1,11 @@
 #setwd("~/github_repo/03_openmake/RHardware-minimaltemplate/91_Explanation_book")
 
+## this delete the files with _conc to get things clean:
+a=list.files("content",pattern= "_conc.qmd$")
+
+file.remove (paste0("content/",a))
+
+## variables: original yml file without concatenation.
 bookyml =yaml::read_yaml("_quarto-ori.yml")
 
 ### write function concatenating text to a  text files 
