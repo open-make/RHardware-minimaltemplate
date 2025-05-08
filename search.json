@@ -76,7 +76,7 @@
     "href": "content/960_prototypingasstep1_conc.html#step-1-ideation",
     "title": "1  Development stages",
     "section": "Step 1 Ideation",
-    "text": "Step 1 Ideation\n\nIdeation\nAt this step, you want to share your idea, usually with a small number of people, and want to “test the water”.\n\n\nChecklist ideation\nThis should all be included in the readme file:\n\nGeneral information\n\nname of the project\ndevelopment stage: idea generation\ntype of hardware, subject area\nLicense(s) Section 2.19\nFOR WHO IS MADE THIS DOCUMENT Chapter 3\nshort problem description Section 2.9\n\nvision and motivations Section 2.1\nContributions\n\nList of team members / contributors Section 2.16\nskills required, who could contribute (at this point) Section 2.17\ncontact point information / communication channel and tools used for communication (this can also be one email address) Section 2.18\n\nFunding information\n\nList of Sponsors and funding Section 2.21\nList of putative funding opportunities Section 2.22",
+    "text": "Step 1 Ideation\n\nIdeation\nAt this step, you want to share your idea, usually with a small number of people, and want to “test the water”.\n\n\nChecklist ideation\nThis should all be included in the readme file:\n\nGeneral information\n\nname of the project\ndevelopment stage: idea generation\ntype of hardware, subject area\nLicense(s) Section 2.18\nFOR WHO IS MADE THIS DOCUMENT Chapter 3\nshort problem description Section 2.9\n\nvision and motivations Section 2.1\nContributions\n\nList of team members / contributors Section 2.15\nskills required, who could contribute (at this point) Section 2.16\ncontact point information / communication channel and tools used for communication (this can also be one email address) Section 2.17\n\nFunding information\n\nList of Sponsors and funding Section 2.20\nList of putative funding opportunities Section 2.21",
     "crumbs": [
       "Steps",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Development stages</span>"
@@ -87,7 +87,7 @@
     "href": "content/960_prototypingasstep1_conc.html#step-2-specification-needs-analysis",
     "title": "1  Development stages",
     "section": "Step 2 Specification, Needs analysis",
-    "text": "Step 2 Specification, Needs analysis\n\nNeeds and ecosystem analysis\nUsing a open source hardware canva to analyse the project may be useful at this point (defining users, contributors, communication channels, resources required).\nA lot of the user analysis and the problem description part aims at the definition of the constrains and requirements for the hardware which is included in the product development part of the documentation.\nIt may also be time to work on community engagement.\n\n\nChecklist specifications\n\nComplete the readme file\n\ndevelopment stage: needs analysis\nethics statement (human/animal use or Informed Consent Statement) Section 2.24\ncompeting interest Section 2.25\nfuture work (Section 2.14), roadmap (Section 2.12)\nProject history summary Section 2.13\nlonger problem description Section 2.9\nDocumentation structure Section 2.27\n\nContributions\n\nContribution guidelines Section 3.2\nwork culture that you want to promote Section 3.1\nCode of conduct Section 3.3\nGovernance Section 3.4\n\nUser analysis (this can be a personas analysis)\n\nEcosystem analysis (stakeholder) Section 4.7\ntarget groups (who will use the product) Section 4.8\nExternal interfaces (how will they use the product) Section 4.9\nskills needed to use Section 4.10\n\nProduct development\n\nrequirements Section 4.2\nconstrains Section 4.3\ncapability Section 4.4\n\nHistory\n\nchanges log Section 6.1",
+    "text": "Step 2 Specification, Needs analysis\n\nNeeds and ecosystem analysis\nUsing a open source hardware canva to analyse the project may be useful at this point (defining users, contributors, communication channels, resources required).\nA lot of the user analysis and the problem description part aims at the definition of the constrains and requirements for the hardware which is included in the product development part of the documentation.\nIt may also be time to work on community engagement.\n\n\nChecklist specifications\n\nComplete the readme file\n\ndevelopment stage: needs analysis\nethics statement (human/animal use or Informed Consent Statement) Section 2.23\ncompeting interest Section 2.24\nfuture work (Section 2.14), roadmap (Section 2.12)\nProject history summary Section 2.13\nlonger problem description Section 2.9\nDocumentation structure Section 2.26\n\nContributions\n\nContribution guidelines Section 3.2\nwork culture that you want to promote Section 3.1\nCode of conduct Section 3.3\nGovernance Section 3.4\n\nUser analysis (this can be a personas analysis)\n\nEcosystem analysis (stakeholder) Section 4.7\ntarget groups (who will use the product) Section 4.8\nExternal interfaces (how will they use the product) Section 4.9\nskills needed to use Section 4.10\n\nProduct development\n\nrequirements Section 4.2\nconstrains Section 4.3\ncapability Section 4.4\n\nHistory\n\nchanges log Section 6.1",
     "crumbs": [
       "Steps",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Development stages</span>"
@@ -131,7 +131,7 @@
     "href": "content/001_Vision_and_motivation_conc.html",
     "title": "2  Readme as entry door",
     "section": "",
-    "text": "Vision and motivation\nThink about your audience when writing OSH documentation. Indeed, your project might be reused by people with different skills, roles, objectives, and socio-economic and cultural environments. Because of this it can be useful to create a list of skills that are required to build (manufacture Section 8.9, and assemble Section 8.13) or use the hardware (Section 4.10). Someone trying to build it from scratch, for example, will require specific set of prior knowledge, skills, and tools. A different set is needed to perform maintenance tasks. An end user operating the assembled project might require an entirely distinct skillset (and documentation).\nThe vision provides details about the project ultimate goal, its specificity and main objectives: what, for whom and why do we have this project.\nIt serves to give meaning to the whole endeavor and is a representation of what we want to achieve. It may also present the problem the project aims at solving.\nIt addresses the question: Why are you starting this project?\nExamples:\nSources\nSection 9.1, Section 9.4",
+    "text": "Vision and motivation\nThink about your audience when writing OSH documentation. Indeed, your project might be reused by people with different skills, roles, objectives, and socio-economic and cultural environments. Because of this it can be useful to create a list of skills that are required to build (manufacture Section 8.9, and assemble Section 8.13) or use the hardware (Section 4.10). Someone trying to build it from scratch, for example, will require specific set of prior knowledge, skills, and tools. A different set is needed to perform maintenance tasks. An end user operating the assembled project might require an entirely distinct skillset (and documentation).\nThe vision provides details about the project ultimate goal, its specificity and main objectives, it answers the question:\nIt serves to give meaning to the whole endeavor and is a representation of what we want to achieve. It may also present the problem the project aims at solving.\nIt addresses the question: Why are you starting this project?\nExamples:\nSources\nSection 9.1, Section 9.4",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -142,7 +142,7 @@
     "href": "content/001_Vision_and_motivation_conc.html#sec-vision-and-motivation",
     "title": "2  Readme as entry door",
     "section": "",
-    "text": "The OpenFlexure project makes high precision mechanical positioning available to anyone with a 3D printer - for use in microscopes, micromanipulators, and more.\n\n\nThis projects aims at providing fablabs and makerspaces with pedal powered toolkit, in order to open discussions around the principles of low technologies: especially questioning needs (do we need the object), and designing while recognizing the ecological impact (choice of material, improving durability and repairability).\nOne single pedal “motor” will be connected with several tools usually requiring a rotating motor (sewing machine, saw, …). The main goal is to question the use of electrical power and show the simplicity of the tool in fablabs. The multi-functionality is important for the concept of sufficiency (less resources for a similar output). An additional goal may be to enhance collaborative work (one need two people to use the tools).\nWe think this may also help solves the problem of “building fancy but useless objects” we sometimes see in fablabs, when objects are build to show one’s skill and the possibilities of the machines, but they do not answer any needs.\n\n\nThe project BCN3D Moveo is motivated by the high cost of the materials that undergraduate students must use for learning how to engineer mechatronics systems.",
+    "text": "What, for whom and why do we have this project ?\n\n\n\n\n\nOpenFlexure (https://openflexure.org)\nThe OpenFlexure project makes high precision mechanical positioning available to anyone with a 3D printer - for use in microscopes, micromanipulators, and more.\n\n\nPedal-powered toolkit for fablab (https://codeberg.org/openmakeXlowtech/PedalPoweredMachine-4fablab)\nThis projects aims at providing fablabs and makerspaces with pedal powered toolkit, in order to open discussions around the principles of low technologies: especially questioning needs (do we need the object), and designing while recognizing the ecological impact (choice of material, improving durability and repairability).\nOne single pedal “motor” will be connected with several tools usually requiring a rotating motor (sewing machine, saw, …). The main goal is to question the use of electrical power and show the simplicity of the tool in fablabs. The multi-functionality is important for the concept of sufficiency (less resources for a similar output). An additional goal may be to enhance collaborative work (one need two people to use the tools).\nWe think this may also help solves the problem of “building fancy but useless objects” we sometimes see in fablabs, when objects are build to show one’s skill and the possibilities of the machines, but they do not answer any needs.\n\n\nBCN3D\nThe project BCN3D Moveo is motivated by the high cost of the materials that undergraduate students must use for learning how to engineer mechatronics systems. ————————————————————————",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -153,7 +153,7 @@
     "href": "content/001_Vision_and_motivation_conc.html#hardware-summary-overview",
     "title": "2  Readme as entry door",
     "section": "hardware summary overview",
-    "text": "hardware summary overview\nThis part is meant to give an overview of the hardware, more detailed description should be given in the 03_product_dvt/hardware_overview.md file.\nGive an overview of the hardware, what it does, how it was produced, and, if relevant, the research for which it has been used. Write as much as possible for a general audience. That is, explain what the project is and what it is for, before you get into the technical details. Describe how the hardware was implemented/created, with relevant details of the architecture and design, including general materials. You may also describe any variants and associated implementation differences.\nA schema, a picture or a video may be added here.\n\nExample:\n\nThe project BCN3D Moveo is an open source robotic arm that everyone should be able to replicate - with or without modification - at home without the need for highly technical knowledge and expensive materials. The robotic arm will support several of the existing training itineraries: mechanical design, automation, industrial programming, etc.\n\n\n\n\nSources\nSection 9.1, Section 9.3, Section 9.4",
+    "text": "hardware summary overview\nThis part is meant to give an overview of the hardware, more detailed description should be given in the 03_product_dvt/hardware_overview.md file.\nGive an overview of the hardware, what it does, how it was produced, and, if relevant, the research for which it has been used. Write as much as possible for a general audience. That is, explain what the project is and what it is for, before you get into the technical details. Describe how the hardware was implemented/created, with relevant details of the architecture and design, including general materials. You may also describe any variants and associated implementation differences.\nA schema, a picture or a video may be added here.\n\nExample:\nThe project BCN3D Moveo is an open source robotic arm that everyone should be able to replicate - with or without modification - at home without the need for highly technical knowledge and expensive materials. The robotic arm will support several of the existing training itineraries: mechanical design, automation, industrial programming, etc.\nPedal powered machine: https://codeberg.org/openmakeXlowtech/PedalPoweredMachine-4fablab : photo + “size: about 700x1000 mm, table is 1100 mm high.”\n\n\nSources\nSection 9.1, Section 9.3, Section 9.4",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -164,7 +164,7 @@
     "href": "content/001_Vision_and_motivation_conc.html#standard-compliance",
     "title": "2  Readme as entry door",
     "section": "Standard compliance",
-    "text": "Standard compliance\nPlease indicate if the hardware is compliant with standards.",
+    "text": "Standard compliance\nPlease indicate if the hardware is compliant with standards (DIN, ISO, …).\nYou may also indicate why it is not, if relevant.\n\nexample\nThe stairs are compliant with DIN 18065:2011-06",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -175,7 +175,7 @@
     "href": "content/001_Vision_and_motivation_conc.html#outputs-products-and-data",
     "title": "2  Readme as entry door",
     "section": "Outputs: Products and data",
-    "text": "Outputs: Products and data\nThis section define the product or data produced by the hardware.\nIt may describes examples of applications of the hardware. This should include some evidence of output, like data produced by the use of the device or a picture of other types of results.\nIt may also present or link to a standard data structure used, or involve the explanation of the data structure used.\nOne may link to other repositories or add data directly in the hardware documentation, as an extra folder.\n\nSources\nSection 9.3",
+    "text": "Outputs: Products and data\nThis section define the product or data produced by the hardware.\nIt may describes examples of applications of the hardware. This should include some evidence of output, like data produced by the use of the device or a picture of other types of results.\nIt may also present or link to a standard data structure used, or involve the explanation of the data structure used.\nOne may link to other repositories or add data directly in the hardware documentation, as an extra folder.\n\nexample\nData obtained with the plastic scanner can be found at https://github.com/Plastic-Scanner/Data\nhttps://docs.smartcitizen.me: hardware documentation and data obtained are linked at the same level in the main documentation homepage.\n\n\nSources\nSection 9.3",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -186,7 +186,7 @@
     "href": "content/001_Vision_and_motivation_conc.html#validation",
     "title": "2  Readme as entry door",
     "section": "Validation",
-    "text": "Validation\nElaborate how the hardware technically/methodologically advances the state-of-the-art, including references to relevant research articles and online references.\n\nSources\nSection 9.3",
+    "text": "Validation\n\nHow do you know the hardware works ?\n\nElaborate how the hardware technically/methodologically advances the state-of-the-art, including references to relevant research articles and online references.\nThis may be important for future development, as new validation cycles would probably build on this documentation. Indicate any sofware/code used for validation of the design.\n\nSources\nSection 9.3",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -197,7 +197,7 @@
     "href": "content/001_Vision_and_motivation_conc.html#sec-education-resources",
     "title": "2  Readme as entry door",
     "section": "Education resources",
-    "text": "Education resources",
+    "text": "Education resources\nIndicate and link to any resources for educating the users on why/how to use the hardware. The form of these resources may be online courses, videos, or in presence workshop, to name a few.\n\nexample:\nhttps://docs.smartcitizen.me: hardware documentation and education resources are linked at the same level in the main documentation homepage.",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -208,7 +208,7 @@
     "href": "content/001_Vision_and_motivation_conc.html#cite-this-project",
     "title": "2  Readme as entry door",
     "section": "Cite this project",
-    "text": "Cite this project\nIt is good practice to treat hardware citation similarly to other research outputs. The use of archives that can assign persistent identifiers (like a DOI) can help to guarantee specific versions/releases of the hardware project available over the long term. Though within the open hardware community this is not the practice, it would be beneficial to adopt going forward. For research to be reproducible, long term archiving through a platform that is dedicated to it would be necessary.\nZenodo is a good example of the type of archive that can issue a persistent identifier and provide a good citation metadata, if authors are set correctly. The use of a Citation.cff file may be recommended. You may refer to the Turing way book for more information: https://book.the-turing-way.org/communication/citable\n\nSources\nSection 9.4",
+    "text": "Cite this project\nIt is good practice to treat hardware citation similarly to other research outputs. The use of archives that can assign persistent identifiers (like a DOI) can help to guarantee specific versions/releases of the hardware project available over the long term. Though within the open hardware community this is not the practice, it would be beneficial to adopt going forward. For research to be reproducible, long term archiving through a platform that is dedicated to it would be necessary.\nZenodo is a good example of the type of archive that can issue a persistent identifier and provide a good citation metadata, if authors are set correctly. The use of a Citation.cff file may be recommended. You may refer to the Turing way book for more information: https://book.the-turing-way.org/communication/citable\n\nExample (fictive)\nPlease cite this project by citing the article: Ho, I., Kumar, A. H., & Harris, D. M. 2022. Reconfigurable Mechanical Vibrations Laboratory Kit. Journal of Open Hardware, 6(1): 4, pp. 1–11. DOI: https:// doi.org/10.5334/joh.40\nPlease cite this hardware as TUM Magnetic fields, & Bernhard Gleich. (2023). TUMMFE/Hardware: Hardware Release (Version 1). Zenodo. https://doi.org/10.5281/zenodo.10006096\nCiting White Rabbit J. Serrano, P. Alvarez, M. Cattin, E. G. Cota, P. M. J. H. Lewis, T. Włostowski et al., The White Rabbit Project in Proceedings of ICALEPCS TUC004, Kobe, Japan, 2009.\n\n\nSources\nSection 9.4",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -219,7 +219,7 @@
     "href": "content/001_Vision_and_motivation_conc.html#scientific-publication",
     "title": "2  Readme as entry door",
     "section": "scientific publication",
-    "text": "scientific publication\nInclude experiment results or the reference to a publication (published or to be published) where these results are detailed.\nYou may also point to ongoing work.\n\nSources\nSection 9.3",
+    "text": "scientific publication\nInclude experiment results or the reference to a publication (published or to be published) where these results are detailed.\nYou may also point to ongoing work. This may be merge with the “how to cite section”.\n\nExample\nThis project lead to the publications: - Ho, I., Kumar, A. H., & Harris, D. M. 2022. Reconfigurable Mechanical Vibrations Laboratory Kit. Journal of Open Hardware, 6(1): 4, pp. 1–11. DOI: https:// doi.org/10.5334/joh.40\n\n\nSources\nSection 9.3",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -230,7 +230,7 @@
     "href": "content/001_Vision_and_motivation_conc.html#sec-problem-description",
     "title": "2  Readme as entry door",
     "section": "Problem description",
-    "text": "Problem description\nDescribe the problem in this section and how the hardware addresses the problem.\n\nSources\nSection 9.3",
+    "text": "Problem description\nDescribe the problem in this section and how the hardware addresses the problem.\n\nexample\nAs you might know, plastic recycling is important, but putting this into practice can be quite challenging. One of the big things is identifying and sorting plastic.\nDiscrete near-infrared spectroscopy makes it possible to identify over 75% of all plastic used in everyday life. Therefore, it became my mission to make this technology accessible to recyclers in low and middle-income countries.\n\n\nSources\nSection 9.3",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -251,8 +251,8 @@
     "objectID": "content/001_Vision_and_motivation_conc.html#software-used-for-development",
     "href": "content/001_Vision_and_motivation_conc.html#software-used-for-development",
     "title": "2  Readme as entry door",
-    "section": "software used for development",
-    "text": "software used for development",
+    "section": "Software used for development",
+    "text": "Software used for development\nIndicate what software was used in the development, this is particularly important for (expensive) CAD software, in order for collaborators to know if they have the right software and skills to help.\n\nExample\nThe CAD files were created using autodesk fusion 360 (version 2601.0.90)\nWe use the following things:\n\nSpeech - That is by far the easiest, it make communication quick and fun, ideally in person but it can also be done digitally. For super important agreements we mail.\nDiscord, for finding others interested in development of the Plastic Scanner!\nKiCAD 6.0 - We use KiCAD as a development tool for making our PCB’s.\nFusion360 - We use Fusion360 as a tool to do 3D modelling.\nWordpress, The main website runs on wordpress, easy to add content!\nDocusaurus, for all the documentation you are reading right now!\nGitHub, for version control of software, firmware, hardware and documentation\nGoogle Drive, for internal exchange of files.\nYoutube, for update videos\nNotion, project management\nPlatformIO, for firmware development",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -263,7 +263,7 @@
     "href": "content/001_Vision_and_motivation_conc.html#sec-roadmap",
     "title": "2  Readme as entry door",
     "section": "Roadmap",
-    "text": "Roadmap\nProvide overarching as well as short-term goals and describe expected outcomes to help contributors move away from focusing on a single idea of the feature. Describe the possible expansion of features in pre-determined and agreed on ways at stages beyond the initial implementation.\nProvide sufficient information for what the expected outcomes and deliverables are.\n\nSources\nSection 9.4",
+    "text": "Roadmap\nProvide overarching as well as short-term goals and describe expected outcomes to help contributors move away from focusing on a single idea of the feature. Describe the possible expansion of features in pre-determined and agreed on ways at stages beyond the initial implementation.\nProvide sufficient information for what the expected outcomes and deliverables are.\n\nExample\nhttps://plasticscanner.com/future-plans/ : With a focus on improving spectroscopy, writing coding, and continuous integration, we aim to create a practical and effective solution. Be a part of the progress and join us in making a difference.\nIn order to place the endeavors in the greater scheme of things, we have specific milestones we want to reach. We want to achieve these milestones sequentially, this makes it a plan, not a planning. We do not make any promises about when these milestones will be reached, it needs to stay fun for us to develop.\n\n\nSources\nSection 9.4",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -274,7 +274,7 @@
     "href": "content/001_Vision_and_motivation_conc.html#sec-project-history-summary",
     "title": "2  Readme as entry door",
     "section": "Project history summary",
-    "text": "Project history summary\nIndicate main information about the history of the project, as well as the last updates in the project and in the documentation (especially if the documentation is not up to date).",
+    "text": "Project history summary\nIndicate main information about the history of the project, as well as the last updates in the project and in the documentation (especially if the documentation is not up to date).\n\nexample:\nThe White Rabbit project was started in 2008 by Javier Serrano and his colleagues. From the start it has been a collaborative effort where everyone works together to make a working solution. By summer 2012 we had built 18-port switches and used the SPEC hardware as end nodes and had made a demonstration program where one could see that the WR protocol lived up to its promises. https://gitlab.com/ohwr/project/white-rabbit/-/wikis/Status",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -292,22 +292,11 @@
     ]
   },
   {
-    "objectID": "content/001_Vision_and_motivation_conc.html#sec-community-and-contributions",
-    "href": "content/001_Vision_and_motivation_conc.html#sec-community-and-contributions",
-    "title": "2  Readme as entry door",
-    "section": "Community and Contributions",
-    "text": "Community and Contributions\nThis section may be split in different categories of contributors. For example, one can separate authors, contributors and aknowledged people. There is presently no definition of these categories or standard way to report contributions.\n\nFor each contributor, you may indicate tasks performend (design, assembly, use cases contribution, documentation, paper writing,…)\nOne may use a spreadsheet or a specific tool like the allcontributor bot to record contributions.\n\nSources\nSection 9.3",
-    "crumbs": [
-      "Readme as a first entry door",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
-    ]
-  },
-  {
     "objectID": "content/001_Vision_and_motivation_conc.html#sec-list-of-team-members-contributors",
     "href": "content/001_Vision_and_motivation_conc.html#sec-list-of-team-members-contributors",
     "title": "2  Readme as entry door",
-    "section": "List of team members / contributors",
-    "text": "List of team members / contributors\nDescribe here who are the maintainers and the main contributors of the project, indicate their name, role in the project and link to further information.\n\nAvoid giving personal information (like emails) in the documentation itself. One non-personal email (or not recognisable email) can be given as a communication tool.\n\n\nSources\nSection 9.1",
+    "section": "Community, List of team members and contributors",
+    "text": "Community, List of team members and contributors\nDescribe here who are the maintainers and the main contributors of the project, indicate their name, role in the project and link to further information.\n\nThis section may be split in different categories of contributors. For example, one can separate authors, contributors and aknowledged people. There is presently no definition of these categories or standard way to report contributions.\nFor each contributor, you may indicate tasks performend (design, assembly, use cases contribution, documentation, paper writing,…)\nAvoid giving personal information (like emails) in the documentation itself. One non-personal email (or not recognisable email) can be given as a communication tool.\n\n\nSources\nSection 9.1, Section 9.3",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -318,7 +307,7 @@
     "href": "content/001_Vision_and_motivation_conc.html#sec-who-could-contribute",
     "title": "2  Readme as entry door",
     "section": "Who could contribute",
-    "text": "Who could contribute\nMention the specific knowledge a contributor shall own to contribute to the project, as a maker or as a different role, indicate what kind of skills you are looking for.\nDescribe here how people can contribute to your project. What is the preferred workflow and mention what is the agreement.\n\nExample of a contribution process:\nPost an issue on the Git Forge and briefly outline the changes you plan to make or would like to be made.",
+    "text": "Who could contribute\nMention the specific knowledge a contributor shall own to contribute to the project, as a maker or as a different role, indicate what kind of skills you are looking for.\nYou may describe here briefly how people can contribute to your project (link the more detailed guidelines if existant Section 3.2) and what they can expect to be rewarded. Mention what is the agreement between contributors and maintainers of the project.\n\nWe are always looking for bright minds that want to help out making plastic identification possible. Especially data science, spectroscopy, and electronics. If you want to chip in with your skills please read the page here:",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -329,7 +318,7 @@
     "href": "content/001_Vision_and_motivation_conc.html#sec-communication-channel-how-to-contribute",
     "title": "2  Readme as entry door",
     "section": "Communication channel, how to contribute",
-    "text": "Communication channel, how to contribute\nIn first step, this can be restricted to give an email where newcomers can ask for further information. If you are using a Git Forge, the issue system of the forge may be linked here.\nIn developed project, a forum page or the use of a community communication tool like mattermost or matrix (to give two open source examples) is often better, as the community can work decentralised.",
+    "text": "Communication channel, how to contribute\nIndicate how discussion are run in the community (email to maintainer, email list, forum, social media, direct communication,…)\nIn first step, this can be restricted to give an email where newcomers can ask for further information. If you are using a Git Forge, the issue system of the forge may be linked here.\nIn developed project, a forum page or the use of a community communication tool like mattermost or matrix (to give two open source examples) is often better, as the community can work decentralized.",
     "crumbs": [
       "Readme as a first entry door",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Readme as entry door</span>"
@@ -494,7 +483,7 @@
     "href": "content/019_Community_-_work_culture_conc.html#sec-community-governance",
     "title": "3  Community building",
     "section": "Community - Governance",
-    "text": "Community - Governance\nProvide a decision-making framework to facilitate discussions and reaching a shared conclusion. In the context of software and hardware, open source projects are often as much about communication as they are about coding or building (if not more). Allow informed discussions when a particular project design has reached the end or when it is useful to update it for efficiency and sustainability.\nA leadership structure in an open project should aim to empower others and develop agency and accountability in your community. You can start by listing different tasks within your project and inviting your members to lead those tasks. Provide appropriate incentives and acknowledgment for the contributions made by your community members. Create opportunities for members to share some leadership responsibilities with you in the project. When inviting suggestions and ideas from the community, provide the first set of plans where your community can develop from.\nSee https://opensource.guide/leadership-and-governance/ for more information.\n\nSources\nSection 9.4",
+    "text": "Community - Governance\nProvide a decision-making framework to facilitate discussions and reaching a shared conclusion. In the context of software and hardware, open source projects are often as much about communication as they are about coding or building (if not more). Allow informed discussions when a particular project design has reached the end or when it is useful to update it for efficiency and sustainability.\nA leadership structure in an open project should aim to empower others and develop agency and accountability in your community. You can start by listing different tasks within your project and inviting your members to lead those tasks. Provide appropriate incentives and acknowledgment for the contributions made by your community members. Create opportunities for members to share some leadership responsibilities with you in the project. When inviting suggestions and ideas from the community, provide the first set of plans where your community can develop from.\nMore information:\n\nhttps://opensource.guide/leadership-and-governance/\nhttps://book.the-turing-way.org/ethical-research/ethics-open-source-governance\n\n\nSources\nSection 9.4",
     "crumbs": [
       "Community",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Community building</span>"
