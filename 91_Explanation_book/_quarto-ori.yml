@@ -70,8 +70,7 @@ book:
       - content/043_user_analysis_-External_interfaces_(how_will_they_use_the_product).qmd
       - content/044_user_analysis_-skills_needed_to_use.qmd
       - content/045_functional_model.qmd
-      - content/046_behavioral_model_-_Modelling_tool_list.qmd
-      - content/047_behavioral_model_-_behavioral_model.qmd
+      - content/046_behavioral_model.qmd
       - content/048_similar_projects.qmd
       - content/049_electronics_-Software_firmware_architecture.qmd
       - content/050_electronics_-electrical_design_architecture.qmd

@@ -54,4 +54,4 @@ Documentation should indicate the type of model, variables used to define the mo
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work
