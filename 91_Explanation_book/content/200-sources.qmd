@@ -14,6 +14,10 @@ The content of the 04_hardware folder is loosely derived from <https://github.co
 The journal of open hardware provides a template with several information required in hardware metadata papers.
 We included some of the indication of the template into this guide.
 
+## Journal hardwareX {#sec-journal-hardwareX}
+
+The journal hardwareX provides a template with several information required in hardware metadata papers. Todd Duncombe. (2021). HardwareX manuscript templates. https://doi.org/10.5281/zenodo.5078227
+
 ## Turing way book {#sec-source-turing}
 
 Content taken from The Turing Way Community.
