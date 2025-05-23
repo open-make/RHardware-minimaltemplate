@@ -1,1 +1,11 @@
-## discussions
+## Discussions
+
+You may discuss the current state of the project.  Explain
+how the hardware differs from other hardware, and the advantages it offers over pre-existing methods. Discuss the capabilities and limitations of the hardware. For example, load and
+operation time, spin speed, coefficient of variation, accuracy, precision.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-hardwareX (coming from another section of template)

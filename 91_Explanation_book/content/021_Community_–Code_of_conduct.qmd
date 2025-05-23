@@ -12,4 +12,4 @@ Add an Open Source Project Codes of Conduct to your project, see https://opensou
 
 **Sources**
 
-@sec-source-turing, https://book.the-turing-way.org/collaboration/new-community/new-community-guide
+@sec-source-turing: https://book.the-turing-way.org/collaboration/new-community/new-community-guide

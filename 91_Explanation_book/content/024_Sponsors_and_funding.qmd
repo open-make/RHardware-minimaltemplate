@@ -1,6 +1,6 @@
 ## Sponsors and funding {#sec-sponsors-and-funding}
 
-Who is sponsoring your project?
+Who is sponsoring or funding your project?
 If funded by research grant, indicate the funder and grant number.
 
 -   URL:

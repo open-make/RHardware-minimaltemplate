@@ -1,23 +1,55 @@
 # Community building {#sec-community-building}
 
 While scoping your project, it is well advised to think about the different people who may engage with your OSH (see @sec-diverse-actors-and-ecosystem).
-Different OSH projects have included different partners at varying stages of their development.
+In the past, different OSH projects have included different partners at varying stages of their development.
 On top of user and contributor roles that OSH have in common with open source software, local or global hardware manufacturers may become important partners of your project.
-You may also think early about the people who will eventually have to maintain and repair the hardware.
-To make it easier for them, it also helps to make your hardware designs modular (splitting your hardware in modules which may have alternative designs).
+You may also think early about the people who will eventually have to maintain and repair (and recycle) the hardware.
+
+It also helps to make your hardware designs modular (splitting your hardware in modules which may have alternative designs).
 Another specificity of hardware may be the importance of the creation of replication tutorials, workshops, seminars, or training materials (@sec-education-resources), which can impact the adoption of hardware designs.
 This is particularly relevant if the OSH is meant to be produced in Do-It-Yourself environments or as a teaching opportunity.
 
 It is important to decide whether, when and where you want to engage with, or build a community.
 Most OSH communities are local in comparison to open source software project.
 You may not have the time or skills to build a community, and your project may not need a community to flourish.
-Always be honest with your collaborators and yourself about what support they can expect.
 
-Documentation which may help build a community can range from a simple note on the work culture in the readme, toward a full, implemented code of conduct and community guidelines on ways to interact in the community and with the project documentation.
+Documentation which may help build a community can range from a simple note on the work culture in the readme, toward a full, implemented code of conduct and community guidelines, as well as a governance structure, on ways to interact and take decisions in the community.
 
 ## Community - work culture {#sec-community-work-culture}
 
+Describe what opportunities for collaboration different members will have.
+Also mentioned what recognition they may receive for their contribution.
 Communicate the work culture that you want to promote and policies that ensures the safety and security of both your data and people.
+
+> Example
+>
+> Liquibase Manifesto
+>
+> The values which guide the Liquibase organization, culture, and remote work.
+>
+> We uphold our values of integrity, empathy, and accountability.
+>
+> We encourage teamwork and celebrating achievements.
+>
+> No punks, no jerks.
+> We are committed to helping each other succeed and grow, and value our diverse backgrounds and experience.
+>
+> Flexible working hours over set working hours.
+> The results of work over the hours put in.
+>
+> We empower people to challenge the status quo in surprising ways.
+> This includes questioning meetings, processes, and product direction.
+>
+> It is the DRI’s (Directly Responsible Individual) responsibility to inform and include others.
+>
+> We write down processes and make them easy to find.
+>
+> We are transparent, and we value & strive to accept feedback.
+>
+> Everyone can contribute, but the buck stops with the DRI.
+> After a decision is made, we don't re-hash it and we stand behind it unless significant information presents itself.
+>
+> We create raving fans.
 
 ------------------------------------------------------------------------
 
