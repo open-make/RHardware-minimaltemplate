@@ -1,6 +1,11 @@
-## Product development - requirements {#sec-product-development-requirements}
+# Product development
 
-A requirement is a formal statement that specifies when condition *C* is true, property *P* of object *O* is actual and its value shall belong to domain *D*.
+
+## Requirements {#sec-product-development-requirements}
+
+A requirement is a formal statement that specifies when condition *C* is true, property *P* of object *O* is actu
+
+al and its value shall belong to domain *D*.
 
 It is usually defined at the end of the ecosystem and user analysis.
 

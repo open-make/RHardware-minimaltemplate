@@ -59,10 +59,10 @@ book:
       - content/120_Community-governance.qmd
   - part: "Product development and use analysis"
     chapters:
-      - content/033_product_dvt_-foreseen_cost_(money_and_time).qmd
       - content/034_product_dvt_-requirements.qmd
       - content/035_product_dvt_-constrains.qmd
       - content/036_product_dvt_-capability.qmd
+      - content/033_product_dvt_-foreseen_cost_(money_and_time).qmd
       - content/048_similar_projects.qmd
       - content/037_product_dvt_-use_cases_and_application.qmd
       - content/038_product_dvt_-reuse_possibilities.qmd
@@ -79,6 +79,20 @@ book:
       - content/040_product_dvt_-Software_firmware_architecture.qmd
       - content/041_product_dvt_-electrical_design_architecture.qmd  
       - content/103-product_dvt_CAD.qmd
+  - part:  "Product build"
+    chapters:  
+      - content/105_Product_build-main.qmd
+      - content/064_Product_build_-Bill_of_material.qmd
+      
+      - content/065_Product_build_-material_characteristics.qmd
+      - content/066_Product_build_-electrical_design.qmd
+      - content/067_Product_build_-firmware_Software:_Documentation_of_different_parts.qmd
+      - content/068_Product_build_-Manufacturing__skills.qmd
+      - content/069_Product_build_-Manufacturing__tools.qmd
+      - content/070_Product_build_-Manufacturing_instructions.qmd
+
+      - content/072_Product_build_-Assembly_instructions.qmd
+      - content/073_Product_build_-Assembly_skills.qmd      
   - part: "Project history"
     chapters:
       - content/051_Project_history_-changelog.md.qmd
@@ -97,21 +111,6 @@ book:
       - content/061_user_guides_-Summary_maintenance_+_schedule.qmd
       - content/062_user_guides_-Summary_disposal.qmd
       - content/063_user_guides_-Environmental_management.qmd
-  - part:  "Product build"
-    chapters:  
-      - content/105_Product_build-main.qmd
-      - content/064_Product_build_-Bill_of_material.qmd
-      
-      - content/065_Product_build_-material_characteristics.qmd
-      - content/066_Product_build_-electrical_design.qmd
-      - content/067_Product_build_-firmware_Software:_Documentation_of_different_parts.qmd
-      - content/068_Product_build_-Manufacturing__skills.qmd
-      - content/069_Product_build_-Manufacturing__tools.qmd
-      - content/070_Product_build_-Manufacturing_instructions.qmd
-
-      - content/072_Product_build_-Assembly_instructions.qmd
-      - content/073_Product_build_-Assembly_skills.qmd
-
   - content/200-sources.qmd
 
 format:

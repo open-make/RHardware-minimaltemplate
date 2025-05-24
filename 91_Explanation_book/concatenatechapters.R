@@ -60,5 +60,5 @@ for (i in c(1:length(bookyml$book$chapters))){
 }
 
 
-#yaml::write_yaml(bookyml,"_quarto2.yml")
+yaml::write_yaml(bookyml,"_quarto2.yml", handlers=list(logical=yaml::verbatim_logical))
 

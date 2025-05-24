@@ -1,6 +1,4 @@
-# Product development
-
-## Product development - foreseen cost (money and time)
+## Foreseen cost (money and time)
 
 Indicate how expensive the hardware will be, and how much time will be needed to manufacture, assemble and test the hardware. 
 

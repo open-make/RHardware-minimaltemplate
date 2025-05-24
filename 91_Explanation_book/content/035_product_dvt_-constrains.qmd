@@ -1,4 +1,4 @@
-## Product development - Constrains {#sec-product-dev-constrains}
+## Constrains {#sec-product-dev-constrains}
 
 A constraint is a choice that makes certain designs "not allowed" or inappropriate for their intended use.
 
