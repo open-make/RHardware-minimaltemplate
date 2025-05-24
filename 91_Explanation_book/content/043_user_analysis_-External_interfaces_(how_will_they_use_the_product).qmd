@@ -1,6 +1,6 @@
-## User analysis - External interfaces (how will they use the product) {#sec-user-analysis-external-interfaces}
+## User analysis - External interfaces (how will the product be used) {#sec-user-analysis-external-interfaces}
 
-External interfaces are interactions between the product and the actors (including users).
+External interfaces are interactions between the product and the actors (including target users).
 
 -   An interface has a direction (in, out, or in-out)
 -   An interface is made of a flow (matter, energy, or signal)

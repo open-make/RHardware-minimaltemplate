@@ -1,1 +1,0 @@
-## electronics -Software/firmware architecture

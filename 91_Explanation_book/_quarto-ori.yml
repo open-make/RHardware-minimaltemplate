@@ -63,24 +63,22 @@ book:
       - content/034_product_dvt_-requirements.qmd
       - content/035_product_dvt_-constrains.qmd
       - content/036_product_dvt_-capability.qmd
+      - content/048_similar_projects.qmd
       - content/037_product_dvt_-use_cases_and_application.qmd
       - content/038_product_dvt_-reuse_possibilities.qmd
       - content/101_user_analysis_-diverse_actors_and_ecosystem.qmd
       - content/042_user_analysis_-target_groups_(who_will_use_the_product).qmd
       - content/043_user_analysis_-External_interfaces_(how_will_they_use_the_product).qmd
       - content/044_user_analysis_-skills_needed_to_use.qmd
+  - part: "FBS models"
+    chapters:      
       - content/045_functional_model.qmd
       - content/046_behavioral_model.qmd
-      - content/048_similar_projects.qmd
-      - content/049_electronics_-Software_firmware_architecture.qmd
-      - content/050_electronics_-electrical_design_architecture.qmd
-  - part: "Structural models"
-    chapters:      
       - content/102_product_dvt_structuralmodel.qmd
       - content/039_product_dvt_-mechanical_architecture.qmd
-      - content/103-product_dvt_CAD.qmd
       - content/040_product_dvt_-Software_firmware_architecture.qmd
-      - content/041_product_dvt_-electrical_design_architecture.qmd      
+      - content/041_product_dvt_-electrical_design_architecture.qmd  
+      - content/103-product_dvt_CAD.qmd
   - part: "Project history"
     chapters:
       - content/051_Project_history_-changelog.md.qmd

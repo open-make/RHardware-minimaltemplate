@@ -26,4 +26,4 @@ It is usually defined at the end of the ecosystem and user analysis.
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work

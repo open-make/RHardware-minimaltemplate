@@ -1,1 +1,3 @@
 ## Product development - Use cases and application
+
+Highlight a relevant use case.

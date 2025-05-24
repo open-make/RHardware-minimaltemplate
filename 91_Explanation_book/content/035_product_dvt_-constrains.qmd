@@ -18,4 +18,4 @@ A constraint is a choice that makes certain designs "not allowed" or inappropria
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work

@@ -4,7 +4,7 @@ number-depth: 1
 book:
   title: Hardware documentation Guide
   author: Julien Colomb
-  date: 2025-03-27
+  date: 27/3/2025
   search: true
   repo-url: https://github.com/open-make/RHardware-minimaltemplate/
   repo-subdir: 91_Explanation_book
@@ -21,29 +21,27 @@ book:
     chapters: 
     - content/960_prototypingasstep1_conc.qmd
   - part: Readme as a first entry door
-    chapters: 
+    chapters:  
     - content/001_Vision_and_motivation_conc.qmd
   - part: Community
-    chapters: 
+    chapters:  
     - content/019_Community_-_work_culture_conc.qmd
   - part: Product development and use analysis
-    chapters: 
+    chapters:  
     - content/033_product_dvt_-foreseen_cost_(money_and_time)_conc.qmd
-  - part: Structural models
-    chapters: 
-    - content/102_product_dvt_structuralmodel_conc.qmd
+  - part: FBS models
+    chapters:  
+    - content/045_functional_model_conc.qmd
   - part: Project history
-    chapters: 
+    chapters:  
     - content/051_Project_history_-changelog.md_conc.qmd
   - part: user guides
-    chapters: 
+    chapters:  
     - content/104_user_guides_Overview_conc.qmd
   - part: Product build
-    chapters: 
+    chapters:  
     - content/105_Product_build-main_conc.qmd
-  - part: Appendix
-    chapters:
-    - content/200-sources.qmd
+  - content/200-sources.qmd
 format:
   html:
     theme: cosmo

@@ -1,15 +1,41 @@
-## product dvt - Design models
+## Product development and CAD files
 
-### Providing the design
+Computer assisted design is usually used to create structures from the models. The designs should be best provided in their raw format (Native formats), an editable standard format (Neutral formats), and a exported format used for manufacture. For example, a fusion .f3d file, a Step file and a STL file.
 
-Model design should be provided in a format that can be used to manufacture each piece (usually STL file for 3D and SVG file for 2D design).
+### CAD for electronics, PCB design
+
+To reuse a electrical design, it should provide information consist of:
+
+1.  Preferable file format
+
+-   Editable file formats that could be:
+    -   Source formats such as .gbr, .lib format\
+    -   Neutral formats such as Kicad_mod, kicad_pcb
+
+2.  Preferable open-source software
+
+-   Tiny CAD
+-   KiCAD
+-   ADINA
+
+> Examples:
+>
+> [Nasa-JPL, source files](https://github.com/nasa-jpl/open-source-rover/tree/master/electrical/pcb/arduino_uno_sheild/gerbers/rev_b)\*
+>
+> [AmbovVent, Neutral files](https://github.com/AmboVent-1690-108/AmboVent/tree/master/1-Electronics)\*
 
 
-### Modelling a design in an editable file format 
+### CAD for structure models
+
+Model design should be provided in a format that can be used to manufacture each piece: usually STL and STEP file for 3D objects, and SVG file for 2D design, electrical design can be shared in the editable format directly. These formats are often easier to preview, and will help understand the structural/electrical design.
+
+Note that the file is often not sufficient to reproduce one piece and manufacturing information must be given, as explained in @sec-product-build-manufacturing-instructions.
+
+
+### Editable file format 
 
  
 An editable file format is a standard way that information is encoded for storage and allows the makers to study, modify the geometry of a model and reuse it.
-
 
 To reuse a design model, it should provide information consist of:
 
@@ -23,75 +49,23 @@ To reuse a design model, it should provide information consist of:
    - FreeCAD
 
 
-<details>
-  <summary>Click to see the examples!</summary>
- 
-#### *Example of editable file formats:* 
-
-*1. [Farmbot, Native CAD files](https://genesis.farm.bot/v1.5/Extras/cad)*
-
-*2. [MIT Emergency Ventilator, Neutral CAD files](https://e-vent.mit.edu/resources/downloads/)*
-
-*3. Types of CAD format of [transmagic](https://transmagic.com/cad-formats/)*
-</details>
-
-#### Template of file format
-
- #### Documentation a design in an editable file format
-  1. 3D/2D file format
-     * Native formats
-     * Neutral formats
-  2. Name of software
-     * FreeCAD
-     * ...
 
  
-### Characteristics of the materials
-<details>
-  <summary>Click to see the guideline!</summary>
- 
-- **Definition:** *The characteristics of the materials are those that identify the reactions of materials reactions to heat, electricity, light, force, etc.* 
+> Example of editable file formats:
+>
+> - [Farmbot, Native CAD files](https://genesis.farm.bot/v1.5/Extras/cad)*
+>
+> - [MIT Emergency Ventilator, Neutral CAD files](https://e-vent.mit.edu/resources/downloads/)*
+>
+> - Types of CAD format of [transmagic](https://transmagic.com/cad-formats/)*
 
-  - *Selection of materials  based on factors including properties for [behavioral](https://github.com/OPEN-NEXT/wp2.3_template/tree/main/Documentation/3.%20Design/Behavioral%20model) analysis, [environmental impact](https://github.com/OPEN-NEXT/wp2.3_Guideline-for-documentation-of-OSH-design-reuse/tree/main/Documentation/8.%20Disposal), [manufacturing](https://github.com/OPEN-NEXT/wp2.3_template/tree/main/Documentation/4.%20Manufacturing) processes in design reuse.* 
-
-```
-  The material characteristics of mechanical parts consist of: 
-  
-  1- Identifying the kind of characteristics and their properties: 
-  
-    - Mechanical characteristics like hardness, elasticity, plasticity, toughness, etc. 
-    - Manufacturing properties like castability, machinability rating, etc.
-    - Thermal characteristics like melting point, thermal conductivity, etc.
-    - Electrical characteristics like electrical resistivity and conductibility, etc.
-    - Chemical properties like corrosion resistance, surface tension, etc.
-     
-  ```
-  </details>
-  
-  <details>
-  <summary>Click to see the examples!</summary>
- 
-  #### *Example of material characteristics*:
-  
-*Figure below shows some physical properties of superalloy base elements.*
-
-![Image of material characteristics](img/material_characteristics_example.jpg)
-
-> Source: Kutz, M. ed., 2002. Handbook of materials selection. John Wiley & Sons.
-  </details>
-  
-#### Template of material Characteristics
- 
-  #### Documentation of material characteristics
-  1. Name of characteristic
-     * Properties
-     * Unit of property
-     * ...
- 
- 
  ------------------------------------------------------------------------
 
 **Sources**
 
 @sec-open-next-work
+
+
+ 
+
 

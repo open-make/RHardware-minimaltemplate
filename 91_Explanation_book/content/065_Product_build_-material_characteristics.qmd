@@ -1,9 +1,44 @@
 ## Product build - material characteristics
 
-Summarise what materials have been used to construct the hardware and what methods to process the materials (as well as the assembly). Provide more details or references where important materials or methods are non-standard, not globally available, or produced only by one manufacturer.
+**Definition:** The characteristics of the materials are those that identify the reactions of materials reactions to heat, electricity, light, force, etc.
 
-------------------------------------------------------------------------
+Summarise what materials have been used to construct the hardware and what methods to process the materials (as well as the assembly if relevant). Provide more details or references where important materials or methods are non-standard, not globally available, or produced only by one manufacturer.
+
+Give information on the selection of materials,  based on factors including properties for behavioral analysis (@sec-behavioral-model), environmental impact (@sec-user-guidesenvironmental-management), and [manufacturing](https://github.com/OPEN-NEXT/wp2.3_template/tree/main/Documentation/4.%20Manufacturing) processes in design reuse. (@sec-product-build-manufacturing-instructions)
+
+
+The material characteristics of mechanical parts consist of: 
+  
+  1- Identifying the kind of characteristics and their properties: 
+  
+    - Mechanical characteristics like hardness, elasticity, plasticity, toughness, etc. 
+    - Manufacturing properties like castability, machinability rating, etc.
+    - Thermal characteristics like melting point, thermal conductivity, etc.
+    - Electrical characteristics like electrical resistivity and conductibility, etc.
+    - Chemical properties like corrosion resistance, surface tension, etc.
+     
+> Example of material characteristics:
+>  
+> Figure below shows some physical properties of superalloy base elements.
+
+![Image of material characteristics](img/material_characteristics_example.jpg)
+
+> Source: Kutz, M. ed., 2002. Handbook of materials selection. John Wiley & Sons.
+  </details>
+  
+
+ 
+**Documentation of material characteristics**
+
+-  Name of characteristic
+     * Properties
+     * Unit of property
+     * ...
+ 
+
+
+ ------------------------------------------------------------------------
 
 **Sources**
 
-@sec-journal-of-open-hardware
+@sec-open-next-work, @sec-journal-of-open-hardware

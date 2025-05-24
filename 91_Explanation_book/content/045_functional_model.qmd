@@ -1,3 +1,5 @@
+# FBS modeling
+
 ## Functional model
 
 A Functional model explains what the product is made for.
@@ -110,4 +112,4 @@ See @sec-structural-model for information about creating tree and graph
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work

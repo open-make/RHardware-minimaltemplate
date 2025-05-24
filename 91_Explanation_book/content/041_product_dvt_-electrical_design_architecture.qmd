@@ -18,37 +18,16 @@ The architectural structure is a physical or logical layout of the components of
         -   Sensors
         -   Etc.
 
-See \@sec-structural-model for information about how to document this.
+See @sec-structural-model for information about how to document this.
 Provide both an image and the editable files, as well as instruction how to use them.
 
 > example
 >
 > ![Image of Structural graph of Open-Source-Ventilator](img/elecstructure.png)
 
-### Details and editable format: PCB design
-
-To reuse a electrical design, it should provide information consist of:
-
-1.  Preferable file format
-
--   Editable file formats that could be:
-    -   Source formats such as .gbr, .lib format\
-    -   Neutral formats such as Kicad_mod, kicad_pcb
-
-2.  Preferable open-source software
-
--   Tiny CAD
--   KiCAD
--   ADINA
-
-> Examples:
->
-> [Nasa-JPL, source files](https://github.com/nasa-jpl/open-source-rover/tree/master/electrical/pcb/arduino_uno_sheild/gerbers/rev_b)\*
->
-> [AmbovVent, Neutral files](https://github.com/AmboVent-1690-108/AmboVent/tree/master/1-Electronics)\*
 
 ------------------------------------------------------------------------
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work

@@ -1,6 +1,8 @@
 ## User analysis - Skills needed to use {#sec-user-skills}
 
-What is the specific knowledge a maker shall own to reuse - without modification - your product ??
+What is the specific knowledge the target users shall own to reuse - without modification - your product ??
+
+An estimate of the time needed to aquire this knowledge, and link to education material may be useful here.
 
 For example:
 
@@ -10,4 +12,4 @@ For example:
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work

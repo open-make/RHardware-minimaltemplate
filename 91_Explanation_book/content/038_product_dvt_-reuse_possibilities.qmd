@@ -1,1 +1,3 @@
-## product dvt -reuse possibilities
+## product dvt - reuse possibilities
+
+Indicate how you think the hardware modules could be reused for other objectives than the one you had.
