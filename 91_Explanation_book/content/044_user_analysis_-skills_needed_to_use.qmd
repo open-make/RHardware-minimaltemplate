@@ -2,7 +2,7 @@
 
 What is the specific knowledge the target users shall own to reuse - without modification - your product ??
 
-An estimate of the time needed to aquire this knowledge, and link to education material may be useful here.
+An estimate of the time needed to acquire this knowledge, and link to education material may be useful here.
 
 For example:
 

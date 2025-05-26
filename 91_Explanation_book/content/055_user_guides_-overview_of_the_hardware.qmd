@@ -1,11 +1,11 @@
-## User Guides - Overview of the hardware {#sec-user-guides-overview-of-the-hardware}
+## Overview of the hardware for users {#sec-user-guides-overview-of-the-hardware}
 
-including:
+This should provide a brief overview of the hardware and its functions, it may include:
 
-```         
 -   Device name (and its parts) and their definition
 -   Essentials and technical specifications
-```
+
+This may be a summary of the hardware overview provided for contributors (the file "03_specification_concept/01_hardware_overview" in following the template v1.0 ).
 
 One can describe examples of application of the hardware. This should include some evidence of output, like data produced by the use of the device or a picture of other types of results. Outline how the quality control in @sec-user-guides-troubleshooting enables the use of the hardware in this context. We encourage the link to experiment results or the reference to a publication (published or to be published) where these results are detailed. We also encourage pointers to ongoing work.
 

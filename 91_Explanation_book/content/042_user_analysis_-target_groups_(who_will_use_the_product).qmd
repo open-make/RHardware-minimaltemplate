@@ -1,6 +1,6 @@
-## User analysis - target groups (who will use the product) {#sec-user-analysis-target-groups}
+## User analysis: target groups {#sec-user-analysis-target-groups}
 
-Target group is a specific actor in hardware development, one should take much care in defining who they are and what they want.
+Target group (who will use the product) is a specific actor in hardware development, one should take much care in defining who they are and what they want.
 A persona analysis may be particularly interesting here.
 
 \

@@ -1,9 +1,13 @@
 # Project history
 
-## Project history - Changelog {#sec-project-history-changelog}
+## Changelog {#sec-project-history-changelog}
 
-A changelog is a plain text file that contains a record of what *notable* changes are made between versions of software.\
-The [**keep a changelog**](https://keepachangelog.com/en/1.1.0/) website provides a detailed explanation of what a change log is.
+A changelog is a plain text file that contains a record of what *notable* changes are made between versions of hardware. It includes new features, enhancements, bug fixes, and even minor tweaks.
+The [**keep a changelog**](https://keepachangelog.com/en/1.1.0/) website provides a detailed explanation of what a change log is (in the software case).
+
+Changelogs are primarily intended for technical contributors and power users who need a detailed understanding of how the hardware has evolved over time.
+
+
 
 **Guiding Principles**
 

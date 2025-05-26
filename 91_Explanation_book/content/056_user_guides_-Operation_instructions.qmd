@@ -3,8 +3,7 @@
 The operation instruction gives information on the use of the product, in particular in term of software.
 Note that it may include the calibration chapter (@sec-user-guides-calibration) when calibration is necessary for each use.
 
-It may includes
-
+It may include:
      
 -   Materials required
 
@@ -28,4 +27,4 @@ It may includes
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work

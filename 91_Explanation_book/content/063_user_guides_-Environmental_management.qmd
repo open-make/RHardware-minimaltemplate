@@ -1,5 +1,7 @@
 ## User guides: Environmental management {#sec-user-guidesenvironmental-management}
 
+This chapter deal with information about the use and storage of the hardware. It usually includes information about:
+
     -   Protection against weather conditions
     -   Determining the acceptable temperature range
     

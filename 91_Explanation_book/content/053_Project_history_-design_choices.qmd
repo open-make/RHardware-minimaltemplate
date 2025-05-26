@@ -1,6 +1,8 @@
-## Project history -design choices
+## Design choices
 
 What were the decisions made in designing this hardware? Were other designs/options tried? please describe also what did not work.
+
+This information may be included at different places in the documentation, it may be interesting to link them together, or find a way to make them discoverable in the documentation files, for instance using a specific text one can search for.
 
 ------------------------------------------------------------------------
 

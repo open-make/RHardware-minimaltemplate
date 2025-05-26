@@ -1,4 +1,4 @@
-## **Disposal instructions** {#sec-disposal-instructions}
+## Disposal instructions {#sec-disposal-instructions}
 
 Disposal instructions identify the process of removing a system or its component, ensuring the proper handling of any environmentally sensitive materials, and sending the remainder to surplus storage or sale.
 
@@ -7,11 +7,15 @@ Each element will be classed corresponding to their "recyclability", and infroma
 
 ### Classing elements
 
-> Recyclable: waste wich can be turn into another form of new and reusable materials without specific treatment.
->
-> Non-recyclable: the components or products that design for single-use, which means they get discarded immediately after use.
->
-> Conditionally recyclable: component which needs specific treatment before being recycled.
+There are different types of elements:
+
+- Recyclable: waste wich can be turn into another form of new and reusable materials without specific treatment.
+
+- Non-recyclable: the components or products that design for single-use, which means they get discarded immediately after use.
+
+- Conditionally recyclable: component which needs specific treatment before being recycled.
+
+Usual workflow for disposition: 
 
 -   Distinguishing the recyclable, Conditionally recyclable and Non-recyclable components or products.
 -   Determining what material can recycle many times

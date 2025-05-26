@@ -1,6 +1,6 @@
 # A guide to open source hardware projects documentation {.unnumbered}
 
-## Overview of the guide
+## Background
 
 ```{r, echo=FALSE}
 repositoryhome ="https://github.com/open-make/RHardware-minimaltemplate"
@@ -11,14 +11,16 @@ After analyzing open source hardware documentation and existing templates, we ar
 
 ![Hardware project documentation is diverse, it grows with project development (depicted by orange boxes from left to right: ideation, specification, concept development, prototyping), and go beyond the technical documentation (black box)](images/makinglabopening-finalword.001.jpeg)
 
-Accordingly, we created a [template for hardware project](`r repositoryhome`), including different folders and files, and this guide to facilitate the creation of hardware project documentation. The guide starts with a description of the steps, with a checklist of information to add at each step, which corresponds to the elements of the template. In the checklist, we added linked to the corresponding sub-chapters of the guide. 
+Accordingly, we created both a [template for hardware project](`r repositoryhome`, including different folders and files) and this guide. We hope to facilitate the creation of hardware project documentation with these two tools.
+
+## Guide organisation
+
+The guide starts with a description of the steps, with a checklist of information to add at each step. This corresponds to the elements of the template in its "incremental template" form. In the checklist, each element is linked to the corresponding sub-chapters of the guide that explain what that element is. 
 
 
-The next book chapters indeed provide information for each elements, organised following the different files and folders of the template (readme,community, project history, conceptualisation and specification, hardware design, and user guides).
+The book chapters and subchapters follows the order of the "full template", which correspond to all elements one may include in an advanced project: readme file,community folder, project history folder, conceptualisation and specification folder, hardware design folder, and user guides folder). Some elements of the guide are not in the template, because the elements should best be organised via a different repository and linked in the readme (software, data, educational resources)
 
-Because we expect most project to see this template when already having a prototype, we added a special chapter on starting at this stage (@sec-if-you-have-a-prototype).
-
-
+Because we expect most project to see this template when already having a prototype, we added a special chapter on starting documentation at this stage (@sec-if-you-have-a-prototype).
 
 
 ## Navigating the book
@@ -39,6 +41,11 @@ URL: [`r bookurl`](`r bookurl`)
 qr=qrcode::qr_code(bookurl)
 plot(qr)
 ```
+
+## Guide version: 1.0
+
+This is the first version of the guide, based mostly on the theoretical framework developed inside the Open.Make project by the authors. It was not yet tested and any feedback is very welcome ! 
+
 
 ## FAQ
 

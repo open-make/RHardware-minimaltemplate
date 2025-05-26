@@ -13,5 +13,5 @@ This is very similar to the repairing section @sec-user-guides-repair, even if t
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work
 
