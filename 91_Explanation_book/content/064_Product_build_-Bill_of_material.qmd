@@ -39,5 +39,5 @@ Some software are meant to created BOM from the CAD files (CAD-coupled documenta
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work
 
