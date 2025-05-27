@@ -1,0 +1,191 @@
+
+# Product development
+
+
+## Requirements {#sec-product-development-requirements}
+
+A requirement is a formal statement that specifies when condition *C* is true, property *P* of object *O* is actu
+
+al and its value shall belong to domain *D*.
+
+It is usually defined at the end of the ecosystem and user analysis.
+
+-   The minimum set of independent requirements can completely characterize the needs of the product in the functional domain.
+
+-   Functional requirements describe qualitatively the system functions or tasks to be performed in operation.
+
+-   Requirement can state as follows: The \[stakeholder\] need \[Property\] \[object\] \[Action verb\] at \[Condition\]
+
+> Example of the functional requirement that ADD-ONS of XYZ cargo provides for the food producers, as a stakeholder, to preserve the quality of food.
+>
+> In this example, we assumed a refrigerator on the ADD-ONS could help the food producers to cool down and preserve the temperature of food.
+>
+> So, we defined some functional requirements (FR) based on this assumption that consist:
+>
+> -   FR1: To maintain the quality of food, the food producer needs to main the material at cold temperature (between 3 °C and 10 °C) for short-term preservation (3h) or long-term preservation (24h).
+> -   FR2: ADD-ONS shall fix the internal ADD-ONS \>temperature for 7 °C.
+> -   FR3: To create a cold ambient in the cooling down system, the ADD-ONS shall compress the low temperature and pressured gas to start the cooling cycle.
+> -   FR4: the cooling down system shall control the pressure of exit hot gas 
+> -   FR5: the hot and pressured exit gas needs to meet the cooler external ambient temperature to become a liquid.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work
+
+
+## Constrains {#sec-product-dev-constrains}
+
+A constraint is a choice that makes certain designs "not allowed" or inappropriate for their intended use.
+
+-   The constraint is a restriction, limit, or regulation imposed on a product.
+-   There are two kinds of constraints: input constraints and system constraints.
+    -   Input constraints are imposed as part of the design specifications.
+    -   System constraints are constraints imposed by the system in which the design solution must function.
+
+> Example XYZ Cargo ADD-ONS, constraints for maker of ADD-ONS
+>
+> -   User should be able to dismantle ADD-ONS with a maximum one wrench and one screwdriver
+> -   Users should be able to customize the modules of ADD-ONS to fit their use.
+> -   The ADD-ONS should enable the users to do the assembly of components in a short time (10 minutes) and the maker shall select the resistance material for using ADD-ONS in different weather conditions.
+> -   ADD-ONS should be dismantled for recycling purposes.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work
+
+
+## Capabilities {#sec-productdvt-capability}
+
+A service or capability is an effect intended by a actor/user resulting from the interaction of the product with its environment (i.e. what the product is for).
+
+NB: this will relate to the user analysis section of the documentation that defines the actors and interactions.
+
+-   **Services can be stated as follows: The \[Product\] shall enable \[the actor\] to \[Action verb\] (for example The product shall enable end-user to clean its teeth)**
+
+-   Services provide users with an exchange value that can be included in an economic system.
+
+-   Services are intended effects that can be observed from outside the product ("black box" external view).
+
+-   Services are defined in a solution neutral-way.
+
+> Example of services for ADD-ONS of XYZ Cargo
+>
+> -   The ADD-ONS shall enable the food producer to store food
+>     -   1.1 solid (10 kilos)
+>     -   1.2 liquid (5 litrs)
+> -   The ADD-ONS shall enable the food producer to heat food
+>     -   2.1solid (150 deg Celcius)
+>     -   2.2 liquid (80 deg Celcius)
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work
+
+
+## Foreseen cost (money and time)
+
+Indicate how expensive the hardware will be, and how much time will be needed to manufacture, assemble and test the hardware. 
+
+This is estimates done before the prototyping stage and will disappear once real numbers are available.
+
+
+## Similar projects
+
+It is advisable to look for similar project one can join, instead of starting a new one.
+
+It is reasonable to invest quite a lot of time in looking for similar projects. OSH are often difficult to find and comprehend, but finding projects may save you a lot of time and hassle. Indeed, you may learn a lot about your needs, refine your ideas, and may even find collaborators while browsing existing OSH projects.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-source-turing
+
+
+## Use cases and application
+
+Highlight a relevant use case, theoretical or existant.
+
+
+## Reuse possibilities
+
+Indicate how you think the hardware modules could be reused for other objectives than the one you had.
+
+
+## Diverse actors and ecosystem {#sec-diverse-actors-and-ecosystem}
+
+`this is sometimes refered to a "stakeholder analysis", but we avoided that term in this template.`
+
+The ecosystem generally refer to all the actors (human and non-human) who (may) have an interest in a product.
+Among them, there are both internal players, such as users and participants of the project, and external players that are represented by the potential user of products or external entities.
+
+-   It is not necessarily a person (for example: airports as an actor when designing a two-deck aircraft).
+-   They can indirectly affect, be affected by the product (for example: neighborhood or biodiversity when designing an airport).
+
+The ecosystem is often best represented via a graphics or a mindmap.
+This analysis may be necessary to make design choice that will fit the ecosystem inside which the hardware is supposed to work.
+
+NB: The user target groups is one of these actors and should be determined with more accuracy, it is defined more extensively elsewhere.
+
+> Example
+>
+> XYZ Cargo-ADD ONS ![Image of stakeholder of ADD-ONS of XYZ cargo](img/actors-xyz.jpg)
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work
+
+
+## User analysis: target groups {#sec-user-analysis-target-groups}
+
+Target group (who will use the product) is a specific actor in hardware development, one should take much care in defining who they are and what they want.
+A persona analysis may be particularly interesting here.
+
+\
+See @sec-diverse-actors-and-ecosystem chapter for information about actor definition and tools to map them.
+
+
+## User analysis: External interfaces  {#sec-user-analysis-external-interfaces}
+
+External interfaces (how will the product be used) are interactions between the product and the actors (including target users).
+
+-   An interface has a direction (in, out, or in-out)
+-   An interface is made of a flow (matter, energy, or signal)
+
+> Example: XYZ Cargo ADD-ONS
+>
+> Identify the interactions between food producer and the product, **specify needs and uses**: - out: mechanical countainment - out: warmer and cooler - out: thermal energy
+>
+> ![Image of External interfaces of XYZ cargo-ADD ONS](img/interfaces_xyz.jpg)
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work
+
+
+## User analysis - Skills needed to use {#sec-user-skills}
+
+What is the specific knowledge the target users shall own to reuse - without modification - your product ??
+
+An estimate of the time needed to acquire this knowledge, and link to education material may be useful here.
+
+For example:
+
+> The project echopen need basic knowledge about the medical ultrasound technology such as ultrasound imaging, a matter of acoustical impedance, etc.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work
+

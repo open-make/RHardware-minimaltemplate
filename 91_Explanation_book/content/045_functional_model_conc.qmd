@@ -1,168 +1,5 @@
 
-## product dvt -foreseen cost (money and time)
-
-
-## product dvt -requirements
-
-A requirement is a formal statement that specifies when condition *C* is true, property *P* of object *O* is actual and its value shall belong to domain *D*.
-
-It is usually defined at the end of the ecosystem and user analysis.
-
-- The minimum set of independent requirements can completely characterize the needs of the product in the functional domain.
-
-- Functional requirements describe qualitatively the system functions or tasks to be performed in operation.
-
-- Requirement can state as follows: The \[stakeholder\] need \[Property\] \[object\] \[Action verb\] at \[Condition\]
-
-> Example of the functional requirement that ADD-ONS of XYZ cargo provides for the food producers, as a stakeholder, to preserve the quality of food.
-> 
->  In this example, we assumed a refrigerator on the ADD-ONS could help the food producers to cool down and preserve the temperature of food. 
->  
->  So, we defined some  functional requirements (FR) based on this assumption that consist:
-> 
->    - FR1: To maintain the quality of food, the food producer needs to main the material at cold temperature (between 3 °C and 10 °C) for short-term preservation (3h) or long-term preservation (24h).
->    - FR2: ADD-ONS shall fix the internal ADD-ONS >temperature for 7 °C.
->    - FR3: To create a cold ambient in the cooling down system, the ADD-ONS shall compress the low temperature and pressured gas to start the cooling cycle.
->    - FR4: the cooling down system shall control the pressure of exit hot gas 
-    - FR5: the hot and pressured exit gas needs to meet the cooler external ambient temperature to become a liquid.
-   
-
-------------------------------------------------------------------------
-
-**Sources**
-
-OpenNext work project resutls: @sec-open-next-work
-
-
-
-## product dvt -constrains
-
-A constraint is a choice that makes certain designs "not allowed" or inappropriate for their intended use.
-
--   The constraint is a restriction, limit, or regulation imposed on a product.
--   There are two kinds of constraints: input constraints and system constraints.
-    -   Input constraints are imposed as part of the design specifications.
-    -   System constraints are constraints imposed by the system in which the design solution must function.
-
-> Example XYZ Cargo ADD-ONS, constraints for maker of ADD-ONS
->
-> -   User should be able to dismantle ADD-ONS with a maximum one wrench and one screwdriver
-> -   Users should be able to customize the modules of ADD-ONS to fit their use.
-> -   The ADD-ONS should enable the users to do the assembly of components in a short time (10 minutes) and the maker shall select the resistance material for using ADD-ONS in different weather conditions.
-> -   ADD-ONS should be dismantled for recycling purposes.
-
-------------------------------------------------------------------------
-
-**Sources**
-
-OpenNext work project resutls: @sec-open-next-work
-
-
-## product dvt -capability {#sec-productdvt-capability}
-
-A service or capability is an effect intended by a actor/user resulting from the interaction of the product with its environment (i.e. what the product is for).
-
-NB: this will relate to the user analysis section of the documentation that defines the actors and interactions.
-
--   **Services can be stated as follows: The \[Product\] shall enable \[the actor\] to \[Action verb\] (for example The product shall enable end-user to clean its teeth)**
-
--   Services provide users with an exchange value that can be included in an economic system.
-
--   Services are intended effects that can be observed from outside the product ("black box" external view).
-
--   Services are defined in a solution neutral-way.
-
-> Example of services for ADD-ONS of XYZ Cargo
->
-> -   The ADD-ONS shall enable the food producer to store food
->     -   1.1 solid (10 kilos)
->     -   1.2 liquid (5 litrs)
-> -   The ADD-ONS shall enable the food producer to heat food
->     -   2.1solid (150 deg Celcius)
->     -   2.2 liquid (80 deg Celcius)
-
-------------------------------------------------------------------------
-
-**Sources**
-
-OpenNext work project resutls: @sec-open-next-work
-
-
-## product dvt -use cases and application
-
-
-## product dvt -reuse possibilities
-
-
-## Diverse actors and ecosystem {#sec-diverse-actors-and-ecosystem}
-
-`this is sometimes refered to a "stakeholder analysis", but we avoided that term in this template.`
-
-The ecosystem generally refer to all the actors (human and non-human) who (may) have an interest in a product.
-Among them, there are both internal players, such as users and participants of the project, and external players that are represented by the potential user of products or external entities.
-
--   It is not necessarily a person (for example: airports as an actor when designing a two-deck aircraft).
--   They can indirectly affect, be affected by the product (for example: neighborhood or biodiversity when designing an airport).
-
-The ecosystem is often best represented via a graphics or a mindmap.
-This analysis may be necessary to make design choice that will fit the ecosystem inside which the hardware is supposed to work.
-
-NB: The user target groups is one of these actors and should be determined with more accuracy, it is defined more extensively elsewhere.
-
-> Example
->
-> XYZ Cargo-ADD ONS ![Image of stakeholder of ADD-ONS of XYZ cargo](img/actors-xyz.jpg)
-
-------------------------------------------------------------------------
-
-**Sources**
-
-OpenNext work project resutls: @sec-open-next-work
-
-
-## user analysis -target groups (who will use the product)
-
-
-## user analysis - External interfaces (how will they use the product)
-
-External interfaces are interactions between the product and the actors (including users).
-
-- An interface has a direction (in, out, or in-out)
-- An interface is made of a flow (matter, energy, or signal)
-
-
-
->Example: XYZ Cargo ADD-ONS
->
-> Identify the interactions between food producer and the product, **specify needs and uses**: 
-> - out: mechanical countainment
-> - out: warmer and cooler
-> - out: thermal energy
->
-> ![Image of External interfaces of XYZ cargo-ADD ONS](img/interfaces_xyz.jpg)
-
-------------------------------------------------------------------------
-
-**Sources**
-
-OpenNext work project resutls: @sec-open-next-work
-
-
-
-## user analysis -skills needed to use
-
-What is the specific knowledge a maker shall own to reuse - without modification - your product ??
-
-For example:
-
-> The project echopen need basic knowledge about the medical ultrasound technology such as ultrasound imaging, a matter of acoustical impedance, etc.
-
-------------------------------------------------------------------------
-
-**Sources**
-
-OpenNext work project resutls: @sec-open-next-work
-
+# FBS modeling
 
 ## Functional model
 
@@ -276,7 +113,7 @@ See @sec-structural-model for information about creating tree and graph
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work
 
 
 ## Behavioral model {#sec-behavioral-model}
@@ -335,17 +172,206 @@ Documentation should indicate the type of model, variables used to define the mo
 
 **Sources**
 
+@sec-open-next-work
+
+
+## Structural model {#sec-structural-model}
+
+This section will give an overview of the structural model, while details are given in the specific mechanical (also called architectural, @sec-mechanical-architecture), electrical (@sec-electrical-architecture) and software (@sec-software-and-firmware-architecture) architectures sections.
+Note that sometimes, these different models are presented together in a single graphics.
+
+The Structural model explains the physical structure of the product and its components, it is:
+
+-   A description of the components (the combination of parts) of a product and their relationships.
+-   An opportunity to specify the geometric elements, dimensions, topology, and other physical properties of the product.
+-   The potential solutions (concepts), which are the result of the conceptual design phase.
+-   The set of mechanics theories that obey physical laws required to study and predict the behavior of structures.
+
+### Why should you define structural model?
+
+-   A structural model helps to describe the geometric elements (design feature, dimensions, constraints, etc.), topology (assembly constraint between components, tolerances, components mating conditions, etc.), and characteristics of the product.
+-   A structural model helps to decide the physical form of the product and its components to ensure that the structure is fit for its intended purpose.
+-   Structural model provides users with a physical model of the product, components, and characteristics of the material at the design phase that enable the stakeholder to understand the geometry, material reaction to external factors, etc.
+-   The structural model ensures that the structures are safe and fulfill the functions for which they were built.
+
+### How should you define structural model?
+
+The first level of definition is often to show how things are related together in a tree or graph, using "modeling language" such as "SysML (Block Definition, Activity, or Internal Block diagram)" or "UML".
+
+Several software may help create these graphs:
+
+-   Papyrus
+-   Modelio
+-   Capella
+-   diagrams.net (previously draw.io)
+-   <https://excalidraw.com>
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work
+
+
+## Mechanical architecture {#sec-mechanical-architecture}
+
+The architectural structure is a physical or logical layout of the components of a system design and their internal and external connections.
+
+-   A model specifying the kind of components and their sub-components in the format of a tree or a graph
+
+See for information about how to document this.
+Provide both an image and the editable files, as well as instruction how to use them.
+
+> Examples MPS ventilator: ![Image of architecture of MPS ventilator](img/mechanical-model.jpg) {width=400}
+
+------------------------------------------------------------------------
+
+**Sources**
+
 OpenNext work project resutls: @sec-open-next-work
 
 
-## behavioral model - behavioral model
+## Software and Firmware architecture {#sec-software-and-firmware-architecture}
+
+The software architecture represents the repository details of all the software and firmware that is necessary for reusing and running the project.
+Indicate how the different software depend on each other. 
+
+It might be interesting to describe the data flow and its format.
+
+See @sec-structural-model for information about how to document this.
+Provide both an image and the editable files, as well as instruction how to use them.
 
 
-## similar projects
+### Software and Firmware details
+
+Please provide :
+
+-   Clear installation guide
+-   Description of programming algorithm
+-   The source code
+-   Version of software and its dependencies (both hardware and software dependencies)
+
+### Documentation of different parts of software 
+
+> Examples:
+>
+> [Nasa-JPL](https://github.com/nasa-jpl/open-source-rover/tree/master/software)\*
+>
+> [AmboVent](https://github.com/AmboVent-1690-108/AmboVent/tree/master/3-Software)\*
+>
+> [Poppy project](https://docs.poppy-project.org/en/installation/)\*
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work
 
 
-## electronics -Software/firmware architecture
+## Electrical architecture {#sec-electrical-architecture}
+
+The architectural structure is a physical or logical layout of the components of a system design and their internal and external connections.
+
+1.  What minimum documentation should the architectural structure provide?
+
+    -   A model specifying the kind of components and their sub-components in the format of a tree or a graph including
+        -   DC motor
+        -   A/D converter
+        -   DC converters\
+        -   Rotor
+        -   Sensor system
+        -   Motherboard
+        -   kit
+        -   Resistor
+        -   Transistors
+        -   IC
+        -   Sensors
+        -   Etc.
+
+See @sec-structural-model for information about how to document this.
+Provide both an image and the editable files, as well as instruction how to use them.
+
+> example
+>
+> ![Image of Structural graph of Open-Source-Ventilator](img/elecstructure.png)
 
 
-## electronics -electrical design architecture
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work
+
+
+## Product development and CAD files
+
+Computer assisted design is usually used to create structures from the models. The designs should be best provided in their raw format (Native formats), an editable standard format (Neutral formats), and a exported format used for manufacture. For example, a fusion .f3d file, a Step file and a STL file.
+
+### CAD for electronics, PCB design
+
+To reuse a electrical design, it should provide information consist of:
+
+1.  Preferable file format
+
+-   Editable file formats that could be:
+    -   Source formats such as .gbr, .lib format\
+    -   Neutral formats such as Kicad_mod, kicad_pcb
+
+2.  Preferable open-source software
+
+-   Tiny CAD
+-   KiCAD
+-   ADINA
+
+> Examples:
+>
+> [Nasa-JPL, source files](https://github.com/nasa-jpl/open-source-rover/tree/master/electrical/pcb/arduino_uno_sheild/gerbers/rev_b)\*
+>
+> [AmbovVent, Neutral files](https://github.com/AmboVent-1690-108/AmboVent/tree/master/1-Electronics)\*
+
+
+### CAD for structure models
+
+Model design should be provided in a format that can be used to manufacture each piece: usually STL and STEP file for 3D objects, and SVG file for 2D design, electrical design can be shared in the editable format directly. These formats are often easier to preview, and will help understand the structural/electrical design.
+
+Note that the file is often not sufficient to reproduce one piece and manufacturing information must be given, as explained in @sec-product-build-manufacturing-instructions.
+
+
+### Editable file format 
+
+ 
+An editable file format is a standard way that information is encoded for storage and allows the makers to study, modify the geometry of a model and reuse it.
+
+To reuse a design model, it should provide information consist of:
+
+ 1. Preferable 3D/2D file format
+   - Editable file formats that could be:
+     - Native formats such as .FCStd format of FreeCAD 
+     - Neutral formats such as STEP files
+ 2. Preferable open-source software 
+   - OpensCAD
+   - Inkscape
+   - FreeCAD
+
+
+
+ 
+> Example of editable file formats:
+>
+> - [Farmbot, Native CAD files](https://genesis.farm.bot/v1.5/Extras/cad)*
+>
+> - [MIT Emergency Ventilator, Neutral CAD files](https://e-vent.mit.edu/resources/downloads/)*
+>
+> - Types of CAD format of [transmagic](https://transmagic.com/cad-formats/)*
+
+ ------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work
+
+
+ 
+
+
 

@@ -1,9 +1,134 @@
 
-## Community - work culture
+# Community building {#sec-community-building}
+
+While scoping your project, it is well advised to think about the different people who may engage with your OSH (see @sec-diverse-actors-and-ecosystem).
+In the past, different OSH projects have included different partners at varying stages of their development.
+On top of user and contributor roles that OSH have in common with open source software, local or global hardware manufacturers may become important partners of your project.
+You may also think early about the people who will eventually have to maintain and repair (and recycle) the hardware.
+
+It also helps to make your hardware designs modular (splitting your hardware in modules which may have alternative designs).
+Another specificity of hardware may be the importance of the creation of replication tutorials, workshops, seminars, or training materials (@sec-education-resources), which can impact the adoption of hardware designs.
+This is particularly relevant if the OSH is meant to be produced in Do-It-Yourself environments or as a teaching opportunity.
+
+It is important to decide whether, when and where you want to engage with, or build a community.
+Most OSH communities are local in comparison to open source software project.
+You may not have the time or skills to build a community, and your project may not need a community to flourish.
+
+Documentation which may help build a community can range from a simple note on the work culture in the readme, toward a full, implemented code of conduct and community guidelines, as well as a governance structure, on ways to interact and take decisions in the community.
+
+## Community - work culture {#sec-community-work-culture}
+
+Describe what opportunities for collaboration different members will have.
+Also mentioned what recognition they may receive for their contribution.
+Communicate the work culture that you want to promote and policies that ensures the safety and security of both your data and people.
+
+> Example
+>
+> Liquibase Manifesto
+>
+> The values which guide the Liquibase organization, culture, and remote work.
+>
+> We uphold our values of integrity, empathy, and accountability.
+>
+> We encourage teamwork and celebrating achievements.
+>
+> No punks, no jerks.
+> We are committed to helping each other succeed and grow, and value our diverse backgrounds and experience.
+>
+> Flexible working hours over set working hours.
+> The results of work over the hours put in.
+>
+> We empower people to challenge the status quo in surprising ways.
+> This includes questioning meetings, processes, and product direction.
+>
+> It is the DRI’s (Directly Responsible Individual) responsibility to inform and include others.
+>
+> We write down processes and make them easy to find.
+>
+> We are transparent, and we value & strive to accept feedback.
+>
+> Everyone can contribute, but the buck stops with the DRI.
+> After a decision is made, we don't re-hash it and we stand behind it unless significant information presents itself.
+>
+> We create raving fans.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-source-turing
 
 
-## Community -guidelines
+## Community - Guidelines {#sec-community-guidelines}
+
+Describe what opportunities for collaboration different members will have.
+When possible, such as in an open source project, provide these details for those outside the current group, especially when you want to encourage people outside the project to be involved.
+
+Provide resources on ways of working to ensure fair participation of contributors who collaborate on short- and long-term milestones within the project.
+It reduces or addresses concerns about the project’s progress towards meeting goals and prevents potential fallout between project contributors.
+
+Considering the variety of different backgrounds and skills your members bring, describe how they can participate and start contributing.
+You should also think about your audience.
+Your project might be reused by people with different skills, roles, objectives, and socio-economic and cultural environments.
+
+Provide clear opportunities for contributions, review, management, mentoring, and support.
+Provide an overview of how different contributions or resources are connected and how new contributions will fit into existing materials.
+
+Describe how your research objects are available or will be published and how different contributors will be recognised.
+It helps when everyone feel appreciated and acknowledged for their contribution to the overall vision.
+
+-   A thoughtful guideline helps people decide which pathway they can choose to contribute to your project, or if they want to be in your community at all.
+
+-   Make sure that your community interactions and different pathways to contribute are open, inclusive, and clearly stated.
+
+    -   If people can’t figure out how to contribute they will drop off without helping.
+
+-   Value different types of contributions - coding projects are not only about code, therefore list documentation and other management skills as well.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-source-turing
 
 
-## Community –Code of conduct
+## Community – Code of conduct {#sec-community-code-of-conduct}
+
+Add an Open Source Project Codes of Conduct to your project, see https://opensourceconduct.com/ for examples
+
+-   This document should not be used as a token, it is very important to put intentional effort into it.
+
+-   List the expected and unacceptable behaviors, describe the reporting and enforcement process, explicitly define the scope, and use an inclusive tone.
+
+-   Whenever you update your code of conduct, invite comments from your members to ensure that their concerns are addressed.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-source-turing: https://book.the-turing-way.org/collaboration/new-community/new-community-guide
+
+
+## Community - Governance {#sec-community-governance}
+
+Provide a decision-making framework to facilitate discussions and reaching a shared conclusion.
+In the context of software and hardware, open source projects are often as much about communication as they are about coding or building (if not more).
+Allow informed discussions when a particular project design has reached the end or when it is useful to update it for efficiency and sustainability.
+
+A leadership structure in an open project should aim to empower others and develop agency and accountability in your community.
+You can start by listing different tasks within your project and inviting your members to lead those tasks.
+Provide appropriate incentives and acknowledgment for the contributions made by your community members.
+Create opportunities for members to share some leadership responsibilities with you in the project.
+When inviting suggestions and ideas from the community, provide the first set of plans where your community can develop from.
+
+More information:
+
+- https://opensource.guide/leadership-and-governance/ 
+- https://book.the-turing-way.org/ethical-research/ethics-open-source-governance
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-source-turing
 

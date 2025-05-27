@@ -1,20 +1,38 @@
-# How to use of the template
 
-## When should you start ? {#sec-whenstartingdocumentation}
+# Development stages
 
-This template allows you to start documenting your project at the ideation phase.
-While it might seem too early, it is useful when you want to present your ideas to collect feedback or even find collaborators.
-This allows to make clearer what are the important aspects of your idea, and can start interesting discussions.
+The documentation will grow with your project.
+Usually, an hardware project follows different stages of development, which may be seen as particular milestones where the team check that they gathered enough information and documented their process, before going to the next stage. 
 
-### If you have a prototype {#sec-if-you-have-a-prototype}
+The guide propose 5 stages of developement:
+- ideation
+- specification (needs analysis)
+- concept development
+- protoyping
+- replication phase
 
-We expect most readers will come to this documentation template when they actually already have a prototype, and are mostly interested in the documentation of the technical parts of the project (mostly what will be in the 04_hardware folder).
-If you are in this situation, our advice is to go through each steps rapidely, making either short description of what you had in mind when doing the project or noting what you may have done only sub-consciously.
-Look at the checklist below and the provided template "Full_Project_prototype", and go rapidly through it to get to the prototyping phase early.
-When you are happy with the results, go back to the things you noted earlier and see what is still relevant.
-For example, the needs and actors analysis may help you find or define a target group for your hardware, and help you find your users, and the conceptualisation documentation may help discussion with contributors.
+## From prototype, to demonstrator and market ready product
 
-# Step 1 Ideation
+ When some ideas to address a particular need are tested, the process is called prototyping. After many iterations and testing, a prototype will be selected for further development. The design that solves the needs but is not yet complete nor ready to be replicated (usually because some parts are not well documented or requires a lot of manual adjustments) is called a demonstrator. When the design and documentation are polished and are ready to be used by hardware producers, the hardware is usually labeled as a market-ready product.
+
+### Document when you already have a prototype {#sec-if-you-have-a-prototype}
+
+We expect some (or even most) readers will come to this documentation template when they actually already have a prototype, and are mostly interested in the documentation of the technical parts of the project (mostly what will be in the 04_hardware folder). Most of the advantages of documenting the project exhaustively will then be obsolete, and authors may want to restrict the document to its essentials.
+
+As explained in the FAQ though, all elements may be important and we encourage everyone to go through each steps (even rapidely), making short description of what they had in mind when developing the project so far. 
+These descriptions may be shorter than what you would have written if done earlier, but it may be important to ask these different questions, even when the project seems quite advanced.
+So, our advice is to look at the checklists of each step also when you have a prototype. You may want to use the provided template "Full_Project_prototype", going rapidly through it to get to some documentation done fast. 
+
+*There are different degrees for how open an OSH project can be, but every step in this direction is welcome and an opportunity to contribute to better research and open new career paths.*
+
+
+The process may help you to refine the scope of your project, potentially help you find your users and facilitate discussions with other contributors or investors.
+
+
+
+
+
+## Step 1 Ideation
 
 ### Ideation
 
@@ -29,9 +47,9 @@ This should all be included in the readme file:
     -   [ ] name of the project
     -   [ ] development stage: idea generation
     -   [ ] *type of hardware, subject area*
-    -   [ ] **License(s)**
-    -   [ ] FOR WHO IS MADE THIS DOCUMENT
-    -   [ ] short problem description
+    -   [ ] **License(s)** @sec-license-and-rights
+    -   [ ] FOR WHO IS MADE THIS DOCUMENT @sec-community-building
+    -   [ ] short problem description @sec-problem-description
 
 -   [ ] vision and motivations @sec-vision-and-motivation
 
@@ -48,7 +66,8 @@ This should all be included in the readme file:
     -   [ ] List of Sponsors and funding @sec-sponsors-and-funding
     -   [ ] List of putative funding opportunities @sec-future-funding-opportunities
 
-# Step 2 Needs analysis {.unnumbered}
+
+## Step 2 Specification, Needs analysis 
 
 ### Needs and ecosystem analysis
 
@@ -58,33 +77,35 @@ A lot of the user analysis and the problem description part aims at the definiti
 
 It may also be time to work on community engagement.
 
-### Checklist needs analysis
+### Checklist specifications
 
 -   [ ] Complete the readme file
-    -   [ ] *ethics statement (human/animal use or Informed Consent Statement)*
-    -   [ ] *competing interest*
-    -   [ ] future work, roadmap
     -   [ ] development stage: needs analysis
-    -   [ ] *Project history summary*
-    -   [ ] longer problem description
-    -   [ ] Documentation structure
+    -   [ ] *ethics statement (human/animal use or Informed Consent Statement)* @sec-ethics-statement
+    -   [ ] *competing interest* @sec-competing-interest
+    -   [ ] future work (@sec-future-work), roadmap (@sec-roadmap)
+    -   [ ] *Project history summary* @sec-project-history-summary
+    -   [ ] longer problem description @sec-problem-description
+    -   [ ] Documentation structure @sec-documentation-structure
 -   [ ] Contributions
-    -   [ ] Contribution guidelines
-    -   [ ] work culture that you want to promote
-    -   [ ] Code of conduct
+    -   [ ] Contribution guidelines @sec-community-guidelines
+    -   [ ] work culture that you want to promote @sec-community-work-culture
+    -   [ ] Code of conduct @sec-community-code-of-conduct
+    -   [ ] Governance @sec-community-governance
 -   [ ] User analysis (this can be a personas analysis)
-    -   [ ] Ecosystem analysis (`stakeholder`)
-    -   [ ] target groups (who will use the product)
-    -   [ ] External interfaces (how will they use the product)
-    -   [ ] skills needed to use
+    -   [ ] Ecosystem analysis (`stakeholder`) @sec-diverse-actors-and-ecosystem
+    -   [ ] target groups (who will use the product) @sec-user-analysis-target-groups
+    -   [ ] External interfaces (how will they use the product) @sec-user-analysis-external-interfaces
+    -   [ ] skills needed to use @sec-user-skills
 -   [ ] Product development
-    -   [ ] requirements
-    -   [ ] constrains
-    -   [ ] capability
+    -   [ ] requirements @sec-product-development-requirements
+    -   [ ] constrains @sec-product-dev-constrains
+    -   [ ] capability @sec-productdvt-capability
 -   [ ] History
-    -   [ ] *changes log*
+    -   [ ] *changes log* @sec-project-history-changelog
 
-## Step 3: Concept development {.unnumbered}
+
+## Step 3: Concept development
 
 ### Concept development
 
@@ -132,83 +153,97 @@ While in practice, it is often made in parallel to the prototyping, larger proje
     -   [ ] Behavioral model: *Modelling tool list* @sec-behavioral-model
     -   [ ] Similar projects
 
-## Step 4: product development and prototyping {.unnumbered}
+
+## Step 4: product development and prototyping 
 
 ### Prototyping
 
-Here the work on the design starts!
-Continuous documentation of choice made, successes and failuress are welcome, so this step has an iterative components: with every development can come specific documentation.
+Here the work on the design starts! Continuous documentation of choice made, successes and failuress are welcome, so this step has an iterative components: with every development can come specific documentation.
 
 In addition, the documentation may need to be performed for different parts (or modules) of the hardware.
 
-Importantly, the Product design, manufacturing and assembling instruction may be organised using different strategies.
-Some projects may write simple text files like the rest of the documentation; other projects may using Gitbuilding to write the assembly instruction, and deriving the bill of material from it; other projects may derive assembly instructions from their CAD files.
+Importantly, the Product design, manufacturing and assembling instruction may be organised using different strategies. Some projects may write simple text files like the rest of the documentation; other projects may using Gitbuilding to write the assembly instruction, and deriving the bill of material from it; other projects may derive assembly instructions from their CAD files.
 
 This step is also divided in two: a preparatory phase defining the main components and an iterative phase which can change with the different version of the hardware.
 
+
 ### Checklist 4a: preparations
 
--   [ ] Complete the readme file
-    -   [ ] development stage: prototyping
-    -   [ ] Standard compliance
-    -   [ ] Product outputs (if relevant: data outputs)
-    -   [ ] Citing information
--   [ ] Product development
-    -   [ ] Structural architecture
-        -   [ ] Mechanical architecture
-        -   [ ] Software/firmware architecture
-        -   [ ] Electrical design architecture
+- [ ] Complete the readme file
+  - [ ] development stage: prototyping
+  - [ ] Standard compliance
+  - [ ] Product outputs (if relevant: data outputs)
+  - [ ] Citing information
+
+  
+- [ ] Product development
+  - [ ] Structural architecture
+    - [ ] Mechanical architecture
+    - [ ] Software/firmware architecture
+    - [ ] Electrical design architecture
 
 ### Checklist 4b: iteration of design
+- [ ] Complete the readme file
+  - [ ] Update Documentation structure
 
--   [ ] Complete the readme file
-    -   [ ] Update Documentation structure
--   [ ] Product design
-    -   [ ] Bill of material
-    -   [ ] material characteristics
-    -   [ ] electrical design
-    -   [ ] Software: Documentation of different parts
--   [ ] Manufacturing instructions
-    -   [ ] Manufacturing skills and tools
-    -   [ ] Manufacturing sequences and instruction
--   [ ] Assembly instructions
-    -   [ ] assembly skills and tools
-    -   [ ] Safety information
-    -   [ ] Assembly sequence and instruction
--   [ ] User guide
-    -   [ ] Safety information
-    -   [ ] overview of the hardware
-    -   [ ] Operation instructions
-    -   [ ] Testing instructions and troubleshooting
-    -   [ ] basic maintenance + schedule
-    -   [ ] basic disposal
--   [ ] History
-    -   [ ] update changelog/release note
-    -   [ ] update design choice history
+- [ ] Product design
+  - [ ] Bill of material
+  - [ ] material characteristics
+  - [ ] electrical design
+  - [ ] Software: Documentation of different parts
+  
+- [ ] Manufacturing instructions  
+    - [ ] Manufacturing skills and tools
+    - [ ] Manufacturing sequences and instruction
+    
+- [ ] Assembly instructions
+  - [ ] assembly skills and tools
+  - [ ] Safety information
+  - [ ] Assembly sequence and instruction
 
-## Step 5: replicator step {.unnumbered}
+- [ ] User guide
+  - [ ] Safety information
+  - [ ] overview of the hardware
+  - [ ] Operation instructions
+  - [ ] Testing instructions and troubleshooting
+  - [ ] basic maintenance + schedule
+  - [ ] basic disposal
+  
+- [ ] History  
+  - [ ] update changelog/release note
+  - [ ] update design choice history
+
+
+
+## Step 5: replicator step
 
 ### Replication and maturation
 
-Here the prototype is mature enough that it should be replicated in different places.
-While most of the work was already present at step 4, here we go into more quality and details.
+Here the prototype is mature enough that it should be replicated in different places. While most of the work was already present at step 4, here we go into more quality and details.
 
 ### Checklist replication
 
--   [ ] Complete the readme file
-    -   [ ] development stage: replication ready
-    -   [ ] scientific publication
-    -   [ ] education resources
-    -   [ ] Institutional Review Board Statement
-    -   [ ] discussions
-    -   [ ] validation
-    -   [ ] cost
--   [ ] Assembly instructions
-    -   [ ] disassembly instructions
--   [ ] Product design
-    -   [ ] component lifespan
--   [ ] User guide
-    -   [ ] Environmental management
-    -   [ ] Identifying the defective components
-    -   [ ] Repairing the defective components
-    -   [ ] Replacing equipment components
+- [ ] Complete the readme file
+  - [ ] development stage: replication ready
+  - [ ] scientific publication
+  - [ ] education resources
+  - [ ] Institutional Review Board Statement
+  - [ ] discussions
+  - [ ] validation
+  - [ ] cost
+  
+- [ ] Assembly instructions
+  - [ ] disassembly instructions
+
+- [ ] Product design
+  - [ ] component lifespan
+  
+- [ ] User guide
+  - [ ] Environmental management
+  - [ ] Identifying the defective components
+  - [ ] Repairing the defective components
+  - [ ] Replacing equipment components 
+
+
+
+

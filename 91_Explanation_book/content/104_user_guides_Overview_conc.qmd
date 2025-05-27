@@ -57,26 +57,38 @@ Some popular software used to create webpage and pdf from markdown files:
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work
 
 
 ## User Guides : Safety information {#sec-user-guides-safety-information}
 
+Describe all relevant safety issues or references to a risk assessment if included (for example high voltage, chemical safety etc.). If appropriate, discuss the wider context of the use of the hardware and safety issues or risks that may arise in the use environment.
 
-## User Guides - Overview of the hardware {#sec-user-guides-overview-of-the-hardware}
-
-including:
-
-```         
--   Device name (and its parts) and their definition
--   Essentials and technical specifications
-```
+OSH makers are not always formally trained engineers and may not be able to easily differentiate between dangerous and safe manipulations.
 
 ------------------------------------------------------------------------
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-journal-of-open-hardware, @sec-source-turing
+
+
+## Overview of the hardware for users {#sec-user-guides-overview-of-the-hardware}
+
+This should provide a brief overview of the hardware and its functions, it may include:
+
+-   Device name (and its parts) and their definition
+-   Essentials and technical specifications
+
+This may be a summary of the hardware overview provided for contributors (the file "03_specification_concept/01_hardware_overview" in following the template v1.0 ).
+
+One can describe examples of application of the hardware. This should include some evidence of output, like data produced by the use of the device or a picture of other types of results. Outline how the quality control in @sec-user-guides-troubleshooting enables the use of the hardware in this context. We encourage the link to experiment results or the reference to a publication (published or to be published) where these results are detailed. We also encourage pointers to ongoing work.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work, @sec-journal-of-open-hardware
 
 
 ## Operation instructions {#sec-operation-instructions}
@@ -84,8 +96,7 @@ OpenNext work project resutls: @sec-open-next-work
 The operation instruction gives information on the use of the product, in particular in term of software.
 Note that it may include the calibration chapter (@sec-user-guides-calibration) when calibration is necessary for each use.
 
-It may includes
-
+It may include:
      
 -   Materials required
 
@@ -109,32 +120,47 @@ It may includes
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work
 
 
 ## User Guides: Troubleshooting {#sec-user-guides-troubleshooting}
 
-## Testing instructions
+### Testing instructions
 
 The user guide should give information on methods to test the accuracy of the hardware.
 This may include specific data to give the hardware as input and some information about how to interpret the quality of the output.
 
+Details can be provided on the testing of hardware functionalities, that are not directly essential for the precision operation of the hardware in the given context (which are in turn, where applicable, handled under Calibration), such as automated movements to position the hardware, repeatability of tool exchanges, recyclability, water-tightness, weight or other possibly relevant characteristics.
+
+The testing should define the safe/reliable limits in which the components can be operated (e.g. step size and repeatability of linear motion, force ranges, ratio of devices with leaks when built in a workshop, etc). This will enhance the usability of the hardware or method in other contexts.
+
 > Example: Ink Printers usually have a testing mode where a specific data file is used where the printed output will inform the user about the accuracy of the printer.
 > The guide then explain what users should look for in order to make a diagnostic.
 
-## Troubleshooting
+### Troubleshooting
 
 -   Instructions on how to solve common problems
--   Instruction to get additional help and report problems (Git forge issues, forums, chat,...).
+-   Instructions to get additional help and report problems (Git forge issues, forums, chat,...).
 
 ------------------------------------------------------------------------
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work, @sec-journal-of-open-hardware
+
+
 
 
 ## User Guides: Calibration {#sec-user-guides-calibration}
+
+If the hardware is used for measurements, please detail here how the reliability of measurements, or other hardware properties that are relevant for measurements, has been quantified and explain the results. Be clear about the processes or procedures used to compare the hardware to a standard, as well as the description of the standard calibrated against.
+Detail the general procedures in place for users to calibrate their hardware before or during use. What methods can be used to relate user-generated data to data from other sources? 
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware
 
 
 ## User Guides : Repair {#sec-user-guides-repair}
@@ -164,7 +190,7 @@ For each element which may be defective:
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work
 
 
 
@@ -183,7 +209,7 @@ This is very similar to the repairing section @sec-user-guides-repair, even if t
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work
 
 
 
@@ -238,10 +264,10 @@ Information to give:
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work
 
 
-## **Disposal instructions** {#sec-disposal-instructions}
+## Disposal instructions {#sec-disposal-instructions}
 
 Disposal instructions identify the process of removing a system or its component, ensuring the proper handling of any environmentally sensitive materials, and sending the remainder to surplus storage or sale.
 
@@ -250,11 +276,15 @@ Each element will be classed corresponding to their "recyclability", and infroma
 
 ### Classing elements
 
-> Recyclable: waste wich can be turn into another form of new and reusable materials without specific treatment.
->
-> Non-recyclable: the components or products that design for single-use, which means they get discarded immediately after use.
->
-> Conditionally recyclable: component which needs specific treatment before being recycled.
+There are different types of elements:
+
+- Recyclable: waste wich can be turn into another form of new and reusable materials without specific treatment.
+
+- Non-recyclable: the components or products that design for single-use, which means they get discarded immediately after use.
+
+- Conditionally recyclable: component which needs specific treatment before being recycled.
+
+Usual workflow for disposition: 
 
 -   Distinguishing the recyclable, Conditionally recyclable and Non-recyclable components or products.
 -   Determining what material can recycle many times
@@ -299,10 +329,12 @@ For each element or part, indicate:
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work
 
 
 ## User guides: Environmental management {#sec-user-guidesenvironmental-management}
+
+This chapter deal with information about the use and storage of the hardware. It usually includes information about:
 
     -   Protection against weather conditions
     -   Determining the acceptable temperature range
@@ -311,5 +343,5 @@ OpenNext work project resutls: @sec-open-next-work
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work
 

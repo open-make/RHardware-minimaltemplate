@@ -1,80 +1,214 @@
+
+
 # Readme as entry door
+
+Think about your audience when writing OSH documentation. Indeed, your project might be reused by people with different skills, roles, objectives, and socio-economic and cultural environments. Because of this it can be useful to create a list of skills that are required to build  (manufacture @sec-product-build-manufacturing-skills, and assemble @sec-product-build-assembly-skills-and-tools) or use the hardware (@sec-user-skills). Someone trying to build it from scratch, for example, will require specific set of prior knowledge, skills, and tools. A different set is needed to perform maintenance tasks. An end user operating the assembled project might require an entirely distinct skillset (and documentation).
 
 ## Vision and motivation {#sec-vision-and-motivation}
 
-The vision provides details about the project ultimate goal, its specificity and main objectives: what, for whom and why do we have this project.
+The vision provides details about the project ultimate goal, its
+specificity and main objectives, it answers the question:
 
-It serves to give meaning to the whole endeavor and is a representation of what we want to achieve.
-It may also present the problem the project aims at solving.
+> What, for whom and why do we have this project ?
+
+It serves to give meaning to the whole endeavor and is a representation
+of what we want to achieve. It may also present the problem the project
+aims at solving.
 
 It addresses the question: Why are you starting this project?
 
 Examples:
 
-> The OpenFlexure project makes high precision mechanical positioning available to anyone with a 3D printer - for use in microscopes, micromanipulators, and more.
-
-> This projects aims at providing fablabs and makerspaces with pedal powered toolkit, in order to open discussions around the principles of [low technologies](https://en.wikipedia.org/wiki/Low_technology): especially questioning needs (do we need the object), and designing while recognizing the ecological impact (choice of material, improving durability and repairability).
+> OpenFlexure (https://openflexure.org)
 >
-> One single pedal "motor" will be connected with several tools usually requiring a rotating motor (sewing machine, saw, ...).
-> The main goal is to question the use of electrical power and show the simplicity of the tool in fablabs.
-> The multi-functionality is important for the concept of sufficiency (less resources for a similar output).
-> An additional goal may be to enhance collaborative work (one need two people to use the tools).
+> The OpenFlexure project makes high precision mechanical positioning
+> available to anyone with a 3D printer - for use in microscopes,
+> micromanipulators, and more.
+
+> Pedal-powered toolkit for fablab (https://codeberg.org/openmakeXlowtech/PedalPoweredMachine-4fablab)
 >
-> We think this may also help solves the problem of "building fancy but useless objects" we sometimes see in fablabs, when objects are build to show one's skill and the possibilities of the machines, but they do not answer any needs.
+> This projects aims at providing fablabs and makerspaces with pedal
+> powered toolkit, in order to open discussions around the principles of
+> [low technologies](https://en.wikipedia.org/wiki/Low_technology):
+> especially questioning needs (do we need the object), and designing
+> while recognizing the ecological impact (choice of material, improving
+> durability and repairability).
+>
+> One single pedal "motor" will be connected with several tools usually
+> requiring a rotating motor (sewing machine, saw, ...). The main goal
+> is to question the use of electrical power and show the simplicity of
+> the tool in fablabs. The multi-functionality is important for the
+> concept of sufficiency (less resources for a similar output). An
+> additional goal may be to enhance collaborative work (one need two
+> people to use the tools).
+>
+> We think this may also help solves the problem of "building fancy but
+> useless objects" we sometimes see in fablabs, when objects are build
+> to show one's skill and the possibilities of the machines, but they do
+> not answer any needs.
 
-> The project BCN3D Moveo is motivated by the high cost of the materials that undergraduate students must use for learning how to engineer mechatronics systems.
-
+> BCN3D
+>
+> The project BCN3D Moveo is motivated by the high cost of the materials
+> that undergraduate students must use for learning how to engineer
+> mechatronics systems.
 ------------------------------------------------------------------------
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work, @sec-source-turing
+
 
 ## hardware summary overview
 
 This part is meant to give an overview of the hardware, more detailed description should be given in the 03_product_dvt/hardware_overview.md file.
 
+
+Give an overview of the hardware, what it does, how it was produced, and, if relevant, the research for which it has been used. Write as much as possible for a general audience. That is, explain what the project is and what it is for, before you get into the technical details. Describe how the hardware was implemented/created, with relevant details of the architecture and design, including general materials. You may also describe any variants and associated implementation differences.
+
 A schema, a picture or a video may be added here.
 
-At first, one can state what will be delivered in this project?
-
-> Example:\
+> Example:
 >
-> The project [BCN3D Moveo](https://github.com/BCN3D/BCN3D-Moveo/) is an open source robotic arm that everyone should be able to replicate - with or without modification - at home without the need for highly technical knowledge and expensive materials.
-> The robotic arm will support several of the existing training itineraries: mechanical design, automation, industrial programming, etc.\
-> \
+> The project [BCN3D Moveo](https://github.com/BCN3D/BCN3D-Moveo/) is an open source robotic arm that everyone should be able to replicate - with or without modification - at home without the need for highly technical knowledge and expensive materials.
+> The robotic arm will support several of the existing training itineraries: mechanical design, automation, industrial programming, etc.
+>
+> Pedal powered machine: https://codeberg.org/openmakeXlowtech/PedalPoweredMachine-4fablab : photo + "size: about 700x1000 mm, table is 1100 mm high."
+
 
 ------------------------------------------------------------------------
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work, @sec-journal-of-open-hardware, @sec-source-turing
+
 
 ## Standard compliance
 
-Please indicate if the hardware is compliant with standards.
+Please indicate if the hardware is compliant with standards (DIN, ISO, ...).
+
+You may also indicate why it is not, if relevant.
+
+> example
+>
+> The stairs are compliant with DIN 18065:2011-06
+
 
 ## Outputs: Products and data
 
 This section define the product or data produced by the hardware.
 
-example:
+It may describes examples of applications of the hardware. This should include some evidence of output, like data produced by the use of the device or a picture of other types of results.
 
-## validation
+It may also present or link to a standard data structure used, or involve the explanation of the data structure used.
 
-## education resources
+One may link to other repositories or add data directly in the hardware documentation, as an extra folder.
+
+> example
+>
+> Data obtained with the plastic scanner can be found at https://github.com/Plastic-Scanner/Data
+>
+> https://docs.smartcitizen.me:  hardware documentation and data obtained are linked at the same level in the main documentation homepage.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware
+
+
+## Validation
+
+> How do you know the hardware works ?
+
+Elaborate how the hardware technically/methodologically advances the state-of-the-art, including references to relevant research articles and online references.
+
+This may be important for future development, as new validation cycles would probably build on this documentation. Indicate any sofware/code used for validation of the design.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware
+
+
+## Education resources {#sec-education-resources}
+
+Indicate and link to any resources for educating the users on why/how to use the hardware.
+The form of these resources may be online courses, videos, or in presence workshop, to name a few.
+
+> example:
+>
+> <https://docs.smartcitizen.me>: hardware documentation and education resources are linked at the same level in the main documentation homepage.
+
 
 ## Cite this project
 
+It is good practice to treat hardware citation similarly to other research outputs.
+The use of archives that can assign persistent identifiers (like a DOI) can help to guarantee specific versions/releases of the hardware project available over the long term. Though within the open hardware community this is not the practice, it would be beneficial to adopt going forward. For research to be reproducible, long term archiving through a platform that is dedicated to it would be necessary.
+
+Zenodo is a good example of the type of archive that can issue a persistent identifier and provide a good citation metadata, if authors are set correctly. The use of a Citation.cff file may be recommended. You may refer to the Turing way book for more information: https://book.the-turing-way.org/communication/citable
+
+> Example (fictive)
+>
+> Please cite this project by citing the article: Ho, I., Kumar, A. H., & Harris, D. M. 2022. Reconfigurable Mechanical Vibrations Laboratory Kit. Journal of Open Hardware,  6(1): 4, pp. 1–11. DOI: https:// doi.org/10.5334/joh.40
+>
+> Please cite this hardware as TUM Magnetic fields, & Bernhard Gleich. (2023). TUMMFE/Hardware: Hardware Release (Version 1). Zenodo. https://doi.org/10.5281/zenodo.10006096
+>
+> Citing White Rabbit
+>J. Serrano, P. Alvarez, M. Cattin, E. G. Cota, P. M. J. H. Lewis, T.
+Włostowski et al., The White Rabbit
+Project
+in Proceedings of ICALEPCS TUC004, Kobe, Japan, 2009.
+
+-------------------------------------------------------------
+
+**Sources**
+
+@sec-source-turing
+
+
 ## scientific publication
 
-## Problem description
+Include experiment results or the reference to a publication (published or to be published) where these results are detailed. 
+
+You may also point to ongoing work.
+This may be merge with the "how to cite section".
+
+> Example
+>
+> This project lead to the publications:
+> - Ho, I., Kumar, A. H., & Harris, D. M. 2022. Reconfigurable Mechanical Vibrations Laboratory Kit. Journal of Open Hardware,  6(1): 4, pp. 1–11. DOI: https:// doi.org/10.5334/joh.40
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware
+
+
+## Problem description {#sec-problem-description}
+
+Describe the problem in this section and how the hardware addresses the problem.
+
+> example
+>
+> As you might know, plastic recycling is important, but putting this into practice can be quite challenging.
+> One of the big things is identifying and sorting plastic.
+>
+> Discrete near-infrared spectroscopy makes it possible to identify over 75% of all plastic used in everyday life.
+> Therefore, it became my mission to make this technology accessible to recyclers in low and middle-income countries.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware
+
 
 ## dependencies
 
-Here it is welcome to acknowledge the existing sources that have been used in this project with locations, and name their initiators.
-At best, present dependencies following what these projects provide as citation information.
-But at least:
+Here it is welcome to acknowledge the existing sources that have been used in this project with locations, and name their initiators. At best, present dependencies following what these projects provide as citation information. But at least:
 
 -   Initiators of the original project
 
@@ -82,67 +216,163 @@ But at least:
 
     You may also cite projects that project is citing as dependencies or source, with the URL of other related projects
 
+These dependencies can be hardware or software projects, modular components, libraries, or frameworks. You may indicate information on version compatibilities. You should explicitly state if dependencies are proprietary / closed source.
+
 ------------------------------------------------------------------------
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work, @sec-journal-of-open-hardware
 
-## software used for development
 
-## Roadmap
+## Software used for development
 
-## Project history summary
+Indicate what software was used in the development, this is particularly important 
+for (expensive) CAD software, in order for collaborators to know if they have the right
+software and skills to help.
+
+> Example
+>
+> The CAD files were created using autodesk fusion 360 (version 2601.0.90)
+>
+> We use the following things:
+>
+> - Speech - That is by far the easiest, it make communication quick and fun, ideally in person but it can also be done digitally. For super important agreements we mail.
+- Discord, for finding others interested in development of the Plastic Scanner!
+- KiCAD 6.0 - We use KiCAD as a development tool for making our PCB's.
+- Fusion360 - We use Fusion360 as a tool to do 3D modelling.
+- Wordpress, The main website runs on wordpress, easy to add content!
+- Docusaurus, for all the documentation you are reading right now!
+- GitHub, for version control of software, firmware, hardware and documentation
+- Google Drive, for internal exchange of files.
+- Youtube, for update videos
+- Notion, project management
+- PlatformIO, for firmware development
+
+
+## Roadmap {#sec-roadmap}
+
+Provide overarching as well as short-term goals and describe expected outcomes to help contributors move away from focusing on a single idea of the feature.
+Describe the possible expansion of features in pre-determined and agreed on ways at stages beyond the initial implementation.
+
+Provide sufficient information for what the expected outcomes and deliverables are.
+
+> Example
+>
+> <https://plasticscanner.com/future-plans/> : With a focus on improving spectroscopy, writing coding, and continuous integration, we aim to create a practical and effective solution.
+> Be a part of the progress and join us in making a difference.
+>
+> In order to place the endeavors in the greater scheme of things, we have specific milestones we want to reach.
+> We want to achieve these milestones sequentially, this makes it a plan, not a planning.
+> We do not make any promises about when these milestones will be reached, it needs to stay fun for us to develop.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-source-turing
+
+
+## Project history summary {#sec-project-history-summary}
 
 Indicate main information about the history of the project, as well as the last updates in the project and in the documentation (especially if the documentation is not up to date).
 
-## Future work
+> example:
+>
+> The White Rabbit project was **started in 2008** by Javier Serrano and his colleagues.
+> From the start it has been a collaborative effort where everyone works together to make a working solution.
+> By **summer 2012** we had built 18-port switches and used the [SPEC](https://gitlab.com/ohwr/project/spec/-/wikis) hardware as end nodes and had made a demonstration program where one could see that the WR protocol lived up to its promises.
+> <https://gitlab.com/ohwr/project/white-rabbit/-/wikis/Status>
 
-## Community and Contributions {#sec-community-and-contributions}
 
-## List of team members / contributors {#sec-list-of-team-members-contributors}
+## Future work {#sec-future-work}
+
+Further work pursued by the authors or collaborators; known issues; suggestions for others to improve on the hardware design or testing, given what you have learned from your design iterations.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware
+
+
+## Community, List of team members and contributors {#sec-list-of-team-members-contributors}
 
 Describe here who are the maintainers and the main contributors of the project, indicate their name, role in the project and link to further information.
 
--   Avoid giving personal information (like emails) in the documentation itself. One non-personal email (or not recognisable email) can be given as a communication tool.\*
+- This section may be split in different categories of contributors.
+For example, one can separate authors, contributors and aknowledged people.
+There is presently no definition of these categories or standard way to report contributions.
+- For each contributor, you may indicate tasks performend (design, assembly, use cases contribution, documentation, paper
+writing,...)
+
+-   Avoid giving personal information (like emails) in the documentation itself. One non-personal email (or not recognisable email) can be given as a communication tool.
+
+
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work, @sec-journal-of-open-hardware
+
 
 ## Who could contribute {#sec-who-could-contribute}
 
 Mention the specific knowledge a contributor shall own to contribute to the project, as a maker or as a different role, indicate what kind of skills you are looking for.
 
-Describe here how people can contribute to your project.
-What is the preferred workflow and mention what is the agreement.
+You may describe here briefly how people can contribute to your project (link the more detailed guidelines if existant @sec-community-guidelines) and what they can expect to be rewarded.
+Mention what is the agreement between contributors and maintainers of the project.
 
-> Example of a contribution process:
->
-> Post an issue on the Git Forge and briefly outline the changes you plan to make or would like to be made.
+> We are always looking for bright minds that want to help out making plastic identification possible.
+> Especially data science, spectroscopy, and electronics.
+> If you want to chip in with your skills please read the page here:
+
 
 ## Communication channel, how to contribute {#sec-communication-channel-how-to-contribute}
+
+Indicate how discussion are run in the community (email to maintainer, email list, forum, social media, direct communication,...)
 
 In first step, this can be restricted to give an email where newcomers can ask for further information.
 If you are using a Git Forge, the issue system of the forge may be linked here.
 
-In developed project, a forum page or the use of a community communication tool like mattermost or matrix (to give two open source examples) is often better, as the community can work decentralised.
+In developed project, a forum page or the use of a community communication tool like mattermost or matrix (to give two open source examples) is often better, as the community can work decentralized.
 
-## License and rights
 
-*Under what license is this open-source hardware documentation provided ? Specify when different part of the documentation have different license*
+## License and rights {#sec-license-and-rights}
+
+*Under what license is this open-source hardware documentation provided ? Specify when different parts of the documentation have different licenses*
+
+Without an open license, others cannot legally use, copy, distribute, or modify that project.
+The situation of hardware licensing is a bit more complex than for research outputs like software, as there are some cases where patent law and not copyright law will apply.
+Also note that you may use different licenses for different part of the project.
 
 -   [Comparison of free and open-source software licences](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licences)
 
 -   [license of open hardware projects](https://opensource.com/law/15/2/intro-open-hardware-licensing#:~:text=Open%20source%20hardware%20is%20hardware,on%20their%20hardware%20at%20all.)
 
+Suggested license:
+
+-   Texts and guides: CC-BY 4.0. See: https://creativecommons.org/share-your-work/cclicenses/
+-   Hardware: CERN-OHL-S Strongly reciprocal (most restrictive); CERN-OHL-W Weakly reciprocal; CERN-OHL-P Permissive (less restrictive). See: https://cern-ohl.web.cern.ch
+-   Software: Any of the Open Source Initiative approved license (https://opensource.org/licenses)
+
+> Example:
+>
+> This readme file, the 01_community, 02_project_history, and 05_user_guides folders are shared under a CC-BY 4.0 license, the 03_specification_concept and 04_hardware folders are shared undear a CERN-OHL-P license.
+> The 11_software folder is shared under a MIT license.
+
 ------------------------------------------------------------------------
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work, @sec-journal-of-open-hardware, @sec-source-turing
 
-## Funding information
 
 ## Sponsors and funding {#sec-sponsors-and-funding}
 
-Who is sponsoring your project?
+Who is sponsoring or funding your project?
+If funded by research grant, indicate the funder and grant number.
 
 -   URL:
 
@@ -156,34 +386,75 @@ Who is sponsoring your project?
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-open-next-work, @sec-journal-of-open-hardware
+
 
 ## Future funding opportunities {#sec-future-funding-opportunities}
 
 It is often a good idea to list putative funding opportunities when the project has no long term financing.
-An indication of the strategy followed by your community is also a sign of how open the project is and will be in the future.
+An indication of the funding strategy followed by your community is also a sign of how open the project is and will be in the future.
+
 
 ## Administrative information
 
-## ethics statement
 
-## competing interest
+## Ethics statement {#sec-ethics-statement}
 
-## Institutional Review Board Statement
+State any ethics issue you project may have, and whether an ethics committee has been reviewing the project.
 
-## Documentation structure
 
-*How is your documentation organized?*
+## Competing interest {#sec-competing-interest}
 
-These guidelines will provide you with a standard structure that is mainly following the product life cycle and the technological decomposition.
-It is implemented in the documentation template available in this project.
+If any of the authors have any competing interests then these must be declared.
+The authors’ initials should be used to denote differing competing interests.
+For example: “BH has minority shares in \[company name\], which part funded the research grant for this project.
+All other authors have no competing interests." Or “BH is selling kits and parts connected to the here presented hardware via platform XX. A fundraising via Crowdfunding platform YY is planned to start commercialisation.” If there are no competing interests, please add the statement: “The authors declare that they have no competing interests.”
 
 ------------------------------------------------------------------------
 
 **Sources**
 
-OpenNext work project resutls: @sec-open-next-work
+@sec-journal-of-open-hardware
 
-## conclusions
 
-## discussions
+## Institutional Review Board Statement
+
+
+## Documentation structure {#sec-documentation-structure}
+
+*How is your documentation organized?*
+
+These guidelines will provide you with a standard structure that is mainly following the product life cycle and the technological decomposition.
+It is implemented in the documentation template available in this project.
+Think about updating this aspect if necessary.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work
+
+
+## Conclusions
+
+This may include conclusions, learned lessons from design iterations, learned lessons from use cases, and/or a summary of results.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware
+
+
+## Discussions
+
+You may discuss the current state of the project.  Explain
+how the hardware differs from other hardware, and the advantages it offers over pre-existing methods. Discuss the capabilities and limitations of the hardware. For example, load and
+operation time, spin speed, coefficient of variation, accuracy, precision.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-hardwareX (coming from another section of template)
+
