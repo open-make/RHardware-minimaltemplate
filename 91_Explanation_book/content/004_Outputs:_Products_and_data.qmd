@@ -1,8 +1,9 @@
-## Outputs: Products and data
+## Outputs: Products and data {#sec-outputs-products-and-data}
 
 This section define the product or data produced by the hardware.
 
-It may describes examples of applications of the hardware. This should include some evidence of output, like data produced by the use of the device or a picture of other types of results.
+It may describes examples of applications of the hardware.
+This should include some evidence of output, like data produced by the use of the device or a picture of other types of results.
 
 It may also present or link to a standard data structure used, or involve the explanation of the data structure used.
 
@@ -12,7 +13,7 @@ One may link to other repositories or add data directly in the hardware document
 >
 > Data obtained with the plastic scanner can be found at https://github.com/Plastic-Scanner/Data
 >
-> https://docs.smartcitizen.me:  hardware documentation and data obtained are linked at the same level in the main documentation homepage.
+> https://docs.smartcitizen.me: hardware documentation and data obtained are linked at the same level in the main documentation homepage.
 
 ------------------------------------------------------------------------
 

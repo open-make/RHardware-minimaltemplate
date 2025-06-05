@@ -1,4 +1,4 @@
-## Standard compliance
+## Standard compliance {#sec-standard-compliance}
 
 Please indicate if the hardware is compliant with standards (DIN, ISO, ...).
 

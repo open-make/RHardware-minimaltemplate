@@ -8,24 +8,24 @@ Here the prototype is mature enough that it should be replicated in different pl
 
 - [ ] Complete the readme file
   - [ ] development stage: replication ready
-  - [ ] scientific publication
-  - [ ] education resources
-  - [ ] Institutional Review Board Statement
-  - [ ] discussions
-  - [ ] validation
-  - [ ] cost
+  - [ ] scientific publication @sec-scientific-publication
+  - [ ] education resources @sec-education-resources
+  - [ ] Institutional Review Board Statement @sec-institutional-review-board-statement
+  - [ ] discussions @sec-discussions
+  - [ ] validation @sec-validation
+  - [ ] cost 
   
 - [ ] Assembly instructions
-  - [ ] disassembly instructions
+  - [ ] disassembly instructions @sec-disassembly
 
 - [ ] Product design
-  - [ ] component lifespan
+  - [ ] component lifespan 
   
 - [ ] User guide
-  - [ ] Environmental management
-  - [ ] Identifying the defective components
-  - [ ] Repairing the defective components
-  - [ ] Replacing equipment components 
+  - [ ] Environmental management @sec-user-guidesenvironmental-management
+  - [ ] Identifying the defective components @sec-identifying-the-defective-components
+  - [ ] Repairing the defective components @sec-repairing-the-defective-components
+  - [ ] Replacing equipment components @sec-identifying-the-defective-components
 
 
 

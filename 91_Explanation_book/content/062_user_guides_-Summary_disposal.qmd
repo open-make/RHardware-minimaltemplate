@@ -9,13 +9,13 @@ Each element will be classed corresponding to their "recyclability", and infroma
 
 There are different types of elements:
 
-- Recyclable: waste wich can be turn into another form of new and reusable materials without specific treatment.
+-   Recyclable: waste wich can be turn into another form of new and reusable materials without specific treatment.
 
-- Non-recyclable: the components or products that design for single-use, which means they get discarded immediately after use.
+-   Non-recyclable: the components or products that design for single-use, which means they get discarded immediately after use.
 
-- Conditionally recyclable: component which needs specific treatment before being recycled.
+-   Conditionally recyclable: component which needs specific treatment before being recycled.
 
-Usual workflow for disposition: 
+Usual workflow for disposition:
 
 -   Distinguishing the recyclable, Conditionally recyclable and Non-recyclable components or products.
 -   Determining what material can recycle many times
@@ -30,11 +30,11 @@ Disposable products are most often made from Polystyrene and Cotton, Non-recycla
 -   Incineration: This type of waste disposal involves the dumping off method where you eliminate waste materials via combustion.
 -   Landfill: It involves collecting, transporting, dumping, and burying waste in a designated land.
 
-### disassembly
+### Disassembly {#sec-disassembly}
 
 Indicate how to disassemble the components a product for recycling/disposing?
 
-### environmental assessment
+### Environmental assessment
 
 it is the assessment of the environmental consequences of disposing or recycling a product before the decision to move forward with the proposed action.
 - The negative consequences of disposable products on the environment if sustainability isn't factored into disposal options.

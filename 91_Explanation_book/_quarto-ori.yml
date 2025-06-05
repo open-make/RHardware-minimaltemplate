@@ -97,7 +97,7 @@ book:
     chapters:
       - content/051_Project_history_-changelog.md.qmd
       - content/052_Project_history_-_release_notes.qmd
-      - content/053_Project_history_-design_choices.qmd
+      - content/053_Project_history_design_choices.qmd
   - part: "user guides"
     chapters:
       - content/104_user_guides_Overview.qmd

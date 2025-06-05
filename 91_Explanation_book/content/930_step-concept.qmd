@@ -28,20 +28,20 @@ While in practice, it is often made in parallel to the prototyping, larger proje
 
 -   [ ] Complete the readme file
     -   [ ] development stage: concept development
-    -   [ ] dependencies
-    -   [ ] *conclusions*
-    -   [ ] software used for development
-    -   [ ] harware summary overview
+    -   [ ] dependencies @sec-dependencies
+    -   [ ] *conclusions* @sec-conclusions
+    -   [ ] software used for development @sec-software-used-for-development
+    -   [ ] harware summary overview @sec-hardware-summary-overview
 -   [ ] History
-    -   [ ] release note
-    -   [ ] design_choices
-    -   [ ] update change log
+    -   [ ] release note @sec-project-history-releasenotes
+    -   [ ] design_choices @sec-designchoices
+    -   [ ] update change log @sec-project-history-changelog
 -   [ ] Product development
     -   [ ] update hardwareoverview
-        -   [ ] application, use cases
-        -   [ ] *reuse potential*
-        -   [ ] architectural structure
-        -   [ ] *foreseen cost + time cost*
-    -   [ ] functional model
-    -   [ ] Behavioral model: *Modelling tool list* @sec-behavioral-model
-    -   [ ] Similar projects
+        -   [ ] application, use cases @sec-use-cases-and-application
+        -   [ ] \*reuse potential @*sec-reuse-possibilities
+        -   [ ] main architectural structure \@sec-structural-model
+        -   [ ] \*foreseen cost + time cost @*sec-foreseen-cost
+    -   [ ] functional model @sec-functional-model
+    -   [ ] Behavioral model @sec-behavioral-model
+    -   [ ] Similar projects @sec-similar-projects

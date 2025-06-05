@@ -1,5 +1,5 @@
-## Foreseen cost (money and time)
+## Foreseen cost (money and time) {#sec-foreseen-cost}
 
-Indicate how expensive the hardware will be, and how much time will be needed to manufacture, assemble and test the hardware. 
+Indicate how expensive the hardware will be, and how much time will be needed to manufacture, assemble and test the hardware.
 
 This is estimates done before the prototyping stage and will disappear once real numbers are available.

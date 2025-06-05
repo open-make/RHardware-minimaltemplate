@@ -15,43 +15,43 @@ This step is also divided in two: a preparatory phase defining the main componen
 
 - [ ] Complete the readme file
   - [ ] development stage: prototyping
-  - [ ] Standard compliance
-  - [ ] Product outputs (if relevant: data outputs)
-  - [ ] Citing information
+  - [ ] Standard compliance @sec-standard-compliance
+  - [ ] Product outputs (if relevant: data outputs) @sec-outputs-products-and-data
+  - [ ] Citing information @sec-cite-this-project
 
   
 - [ ] Product development
   - [ ] Structural architecture
-    - [ ] Mechanical architecture
-    - [ ] Software/firmware architecture
-    - [ ] Electrical design architecture
+    - [ ] Mechanical architecture @sec-mechanical-architecture
+    - [ ] Software/firmware architecture @sec-software-and-firmware-architecture
+    - [ ] Electrical design architecture @sec-electrical-architecture
 
 ### Checklist 4b: iteration of design
 - [ ] Complete the readme file
-  - [ ] Update Documentation structure
+  - [ ] Update Documentation structure 
 
 - [ ] Product design
-  - [ ] Bill of material
-  - [ ] material characteristics
-  - [ ] electrical design
-  - [ ] Software: Documentation of different parts
+  - [ ] Bill of material @sec-product-build-bill-of-material
+  - [ ] material characteristics @sec-product-build-material-characteristics
+  - [ ] electrical design @sec-product-buildelectrical-design
+  - [ ] Software: Documentation of different parts @sec-product-build-firmwaresoftware
   
 - [ ] Manufacturing instructions  
-    - [ ] Manufacturing skills and tools
-    - [ ] Manufacturing sequences and instruction
+    - [ ] Manufacturing skills and tools @sec-product-build-manufacturing-skills, @sec-product-build-manufacturing-tools
+    - [ ] Manufacturing sequences and instruction @sec-product-build-manufacturing-instructions
     
 - [ ] Assembly instructions
-  - [ ] assembly skills and tools
-  - [ ] Safety information
-  - [ ] Assembly sequence and instruction
+  - [ ] assembly skills and tools @sec-product-build-assembly-skills-and-tools
+  - [ ] Safety information @sec-safety-instruction-assembly
+  - [ ] Assembly sequence and instruction @sec-product-build-assembly-instructions
 
 - [ ] User guide
-  - [ ] Safety information
-  - [ ] overview of the hardware
-  - [ ] Operation instructions
-  - [ ] Testing instructions and troubleshooting
-  - [ ] basic maintenance + schedule
-  - [ ] basic disposal
+  - [ ] Safety information @sec-user-guides-safety-information
+  - [ ] overview of the hardware @sec-user-guides-overview-of-the-hardware
+  - [ ] Operation instructions @sec-operation-instructions
+  - [ ] Testing instructions and troubleshooting @sec-user-guides-troubleshooting
+  - [ ] basic maintenance + schedule @sec-maintenance
+  - [ ] basic disposal @sec-disposal-instructions
   
 - [ ] History  
   - [ ] update changelog/release note

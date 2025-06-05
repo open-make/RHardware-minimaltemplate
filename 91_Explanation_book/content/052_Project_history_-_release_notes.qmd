@@ -1,11 +1,13 @@
 ## Release notes {#sec-project-history-releasenotes}
 
-Release notes detail the corrections, changes or enhancements (functional or non-functional) made to the service or product the company provides. They are are summaries of changelog made for target users and manufacturers. They usually  come with new hardware release.
-Release notes can also contain test results and information about the test procedure. This kind of information gives readers of the release note more confidence in the fix/change done.
+Release notes detail the corrections, changes or enhancements (functional or non-functional) made to the service or product the company provides.
+They are are summaries of changelog made for target users and manufacturers.
+They usually come with new hardware release.
+Release notes can also contain test results and information about the test procedure.
+This kind of information gives readers of the release note more confidence in the fix/change done.
 
+------------------------------------------------------------------------
 
+**Sources**
 
------
-sources
-
-[Wikipedia](https://en.wikipedia.org/wiki/Release_notes), see also https://blog.releasenotes.io/changelog-vs-release-notes/ 
+[Wikipedia](https://en.wikipedia.org/wiki/Release_notes), see also <https://blog.releasenotes.io/changelog-vs-release-notes/>

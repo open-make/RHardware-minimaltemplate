@@ -3,7 +3,7 @@
 This document should provide information about the specific knowledge a maker shall own to assembly the hardware product, and what tools are necessary.
 For example, one can report how many people are needed to assemble the hardware.
 
-## Example of skills and machines:
+### Example of skills and machines:
 
 1.  Required skills for assembly
     -   Operate drilling machine
@@ -23,7 +23,13 @@ In many case, it might be interesting to link skills with tools, as being able t
 > To build the Airtrack, it is optional to use specific UV glue and its specific equipment.
 > One should nevertheless have some experience in using plastic glue.
 
-------------------------------------------------------------------------
+## Safety instruction {#sec-safety-instruction-assembly}
+
+Assembly instruction may include specific notes on safety.
+
+> Example
+>
+> When the laser cutter machine is open, it becomes a class 4 laser. This means that when the machine is open and under electric current, you have to wear glasses and be in a closed room labeled as dangerous ("laser in function").
 
 **Sources**
 

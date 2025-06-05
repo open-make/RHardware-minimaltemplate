@@ -1,6 +1,6 @@
 # FBS modeling
 
-## Functional model
+## Functional model {#sec-functional-model}
 
 A Functional model explains what the product is made for.
 It is:
@@ -71,14 +71,12 @@ The functional graph is a multi-level logical articulation of technical function
 >
 > ![Image of functional graph of XYZ cargo-ADD ONS](img/Functional_graph.jpg) The image shows the functional graph of the relationship between technical functions for maintaining food quality by ADD-ONS of XYZ cargo.
 
-
 See @sec-structural-model for information about creating tree and graph
 
 <details>
 
 1.  What minimum documentation should the functional graph provide?
     -   A model specifying a multi-level logic of relationships between technical functions (refer to functional graph of XYZ Cargo-ADD ONS)
-
 2.  How to implement the functional tree?
     -   Use functional modeling language for representation, such as
 
@@ -94,15 +92,15 @@ See @sec-structural-model for information about creating tree and graph
 
     -   Functional flow block diagram
 
-  -   Use open-source software for modeling the tree representation, such as
+-   Use open-source software for modeling the tree representation, such as
 
-      -   Papyrus
+    -   Papyrus
 
-      -   Modelio
+    -   Modelio
 
-      -   Capella
+    -   Capella
 
-</details> 
+</details>
 
 > The link below shows an example of functional block diagrams of an open-source project
 >
