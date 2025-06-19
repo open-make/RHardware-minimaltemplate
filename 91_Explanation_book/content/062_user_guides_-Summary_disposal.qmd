@@ -30,9 +30,9 @@ Disposable products are most often made from Polystyrene and Cotton, Non-recycla
 -   Incineration: This type of waste disposal involves the dumping off method where you eliminate waste materials via combustion.
 -   Landfill: It involves collecting, transporting, dumping, and burying waste in a designated land.
 
-### Disassembly {#sec-disassembly}
+### Disassembly
 
-Indicate how to disassemble the components a product for recycling/disposing?
+See @sec-disassembly
 
 ### Environmental assessment
 
@@ -46,7 +46,7 @@ For each element or part, indicate:
 
 -   sub-part name
 -   parent part number and name, with links
--   link to dissassembly instructions (see sec-product-build-assembly-instructions)
+-   link to dissassembly instructions (see @sec-disassembly)
 -   material used + how many times can it be recycled
 -   recyclable (yes/no/conditional)
 -   disposition information, for each option:

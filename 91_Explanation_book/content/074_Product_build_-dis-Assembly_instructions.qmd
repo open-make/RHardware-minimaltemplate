@@ -1,0 +1,14 @@
+## Product Build: Disassembly instruction {#sec-disassembly}
+
+Please refer to @sec-product-build-assembly-instructions.
+
+Disassembly may be different from assembly, please give information about skills, tools, safety issue and sequence instruction for dismantling the hardware. Also indicate if there are differences between disassembly for repair, or disassembly for disposal.
+
+
+
+------------------------------------------------------------------------
+
+**Sources**
+
+
+
