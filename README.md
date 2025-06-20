@@ -1,5 +1,8 @@
 # Open source hardware documentation toolkit
 
+> This repository home is on codeberg, it is mirrored on github.
+> Please prefer the codeberg repository to open issues.
+
 ## Vision: making documenting OSH projects easier.
 
 We want to\
