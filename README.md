@@ -1,6 +1,7 @@
 # Open source hardware documentation toolkit
 
-> This repository home is on codeberg, it is mirrored on github, where the book is deployed.
+
+> Note: This [repository home](https://codeberg.org/openmake/RHardware-minimaltemplate/branches) is on codeberg, it is mirrored on github, where the book is deployed and zenodo integration is performed.
 > Please prefer the codeberg repository to open issues.
 
 ## Vision: making documenting OSH projects easier.
