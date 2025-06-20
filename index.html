@@ -288,6 +288,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#a-guide-to-open-source-hardware-projects-documentation" id="toc-a-guide-to-open-source-hardware-projects-documentation" class="nav-link active" data-scroll-target="#a-guide-to-open-source-hardware-projects-documentation">A guide to open source hardware projects documentation</a>
   <ul class="collapse">
   <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
+  <li><a href="#rational" id="toc-rational" class="nav-link" data-scroll-target="#rational">Rational</a></li>
   <li><a href="#guide-organisation" id="toc-guide-organisation" class="nav-link" data-scroll-target="#guide-organisation">Guide organisation</a></li>
   <li><a href="#navigating-the-book" id="toc-navigating-the-book" class="nav-link" data-scroll-target="#navigating-the-book">Navigating the book</a></li>
   <li><a href="#technicality" id="toc-technicality" class="nav-link" data-scroll-target="#technicality">Technicality</a></li>
@@ -335,7 +336,7 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="unnumbered">A guide to open source hardware projects documentation</h1>
 <section id="background" class="level2">
 <h2 class="anchored" data-anchor-id="background">Background</h2>
-<p>After analyzing open source hardware documentation and existing templates, we are convinced that (1) documentation should grow with the different phases of a project and (2) the documentation should not restrict itself to the technical documentation necessary to reproduce the hardware, but should have a larger scope: the goal is not only to make the hardware (re-)producible, but to facilitate collaborative work in the development of the hardware (see Fig below).</p>
+<p>After analyzing open source hardware documentation and existing templates (see below and <a href="content/200-sources.html" class="quarto-xref"><span>9&nbsp; Sources</span></a>), we are convinced that (1) documentation should grow with the different phases of a project and (2) the documentation should not restrict itself to the technical documentation necessary to reproduce the hardware, but should have a larger scope: the goal is not only to make the hardware (re-)producible, but to facilitate collaborative work in the development of the hardware (see Fig below).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/makinglabopening-finalword.001.jpeg" class="img-fluid figure-img"></p>
@@ -343,6 +344,11 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <p>Accordingly, we created both a <a href="https://github.com/open-make/RHardware-minimaltemplate,%20including%20different%20folders%20and%20files">template for hardware project</a> and this guide. We hope to facilitate the creation of hardware project documentation with these two tools.</p>
+</section>
+<section id="rational" class="level2">
+<h2 class="anchored" data-anchor-id="rational">Rational</h2>
+<p>Open source hardware projects documentation can be divided in at least two activities: documenting the product (manufacturing, assembly, use, maintenance and so on.) and documenting the process (project vision, collaborators, how to collaborate, design process). This distinction can also be linked with the five OSHWA defined freedom for OSH: study, modify being mostly related to the process; make, distribute, and sell being mostly related to the product.</p>
+<p>On the other hand, an hardware project goes through several development steps, each of them deserving some specific documentation. In the ideation phase, one should define the project vision and find collaborators. In the needs analysis phase, the team is documenting their research on the definition of requirements and on the related existing projects. In the concept phase, the team is describing some implementation possibilities. In the prototyping phase, the team is iteratively designing a prototype, the product documentation is starting now, while the process documentation may be expanded as new collaborators comes in. In the replicator phase, the prototype is moved to a market-ready product, and the documentation aimed at users and producers of hardware will become more important.</p>
 </section>
 <section id="guide-organisation" class="level2">
 <h2 class="anchored" data-anchor-id="guide-organisation">Guide organisation</h2>
