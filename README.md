@@ -6,9 +6,8 @@
 
 ## Vision: making documenting OSH projects easier.
 
-We want to\
+We want to
 facilitate the work of designers and makers, helping them to easily create a documentation that grows with their project.
-\
 The documentation should ease collaborative design work, and facilitate the reuse of the OSH
 
 ## Metadata
