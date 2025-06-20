@@ -7,11 +7,17 @@ repositoryhome ="https://github.com/open-make/RHardware-minimaltemplate"
 bookurl = "https://open-make.github.io/RHardware-minimaltemplate/"
 ```
 
-After analyzing open source hardware documentation and existing templates, we are convinced that (1) documentation should grow with the different phases of a project and (2) the documentation should not restrict itself to the technical documentation necessary to reproduce the hardware, but should have a larger scope: the goal is not only to make the hardware (re-)producible, but to facilitate collaborative work in the development of the hardware (see Fig below).
+After analyzing open source hardware documentation and existing templates (see below and @sec-sources), we are convinced that (1) documentation should grow with the different phases of a project and (2) the documentation should not restrict itself to the technical documentation necessary to reproduce the hardware, but should have a larger scope: the goal is not only to make the hardware (re-)producible, but to facilitate collaborative work in the development of the hardware (see Fig below).
 
 ![Hardware project documentation is diverse, it grows with project development (depicted by orange boxes from left to right: ideation, specification, concept development, prototyping), and go beyond the technical documentation (black box)](images/makinglabopening-finalword.001.jpeg)
 
 Accordingly, we created both a [template for hardware project](`r repositoryhome`, including different folders and files) and this guide. We hope to facilitate the creation of hardware project documentation with these two tools.
+
+## Rational
+
+Open source hardware projects documentation can be divided in at least two activities: documenting the product (manufacturing, assembly, use, maintenance and so on.) and documenting the process (project vision, collaborators, how to collaborate, design process). This distinction can also be linked with the five OSHWA defined freedom for OSH: study, modify being mostly related to the process; make, distribute, and sell being mostly related to the product.
+
+On the other hand, an hardware project goes through several development steps, each of them deserving some specific documentation. In the ideation phase, one should define the project vision and find collaborators. In the needs analysis phase, the team is documenting their research on the definition of requirements and on the related existing projects. In the concept phase, the team is describing some implementation possibilities. In the prototyping phase, the team is iteratively designing a prototype, the product documentation is starting now, while the process documentation may be expanded as new collaborators comes in. In the replicator phase, the prototype is moved to a market-ready product, and the documentation aimed at users and producers of hardware will become more important.
 
 ## Guide organisation
 
