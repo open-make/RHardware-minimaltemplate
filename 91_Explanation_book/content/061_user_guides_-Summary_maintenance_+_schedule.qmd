@@ -5,7 +5,7 @@ This includes advice on the frequency of the maintenance and the risks of failur
 
 It may also include information on the process of modifying a system or component after delivery, in order to correct faults, improve performance or other attributes, or adapt to a changing environment.
 
-### Maintenance instructions
+### Maintenance instructions {#sec-maintenance-instructions}
 
 A maintenance instruction is a technical communication document intended to give recommendations and necessary information to maintain the system effectively.
 In this book, we treat the identification of defective components and their repair as separate tasks, while others have defined it as part of the maintenance.
@@ -23,27 +23,33 @@ The maintenance user guide may include:
         -   Maintenance according to predetermined intervals
         -   Maintenance according to prescribed criteria
         -   Maintenance by integrating analysis, measurement, and periodic test activities
-    -   Regular adjusting machinery 
+    -   Regular adjusting machinery
     -   Maintenance tools (Various tools necessary to perform the maintenance operation)
     -   Schedule for Replacing equipment, see also @sec-user-guides-replacing-equipment-components
 
 > examples [FarmBot Genesis V1.5](https://genesis.farm.bot/v1.5/Extras/maintenance)
 
-### Template of maintenance
-
+### Maintenance schedules
 
 Common procedures:
-  - cleaning
-  - lubricating
-  - machine adjustments
-  - calibrations
-  - (periodic) test activities
-  
+
+-   cleaning
+-   lubricating
+-   machine adjustments
+-   calibrations
+-   (periodic) test activities
+
 Information to give:
-  - predetermined interval
-  - prescribed criteria
-  - tools
-  - verification procedure
+
+-   predetermined interval
+-   prescribed criteria
+-   tools
+-   verification procedure
+
+### Component lifespan {#sec-component-lifespan}
+
+You may indicate the lifespan of the equipment parts, with links on how to replace parts.
+Give information on espected lifespan, how to extend it, and when to test/replace the parts.
 
 ------------------------------------------------------------------------
 
