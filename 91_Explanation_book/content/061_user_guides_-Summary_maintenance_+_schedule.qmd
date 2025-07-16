@@ -49,7 +49,7 @@ Information to give:
 ### Component lifespan {#sec-component-lifespan}
 
 You may indicate the lifespan of the equipment parts, with links on how to replace parts.
-Give information on espected lifespan, how to extend it, and when to test/replace the parts.
+Give information on expected lifespan of parts, how use and maintenance may modify the lifespan, and when to test/replace the parts.
 
 ------------------------------------------------------------------------
 
