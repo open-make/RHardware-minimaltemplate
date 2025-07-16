@@ -20,6 +20,8 @@ For each element which may be defective:
 -   Verification of repair
 -   It may be interesting to add images and photos.
 
+It might be useful to give information on repairing versus replacing the parts.
+
 ------------------------------------------------------------------------
 
 **Sources**

@@ -99,16 +99,18 @@ book:
   - part: "user guides"
     chapters:
       - content/104_user_guides_Overview.qmd
-      - content/054_user_guides_-Safety_information.qmd
       - content/055_user_guides_-overview_of_the_hardware.qmd
+      - content/054_user_guides_-Safety_information.qmd
+      
       - content/056_user_guides_-Operation_instructions.qmd
-      - content/057_user_guides_-Testing_instructions_and_troubleshooting.qmd
       - content/058_user_guides_calibration.qmd
+      - content/063_user_guides_-Environmental_management.qmd
+      - content/057_user_guides_-Testing_instructions_and_troubleshooting.qmd
+      - content/061_user_guides_-Summary_maintenance_+_schedule.qmd
       - content/059_user_guides_-Repairing_the_defective_components.qmd
       - content/060_user_guides_-Replacing_equipment_components.qmd
-      - content/061_user_guides_-Summary_maintenance_+_schedule.qmd
       - content/062_user_guides_-Summary_disposal.qmd
-      - content/063_user_guides_-Environmental_management.qmd
+      
   - content/200-sources.qmd
 
 format:

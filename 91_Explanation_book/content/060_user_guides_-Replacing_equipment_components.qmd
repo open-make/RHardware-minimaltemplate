@@ -1,9 +1,11 @@
-## User Guides: Replacing equipment components {#sec-user-guides-replacing-equipment-components}
+### User Guides: Replacing equipment components {#sec-user-guides-replacing-equipment-components}
 
 This is very similar to the repairing section @sec-user-guides-repair, even if this is planned modifications.
 
 -   Links to step-by-step procedures describing the replacing sequence.
 -   Required tools for replacing the components
+
+This may be linked to the dis-assembly instructions @sec-disassembly
 
 > Example
 >
@@ -14,4 +16,3 @@ This is very similar to the repairing section @sec-user-guides-repair, even if t
 **Sources**
 
 @sec-open-next-work
-

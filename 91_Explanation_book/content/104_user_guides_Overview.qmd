@@ -15,13 +15,11 @@ It usually includes:
 
 2.  Safety information: @sec-user-guides-safety-information
 
-3.  Use of the product: @sec-operation-instructions
-
-4.  Calibration instructions: @sec-user-guides-calibration
-
-5.  Troubleshooting section: @sec-user-guides-troubleshooting
+3.  Use and calibration of the product: @sec-operation-instructions
 
 6.  Environmental management: @sec-user-guidesenvironmental-management
+
+5.  Troubleshooting section: @sec-user-guides-troubleshooting
 
 7.  Maintenance and Repair information: @sec-maintenance, @sec-user-guides-repair
 
