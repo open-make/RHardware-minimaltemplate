@@ -1,4 +1,4 @@
-## Product Build: Assembly skills and tools {#sec-product-build-assembly-skills-and-tools}
+## Product Build: Assembly safety, skills and tools {#sec-product-build-assembly-skills-and-tools}
 
 This document should provide information about the specific knowledge a maker shall own to assembly the hardware product, and what tools are necessary.
 For example, one can report how many people are needed to assemble the hardware.
@@ -23,7 +23,7 @@ In many case, it might be interesting to link skills with tools, as being able t
 > To build the Airtrack, it is optional to use specific UV glue and its specific equipment.
 > One should nevertheless have some experience in using plastic glue.
 
-## Safety instruction {#sec-safety-instruction-assembly}
+### Assembly Safety instruction {#sec-safety-instruction-assembly}
 
 Assembly instruction may include specific notes on safety.
 

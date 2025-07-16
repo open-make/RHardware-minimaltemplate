@@ -11,3 +11,4 @@ This kind of information gives readers of the release note more confidence in th
 **Sources**
 
 [Wikipedia](https://en.wikipedia.org/wiki/Release_notes), see also <https://blog.releasenotes.io/changelog-vs-release-notes/>
+
