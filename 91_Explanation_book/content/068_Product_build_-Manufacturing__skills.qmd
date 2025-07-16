@@ -1,4 +1,10 @@
-## Product Build: Manufacturing safety skills, and tools {#sec-product-build-manufacturing-skills}
+---
+
+---
+
+## Product Build: Manufacturing safety skills, and tools {#sec-product-build-manufacturing-all}
+
+This part explain how to manufacture parts, this may be directed toward professional manufacturers or hobbyist, depending on the skills needed.
 
 ### Manufacturing safety
 
@@ -8,13 +14,11 @@ Are there specific risks and safety measure to take during the manufacturing ste
 
 What is the specific knowledge or skills a maker shall master to manufacture the different parts of the hardware ?
 
-
 ------------------------------------------------------------------------
 
 **Sources**
 
 none
-
 
 ### Product build: Manufacturing tool {#sec-product-build-manufacturing-tools}
 

@@ -37,7 +37,7 @@ This step is also divided in two: a preparatory phase defining the main componen
   - [ ] Software: Documentation of different parts @sec-product-build-firmwaresoftware
   
 - [ ] Manufacturing instructions  
-    - [ ] Manufacturing skills and tools @sec-product-build-manufacturing-skills, @sec-product-build-manufacturing-tools
+    - [ ] Manufacturing safety, skills and tools @sec-product-build-manufacturing-all
     - [ ] Manufacturing sequences and instruction @sec-product-build-manufacturing-instructions
     
 - [ ] Assembly instructions

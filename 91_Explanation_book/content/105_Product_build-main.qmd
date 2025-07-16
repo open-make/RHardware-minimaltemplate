@@ -5,7 +5,12 @@
 Production instructions mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture and assembly of the product.
 This includes also skills and tools needed for manufacture and assembly.
 
-Technical documents provide the source needed to study and replicate a hardware design. In contrast to project documentation and community building, technical documents for OSH are quite specific, but can be considered analogous to what source code is for software. Depending on the project, technical documents may include technical drawings, images describing electronic schematics, computer-aided design (CAD) files, or assembly instructions to replicate the design. A thoroughly documented project will have all types of documents. It may also include code (firmware and software) necessary to run the hardware. The source files (like CAD files) are best accompanied by textual and multi-medial documentation, such as guides for manufacturing, assembly, maintenance, and development.
+Technical documents provide the source needed to study and replicate a hardware design.
+In contrast to project documentation and community building, technical documents for OSH are quite specific, but can be considered analogous to what source code is for software.
+Depending on the project, technical documents may include technical drawings, images describing electronic schematics, computer-aided design (CAD) files, or assembly instructions to replicate the design.
+A thoroughly documented project will have all types of documents.
+It may also include code (firmware and software) necessary to run the hardware.
+The source files (like CAD files) are best accompanied by textual and multi-medial documentation, such as guides for manufacturing, assembly, maintenance, and development.
 
 Production usually starts with the sourcing of material, and a bill of material (BOM) is required.
 It describes all the components and their references.
@@ -14,25 +19,31 @@ If the part is to be manufactured, one should find all the descriptions of the m
 
 ## Relation to structural modeling
 
-Technical documents include both the structural modeling and the production instructions, they provide the source needed to study and replicate a hardware design. In contrast to project documentation and community building, technical documents for OSH are quite specific, but can be considered analogous to what source code is for software. Depending on the project, technical documents may include technical drawings, images describing electronic schematics, computer-aided design (CAD) files, or assembly instructions to replicate the design. A thoroughly documented project will have all types of documents. It may also include code (firmware and software) necessary to run the hardware. The source files (like CAD files) are best accompanied by textual and multi-medial documentation, such as guides for manufacturing, assembly, maintenance, and development.
+Technical documents include both the structural modeling and the production instructions, they provide the source needed to study and replicate a hardware design.
+In contrast to project documentation and community building, technical documents for OSH are quite specific, but can be considered analogous to what source code is for software.
+Depending on the project, technical documents may include technical drawings, images describing electronic schematics, computer-aided design (CAD) files, or assembly instructions to replicate the design.
+A thoroughly documented project will have all types of documents.
+It may also include code (firmware and software) necessary to run the hardware.
+The source files (like CAD files) are best accompanied by textual and multi-medial documentation, such as guides for manufacturing, assembly, maintenance, and development.
 
-Following the guide for structural modeling, one should share both raw and derived source files. For instance, 3D object designs should be shared as print-ready files (.stl file for instance), but also as modifiable 3D objects (the format of these files will depend on the software used). It is necessary to provide the raw files to enable modification, even if they can often only be opened in proprietary software, and their use requires specific skills. The derived versions are used to build the hardware, but often are not suited for modification. Users with access to the tools that can read and manipulate these raw source files can update and improve the physical device. If they wish, they can proceed to share such modifications.
-
-
+Following the guide for structural modeling, one should share both raw and derived source files.
+For instance, 3D object designs should be shared as print-ready files (.stl file for instance), but also as modifiable 3D objects (the format of these files will depend on the software used).
+It is necessary to provide the raw files to enable modification, even if they can often only be opened in proprietary software, and their use requires specific skills.
+The derived versions are used to build the hardware, but often are not suited for modification.
+Users with access to the tools that can read and manipulate these raw source files can update and improve the physical device.
+If they wish, they can proceed to share such modifications.
 
 ## Production instructions
 
-Production instructions should include: 
+Production instructions should include:
 
-- A bill of material (BOM): it gives an overview of all the material that needs to be sourced and/or manufactured, and describes all the components and their references: @sec-product-build-bill-of-material 
-- Manufacturing information: they can guide the makers to follow a process for replicating a product, and mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture of the hardware parts.
+-   A bill of material (BOM): it gives an overview of all the material that needs to be sourced and/or manufactured, and describes all the components and their references: @sec-product-build-bill-of-material
 
-    - Manufacturing skills needed: @sec-product-build-manufacturing-skills
+-   Manufacturing information: they can guide the makers to follow a process for replicating a product, and mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture of the hardware parts.
 
-    -   Manufacturing tools needed: @sec-product-build-manufacturing-tools
+    -   Manufacturing safety instruction, skills needed and tools: @sec-product-build-manufacturing-all
 
     -   Manufacturing sequences: @sec-product-build-manufacturing-instructions
-
 
 -   Assembly instructions: they can guide the makers to follow the process of assembly or disassembly of components of a product, and illustrate visually and with words and text how to assemble or disassemble the mechanical and electrical components of the product.
 
@@ -44,8 +55,6 @@ Production instructions should include:
 
 It is sometimes easier to create a guide for manufacturing and assembly.
 For instance, using the Gitbuilding software, one can write the manufacture and assembly instructions, and when using specific tags for tools and material, the software creates BOM, part lists and tool lists for each step and for the whole project.
-
-
 
 ------------------------------------------------------------------------
 

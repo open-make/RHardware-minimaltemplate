@@ -6,7 +6,17 @@ editor:
 
 # Readme as entry door
 
-Think about your audience when writing OSH documentation. Indeed, your project might be reused by people with different skills, roles, objectives, and socio-economic and cultural environments. Because of this it can be useful to create a list of skills that are required to build  (manufacture @sec-product-build-manufacturing-skills, and assemble @sec-product-build-assembly-skills-and-tools) or use the hardware (@sec-user-skills). Someone trying to build it from scratch, for example, will require specific set of prior knowledge, skills, and tools. A different set is needed to perform maintenance tasks. An end user operating the assembled project might require an entirely distinct skillset (and documentation).
+Think about your audience when writing OSH documentation. Indeed, your
+project might be reused by people with different skills, roles,
+objectives, and socio-economic and cultural environments. Because of
+this it can be useful to create a list of skills that are required to
+build (manufacture @sec-product-build-manufacturing-all, and assemble
+@sec-product-build-assembly-skills-and-tools) or use the hardware
+(@sec-user-skills). Someone trying to build it from scratch, for
+example, will require specific set of prior knowledge, skills, and
+tools. A different set is needed to perform maintenance tasks. An end
+user operating the assembled project might require an entirely distinct
+skillset (and documentation).
 
 ## Vision and motivation {#sec-vision-and-motivation}
 
@@ -29,7 +39,8 @@ Examples:
 > available to anyone with a 3D printer - for use in microscopes,
 > micromanipulators, and more.
 
-> Pedal-powered toolkit for fablab (https://codeberg.org/openmakeXlowtech/PedalPoweredMachine-4fablab)
+> Pedal-powered toolkit for fablab
+> (https://codeberg.org/openmakeXlowtech/PedalPoweredMachine-4fablab)
 >
 > This projects aims at providing fablabs and makerspaces with pedal
 > powered toolkit, in order to open discussions around the principles of
@@ -56,6 +67,7 @@ Examples:
 > The project BCN3D Moveo is motivated by the high cost of the materials
 > that undergraduate students must use for learning how to engineer
 > mechatronics systems.
+
 ------------------------------------------------------------------------
 
 **Sources**
