@@ -1,6 +1,8 @@
-## Product development and CAD files
+## Product design and CAD files {#sec-product-design-and-cad-files}
 
-Computer assisted design is usually used to create structures from the models. The designs should be best provided in their raw format (Native formats), an editable standard format (Neutral formats), and a exported format used for manufacture. For example, a fusion .f3d file, a Step file and a STL file.
+Computer assisted design is usually used to create structures from the models.
+The designs should be best provided in their raw format (Native formats), an editable standard format (Neutral formats), and a exported format used for manufacture.
+For example, a fusion .f3d file, a Step file and a STL file.
 
 ### CAD for electronics, PCB design
 
@@ -24,48 +26,41 @@ To reuse a electrical design, it should provide information consist of:
 >
 > [AmbovVent, Neutral files](https://github.com/AmboVent-1690-108/AmboVent/tree/master/1-Electronics)\*
 
-
 ### CAD for structure models
 
-Model design should be provided in a format that can be used to manufacture each piece: usually STL and STEP file for 3D objects, and SVG file for 2D design, electrical design can be shared in the editable format directly. These formats are often easier to preview, and will help understand the structural/electrical design.
+Model design should be provided in a format that can be used to manufacture each piece: usually STL and STEP file for 3D objects, and SVG file for 2D design, electrical design can be shared in the editable format directly.
+These formats are often easier to preview, and will help understand the structural/electrical design.
 
 Note that the file is often not sufficient to reproduce one piece and manufacturing information must be given, as explained in @sec-product-build-manufacturing-instructions.
 
+### Editable file format
 
-### Editable file format 
-
- 
 An editable file format is a standard way that information is encoded for storage and allows the makers to study, modify the geometry of a model and reuse it.
 
 To reuse a design model, it should provide information consist of:
 
- 1. Preferable 3D/2D file format
-   - Editable file formats that could be:
-     - Native formats such as .FCStd format of FreeCAD 
-     - Neutral formats such as STEP files
- 2. Preferable open-source software 
-   - OpensCAD
-   - Inkscape
-   - FreeCAD
+1.  Preferable 3D/2D file format
 
+-   Editable file formats that could be:
+    -   Native formats such as .FCStd format of FreeCAD
+    -   Neutral formats such as STEP files
 
+2.  Preferable open-source software
 
- 
+-   OpensCAD
+-   Inkscape
+-   FreeCAD
+
 > Example of editable file formats:
 >
-> - [Farmbot, Native CAD files](https://genesis.farm.bot/v1.5/Extras/cad)*
+> -   [Farmbot, Native CAD files](https://genesis.farm.bot/v1.5/Extras/cad)\*
 >
-> - [MIT Emergency Ventilator, Neutral CAD files](https://e-vent.mit.edu/resources/downloads/)*
+> -   [MIT Emergency Ventilator, Neutral CAD files](https://e-vent.mit.edu/resources/downloads/)\*
 >
-> - Types of CAD format of [transmagic](https://transmagic.com/cad-formats/)*
+> -   Types of CAD format of [transmagic](https://transmagic.com/cad-formats/)\*
 
- ------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 **Sources**
 
 @sec-open-next-work
-
-
- 
-
-

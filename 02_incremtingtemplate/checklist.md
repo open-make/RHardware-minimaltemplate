@@ -119,6 +119,7 @@ Here the work on the design starts! Continous documentation of choice made, succ
   - [ ] material characteristics
   - [ ] electrical design
   - [ ] Software: Documentation of different parts
+  - [ ] Product design and CAD files
   
 - [ ] Manufacturing instructions  
     - [ ] Manufacturing skills and tools
