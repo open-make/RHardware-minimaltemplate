@@ -17,6 +17,8 @@ Please also indicates the problem this project aims at solving
 
 ### Outputs: Products and data
 
+### Dependencies
+
 ### cost
 
 ### validation

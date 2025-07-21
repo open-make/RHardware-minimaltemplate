@@ -112,6 +112,7 @@ Here the work on the design starts! Continous documentation of choice made, succ
 ### Step 4b: iteration of design
 - [ ] Complete the readme file
   - [ ] Update Documentation structure
+  - [ ] Dependencies
 
 - [ ] Hardware documentation
   - [ ] Bill of material
