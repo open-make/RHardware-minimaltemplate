@@ -19,13 +19,18 @@ Here the prototype is mature enough that it should be replicated in different pl
   - [ ] disassembly instructions @sec-disassembly
 
 - [ ] Product design
-  - [ ] component lifespan 
+  - [ ] component lifespan @sec-component-lifespan
   
 - [ ] User guide
   - [ ] Environmental management @sec-user-guidesenvironmental-management
-  - [ ] Identifying the defective components @sec-identifying-the-defective-components
-  - [ ] Repairing the defective components @sec-repairing-the-defective-components
-  - [ ] Replacing equipment components @sec-identifying-the-defective-components
+  - [ ] Maintenance @sec-maintenance 
+      - [ ] Instructions @sec-maintenance-instructions
+      - [ ] Schedules @sec-maintenance-schedules
+      - [ ] Summary component lifetime or links @sec-component-lifespan
+  - [ ] Repair @sec-user-guides-repair
+      - [ ] Identifying the defective components @sec-identifying-the-defective-components
+      - [ ] Repairing the defective components @sec-repairing-the-defective-components  
+      - [ ] Replacing equipment components @sec-identifying-the-defective-components      
 
 
 

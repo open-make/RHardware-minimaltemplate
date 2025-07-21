@@ -32,7 +32,7 @@ For the software part, indicate the main component, use a dependency.txt files i
 
 ## Bill of material
 
-## material characteristics
+## material characteristics  (including lifetime)
 
 ## electrical design
 

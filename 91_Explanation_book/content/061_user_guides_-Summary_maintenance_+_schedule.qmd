@@ -29,7 +29,7 @@ The maintenance user guide may include:
 
 > examples [FarmBot Genesis V1.5](https://genesis.farm.bot/v1.5/Extras/maintenance)
 
-### Maintenance schedules
+### Maintenance schedules {#sec-maintenance-schedules}
 
 Common procedures:
 
