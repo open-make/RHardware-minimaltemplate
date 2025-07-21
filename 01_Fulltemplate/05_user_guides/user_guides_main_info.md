@@ -4,6 +4,8 @@
 
 ## Operation instructions
 
+### Calibration instructions
+
 ## Testing instructions and troubleshooting
 
 ## Repair and part replacement

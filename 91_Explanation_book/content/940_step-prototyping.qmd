@@ -53,6 +53,7 @@ It is adviced to read the introductory chapters on hardware production @sec-prod
   - [ ] Safety information @sec-user-guides-safety-information
   - [ ] overview of the hardware @sec-user-guides-overview-of-the-hardware
   - [ ] Operation instructions @sec-operation-instructions
+      - [ ] Calibration instructions @sec-user-guides-calibration
   - [ ] Testing instructions and troubleshooting @sec-user-guides-troubleshooting
   - [ ] basic maintenance + schedule @sec-maintenance
   - [ ] basic disposal @sec-disposal-instructions
