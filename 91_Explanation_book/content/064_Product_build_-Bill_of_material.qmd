@@ -19,21 +19,7 @@ A bill of material usually includes:
 11. Packaging instruction
 12. BOM notes
 
-## Modularisation
 
-When there are multiple parts, it is best practice to have a BOM for each part, and one BOM for the whole hardware.
-For complex project, it is therefore best to create BOM automatically.
-Some software are meant to created BOM from the CAD files (CAD-coupled documentation, <https://doi.org/10.5334/joh.56>) or from the assembly instruction (using [Gitbuilding](https://gitbuilding.io)).
-
-> Example
->
-> #### *Example 1: [JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover/tree/master/bill_of_materials)*
->
-> ![JPL BOM](img/D-JPL-1.png)
->
-> *Example 2: [SatNOGS Rotator v3](https://gitlab.com/librespacefoundation/satnogs/satnogs-rotator/blob/master/rotator-bom.ods)*
->
-> #### *Example 3: [Krab v1.0](https://projects.fablabs.io/@avishek/krab-v10)*
 
 ------------------------------------------------------------------------
 

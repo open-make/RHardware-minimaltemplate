@@ -2,13 +2,15 @@
 
 ### Prototyping
 
-Here the work on the design starts! Continuous documentation of choice made, successes and failuress are welcome, so this step has an iterative components: with every development can come specific documentation.
+Here the work on the design starts! Continuous documentation of choice made, successes and failures are welcome, so this step has an iterative components: with every development can come specific documentation.
 
 In addition, the documentation may need to be performed for different parts (or modules) of the hardware.
 
 Importantly, the Product design, manufacturing and assembling instruction may be organised using different strategies. Some projects may write simple text files like the rest of the documentation; other projects may using Gitbuilding to write the assembly instruction, and deriving the bill of material from it; other projects may derive assembly instructions from their CAD files.
 
 This step is also divided in two: a preparatory phase defining the main components and an iterative phase which can change with the different version of the hardware.
+
+It is adviced to read the introductory chapters on hardware production @sec-production, including information on modularisation of the hardware @sec-modularisation. 
 
 
 ### Checklist 4a: preparations
