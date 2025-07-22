@@ -48,9 +48,9 @@ qr=qrcode::qr_code(bookurl)
 plot(qr)
 ```
 
-## Guide version: 1.0
+## Guide version: 1.1
 
-This is the first version of the guide, based mostly on the theoretical framework developed inside the Open.Make project by the authors. It was not yet tested and any feedback is very welcome ! 
+This is the first version of the guide, based mostly on the theoretical framework developed inside the Open.Make project by the authors. It was checked for consistency between steps and chapters but was not yet tested outside the authors projects and any feedback is very welcome ! 
 
 
 ## FAQ
