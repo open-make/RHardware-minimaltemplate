@@ -19,15 +19,8 @@ The Structural model explains the physical structure of the product and its comp
 
 ### How should you define structural model?
 
-The first level of definition is often to show how things are related together in a tree or graph, using "modeling language" such as "SysML (Block Definition, Activity, or Internal Block diagram)" or "UML".
+The first level of definition is often to show how things are related together in a tree or graph, using "modeling language", such as "SysML (Block Definition, Activity, or Internal Block diagram)" or "UML". See @sec-how-to-document-models for more information.
 
-Several software may help create these graphs:
-
--   Papyrus
--   Modelio
--   Capella
--   diagrams.net (previously draw.io)
--   <https://excalidraw.com>
 
 ------------------------------------------------------------------------
 

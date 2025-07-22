@@ -1,0 +1,85 @@
+# FBS modeling
+
+## Overview
+
+Functional-behabioral-strucutral modeling (FSB) is a way to deconstruct the hardware design work.
+It starts with a functional model (what the hardware should be doing), then goes to a behavioral model (what behavior should the hardware have, this part is often not expressed by engineers) and finally the structural model is derived from the behavioral model.
+The different models are nurturing each other.
+
+For example for a fridge, the function will be "keep the temperature at 14 degrees", the behavior is "cool when the temperature is above 14 degrees", the structure will be "have a temperature sensor and a electronic device which switch cooling on when the temperature is above 14 degrees" (one could think of different structures which would have the same or similar behavior, depending on the type of structure, one may refine the function to "keep the temperature between 12 and 14 degrees",...)
+
+## How to document models {#sec-how-to-document-models}
+
+The documentation of technical functions, which requires adopting an internal (white box) viewpoint on the product, consists in breaking down the service function into sub-functions.
+The decomposition process is no more solution neutral as it requires to make a decision at every indenture level.
+The functional decomposition requires two modelling approaches: function tree and functional graph.
+
+**Provide both an image and the editable files, as well as instruction how to use them.**
+
+This approach can be taken for functional @sec-functional-model and the different types of structural models @sec-structural-model.
+
+
+
+### Functional tree
+
+The functional tree is a top-down decomposition of function into sub-functions that helps to simplify the problem to solve.
+
+*The decomposition of technical functions creates a functional tree and, the technical functions are defined based on the functional requirements.*
+
+-   A top-down and bottom-up reading of the functional tree provides insight on the “how” and “why”, respectively.
+-   The decomposition process should be stopped when the technical function is sufficiently detailed to reuse, make, or buy a design solution.
+
+Tools/software:
+
+-   Use functional modeling language for representation, such as
+    -   UML (Use Case diagram)
+    -   SysML (Block Definition, Activity, or Internal Block diagram)
+    -   SADT/IDEF0
+    -   Functional flow block diagram
+-   Use open-source software for modeling the tree representation, such as:
+    -   draw.io (diagram.net)
+    -   excalidraw
+    -   Papyrus
+    -   Modelio
+    -   Capella
+
+### Functional graph
+
+The functional graph is a multi-level logical articulation of technical functions.
+- Relationships between functions are in/out-going flows of matter, energy, or information.
+- Logical AND/OR gates can be used to define concurrent or sequential functions.
+- Articulation of technical function can describe as input-output relationships transforming flows by using the functional modeling language in the format of the graph
+
+
+
+Tools/software:
+
+-   Use functional modeling language for representation, such as
+
+    -   draw.io (diagram.net)
+
+    -   excalidraw
+
+    -   UML (Use Case diagram)
+
+    -   SysML (Block Definition, Activity, or Internal Block diagram)
+
+    -   SADT/IDEF0
+
+    -   Functional flow block diagram
+
+-   Use open-source software for modeling the tree representation, such as
+
+    -   Papyrus
+
+    -   Modelio
+
+    -   Capella
+
+
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work

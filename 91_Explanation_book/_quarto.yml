@@ -31,7 +31,7 @@ book:
     - content/034_product_dvt_-requirements_conc.qmd
   - part: FBS models
     chapters:   
-    - content/045_functional_model_conc.qmd
+    - content/047_FSB_intro_conc.qmd
   - part: Product build
     chapters:   
     - content/105_Product_build-main_conc.qmd

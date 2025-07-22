@@ -71,7 +71,8 @@ book:
       - content/043_user_analysis_-External_interfaces_(how_will_they_use_the_product).qmd
       - content/044_user_analysis_-skills_needed_to_use.qmd
   - part: "FBS models"
-    chapters:      
+    chapters:     
+      - content/047_FSB_intro.qmd
       - content/045_functional_model.qmd
       - content/046_behavioral_model.qmd
       - content/102_product_dvt_structuralmodel.qmd

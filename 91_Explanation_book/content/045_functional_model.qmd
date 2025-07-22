@@ -1,5 +1,3 @@
-# FBS modeling
-
 ## Functional model {#sec-functional-model}
 
 A Functional model explains what the product is made for.
@@ -18,93 +16,17 @@ It is:
 
 ### How to document a functional model?
 
--   The documentation of technical functions, which requires adopting an internal (white box) viewpoint on the product, consists in breaking down the service function into sub-functions. The decomposition process is no more solution neutral as it requires to make a decision at every indenture level. The functional decomposition requires two modelling approaches: function tree and functional graph.
+The documentation of technical functions, which requires adopting an internal (white box) viewpoint on the product, consists in breaking down the service function into sub-functions. The decomposition process is no more solution neutral as it requires to make a decision at every indenture level. The functional decomposition requires two modelling approaches: function tree and functional graph, see @sec-how-to-document-models.
 
-See also @sec-structural-model for the technical description of creating trees and graphs.
-
-#### Functional tree
-
-The functional tree is a top-down decomposition of function into sub-functions that helps to simplify the problem to solve.
-
-*The decomposition of technical functions creates a functional tree and, the technical functions are defined based on the functional requirements.*
-
--   A top-down and bottom-up reading of the functional tree provides insight on the “how” and “why”, respectively.
--   The decomposition process should be stopped when the technical function is sufficiently detailed to reuse, make, or buy a design solution.
-
-> Example
+> Example: funtional tree
 >
 > ![Image of functional tree of XYZ cargo-ADD ONS](img/Functional_tree.jpg)
 
-<details>
-
-1\.
-What minimum documentation should the functional tree provide?
-
-\- A model specifying the kinds of technical functions and their sub
-
--functions in the format of a tree.
-
-2.  How to implement the functional tree?
-
--   Use functional modeling language for representation, such as
-    -   UML (Use Case diagram)
-    -   SysML (Block Definition, Activity, or Internal Block diagram)
-    -   SADT/IDEF0
-    -   Functional flow block diagram
--   Use open-source software for modeling the tree representation, such as:
-    -   draw.io (diagram.net)
-    -   excalidraw
-    -   Papyrus
-    -   Modelio
-    -   Capella\
-
-</details>
-
-#### Functional graph
-
-The functional graph is a multi-level logical articulation of technical functions.
-- Relationships between functions are in/out-going flows of matter, energy, or information.
-- Logical AND/OR gates can be used to define concurrent or sequential functions.
-- Articulation of technical function can describe as input-output relationships transforming flows by using the functional modeling language in the format of the graph
-
-> Example
+> Example functional graph
 >
 > ![Image of functional graph of XYZ cargo-ADD ONS](img/Functional_graph.jpg) The image shows the functional graph of the relationship between technical functions for maintaining food quality by ADD-ONS of XYZ cargo.
 
-See @sec-structural-model for information about creating tree and graph
 
-<details>
-
-1.  What minimum documentation should the functional graph provide?
-    -   A model specifying a multi-level logic of relationships between technical functions (refer to functional graph of XYZ Cargo-ADD ONS)
-2.  How to implement the functional tree?
-    -   Use functional modeling language for representation, such as
-
-    -   draw.io (diagram.net)
-
-    -   excalidraw
-
-    -   UML (Use Case diagram)
-
-    -   SysML (Block Definition, Activity, or Internal Block diagram)
-
-    -   SADT/IDEF0
-
-    -   Functional flow block diagram
-
--   Use open-source software for modeling the tree representation, such as
-
-    -   Papyrus
-
-    -   Modelio
-
-    -   Capella
-
-</details>
-
-> The link below shows an example of functional block diagrams of an open-source project
->
-> [Functional diagram of Renesas ventilator](https://www.rs-online.com/designspark/ventilator-design-solution-from-renesas-electronics)
 
 ------------------------------------------------------------------------
 

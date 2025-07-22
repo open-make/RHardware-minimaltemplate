@@ -1,13 +1,12 @@
 ## Software and Firmware architecture {#sec-software-and-firmware-architecture}
 
 The software architecture represents the repository details of all the software and firmware that is necessary for reusing and running the project.
-Indicate how the different software depend on each other. 
+Indicate how the different software depend on each other.
 
 It might be interesting to describe the data flow and its format.
 
-See @sec-structural-model for information about how to document this.
+See @sec-how-to-document-models for information about how to document this.
 Provide both an image and the editable files, as well as instruction how to use them.
-
 
 ### Software and Firmware details
 
@@ -18,7 +17,7 @@ Please provide :
 -   The source code
 -   Version of software and its dependencies (both hardware and software dependencies)
 
-### Documentation of different parts of software 
+### Documentation of different parts of software
 
 > Examples:
 >
