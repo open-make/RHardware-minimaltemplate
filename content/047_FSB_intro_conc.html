@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>9&nbsp; Sources – Hardware documentation Guide</title>
+<title>5&nbsp; FBS modeling – Hardware documentation Guide</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/104_user_guides_Overview_conc.html" rel="prev">
+<link href="../content/105_Product_build-main_conc.html" rel="next">
+<link href="../content/034_product_dvt_-requirements_conc.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -81,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/200-sources.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Sources</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/047_FSB_intro_conc.html">FBS models</a></li><li class="breadcrumb-item"><a href="../content/047_FSB_intro_conc.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">FBS modeling</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -211,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/047_FSB_intro_conc.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/047_FSB_intro_conc.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">FBS modeling</span></span></a>
   </div>
 </li>
@@ -270,7 +271,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/200-sources.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/200-sources.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Sources</span></span></a>
   </div>
 </li>
@@ -284,20 +285,50 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-open-next-work" id="toc-sec-open-next-work" class="nav-link active" data-scroll-target="#sec-open-next-work">Open next work</a></li>
-  <li><a href="#osh-dir-std-work" id="toc-osh-dir-std-work" class="nav-link" data-scroll-target="#osh-dir-std-work">OSH-dir-std work</a></li>
-  <li><a href="#sec-journal-of-open-hardware" id="toc-sec-journal-of-open-hardware" class="nav-link" data-scroll-target="#sec-journal-of-open-hardware">Journal of open hardware</a></li>
-  <li><a href="#sec-journal-hardwareX" id="toc-sec-journal-hardwareX" class="nav-link" data-scroll-target="#sec-journal-hardwareX">Journal hardwareX</a></li>
-  <li><a href="#sec-source-turing" id="toc-sec-source-turing" class="nav-link" data-scroll-target="#sec-source-turing">Turing way book</a></li>
+  <li><a href="#fbs-modeling-overview" id="toc-fbs-modeling-overview" class="nav-link active" data-scroll-target="#fbs-modeling-overview">FBS modeling Overview</a></li>
+  <li><a href="#sec-how-to-document-models" id="toc-sec-how-to-document-models" class="nav-link" data-scroll-target="#sec-how-to-document-models">How to document models</a>
+  <ul class="collapse">
+  <li><a href="#functional-tree" id="toc-functional-tree" class="nav-link" data-scroll-target="#functional-tree">Functional tree</a></li>
+  <li><a href="#functional-graph" id="toc-functional-graph" class="nav-link" data-scroll-target="#functional-graph">Functional graph</a></li>
+  </ul></li>
+  <li><a href="#sec-functional-model" id="toc-sec-functional-model" class="nav-link" data-scroll-target="#sec-functional-model">Functional model</a>
+  <ul class="collapse">
+  <li><a href="#why-should-you-define-functional-model" id="toc-why-should-you-define-functional-model" class="nav-link" data-scroll-target="#why-should-you-define-functional-model">Why should you define functional model?</a></li>
+  <li><a href="#how-to-document-a-functional-model" id="toc-how-to-document-a-functional-model" class="nav-link" data-scroll-target="#how-to-document-a-functional-model">How to document a functional model?</a></li>
+  </ul></li>
+  <li><a href="#sec-behavioral-model" id="toc-sec-behavioral-model" class="nav-link" data-scroll-target="#sec-behavioral-model">Behavioral model</a>
+  <ul class="collapse">
+  <li><a href="#why-should-you-define-behavioral-model" id="toc-why-should-you-define-behavioral-model" class="nav-link" data-scroll-target="#why-should-you-define-behavioral-model">Why should you define behavioral model?</a></li>
+  <li><a href="#how-to-document-a-behavioral-model" id="toc-how-to-document-a-behavioral-model" class="nav-link" data-scroll-target="#how-to-document-a-behavioral-model">How to document a behavioral model?</a></li>
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  </ul></li>
+  <li><a href="#sec-structural-model" id="toc-sec-structural-model" class="nav-link" data-scroll-target="#sec-structural-model">Structural model</a>
+  <ul class="collapse">
+  <li><a href="#why-should-you-define-structural-model" id="toc-why-should-you-define-structural-model" class="nav-link" data-scroll-target="#why-should-you-define-structural-model">Why should you define structural model?</a></li>
+  <li><a href="#how-should-you-define-structural-model" id="toc-how-should-you-define-structural-model" class="nav-link" data-scroll-target="#how-should-you-define-structural-model">How should you define structural model?</a></li>
+  </ul></li>
+  <li><a href="#sec-mechanical-architecture" id="toc-sec-mechanical-architecture" class="nav-link" data-scroll-target="#sec-mechanical-architecture">Mechanical architecture</a></li>
+  <li><a href="#sec-software-and-firmware-architecture" id="toc-sec-software-and-firmware-architecture" class="nav-link" data-scroll-target="#sec-software-and-firmware-architecture">Software and Firmware architecture</a>
+  <ul class="collapse">
+  <li><a href="#software-and-firmware-details" id="toc-software-and-firmware-details" class="nav-link" data-scroll-target="#software-and-firmware-details">Software and Firmware details</a></li>
+  <li><a href="#documentation-of-different-parts-of-software" id="toc-documentation-of-different-parts-of-software" class="nav-link" data-scroll-target="#documentation-of-different-parts-of-software">Documentation of different parts of software</a></li>
+  </ul></li>
+  <li><a href="#sec-electrical-architecture" id="toc-sec-electrical-architecture" class="nav-link" data-scroll-target="#sec-electrical-architecture">Electrical architecture</a></li>
+  <li><a href="#sec-product-design-and-cad-files" id="toc-sec-product-design-and-cad-files" class="nav-link" data-scroll-target="#sec-product-design-and-cad-files">Product design and CAD files</a>
+  <ul class="collapse">
+  <li><a href="#cad-for-electronics-pcb-design" id="toc-cad-for-electronics-pcb-design" class="nav-link" data-scroll-target="#cad-for-electronics-pcb-design">CAD for electronics, PCB design</a></li>
+  <li><a href="#cad-for-structure-models" id="toc-cad-for-structure-models" class="nav-link" data-scroll-target="#cad-for-structure-models">CAD for structure models</a></li>
+  <li><a href="#editable-file-format" id="toc-editable-file-format" class="nav-link" data-scroll-target="#editable-file-format">Editable file format</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/open-make/RHardware-minimaltemplate/edit/main/91_Explanation_book/content/200-sources.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/open-make/RHardware-minimaltemplate/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/open-make/RHardware-minimaltemplate/blob/main/91_Explanation_book/content/200-sources.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/open-make/RHardware-minimaltemplate/edit/main/91_Explanation_book/content/047_FSB_intro_conc.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/open-make/RHardware-minimaltemplate/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/open-make/RHardware-minimaltemplate/blob/main/91_Explanation_book/content/047_FSB_intro_conc.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/047_FSB_intro_conc.html">FBS models</a></li><li class="breadcrumb-item"><a href="../content/047_FSB_intro_conc.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">FBS modeling</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="sec-sources" class="quarto-section-identifier"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Sources</span></span></h1>
+<h1 class="title"><span id="sec-fbs-modeling" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">FBS modeling</span></span></h1>
 </div>
 
 
@@ -314,28 +345,349 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="sec-open-next-work" class="level2">
-<h2 class="anchored" data-anchor-id="sec-open-next-work">Open next work</h2>
-<p>The work was presented in a template at. <a href="https://github.com/OPEN-NEXT/WP2.3-Guideline-and-template-for-documentation-of-OSH-design-reuse/tree/main" class="uri">https://github.com/OPEN-NEXT/WP2.3-Guideline-and-template-for-documentation-of-OSH-design-reuse/tree/main</a>, based on the results provided as deliverable 2.6 at <a href="https://github.com/OPEN-NEXT/WP2.3-Guideline-and-template-for-documentation-of-OSH-design-reuse/blob/main/Sources/Deliverable2_6%20_Final%20release%20of%20models%20and%20standards%20for%20design%20reuse_V4_20220930.pdf" class="uri">https://github.com/OPEN-NEXT/WP2.3-Guideline-and-template-for-documentation-of-OSH-design-reuse/blob/main/Sources/Deliverable2_6%20_Final%20release%20of%20models%20and%20standards%20for%20design%20reuse_V4_20220930.pdf</a></p>
+<section id="fbs-modeling-overview" class="level2">
+<h2 class="anchored" data-anchor-id="fbs-modeling-overview">FBS modeling Overview</h2>
+<p>Functional-behabioral-strucutral modeling (FSB) is a way to deconstruct the hardware design work. It starts with a functional model (what the hardware should be doing), then goes to a behavioral model (what behavior should the hardware have, this part is often not expressed by engineers) and finally the structural model is derived from the behavioral model. The different models are nurturing each other.</p>
+<p>For example for a fridge, the function will be “keep the temperature at 14 degrees”, the behavior is “cool when the temperature is above 14 degrees”, the structure will be “have a temperature sensor and a electronic device which switch cooling on when the temperature is above 14 degrees” (one could think of different structures which would have the same or similar behavior, depending on the type of structure, one may refine the function to “keep the temperature between 12 and 14 degrees”,…)</p>
 </section>
-<section id="osh-dir-std-work" class="level2">
-<h2 class="anchored" data-anchor-id="osh-dir-std-work">OSH-dir-std work</h2>
-<p>The content of the 04_hardware folder is loosely derived from <a href="https://github.com/hoijui/osh-dir-std/tree/main" class="uri">https://github.com/hoijui/osh-dir-std/tree/main</a> in discussion with one of the author.</p>
+<section id="sec-how-to-document-models" class="level2">
+<h2 class="anchored" data-anchor-id="sec-how-to-document-models">How to document models</h2>
+<p>The documentation of technical functions, which requires adopting an internal (white box) viewpoint on the product, consists in breaking down the service function into sub-functions. The decomposition process is no more solution neutral as it requires to make a decision at every indenture level. The functional decomposition requires two modelling approaches: function tree and functional graph.</p>
+<p><strong>Provide both an image and the editable files, as well as instruction how to use them.</strong></p>
+<p>This approach can be taken for functional <a href="#sec-functional-model" class="quarto-xref"><span>Section 5.3</span></a> and the different types of structural models <a href="#sec-structural-model" class="quarto-xref"><span>Section 5.5</span></a>.</p>
+<section id="functional-tree" class="level3">
+<h3 class="anchored" data-anchor-id="functional-tree">Functional tree</h3>
+<p>The functional tree is a top-down decomposition of function into sub-functions that helps to simplify the problem to solve.</p>
+<p><em>The decomposition of technical functions creates a functional tree and, the technical functions are defined based on the functional requirements.</em></p>
+<ul>
+<li>A top-down and bottom-up reading of the functional tree provides insight on the “how” and “why”, respectively.</li>
+<li>The decomposition process should be stopped when the technical function is sufficiently detailed to reuse, make, or buy a design solution.</li>
+</ul>
+<p>Tools/software:</p>
+<ul>
+<li>Use functional modeling language for representation, such as
+<ul>
+<li>UML (Use Case diagram)</li>
+<li>SysML (Block Definition, Activity, or Internal Block diagram)</li>
+<li>SADT/IDEF0</li>
+<li>Functional flow block diagram</li>
+</ul></li>
+<li>Use open-source software for modeling the tree representation, such as:
+<ul>
+<li>draw.io (diagram.net)</li>
+<li>excalidraw</li>
+<li>Papyrus</li>
+<li>Modelio</li>
+<li>Capella</li>
+</ul></li>
+</ul>
 </section>
-<section id="sec-journal-of-open-hardware" class="level2">
-<h2 class="anchored" data-anchor-id="sec-journal-of-open-hardware">Journal of open hardware</h2>
-<p>The journal of open hardware provides a template with several information required in hardware metadata papers. We included some of the indication of the template into this guide.</p>
+<section id="functional-graph" class="level3">
+<h3 class="anchored" data-anchor-id="functional-graph">Functional graph</h3>
+<p>The functional graph is a multi-level logical articulation of technical functions. - Relationships between functions are in/out-going flows of matter, energy, or information. - Logical AND/OR gates can be used to define concurrent or sequential functions. - Articulation of technical function can describe as input-output relationships transforming flows by using the functional modeling language in the format of the graph</p>
+<p>Tools/software:</p>
+<ul>
+<li><p>Use functional modeling language for representation, such as</p>
+<ul>
+<li><p>draw.io (diagram.net)</p></li>
+<li><p>excalidraw</p></li>
+<li><p>UML (Use Case diagram)</p></li>
+<li><p>SysML (Block Definition, Activity, or Internal Block diagram)</p></li>
+<li><p>SADT/IDEF0</p></li>
+<li><p>Functional flow block diagram</p></li>
+</ul></li>
+<li><p>Use open-source software for modeling the tree representation, such as</p>
+<ul>
+<li><p>Papyrus</p></li>
+<li><p>Modelio</p></li>
+<li><p>Capella</p></li>
+</ul></li>
+</ul>
+<hr>
+<p><strong>Sources</strong></p>
+<p><a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a></p>
 </section>
-<section id="sec-journal-hardwareX" class="level2">
-<h2 class="anchored" data-anchor-id="sec-journal-hardwareX">Journal hardwareX</h2>
-<p>The journal hardwareX provides a template with several information required in hardware metadata papers. Todd Duncombe. (2021). HardwareX manuscript templates. https://doi.org/10.5281/zenodo.5078227</p>
 </section>
-<section id="sec-source-turing" class="level2">
-<h2 class="anchored" data-anchor-id="sec-source-turing">Turing way book</h2>
-<p>Content taken from The Turing Way Community. (2025). The Turing Way: A handbook for reproducible, ethical and collaborative research. Zenodo.&nbsp; <a href="https://doi.org/10.5281/zenodo.15213042" class="uri">https://doi.org/10.5281/zenodo.15213042</a>. (shared under a CC-BY license).</p>
-<p>A specific <a href="https://book.the-turing-way.org/reproducible-research/open/open-hardware#what-is-the-source-of-open-source-hardware">chapter on OSH</a> and the linked chapter on <a href="https://book.the-turing-way.org/project-design/pd-overview/pd-overview-repro">OS project documentation</a>. NB: The team behind this guide was involved in the redaction of these chapters.</p>
+<section id="sec-functional-model" class="level2">
+<h2 class="anchored" data-anchor-id="sec-functional-model">Functional model</h2>
+<p>A Functional model explains what the product is made for. It is:</p>
+<ul>
+<li>A description of the functions performed by a product.</li>
+<li>An opportunity to break down a product into smaller pieces (modules) that can be more easily understood.</li>
+<li>At the highest level of a functional breakdown (black box view), service functions are the effects (intended by its ecosystem actors) of the interaction of the product with its environment. (See actors analysis, <a href="034_product_dvt_-requirements_conc.html#sec-diverse-actors-and-ecosystem" class="quarto-xref"><span>Section 4.8</span></a>).</li>
+<li>At the intermediate and lowest levels of a functional breakdown (white box view), technical functions are input-output relationships transforming matter, energy or information flows. They are expressing in a non-solution neutral way and observable from inside the product. A set of technical functions is necessary for the realization of a service function (in contrast to solution neutral expression of the capabilities, <a href="034_product_dvt_-requirements_conc.html#sec-productdvt-capability" class="quarto-xref"><span>Section 4.3</span></a>).</li>
+</ul>
+<section id="why-should-you-define-functional-model" class="level3">
+<h3 class="anchored" data-anchor-id="why-should-you-define-functional-model">Why should you define functional model?</h3>
+<ul>
+<li>A functional model helps to break down a complicated problem into simple sub-problems.</li>
+<li>A functional model helps to anticipate failures occurring when an intended effect of the product is no longer produced on its environment.</li>
+<li>A function is the main input to derive the functional requirements required to define the conditions of use of the product as well as to provide objective evidences through the validation and verification activities.</li>
+</ul>
+</section>
+<section id="how-to-document-a-functional-model" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-document-a-functional-model">How to document a functional model?</h3>
+<p>The documentation of technical functions, which requires adopting an internal (white box) viewpoint on the product, consists in breaking down the service function into sub-functions. The decomposition process is no more solution neutral as it requires to make a decision at every indenture level. The functional decomposition requires two modelling approaches: function tree and functional graph, see <a href="#sec-how-to-document-models" class="quarto-xref"><span>Section 5.2</span></a>.</p>
+<blockquote class="blockquote">
+<p>Example: funtional tree</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/Functional_tree.jpg" class="img-fluid figure-img"></p>
+<figcaption>Image of functional tree of XYZ cargo-ADD ONS</figcaption>
+</figure>
+</div>
+</blockquote>
+<blockquote class="blockquote">
+<p>Example functional graph</p>
+<p><img src="img/Functional_graph.jpg" class="img-fluid" alt="Image of functional graph of XYZ cargo-ADD ONS"> The image shows the functional graph of the relationship between technical functions for maintaining food quality by ADD-ONS of XYZ cargo.</p>
+</blockquote>
+<hr>
+<p><strong>Sources</strong></p>
+<p><a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a></p>
+</section>
+</section>
+<section id="sec-behavioral-model" class="level2">
+<h2 class="anchored" data-anchor-id="sec-behavioral-model">Behavioral model</h2>
+<p>The model will enable the makers to understand the analysis of the physical behavior of a product, this analysis supports the decision made at the later stages of design. This analysis is most often done using simulation software, or is made unconsciously in the designer head. Having some explicit model (even when no software is used) can be very useful to share ideas between designers.</p>
+<p>The behavior model:</p>
+<ul>
+<li>describe the behavior of a product when it receives a stimulus.</li>
+<li>could be the mathematical description of the physical product, this description may be made via a modelling software (Simulation model) that should be included in the documentation.</li>
+<li>is the physical interactions between the components of a design, as well as between the design and its environment. An artifact exhibits certain behaviors not only by the change or maintaining of its physical state, but also by several interactions that take place inside the artifact, as well as with its environment.</li>
+</ul>
+<section id="why-should-you-define-behavioral-model" class="level3">
+<h3 class="anchored" data-anchor-id="why-should-you-define-behavioral-model">Why should you define behavioral model?</h3>
+<ul>
+<li>The behavioral model identifies the properties for understanding the calculation, simulation, and environment of the product.</li>
+<li>The behavioral model could provide the simulation of any given physical phenomenon using numerical techniques.</li>
+<li>Behavior model describes how the artifact implements its function and is managed by engineering principles and physical rules that are included in a behavioral model.</li>
+</ul>
+</section>
+<section id="how-to-document-a-behavioral-model" class="level3">
+<h3 class="anchored" data-anchor-id="how-to-document-a-behavioral-model">How to document a behavioral model?</h3>
+<p>Documentation should indicate the type of model, variables used to define the model, software used for the simulation, and results of the simulations.</p>
+</section>
+<section id="examples" class="level3">
+<h3 class="anchored" data-anchor-id="examples">Examples</h3>
+<ul>
+<li>type of model:
+<ul>
+<li>mechanical simulation (finite element analysis (FEA) and computational fluid dynamics (CFD) are two types of mechanical simulation)</li>
+<li>physical simulation</li>
+<li>Thermo-mechanical simulation</li>
+<li>Electronical simulations</li>
+</ul></li>
+<li>variables used in the model:
+<ul>
+<li>Specification of the geometrical model (refer to editable file format in the structural model)</li>
+<li>Material characteristics (refer to structural model)</li>
+<li>Initial conditions such as initial stresses, temperatures, velocities.</li>
+<li>Boundary conditions can be imposed on individual solution variables such as displacements or rotations.</li>
+<li>Kinematic constraints that are several of the fundamental solution variables in the model (Linear constraint equations) or multi-point constraints (General multi-point constraints) can be defined.</li>
+<li>Interactions that are contact and other interactions between parts can be defined.</li>
+</ul></li>
+<li>(open-source) Software :
+<ul>
+<li>Open Modelica</li>
+<li>ADINA</li>
+</ul></li>
+</ul>
+<blockquote class="blockquote">
+<p>Examples</p>
+<p>Example 1: <a href="https://github.com/PetrKryslUCSD/FinEtools.jl">FinEtools: Finite Element tools</a></p>
+<p>Example 2: Image below shows the simulation of the torsion of the fixed part from below and its evaluation of the reality.</p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/FEA-image.jpg" class="img-fluid figure-img"></p>
+<figcaption>Image of Finite element analysis</figcaption>
+</figure>
+</div>
+<p><img src="img/FEA-image.gif" class="img-fluid" alt="Image of Finite element analysis"> GIF image of the model.</p>
+<hr>
+<p><strong>Sources</strong></p>
+<p><a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a></p>
+</section>
+</section>
+<section id="sec-structural-model" class="level2">
+<h2 class="anchored" data-anchor-id="sec-structural-model">Structural model</h2>
+<p>This section will give an overview of the structural model, while details are given in the specific mechanical (also called architectural, <a href="#sec-mechanical-architecture" class="quarto-xref"><span>Section 5.6</span></a>), electrical (<a href="#sec-electrical-architecture" class="quarto-xref"><span>Section 5.8</span></a>) and software (<a href="#sec-software-and-firmware-architecture" class="quarto-xref"><span>Section 5.7</span></a>) architectures sections. Note that sometimes, these different models are presented together in a single graphics.</p>
+<p>The Structural model explains the physical structure of the product and its components, it is:</p>
+<ul>
+<li>A description of the components (the combination of parts) of a product and their relationships.</li>
+<li>An opportunity to specify the geometric elements, dimensions, topology, and other physical properties of the product.</li>
+<li>The potential solutions (concepts), which are the result of the conceptual design phase.</li>
+<li>The set of mechanics theories that obey physical laws required to study and predict the behavior of structures.</li>
+</ul>
+<section id="why-should-you-define-structural-model" class="level3">
+<h3 class="anchored" data-anchor-id="why-should-you-define-structural-model">Why should you define structural model?</h3>
+<ul>
+<li>A structural model helps to describe the geometric elements (design feature, dimensions, constraints, etc.), topology (assembly constraint between components, tolerances, components mating conditions, etc.), and characteristics of the product.</li>
+<li>A structural model helps to decide the physical form of the product and its components to ensure that the structure is fit for its intended purpose.</li>
+<li>Structural model provides users with a physical model of the product, components, and characteristics of the material at the design phase that enable the stakeholder to understand the geometry, material reaction to external factors, etc.</li>
+<li>The structural model ensures that the structures are safe and fulfill the functions for which they were built.</li>
+</ul>
+</section>
+<section id="how-should-you-define-structural-model" class="level3">
+<h3 class="anchored" data-anchor-id="how-should-you-define-structural-model">How should you define structural model?</h3>
+<p>The first level of definition is often to show how things are related together in a tree or graph, using “modeling language”, such as “SysML (Block Definition, Activity, or Internal Block diagram)” or “UML”. See <a href="#sec-how-to-document-models" class="quarto-xref"><span>Section 5.2</span></a> for more information.</p>
+<hr>
+<p><strong>Sources</strong></p>
+<p><a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a></p>
+</section>
+</section>
+<section id="sec-mechanical-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="sec-mechanical-architecture">Mechanical architecture</h2>
+<p>The architectural structure is a physical or logical layout of the components of a system design and their internal and external connections.</p>
+<ul>
+<li>A model specifying the kind of components and their sub-components in the format of a tree or a graph</li>
+</ul>
+<p>See for information about how to document this. Provide both an image and the editable files, as well as instruction how to use them.</p>
+<blockquote class="blockquote">
+<p>Examples MPS ventilator: <img src="img/mechanical-model.jpg" class="img-fluid" alt="Image of architecture of MPS ventilator"> {width=400}</p>
+</blockquote>
+<hr>
+<p><strong>Sources</strong></p>
+<p>OpenNext work project resutls: <a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a></p>
+</section>
+<section id="sec-software-and-firmware-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="sec-software-and-firmware-architecture">Software and Firmware architecture</h2>
+<p>The software architecture represents the repository details of all the software and firmware that is necessary for reusing and running the project. Indicate how the different software depend on each other.</p>
+<p>It might be interesting to describe the data flow and its format.</p>
+<p>See <a href="#sec-how-to-document-models" class="quarto-xref"><span>Section 5.2</span></a> for information about how to document this. Provide both an image and the editable files, as well as instruction how to use them.</p>
+<section id="software-and-firmware-details" class="level3">
+<h3 class="anchored" data-anchor-id="software-and-firmware-details">Software and Firmware details</h3>
+<p>Please provide :</p>
+<ul>
+<li>Clear installation guide</li>
+<li>Description of programming algorithm</li>
+<li>The source code</li>
+<li>Version of software and its dependencies (both hardware and software dependencies)</li>
+</ul>
+</section>
+<section id="documentation-of-different-parts-of-software" class="level3">
+<h3 class="anchored" data-anchor-id="documentation-of-different-parts-of-software">Documentation of different parts of software</h3>
+<blockquote class="blockquote">
+<p>Examples:</p>
+<p><a href="https://github.com/nasa-jpl/open-source-rover/tree/master/software">Nasa-JPL</a>*</p>
+<p><a href="https://github.com/AmboVent-1690-108/AmboVent/tree/master/3-Software">AmboVent</a>*</p>
+<p><a href="https://docs.poppy-project.org/en/installation/">Poppy project</a>*</p>
+</blockquote>
+<hr>
+<p><strong>Sources</strong></p>
+<p><a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a></p>
+</section>
+</section>
+<section id="sec-electrical-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="sec-electrical-architecture">Electrical architecture</h2>
+<p>The architectural structure is a physical or logical layout of the components of a system design and their internal and external connections.</p>
+<ol type="1">
+<li><p>What minimum documentation should the architectural structure provide?</p>
+<ul>
+<li>A model specifying the kind of components and their sub-components in the format of a tree or a graph including
+<ul>
+<li>DC motor</li>
+<li>A/D converter</li>
+<li>DC converters<br>
+</li>
+<li>Rotor</li>
+<li>Sensor system</li>
+<li>Motherboard</li>
+<li>kit</li>
+<li>Resistor</li>
+<li>Transistors</li>
+<li>IC</li>
+<li>Sensors</li>
+<li>Etc.</li>
+</ul></li>
+</ul></li>
+</ol>
+<p>See <a href="#sec-how-to-document-models" class="quarto-xref"><span>Section 5.2</span></a> for information about how to document this. Provide both an image and the editable files, as well as instruction how to use them.</p>
+<blockquote class="blockquote">
+<p>example</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/elecstructure.png" class="img-fluid figure-img"></p>
+<figcaption>Image of Structural graph of Open-Source-Ventilator</figcaption>
+</figure>
+</div>
+</blockquote>
+<hr>
+<p><strong>Sources</strong></p>
+<p><a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a></p>
+</section>
+<section id="sec-product-design-and-cad-files" class="level2">
+<h2 class="anchored" data-anchor-id="sec-product-design-and-cad-files">Product design and CAD files</h2>
+<p>Computer assisted design is usually used to create structures from the models. The designs should be best provided in their raw format (Native formats), an editable standard format (Neutral formats), and a exported format used for manufacture. For example, a fusion .f3d file, a Step file and a STL file.</p>
+<section id="cad-for-electronics-pcb-design" class="level3">
+<h3 class="anchored" data-anchor-id="cad-for-electronics-pcb-design">CAD for electronics, PCB design</h3>
+<p>To reuse a electrical design, it should provide information consist of:</p>
+<ol type="1">
+<li>Preferable file format</li>
+</ol>
+<ul>
+<li>Editable file formats that could be:
+<ul>
+<li>Source formats such as .gbr, .lib format<br>
+</li>
+<li>Neutral formats such as Kicad_mod, kicad_pcb</li>
+</ul></li>
+</ul>
+<ol start="2" type="1">
+<li>Preferable open-source software</li>
+</ol>
+<ul>
+<li>Tiny CAD</li>
+<li>KiCAD</li>
+<li>ADINA</li>
+</ul>
+<blockquote class="blockquote">
+<p>Examples:</p>
+<p><a href="https://github.com/nasa-jpl/open-source-rover/tree/master/electrical/pcb/arduino_uno_sheild/gerbers/rev_b">Nasa-JPL, source files</a>*</p>
+<p><a href="https://github.com/AmboVent-1690-108/AmboVent/tree/master/1-Electronics">AmbovVent, Neutral files</a>*</p>
+</blockquote>
+</section>
+<section id="cad-for-structure-models" class="level3">
+<h3 class="anchored" data-anchor-id="cad-for-structure-models">CAD for structure models</h3>
+<p>Model design should be provided in a format that can be used to manufacture each piece: usually STL and STEP file for 3D objects, and SVG file for 2D design, electrical design can be shared in the editable format directly. These formats are often easier to preview, and will help understand the structural/electrical design.</p>
+<p>Note that the file is often not sufficient to reproduce one piece and manufacturing information must be given, as explained in <a href="105_Product_build-main_conc.html#sec-product-build-manufacturing-instructions" class="quarto-xref"><span>Section 6.11</span></a>.</p>
+</section>
+<section id="editable-file-format" class="level3">
+<h3 class="anchored" data-anchor-id="editable-file-format">Editable file format</h3>
+<p>An editable file format is a standard way that information is encoded for storage and allows the makers to study, modify the geometry of a model and reuse it.</p>
+<p>To reuse a design model, it should provide information consist of:</p>
+<ol type="1">
+<li>Preferable 3D/2D file format</li>
+</ol>
+<ul>
+<li>Editable file formats that could be:
+<ul>
+<li>Native formats such as .FCStd format of FreeCAD</li>
+<li>Neutral formats such as STEP files</li>
+</ul></li>
+</ul>
+<ol start="2" type="1">
+<li>Preferable open-source software</li>
+</ol>
+<ul>
+<li>OpensCAD</li>
+<li>Inkscape</li>
+<li>FreeCAD</li>
+</ul>
+<blockquote class="blockquote">
+<p>Example of editable file formats:</p>
+<ul>
+<li><p><a href="https://genesis.farm.bot/v1.5/Extras/cad">Farmbot, Native CAD files</a>*</p></li>
+<li><p><a href="https://e-vent.mit.edu/resources/downloads/">MIT Emergency Ventilator, Neutral CAD files</a>*</p></li>
+<li><p>Types of CAD format of <a href="https://transmagic.com/cad-formats/">transmagic</a>*</p></li>
+</ul>
+</blockquote>
+<hr>
+<p><strong>Sources</strong></p>
+<p><a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -740,11 +1092,14 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../content/104_user_guides_Overview_conc.html" class="pagination-link" aria-label="Guide for Users">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Guide for Users</span></span>
+      <a href="../content/034_product_dvt_-requirements_conc.html" class="pagination-link" aria-label="Product development">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Product development</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../content/105_Product_build-main_conc.html" class="pagination-link" aria-label="Hardware production">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Hardware production</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
@@ -752,4 +1107,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/open-make/RHardware-minimaltemplate/edit/main/91_Explanation_book/content/200-sources.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/open-make/RHardware-minimaltemplate/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/open-make/RHardware-minimaltemplate/blob/main/91_Explanation_book/content/200-sources.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/open-make/RHardware-minimaltemplate/edit/main/91_Explanation_book/content/047_FSB_intro_conc.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/open-make/RHardware-minimaltemplate/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/open-make/RHardware-minimaltemplate/blob/main/91_Explanation_book/content/047_FSB_intro_conc.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>

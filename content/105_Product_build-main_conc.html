@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.30">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -31,14 +31,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../content/051_Project_history_-changelog.md_conc.html" rel="next">
-<link href="../content/045_functional_model_conc.html" rel="prev">
+<link href="../content/047_FSB_intro_conc.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-485d01fc63b59abcd3ee1bf1e8e2748d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -212,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/045_functional_model_conc.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/047_FSB_intro_conc.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">FBS modeling</span></span></a>
   </div>
 </li>
@@ -288,15 +288,17 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#generalities" id="toc-generalities" class="nav-link active" data-scroll-target="#generalities">Generalities</a></li>
   <li><a href="#relation-to-structural-modeling" id="toc-relation-to-structural-modeling" class="nav-link" data-scroll-target="#relation-to-structural-modeling">Relation to structural modeling</a></li>
   <li><a href="#production-instructions" id="toc-production-instructions" class="nav-link" data-scroll-target="#production-instructions">Production instructions</a></li>
+  <li><a href="#sec-modularisation" id="toc-sec-modularisation" class="nav-link" data-scroll-target="#sec-modularisation">Modularisation</a></li>
   <li><a href="#helping-workflow-and-software" id="toc-helping-workflow-and-software" class="nav-link" data-scroll-target="#helping-workflow-and-software">Helping workflow and software</a></li>
   <li><a href="#sec-product-build-bill-of-material" id="toc-sec-product-build-bill-of-material" class="nav-link" data-scroll-target="#sec-product-build-bill-of-material">Product Build: Bill of material</a></li>
-  <li><a href="#modularisation" id="toc-modularisation" class="nav-link" data-scroll-target="#modularisation">Modularisation</a></li>
-  <li><a href="#product-build---material-characteristics" id="toc-product-build---material-characteristics" class="nav-link" data-scroll-target="#product-build---material-characteristics">Product build - material characteristics</a></li>
+  <li><a href="#sec-product-build-material-characteristics" id="toc-sec-product-build-material-characteristics" class="nav-link" data-scroll-target="#sec-product-build-material-characteristics">Product build - material characteristics</a></li>
   <li><a href="#sec-product-buildelectrical-design" id="toc-sec-product-buildelectrical-design" class="nav-link" data-scroll-target="#sec-product-buildelectrical-design">Product Build: Electrical design</a></li>
   <li><a href="#sec-product-build-firmwaresoftware" id="toc-sec-product-build-firmwaresoftware" class="nav-link" data-scroll-target="#sec-product-build-firmwaresoftware">Product build - Firmware/Software</a></li>
-  <li><a href="#sec-product-build-manufacturing-skills" id="toc-sec-product-build-manufacturing-skills" class="nav-link" data-scroll-target="#sec-product-build-manufacturing-skills">Product Build: Manufacturing skills</a></li>
-  <li><a href="#sec-product-build-manufacturing-tools" id="toc-sec-product-build-manufacturing-tools" class="nav-link" data-scroll-target="#sec-product-build-manufacturing-tools">Product build: Manufacturing tool</a>
+  <li><a href="#sec-product-build-manufacturing-all" id="toc-sec-product-build-manufacturing-all" class="nav-link" data-scroll-target="#sec-product-build-manufacturing-all">Product Build: Manufacturing safety skills, and tools</a>
   <ul class="collapse">
+  <li><a href="#manufacturing-safety" id="toc-manufacturing-safety" class="nav-link" data-scroll-target="#manufacturing-safety">Manufacturing safety</a></li>
+  <li><a href="#manufacturing-skills" id="toc-manufacturing-skills" class="nav-link" data-scroll-target="#manufacturing-skills">Manufacturing skills</a></li>
+  <li><a href="#sec-product-build-manufacturing-tools" id="toc-sec-product-build-manufacturing-tools" class="nav-link" data-scroll-target="#sec-product-build-manufacturing-tools">Product build: Manufacturing tool</a></li>
   <li><a href="#type-of-machines" id="toc-type-of-machines" class="nav-link" data-scroll-target="#type-of-machines">Type of machines</a></li>
   </ul></li>
   <li><a href="#sec-product-build-manufacturing-instructions" id="toc-sec-product-build-manufacturing-instructions" class="nav-link" data-scroll-target="#sec-product-build-manufacturing-instructions">Product build: Manufacturing sequence</a>
@@ -304,14 +306,18 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#what-does-include-the-documentation-of-manufacturing-sequences-and-instructions" id="toc-what-does-include-the-documentation-of-manufacturing-sequences-and-instructions" class="nav-link" data-scroll-target="#what-does-include-the-documentation-of-manufacturing-sequences-and-instructions">What does include the documentation of manufacturing sequences and instructions?</a></li>
   <li><a href="#example-of-parameters" id="toc-example-of-parameters" class="nav-link" data-scroll-target="#example-of-parameters">Example of parameters</a></li>
   </ul></li>
+  <li><a href="#sec-product-build-assembly-skills-and-tools" id="toc-sec-product-build-assembly-skills-and-tools" class="nav-link" data-scroll-target="#sec-product-build-assembly-skills-and-tools">Product Build: Assembly safety, skills and tools</a>
+  <ul class="collapse">
+  <li><a href="#example-of-skills-and-machines" id="toc-example-of-skills-and-machines" class="nav-link" data-scroll-target="#example-of-skills-and-machines">Example of skills and machines:</a></li>
+  <li><a href="#sec-safety-instruction-assembly" id="toc-sec-safety-instruction-assembly" class="nav-link" data-scroll-target="#sec-safety-instruction-assembly">Assembly Safety instruction</a></li>
+  </ul></li>
   <li><a href="#sec-product-build-assembly-instructions" id="toc-sec-product-build-assembly-instructions" class="nav-link" data-scroll-target="#sec-product-build-assembly-instructions">Product Build: Assembly sequence</a>
   <ul class="collapse">
   <li><a href="#part-list" id="toc-part-list" class="nav-link" data-scroll-target="#part-list">Part list</a></li>
   <li><a href="#sequence" id="toc-sequence" class="nav-link" data-scroll-target="#sequence">Sequence</a></li>
   <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes">Notes</a></li>
   </ul></li>
-  <li><a href="#sec-product-build-assembly-skills-and-tools" id="toc-sec-product-build-assembly-skills-and-tools" class="nav-link" data-scroll-target="#sec-product-build-assembly-skills-and-tools">Product Build: Assembly skills and tools</a></li>
-  <li><a href="#example-of-skills-and-machines" id="toc-example-of-skills-and-machines" class="nav-link" data-scroll-target="#example-of-skills-and-machines">Example of skills and machines:</a></li>
+  <li><a href="#sec-disassembly" id="toc-sec-disassembly" class="nav-link" data-scroll-target="#sec-disassembly">Product Build: Disassembly instruction</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/open-make/RHardware-minimaltemplate/edit/main/91_Explanation_book/content/105_Product_build-main_conc.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/open-make/RHardware-minimaltemplate/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/open-make/RHardware-minimaltemplate/blob/main/91_Explanation_book/content/105_Product_build-main_conc.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
@@ -352,20 +358,35 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="production-instructions">Production instructions</h2>
 <p>Production instructions should include:</p>
 <ul>
-<li><p>A bill of material (BOM): it gives an overview of all the material that needs to be sourced and/or manufactured, and describes all the components and their references: <a href="#sec-product-build-bill-of-material" class="quarto-xref"><span>Section 6.5</span></a></p></li>
+<li><p>A bill of material (BOM): it gives an overview of all the material that needs to be sourced and/or manufactured, and describes all the components and their references: <a href="#sec-product-build-bill-of-material" class="quarto-xref"><span>Section 6.6</span></a></p></li>
 <li><p>Manufacturing information: they can guide the makers to follow a process for replicating a product, and mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture of the hardware parts.</p>
 <ul>
-<li><p>Manufacturing skills needed: <a href="#sec-product-build-manufacturing-skills" class="quarto-xref"><span>Section 6.10</span></a></p></li>
-<li><p>Manufacturing tools needed: <a href="#sec-product-build-manufacturing-tools" class="quarto-xref"><span>Section 6.11</span></a></p></li>
-<li><p>Manufacturing sequences: <a href="#sec-product-build-manufacturing-instructions" class="quarto-xref"><span>Section 6.12</span></a></p></li>
+<li><p>Manufacturing safety instruction, skills needed and tools: <a href="#sec-product-build-manufacturing-all" class="quarto-xref"><span>Section 6.10</span></a></p></li>
+<li><p>Manufacturing sequences: <a href="#sec-product-build-manufacturing-instructions" class="quarto-xref"><span>Section 6.11</span></a></p></li>
 </ul></li>
 <li><p>Assembly instructions: they can guide the makers to follow the process of assembly or disassembly of components of a product, and illustrate visually and with words and text how to assemble or disassemble the mechanical and electrical components of the product.</p>
 <ul>
-<li>Assembly tools and skills needed: <a href="#sec-product-build-assembly-skills-and-tools" class="quarto-xref"><span>Section 6.14</span></a></li>
+<li>Assembly tools and skills needed: <a href="#sec-product-build-assembly-skills-and-tools" class="quarto-xref"><span>Section 6.12</span></a></li>
 <li>Assembly sequences: <a href="#sec-product-build-assembly-instructions" class="quarto-xref"><span>Section 6.13</span></a></li>
 <li>If relevant, the electric and electronic plan should be provided (<a href="#sec-product-buildelectrical-design" class="quarto-xref"><span>Section 6.8</span></a>). Note that firmware and software installation (described at <a href="#sec-product-build-firmwaresoftware" class="quarto-xref"><span>Section 6.9</span></a> ) may be included in the assembly sequence.</li>
 </ul></li>
 </ul>
+</section>
+<section id="sec-modularisation" class="level2">
+<h2 class="anchored" data-anchor-id="sec-modularisation">Modularisation</h2>
+<p>When there are multiple parts, it is best practice to have a BOM for each part, and one BOM for the whole hardware. For complex project, it is therefore best to create BOM automatically. Some software are meant to created BOM from the CAD files (CAD-coupled documentation, <a href="https://doi.org/10.5334/joh.56" class="uri">https://doi.org/10.5334/joh.56</a>) or from the assembly instruction (using <a href="https://gitbuilding.io">Gitbuilding</a>).</p>
+<blockquote class="blockquote">
+<p>Example</p>
+<h4 id="example-1-jpl-open-source-rover" class="anchored"><em>Example 1: <a href="https://github.com/nasa-jpl/open-source-rover/tree/master/bill_of_materials">JPL Open Source Rover</a></em></h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/D-JPL-1.png" class="img-fluid figure-img"></p>
+<figcaption>JPL BOM</figcaption>
+</figure>
+</div>
+<p><em>Example 2: <a href="https://gitlab.com/librespacefoundation/satnogs/satnogs-rotator/blob/master/rotator-bom.ods">SatNOGS Rotator v3</a></em></p>
+<h4 id="example-3-krab-v1.0" class="anchored"><em>Example 3: <a href="https://projects.fablabs.io/@avishek/krab-v10">Krab v1.0</a></em></h4>
+</blockquote>
 </section>
 <section id="helping-workflow-and-software" class="level2">
 <h2 class="anchored" data-anchor-id="helping-workflow-and-software">Helping workflow and software</h2>
@@ -392,31 +413,15 @@ ul.task-list li input[type="checkbox"] {
 <li>Packaging instruction</li>
 <li>BOM notes</li>
 </ol>
-</section>
-<section id="modularisation" class="level2">
-<h2 class="anchored" data-anchor-id="modularisation">Modularisation</h2>
-<p>When there are multiple parts, it is best practice to have a BOM for each part, and one BOM for the whole hardware. For complex project, it is therefore best to create BOM automatically. Some software are meant to created BOM from the CAD files (CAD-coupled documentation, <a href="https://doi.org/10.5334/joh.56" class="uri">https://doi.org/10.5334/joh.56</a>) or from the assembly instruction (using <a href="https://gitbuilding.io">Gitbuilding</a>).</p>
-<blockquote class="blockquote">
-<p>Example</p>
-<h4 id="example-1-jpl-open-source-rover" class="anchored"><em>Example 1: <a href="https://github.com/nasa-jpl/open-source-rover/tree/master/bill_of_materials">JPL Open Source Rover</a></em></h4>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="img/D-JPL-1.png" class="img-fluid figure-img"></p>
-<figcaption>JPL BOM</figcaption>
-</figure>
-</div>
-<p><em>Example 2: <a href="https://gitlab.com/librespacefoundation/satnogs/satnogs-rotator/blob/master/rotator-bom.ods">SatNOGS Rotator v3</a></em></p>
-<h4 id="example-3-krab-v1.0" class="anchored"><em>Example 3: <a href="https://projects.fablabs.io/@avishek/krab-v10">Krab v1.0</a></em></h4>
-</blockquote>
 <hr>
 <p><strong>Sources</strong></p>
 <p><a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a></p>
 </section>
-<section id="product-build---material-characteristics" class="level2">
-<h2 class="anchored" data-anchor-id="product-build---material-characteristics">Product build - material characteristics</h2>
+<section id="sec-product-build-material-characteristics" class="level2">
+<h2 class="anchored" data-anchor-id="sec-product-build-material-characteristics">Product build - material characteristics</h2>
 <p><strong>Definition:</strong> The characteristics of the materials are those that identify the reactions of materials reactions to heat, electricity, light, force, etc.</p>
 <p>Summarise what materials have been used to construct the hardware and what methods to process the materials (as well as the assembly if relevant). Provide more details or references where important materials or methods are non-standard, not globally available, or produced only by one manufacturer.</p>
-<p>Give information on the selection of materials, based on factors including properties for behavioral analysis (<a href="045_functional_model_conc.html#sec-behavioral-model" class="quarto-xref"><span>Section 5.2</span></a>), environmental impact (<a href="104_user_guides_Overview_conc.html#sec-user-guidesenvironmental-management" class="quarto-xref"><span>Section 8.12</span></a>), and <a href="https://github.com/OPEN-NEXT/wp2.3_template/tree/main/Documentation/4.%20Manufacturing">manufacturing</a> processes in design reuse. (<a href="#sec-product-build-manufacturing-instructions" class="quarto-xref"><span>Section 6.12</span></a>)</p>
+<p>Give information on the selection of materials, based on factors including properties for behavioral analysis (<a href="047_FSB_intro_conc.html#sec-behavioral-model" class="quarto-xref"><span>Section 5.4</span></a>), environmental impact (<a href="104_user_guides_Overview_conc.html#sec-user-guidesenvironmental-management" class="quarto-xref"><span>Section 8.6</span></a>), and <a href="https://github.com/OPEN-NEXT/wp2.3_template/tree/main/Documentation/4.%20Manufacturing">manufacturing</a> processes in design reuse. (<a href="#sec-product-build-manufacturing-instructions" class="quarto-xref"><span>Section 6.11</span></a>)</p>
 <p>The material characteristics of mechanical parts consist of:</p>
 <p>1- Identifying the kind of characteristics and their properties:</p>
 <pre><code>- Mechanical characteristics like hardness, elasticity, plasticity, toughness, etc. 
@@ -436,7 +441,7 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 </div>
 <blockquote class="blockquote">
-Source: Kutz, M. ed., 2002. Handbook of materials selection. John Wiley &amp; Sons.
+<p>Source: Kutz, M. ed., 2002. Handbook of materials selection. John Wiley &amp; Sons.</p>
 
 </blockquote>
 <p><strong>Documentation of material characteristics</strong></p>
@@ -475,7 +480,7 @@ Source: Kutz, M. ed., 2002. Handbook of materials selection. John Wiley &amp; So
 </section>
 <section id="sec-product-build-firmwaresoftware" class="level2">
 <h2 class="anchored" data-anchor-id="sec-product-build-firmwaresoftware">Product build - Firmware/Software</h2>
-<p>Here comes the elements that were more briefly described in <a href="045_functional_model_conc.html#sec-software-and-firmware-architecture" class="quarto-xref"><span>Section 5.5</span></a>. Since software/firmware development follows different practices that often needs a more detailed version control system, they are usually developed independently of the hardware.</p>
+<p>Here comes the elements that were more briefly described in <a href="047_FSB_intro_conc.html#sec-software-and-firmware-architecture" class="quarto-xref"><span>Section 5.7</span></a>. Since software/firmware development follows different practices that often needs a more detailed version control system, they are usually developed independently of the hardware.</p>
 <p>Any code or firmware required to operate the hardware should be shared. This will allow others to use it with their hardware or modify it along with their modifications to your hardware. Document the process required to build your software, including links to any dependencies (for example, third-party libraries or tools). In addition, it is helpful to provide an overview of the state of the software (for example, “stable” or “beta” or “barely-working hack”).</p>
 <p>In all cases, it is important to keep track of which version of the soft/firmwares are used with which version of the hardware.</p>
 <p>Also indicate details on the operating software and programming language, and include minimum version compatibility, and dditional system requirements, like memory, disk space, processor, input or output devices.</p>
@@ -488,13 +493,24 @@ The Airtrack hardware was developed using pixycam. The hardware and the software
 <p><strong>Sources</strong></p>
 <p><a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a>, <a href="200-sources.html#sec-journal-of-open-hardware" class="quarto-xref"><span>Section 9.3</span></a></p>
 </section>
-<section id="sec-product-build-manufacturing-skills" class="level2">
-<h2 class="anchored" data-anchor-id="sec-product-build-manufacturing-skills">Product Build: Manufacturing skills</h2>
-<p>What is the specific knowledge a maker shall own to manufacture the different parts of the hardware ?</p>
+<section id="sec-product-build-manufacturing-all" class="level2">
+<h2 class="anchored" data-anchor-id="sec-product-build-manufacturing-all">Product Build: Manufacturing safety skills, and tools</h2>
+<p>This part explain how to manufacture parts, this may be directed toward professional manufacturers or hobbyist, depending on the skills needed.</p>
+<section id="manufacturing-safety" class="level3">
+<h3 class="anchored" data-anchor-id="manufacturing-safety">Manufacturing safety</h3>
+<p>Are there specific risks and safety measure to take during the manufacturing steps</p>
 </section>
-<section id="sec-product-build-manufacturing-tools" class="level2">
-<h2 class="anchored" data-anchor-id="sec-product-build-manufacturing-tools">Product build: Manufacturing tool</h2>
+<section id="manufacturing-skills" class="level3">
+<h3 class="anchored" data-anchor-id="manufacturing-skills">Manufacturing skills</h3>
+<p>What is the specific knowledge or skills a maker shall master to manufacture the different parts of the hardware ?</p>
+<hr>
+<p><strong>Sources</strong></p>
+<p>none</p>
+</section>
+<section id="sec-product-build-manufacturing-tools" class="level3">
+<h3 class="anchored" data-anchor-id="sec-product-build-manufacturing-tools">Product build: Manufacturing tool</h3>
 <p>Manufacturing tools means all the machinery, equipment, and processes used to manufacture products. Manufacturing technology guide to find the type of necessary technology to produce the part. In that case, it should describe the most suitable technology according to the context.</p>
+</section>
 <section id="type-of-machines" class="level3">
 <h3 class="anchored" data-anchor-id="type-of-machines">Type of machines</h3>
 <p>Type of machines used</p>
@@ -662,6 +678,47 @@ The Airtrack hardware was developed using pixycam. The hardware and the software
 <p><a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a></p>
 </section>
 </section>
+<section id="sec-product-build-assembly-skills-and-tools" class="level2">
+<h2 class="anchored" data-anchor-id="sec-product-build-assembly-skills-and-tools">Product Build: Assembly safety, skills and tools</h2>
+<p>This document should provide information about the specific knowledge a maker shall own to assembly the hardware product, and what tools are necessary. For example, one can report how many people are needed to assemble the hardware.</p>
+<section id="example-of-skills-and-machines" class="level3">
+<h3 class="anchored" data-anchor-id="example-of-skills-and-machines">Example of skills and machines:</h3>
+<ol type="1">
+<li>Required skills for assembly
+<ul>
+<li>Operate drilling machine</li>
+<li>Operate Band Saw/Dremel</li>
+</ul></li>
+<li>List of the tools for assembly or disassembly
+<ul>
+<li>Mandatory
+<ul>
+<li>Allen Keyset</li>
+<li>Imperial wrench set</li>
+</ul></li>
+<li>Optional
+<ul>
+<li>Drill press</li>
+</ul></li>
+</ul></li>
+</ol>
+<p>The skills can be listed by name and a description. In many case, it might be interesting to link skills with tools, as being able to operate each tool is a needed skill.</p>
+<blockquote class="blockquote">
+<p>Example</p>
+<p>To build the Airtrack, it is optional to use specific UV glue and its specific equipment. One should nevertheless have some experience in using plastic glue.</p>
+</blockquote>
+</section>
+<section id="sec-safety-instruction-assembly" class="level3">
+<h3 class="anchored" data-anchor-id="sec-safety-instruction-assembly">Assembly Safety instruction</h3>
+<p>Assembly instruction may include specific notes on safety.</p>
+<blockquote class="blockquote">
+<p>Example</p>
+<p>When the laser cutter machine is open, it becomes a class 4 laser. This means that when the machine is open and under electric current, you have to wear glasses and be in a closed room labeled as dangerous (“laser in function”).</p>
+</blockquote>
+<p><strong>Sources</strong></p>
+<p><a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a></p>
+</section>
+</section>
 <section id="sec-product-build-assembly-instructions" class="level2">
 <h2 class="anchored" data-anchor-id="sec-product-build-assembly-instructions">Product Build: Assembly sequence</h2>
 <p>To help others make and modify your hardware design, you should provide instructions for going from your design files to the working physical hardware. It is good to publish annotated photographs (or video) from multiple viewpoints and at various stages of assembly. If you do not have photos, posting annotated 3D renderings of your design is a good alternative. Either way, it is good to provide captions or text that explain what is shown in each image and why it is useful.</p>
@@ -695,39 +752,12 @@ The Airtrack hardware was developed using pixycam. The hardware and the software
 <p><a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a>, <a href="200-sources.html#sec-journal-of-open-hardware" class="quarto-xref"><span>Section 9.3</span></a>, <a href="200-sources.html#sec-source-turing" class="quarto-xref"><span>Section 9.5</span></a></p>
 </section>
 </section>
-<section id="sec-product-build-assembly-skills-and-tools" class="level2">
-<h2 class="anchored" data-anchor-id="sec-product-build-assembly-skills-and-tools">Product Build: Assembly skills and tools</h2>
-<p>This document should provide information about the specific knowledge a maker shall own to assembly the hardware product, and what tools are necessary. For example, one can report how many people are needed to assemble the hardware.</p>
-</section>
-<section id="example-of-skills-and-machines" class="level2">
-<h2 class="anchored" data-anchor-id="example-of-skills-and-machines">Example of skills and machines:</h2>
-<ol type="1">
-<li>Required skills for assembly
-<ul>
-<li>Operate drilling machine</li>
-<li>Operate Band Saw/Dremel</li>
-</ul></li>
-<li>List of the tools for assembly or disassembly
-<ul>
-<li>Mandatory
-<ul>
-<li>Allen Keyset</li>
-<li>Imperial wrench set</li>
-</ul></li>
-<li>Optional
-<ul>
-<li>Drill press</li>
-</ul></li>
-</ul></li>
-</ol>
-<p>The skills can be listed by name and a description. In many case, it might be interesting to link skills with tools, as being able to operate each tool is a needed skill.</p>
-<blockquote class="blockquote">
-<p>Example</p>
-<p>To build the Airtrack, it is optional to use specific UV glue and its specific equipment. One should nevertheless have some experience in using plastic glue.</p>
-</blockquote>
+<section id="sec-disassembly" class="level2">
+<h2 class="anchored" data-anchor-id="sec-disassembly">Product Build: Disassembly instruction</h2>
+<p>Please refer to <a href="#sec-product-build-assembly-instructions" class="quarto-xref"><span>Section 6.13</span></a>.</p>
+<p>Disassembly may be different from assembly, please give information about skills, tools, safety issue and sequence instruction for dismantling the hardware. Also indicate if there are differences between disassembly for repair, or disassembly for disposal.</p>
 <hr>
 <p><strong>Sources</strong></p>
-<p><a href="200-sources.html#sec-open-next-work" class="quarto-xref"><span>Section 9.1</span></a></p>
 
 
 </section>
@@ -1134,7 +1164,7 @@ The Airtrack hardware was developed using pixycam. The hardware and the software
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../content/045_functional_model_conc.html" class="pagination-link" aria-label="FBS modeling">
+      <a href="../content/047_FSB_intro_conc.html" class="pagination-link" aria-label="FBS modeling">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">FBS modeling</span></span>
       </a>          
   </div>
