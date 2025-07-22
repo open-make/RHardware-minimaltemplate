@@ -2,7 +2,17 @@
 
 # Readme as entry door
 
-Think about your audience when writing OSH documentation. Indeed, your project might be reused by people with different skills, roles, objectives, and socio-economic and cultural environments. Because of this it can be useful to create a list of skills that are required to build  (manufacture @sec-product-build-manufacturing-skills, and assemble @sec-product-build-assembly-skills-and-tools) or use the hardware (@sec-user-skills). Someone trying to build it from scratch, for example, will require specific set of prior knowledge, skills, and tools. A different set is needed to perform maintenance tasks. An end user operating the assembled project might require an entirely distinct skillset (and documentation).
+Think about your audience when writing OSH documentation. Indeed, your
+project might be reused by people with different skills, roles,
+objectives, and socio-economic and cultural environments. Because of
+this it can be useful to create a list of skills that are required to
+build (manufacture @sec-product-build-manufacturing-all, and assemble
+@sec-product-build-assembly-skills-and-tools) or use the hardware
+(@sec-user-skills). Someone trying to build it from scratch, for
+example, will require specific set of prior knowledge, skills, and
+tools. A different set is needed to perform maintenance tasks. An end
+user operating the assembled project might require an entirely distinct
+skillset (and documentation).
 
 ## Vision and motivation {#sec-vision-and-motivation}
 
@@ -25,7 +35,8 @@ Examples:
 > available to anyone with a 3D printer - for use in microscopes,
 > micromanipulators, and more.
 
-> Pedal-powered toolkit for fablab (https://codeberg.org/openmakeXlowtech/PedalPoweredMachine-4fablab)
+> Pedal-powered toolkit for fablab
+> (https://codeberg.org/openmakeXlowtech/PedalPoweredMachine-4fablab)
 >
 > This projects aims at providing fablabs and makerspaces with pedal
 > powered toolkit, in order to open discussions around the principles of
@@ -52,6 +63,7 @@ Examples:
 > The project BCN3D Moveo is motivated by the high cost of the materials
 > that undergraduate students must use for learning how to engineer
 > mechatronics systems.
+
 ------------------------------------------------------------------------
 
 **Sources**
@@ -59,12 +71,15 @@ Examples:
 @sec-open-next-work, @sec-source-turing
 
 
-## hardware summary overview
+## hardware summary overview {#sec-hardware-summary-overview}
 
 This part is meant to give an overview of the hardware, more detailed description should be given in the 03_product_dvt/hardware_overview.md file.
 
-
-Give an overview of the hardware, what it does, how it was produced, and, if relevant, the research for which it has been used. Write as much as possible for a general audience. That is, explain what the project is and what it is for, before you get into the technical details. Describe how the hardware was implemented/created, with relevant details of the architecture and design, including general materials. You may also describe any variants and associated implementation differences.
+Give an overview of the hardware, what it does, how it was produced, and, if relevant, the research for which it has been used.
+Write as much as possible for a general audience.
+That is, explain what the project is and what it is for, before you get into the technical details.
+Describe how the hardware was implemented/created, with relevant details of the architecture and design, including general materials.
+You may also describe any variants and associated implementation differences.
 
 A schema, a picture or a video may be added here.
 
@@ -75,7 +90,6 @@ A schema, a picture or a video may be added here.
 >
 > Pedal powered machine: https://codeberg.org/openmakeXlowtech/PedalPoweredMachine-4fablab : photo + "size: about 700x1000 mm, table is 1100 mm high."
 
-
 ------------------------------------------------------------------------
 
 **Sources**
@@ -83,7 +97,7 @@ A schema, a picture or a video may be added here.
 @sec-open-next-work, @sec-journal-of-open-hardware, @sec-source-turing
 
 
-## Standard compliance
+## Standard compliance {#sec-standard-compliance}
 
 Please indicate if the hardware is compliant with standards (DIN, ISO, ...).
 
@@ -94,11 +108,12 @@ You may also indicate why it is not, if relevant.
 > The stairs are compliant with DIN 18065:2011-06
 
 
-## Outputs: Products and data
+## Outputs: Products and data {#sec-outputs-products-and-data}
 
 This section define the product or data produced by the hardware.
 
-It may describes examples of applications of the hardware. This should include some evidence of output, like data produced by the use of the device or a picture of other types of results.
+It may describes examples of applications of the hardware.
+This should include some evidence of output, like data produced by the use of the device or a picture of other types of results.
 
 It may also present or link to a standard data structure used, or involve the explanation of the data structure used.
 
@@ -108,7 +123,7 @@ One may link to other repositories or add data directly in the hardware document
 >
 > Data obtained with the plastic scanner can be found at https://github.com/Plastic-Scanner/Data
 >
-> https://docs.smartcitizen.me:  hardware documentation and data obtained are linked at the same level in the main documentation homepage.
+> https://docs.smartcitizen.me: hardware documentation and data obtained are linked at the same level in the main documentation homepage.
 
 ------------------------------------------------------------------------
 
@@ -117,13 +132,14 @@ One may link to other repositories or add data directly in the hardware document
 @sec-journal-of-open-hardware
 
 
-## Validation
+## Validation {#sec-validation}
 
 > How do you know the hardware works ?
 
 Elaborate how the hardware technically/methodologically advances the state-of-the-art, including references to relevant research articles and online references.
 
-This may be important for future development, as new validation cycles would probably build on this documentation. Indicate any sofware/code used for validation of the design.
+This may be important for future development, as new validation cycles would probably build on this documentation.
+Indicate any sofware/code used for validation of the design.
 
 ------------------------------------------------------------------------
 
@@ -142,43 +158,54 @@ The form of these resources may be online courses, videos, or in presence worksh
 > <https://docs.smartcitizen.me>: hardware documentation and education resources are linked at the same level in the main documentation homepage.
 
 
-## Cite this project
+## Cite this project {#sec-cite-this-project}
 
 It is good practice to treat hardware citation similarly to other research outputs.
-The use of archives that can assign persistent identifiers (like a DOI) can help to guarantee specific versions/releases of the hardware project available over the long term. Though within the open hardware community this is not the practice, it would be beneficial to adopt going forward. For research to be reproducible, long term archiving through a platform that is dedicated to it would be necessary.
+The use of archives that can assign persistent identifiers (like a DOI) can help to guarantee specific versions/releases of the hardware project available over the long term.
+Though within the open hardware community this is not the practice, it would be beneficial to adopt going forward.
+For research to be reproducible, long term archiving through a platform that is dedicated to it would be necessary.
 
-Zenodo is a good example of the type of archive that can issue a persistent identifier and provide a good citation metadata, if authors are set correctly. The use of a Citation.cff file may be recommended. You may refer to the Turing way book for more information: https://book.the-turing-way.org/communication/citable
+Zenodo is a good example of the type of archive that can issue a persistent identifier and provide a good citation metadata, if authors are set correctly.
+The use of a Citation.cff file may be recommended.
+You may refer to the Turing way book for more information: https://book.the-turing-way.org/communication/citable
 
 > Example (fictive)
 >
-> Please cite this project by citing the article: Ho, I., Kumar, A. H., & Harris, D. M. 2022. Reconfigurable Mechanical Vibrations Laboratory Kit. Journal of Open Hardware,  6(1): 4, pp. 1–11. DOI: https:// doi.org/10.5334/joh.40
+> Please cite this project by citing the article: Ho, I., Kumar, A. H., & Harris, D. M.
+> 2022.
+> Reconfigurable Mechanical Vibrations Laboratory Kit.
+> Journal of Open Hardware, 6(1): 4, pp. 1–11.
+> DOI: https:// doi.org/10.5334/joh.40
 >
-> Please cite this hardware as TUM Magnetic fields, & Bernhard Gleich. (2023). TUMMFE/Hardware: Hardware Release (Version 1). Zenodo. https://doi.org/10.5281/zenodo.10006096
+> Please cite this hardware as TUM Magnetic fields, & Bernhard Gleich.
+> (2023).
+> TUMMFE/Hardware: Hardware Release (Version 1).
+> Zenodo.
+> https://doi.org/10.5281/zenodo.10006096
 >
-> Citing White Rabbit
->J. Serrano, P. Alvarez, M. Cattin, E. G. Cota, P. M. J. H. Lewis, T.
-Włostowski et al., The White Rabbit
-Project
-in Proceedings of ICALEPCS TUC004, Kobe, Japan, 2009.
+> Citing White Rabbit J. Serrano, P. Alvarez, M. Cattin, E. G. Cota, P. M. J. H. Lewis, T. Włostowski et al., The White Rabbit Project in Proceedings of ICALEPCS TUC004, Kobe, Japan, 2009.
 
--------------------------------------------------------------
+------------------------------------------------------------------------
 
 **Sources**
 
 @sec-source-turing
 
 
-## scientific publication
+## scientific publication {#sec-scientific-publication}
 
-Include experiment results or the reference to a publication (published or to be published) where these results are detailed. 
+Include experiment results or the reference to a publication (published or to be published) where these results are detailed.
 
 You may also point to ongoing work.
 This may be merge with the "how to cite section".
 
 > Example
 >
-> This project lead to the publications:
-> - Ho, I., Kumar, A. H., & Harris, D. M. 2022. Reconfigurable Mechanical Vibrations Laboratory Kit. Journal of Open Hardware,  6(1): 4, pp. 1–11. DOI: https:// doi.org/10.5334/joh.40
+> This project lead to the publications: - Ho, I., Kumar, A. H., & Harris, D. M.
+> 2022.
+> Reconfigurable Mechanical Vibrations Laboratory Kit.
+> Journal of Open Hardware, 6(1): 4, pp. 1–11.
+> DOI: https:// doi.org/10.5334/joh.40
 
 ------------------------------------------------------------------------
 
@@ -206,9 +233,11 @@ Describe the problem in this section and how the hardware addresses the problem.
 @sec-journal-of-open-hardware
 
 
-## dependencies
+## dependencies {#sec-dependencies}
 
-Here it is welcome to acknowledge the existing sources that have been used in this project with locations, and name their initiators. At best, present dependencies following what these projects provide as citation information. But at least:
+Here it is welcome to acknowledge the existing sources that have been used in this project with locations, and name their initiators.
+At best, present dependencies following what these projects provide as citation information.
+But at least:
 
 -   Initiators of the original project
 
@@ -216,7 +245,9 @@ Here it is welcome to acknowledge the existing sources that have been used in th
 
     You may also cite projects that project is citing as dependencies or source, with the URL of other related projects
 
-These dependencies can be hardware or software projects, modular components, libraries, or frameworks. You may indicate information on version compatibilities. You should explicitly state if dependencies are proprietary / closed source.
+These dependencies can be hardware or software projects, modular components, libraries, or frameworks.
+You may indicate information on version compatibilities.
+You should explicitly state if dependencies are proprietary / closed source.
 
 ------------------------------------------------------------------------
 
@@ -225,11 +256,10 @@ These dependencies can be hardware or software projects, modular components, lib
 @sec-open-next-work, @sec-journal-of-open-hardware
 
 
-## Software used for development
+## Software used for development {#sec-software-used-for-development}
 
-Indicate what software was used in the development, this is particularly important 
-for (expensive) CAD software, in order for collaborators to know if they have the right
-software and skills to help.
+Indicate what software is/was used in the development, this is particularly important for (expensive) CAD software, in order for collaborators to know if they have the right software and skills to help.
+Also indicate what software are used for the behavioral modelling, if there is any.
 
 > Example
 >
@@ -237,17 +267,17 @@ software and skills to help.
 >
 > We use the following things:
 >
-> - Speech - That is by far the easiest, it make communication quick and fun, ideally in person but it can also be done digitally. For super important agreements we mail.
-- Discord, for finding others interested in development of the Plastic Scanner!
-- KiCAD 6.0 - We use KiCAD as a development tool for making our PCB's.
-- Fusion360 - We use Fusion360 as a tool to do 3D modelling.
-- Wordpress, The main website runs on wordpress, easy to add content!
-- Docusaurus, for all the documentation you are reading right now!
-- GitHub, for version control of software, firmware, hardware and documentation
-- Google Drive, for internal exchange of files.
-- Youtube, for update videos
-- Notion, project management
-- PlatformIO, for firmware development
+> -   Speech - That is by far the easiest, it make communication quick and fun, ideally in person but it can also be done digitally. For super important agreements we mail.
+> -   Discord, for finding others interested in development of the Plastic Scanner!
+> -   KiCAD 6.0 - We use KiCAD as a development tool for making our PCB's.
+> -   Fusion360 - We use Fusion360 as a tool to do 3D modelling.
+> -   Wordpress, The main website runs on wordpress, easy to add content!
+> -   Docusaurus, for all the documentation you are reading right now!
+> -   GitHub, for version control of software, firmware, hardware and documentation
+> -   Google Drive, for internal exchange of files.
+> -   Youtube, for update videos
+> -   Notion, project management
+> -   PlatformIO, for firmware development
 
 
 ## Roadmap {#sec-roadmap}
@@ -417,7 +447,7 @@ All other authors have no competing interests." Or “BH is selling kits and par
 @sec-journal-of-open-hardware
 
 
-## Institutional Review Board Statement
+## Institutional Review Board Statement {#sec-institutional-review-board-statement}
 
 
 ## Documentation structure {#sec-documentation-structure}
@@ -435,7 +465,7 @@ Think about updating this aspect if necessary.
 @sec-open-next-work
 
 
-## Conclusions
+## Conclusions {#sec-conclusions}
 
 This may include conclusions, learned lessons from design iterations, learned lessons from use cases, and/or a summary of results.
 
@@ -446,11 +476,12 @@ This may include conclusions, learned lessons from design iterations, learned le
 @sec-journal-of-open-hardware
 
 
-## Discussions
+## Discussions {#sec-discussions}
 
-You may discuss the current state of the project.  Explain
-how the hardware differs from other hardware, and the advantages it offers over pre-existing methods. Discuss the capabilities and limitations of the hardware. For example, load and
-operation time, spin speed, coefficient of variation, accuracy, precision.
+You may discuss the current state of the project.
+Explain how the hardware differs from other hardware, and the advantages it offers over pre-existing methods.
+Discuss the capabilities and limitations of the hardware.
+For example, load and operation time, spin speed, coefficient of variation, accuracy, precision.
 
 ------------------------------------------------------------------------
 

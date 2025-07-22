@@ -6,7 +6,12 @@
 Production instructions mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture and assembly of the product.
 This includes also skills and tools needed for manufacture and assembly.
 
-Technical documents provide the source needed to study and replicate a hardware design. In contrast to project documentation and community building, technical documents for OSH are quite specific, but can be considered analogous to what source code is for software. Depending on the project, technical documents may include technical drawings, images describing electronic schematics, computer-aided design (CAD) files, or assembly instructions to replicate the design. A thoroughly documented project will have all types of documents. It may also include code (firmware and software) necessary to run the hardware. The source files (like CAD files) are best accompanied by textual and multi-medial documentation, such as guides for manufacturing, assembly, maintenance, and development.
+Technical documents provide the source needed to study and replicate a hardware design.
+In contrast to project documentation and community building, technical documents for OSH are quite specific, but can be considered analogous to what source code is for software.
+Depending on the project, technical documents may include technical drawings, images describing electronic schematics, computer-aided design (CAD) files, or assembly instructions to replicate the design.
+A thoroughly documented project will have all types of documents.
+It may also include code (firmware and software) necessary to run the hardware.
+The source files (like CAD files) are best accompanied by textual and multi-medial documentation, such as guides for manufacturing, assembly, maintenance, and development.
 
 Production usually starts with the sourcing of material, and a bill of material (BOM) is required.
 It describes all the components and their references.
@@ -15,25 +20,31 @@ If the part is to be manufactured, one should find all the descriptions of the m
 
 ## Relation to structural modeling
 
-Technical documents include both the structural modeling and the production instructions, they provide the source needed to study and replicate a hardware design. In contrast to project documentation and community building, technical documents for OSH are quite specific, but can be considered analogous to what source code is for software. Depending on the project, technical documents may include technical drawings, images describing electronic schematics, computer-aided design (CAD) files, or assembly instructions to replicate the design. A thoroughly documented project will have all types of documents. It may also include code (firmware and software) necessary to run the hardware. The source files (like CAD files) are best accompanied by textual and multi-medial documentation, such as guides for manufacturing, assembly, maintenance, and development.
+Technical documents include both the structural modeling and the production instructions, they provide the source needed to study and replicate a hardware design.
+In contrast to project documentation and community building, technical documents for OSH are quite specific, but can be considered analogous to what source code is for software.
+Depending on the project, technical documents may include technical drawings, images describing electronic schematics, computer-aided design (CAD) files, or assembly instructions to replicate the design.
+A thoroughly documented project will have all types of documents.
+It may also include code (firmware and software) necessary to run the hardware.
+The source files (like CAD files) are best accompanied by textual and multi-medial documentation, such as guides for manufacturing, assembly, maintenance, and development.
 
-Following the guide for structural modeling, one should share both raw and derived source files. For instance, 3D object designs should be shared as print-ready files (.stl file for instance), but also as modifiable 3D objects (the format of these files will depend on the software used). It is necessary to provide the raw files to enable modification, even if they can often only be opened in proprietary software, and their use requires specific skills. The derived versions are used to build the hardware, but often are not suited for modification. Users with access to the tools that can read and manipulate these raw source files can update and improve the physical device. If they wish, they can proceed to share such modifications.
-
-
+Following the guide for structural modeling, one should share both raw and derived source files.
+For instance, 3D object designs should be shared as print-ready files (.stl file for instance), but also as modifiable 3D objects (the format of these files will depend on the software used).
+It is necessary to provide the raw files to enable modification, even if they can often only be opened in proprietary software, and their use requires specific skills.
+The derived versions are used to build the hardware, but often are not suited for modification.
+Users with access to the tools that can read and manipulate these raw source files can update and improve the physical device.
+If they wish, they can proceed to share such modifications.
 
 ## Production instructions
 
-Production instructions should include: 
+Production instructions should include:
 
-- A bill of material (BOM): it gives an overview of all the material that needs to be sourced and/or manufactured, and describes all the components and their references: @sec-product-build-bill-of-material 
-- Manufacturing information: they can guide the makers to follow a process for replicating a product, and mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture of the hardware parts.
+-   A bill of material (BOM): it gives an overview of all the material that needs to be sourced and/or manufactured, and describes all the components and their references: @sec-product-build-bill-of-material
 
-    - Manufacturing skills needed: @sec-product-build-manufacturing-skills
+-   Manufacturing information: they can guide the makers to follow a process for replicating a product, and mean full description and instructions concerning raw material, operating conditions, and process to be employed for the manufacture of the hardware parts.
 
-    -   Manufacturing tools needed: @sec-product-build-manufacturing-tools
+    -   Manufacturing safety instruction, skills needed and tools: @sec-product-build-manufacturing-all
 
     -   Manufacturing sequences: @sec-product-build-manufacturing-instructions
-
 
 -   Assembly instructions: they can guide the makers to follow the process of assembly or disassembly of components of a product, and illustrate visually and with words and text how to assemble or disassemble the mechanical and electrical components of the product.
 
@@ -41,12 +52,26 @@ Production instructions should include:
     -   Assembly sequences: @sec-product-build-assembly-instructions
     -   If relevant, the electric and electronic plan should be provided (@sec-product-buildelectrical-design). Note that firmware and software installation (described at @sec-product-build-firmwaresoftware ) may be included in the assembly sequence.
 
+## Modularisation {#sec-modularisation}
+
+When there are multiple parts, it is best practice to have a BOM for each part, and one BOM for the whole hardware.
+For complex project, it is therefore best to create BOM automatically.
+Some software are meant to created BOM from the CAD files (CAD-coupled documentation, <https://doi.org/10.5334/joh.56>) or from the assembly instruction (using [Gitbuilding](https://gitbuilding.io)).
+
+> Example
+>
+> #### *Example 1: [JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover/tree/master/bill_of_materials)*
+>
+> ![JPL BOM](img/D-JPL-1.png)
+>
+> *Example 2: [SatNOGS Rotator v3](https://gitlab.com/librespacefoundation/satnogs/satnogs-rotator/blob/master/rotator-bom.ods)*
+>
+> #### *Example 3: [Krab v1.0](https://projects.fablabs.io/@avishek/krab-v10)*
+
 ## Helping workflow and software
 
 It is sometimes easier to create a guide for manufacturing and assembly.
 For instance, using the Gitbuilding software, one can write the manufacture and assembly instructions, and when using specific tags for tools and material, the software creates BOM, part lists and tool lists for each step and for the whole project.
-
-
 
 ------------------------------------------------------------------------
 
@@ -76,21 +101,7 @@ A bill of material usually includes:
 11. Packaging instruction
 12. BOM notes
 
-## Modularisation
 
-When there are multiple parts, it is best practice to have a BOM for each part, and one BOM for the whole hardware.
-For complex project, it is therefore best to create BOM automatically.
-Some software are meant to created BOM from the CAD files (CAD-coupled documentation, <https://doi.org/10.5334/joh.56>) or from the assembly instruction (using [Gitbuilding](https://gitbuilding.io)).
-
-> Example
->
-> #### *Example 1: [JPL Open Source Rover](https://github.com/nasa-jpl/open-source-rover/tree/master/bill_of_materials)*
->
-> ![JPL BOM](img/D-JPL-1.png)
->
-> *Example 2: [SatNOGS Rotator v3](https://gitlab.com/librespacefoundation/satnogs/satnogs-rotator/blob/master/rotator-bom.ods)*
->
-> #### *Example 3: [Krab v1.0](https://projects.fablabs.io/@avishek/krab-v10)*
 
 ------------------------------------------------------------------------
 
@@ -100,46 +111,50 @@ Some software are meant to created BOM from the CAD files (CAD-coupled documenta
 
 
 
-## Product build - material characteristics
+## Product build - material characteristics {#sec-product-build-material-characteristics}
 
 **Definition:** The characteristics of the materials are those that identify the reactions of materials reactions to heat, electricity, light, force, etc.
 
-Summarise what materials have been used to construct the hardware and what methods to process the materials (as well as the assembly if relevant). Provide more details or references where important materials or methods are non-standard, not globally available, or produced only by one manufacturer.
+Summarise what materials have been used to construct the hardware and what methods to process the materials (as well as the assembly if relevant).
+Provide more details or references where important materials or methods are non-standard, not globally available, or produced only by one manufacturer.
 
-Give information on the selection of materials,  based on factors including properties for behavioral analysis (@sec-behavioral-model), environmental impact (@sec-user-guidesenvironmental-management), and [manufacturing](https://github.com/OPEN-NEXT/wp2.3_template/tree/main/Documentation/4.%20Manufacturing) processes in design reuse. (@sec-product-build-manufacturing-instructions)
+Give information on the selection of materials, based on factors including properties for behavioral analysis (@sec-behavioral-model), environmental impact (@sec-user-guidesenvironmental-management), and [manufacturing](https://github.com/OPEN-NEXT/wp2.3_template/tree/main/Documentation/4.%20Manufacturing) processes in design reuse.
+(@sec-product-build-manufacturing-instructions)
 
+The material characteristics of mechanical parts consist of:
 
-The material characteristics of mechanical parts consist of: 
-  
-  1- Identifying the kind of characteristics and their properties: 
-  
-    - Mechanical characteristics like hardness, elasticity, plasticity, toughness, etc. 
-    - Manufacturing properties like castability, machinability rating, etc.
-    - Thermal characteristics like melting point, thermal conductivity, etc.
-    - Electrical characteristics like electrical resistivity and conductibility, etc.
-    - Chemical properties like corrosion resistance, surface tension, etc.
-     
+1- Identifying the kind of characteristics and their properties:
+
+```         
+- Mechanical characteristics like hardness, elasticity, plasticity, toughness, etc. 
+- Manufacturing properties like castability, machinability rating, etc.
+- Thermal characteristics like melting point, thermal conductivity, etc.
+- Electrical characteristics like electrical resistivity and conductibility, etc.
+- Chemical properties like corrosion resistance, surface tension, etc.
+ 
+```
+
 > Example of material characteristics:
->  
+>
 > Figure below shows some physical properties of superalloy base elements.
 
 ![Image of material characteristics](img/material_characteristics_example.jpg)
 
-> Source: Kutz, M. ed., 2002. Handbook of materials selection. John Wiley & Sons.
-  </details>
-  
+> Source: Kutz, M.
+> ed., 2002.
+> Handbook of materials selection.
+> John Wiley & Sons.
+>
+> </details>
 
- 
 **Documentation of material characteristics**
 
--  Name of characteristic
-     * Properties
-     * Unit of property
-     * ...
- 
+-   Name of characteristic
+    -   Properties
+    -   Unit of property
+    -   ...
 
-
- ------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 **Sources**
 
@@ -193,12 +208,26 @@ Also indicate details on the operating software and programming language, and in
 
 
 
-## Product Build: Manufacturing skills {#sec-product-build-manufacturing-skills}
 
-What is the specific knowledge a maker shall own to manufacture the different parts of the hardware ?
+## Product Build: Manufacturing safety skills, and tools {#sec-product-build-manufacturing-all}
 
+This part explain how to manufacture parts, this may be directed toward professional manufacturers or hobbyist, depending on the skills needed.
 
-## Product build: Manufacturing tool {#sec-product-build-manufacturing-tools}
+### Manufacturing safety
+
+Are there specific risks and safety measure to take during the manufacturing steps
+
+### Manufacturing skills
+
+What is the specific knowledge or skills a maker shall master to manufacture the different parts of the hardware ?
+
+------------------------------------------------------------------------
+
+**Sources**
+
+none
+
+### Product build: Manufacturing tool {#sec-product-build-manufacturing-tools}
 
 Manufacturing tools means all the machinery, equipment, and processes used to manufacture products.
 Manufacturing technology guide to find the type of necessary technology to produce the part.
@@ -355,6 +384,44 @@ Note: types of CAD format of [transmagic](https://transmagic.com/cad-formats/)
 @sec-open-next-work
 
 
+## Product Build: Assembly safety, skills and tools {#sec-product-build-assembly-skills-and-tools}
+
+This document should provide information about the specific knowledge a maker shall own to assembly the hardware product, and what tools are necessary.
+For example, one can report how many people are needed to assemble the hardware.
+
+### Example of skills and machines:
+
+1.  Required skills for assembly
+    -   Operate drilling machine
+    -   Operate Band Saw/Dremel
+2.  List of the tools for assembly or disassembly
+    -   Mandatory
+        -   Allen Keyset
+        -   Imperial wrench set
+    -   Optional
+        -   Drill press
+
+The skills can be listed by name and a description.
+In many case, it might be interesting to link skills with tools, as being able to operate each tool is a needed skill.
+
+> Example
+>
+> To build the Airtrack, it is optional to use specific UV glue and its specific equipment.
+> One should nevertheless have some experience in using plastic glue.
+
+### Assembly Safety instruction {#sec-safety-instruction-assembly}
+
+Assembly instruction may include specific notes on safety.
+
+> Example
+>
+> When the laser cutter machine is open, it becomes a class 4 laser. This means that when the machine is open and under electric current, you have to wear glasses and be in a closed room labeled as dangerous ("laser in function").
+
+**Sources**
+
+@sec-open-next-work
+
+
 ## Product Build: Assembly sequence {#sec-product-build-assembly-instructions}
 
 To help others make and modify your hardware design, you should provide instructions for going from your design files to the working physical hardware. It is good to publish annotated photographs (or video) from multiple viewpoints and at various stages of assembly. If you do not have photos, posting annotated 3D renderings of your design is a good alternative. Either way, it is good to provide captions or text that explain what is shown in each image and why it is useful.
@@ -406,34 +473,18 @@ You may indicate any measures that have been taken in the design to make the har
 
 
 
-## Product Build: Assembly skills and tools {#sec-product-build-assembly-skills-and-tools}
+## Product Build: Disassembly instruction {#sec-disassembly}
 
-This document should provide information about the specific knowledge a maker shall own to assembly the hardware product, and what tools are necessary.
-For example, one can report how many people are needed to assemble the hardware.
+Please refer to @sec-product-build-assembly-instructions.
 
-## Example of skills and machines:
+Disassembly may be different from assembly, please give information about skills, tools, safety issue and sequence instruction for dismantling the hardware. Also indicate if there are differences between disassembly for repair, or disassembly for disposal.
 
-1.  Required skills for assembly
-    -   Operate drilling machine
-    -   Operate Band Saw/Dremel
-2.  List of the tools for assembly or disassembly
-    -   Mandatory
-        -   Allen Keyset
-        -   Imperial wrench set
-    -   Optional
-        -   Drill press
 
-The skills can be listed by name and a description.
-In many case, it might be interesting to link skills with tools, as being able to operate each tool is a needed skill.
-
-> Example
->
-> To build the Airtrack, it is optional to use specific UV glue and its specific equipment.
-> One should nevertheless have some experience in using plastic glue.
 
 ------------------------------------------------------------------------
 
 **Sources**
 
-@sec-open-next-work
+
+
 

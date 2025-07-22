@@ -120,12 +120,12 @@ You may end up joining an existing community and extending (adding a new module)
 Usually, this step ends with a redefinition of the needs and vision, and the three first steps often are iteratively determined until a concept is chosen for the first prototype.
 
 > Durability and repairability constrains should be included at this point of the design.
-> While this will be mostly documented in step 5 with repair and dissassembly instructions, these concepts should be incorporated early in the design.
+> While this will be mostly documented in step 5 with repair and disassembly instructions, these concepts should be incorporated early in the design.
 
 ### FBS design methodology
 
 The concept phase is the main design phase of the hardware.
-While in practice, it is often made in parallel to the prototyping, larger project should invest some time at this step, and the use of the Function-Behaviour-Structure (FBS) design approach will facilitate future co-design:
+While in practice, it is often made in parallel to the prototyping, larger project should invest some time at this step, and the use of the Function-Behaviour-Structure (FBS) design approach will facilitate future co-design (see @sec-fbs-modeling):
 
 -   **Function (F)** stands for **“what the object is for”.**
 -   **Behaviour (B)** stands for **“what the object does”.**
@@ -135,30 +135,30 @@ While in practice, it is often made in parallel to the prototyping, larger proje
 
 -   [ ] Complete the readme file
     -   [ ] development stage: concept development
-    -   [ ] dependencies
-    -   [ ] *conclusions*
-    -   [ ] software used for development
-    -   [ ] harware summary overview
+    -   [ ] dependencies @sec-dependencies
+    -   [ ] *conclusions* @sec-conclusions
+    -   [ ] software used for development @sec-software-used-for-development
+    -   [ ] harware summary overview @sec-hardware-summary-overview
 -   [ ] History
-    -   [ ] release note
-    -   [ ] design_choices
-    -   [ ] update change log
+    -   [ ] release note @sec-project-history-releasenotes
+    -   [ ] design_choices @sec-designchoices
+    -   [ ] update change log @sec-project-history-changelog
 -   [ ] Product development
     -   [ ] update hardwareoverview
-        -   [ ] application, use cases
-        -   [ ] *reuse potential*
-        -   [ ] architectural structure
-        -   [ ] *foreseen cost + time cost*
-    -   [ ] functional model
-    -   [ ] Behavioral model: *Modelling tool list* @sec-behavioral-model
-    -   [ ] Similar projects
+        -   [ ] application, use cases @sec-use-cases-and-application
+        -   [ ] \*reuse potential @*sec-reuse-possibilities
+        -   [ ] main architectural structure \@sec-structural-model
+        -   [ ] \*foreseen cost + time cost @*sec-foreseen-cost
+    -   [ ] functional model @sec-functional-model
+    -   [ ] Behavioral model @sec-behavioral-model
+    -   [ ] Similar projects @sec-similar-projects
 
 
 ## Step 4: product development and prototyping 
 
 ### Prototyping
 
-Here the work on the design starts! Continuous documentation of choice made, successes and failuress are welcome, so this step has an iterative components: with every development can come specific documentation.
+Here the work on the design starts! Continuous documentation of choice made, successes and failures are welcome, so this step has an iterative components: with every development can come specific documentation.
 
 In addition, the documentation may need to be performed for different parts (or modules) of the hardware.
 
@@ -166,48 +166,52 @@ Importantly, the Product design, manufacturing and assembling instruction may be
 
 This step is also divided in two: a preparatory phase defining the main components and an iterative phase which can change with the different version of the hardware.
 
+It is adviced to read the introductory chapters on hardware production @sec-production, including information on modularisation of the hardware @sec-modularisation. 
+
 
 ### Checklist 4a: preparations
 
 - [ ] Complete the readme file
   - [ ] development stage: prototyping
-  - [ ] Standard compliance
-  - [ ] Product outputs (if relevant: data outputs)
-  - [ ] Citing information
+  - [ ] Standard compliance @sec-standard-compliance
+  - [ ] Product outputs (if relevant: data outputs) @sec-outputs-products-and-data
+  - [ ] Citing information @sec-cite-this-project
 
   
 - [ ] Product development
   - [ ] Structural architecture
-    - [ ] Mechanical architecture
-    - [ ] Software/firmware architecture
-    - [ ] Electrical design architecture
+    - [ ] Mechanical architecture @sec-mechanical-architecture
+    - [ ] Software/firmware architecture @sec-software-and-firmware-architecture
+    - [ ] Electrical design architecture @sec-electrical-architecture
 
 ### Checklist 4b: iteration of design
 - [ ] Complete the readme file
-  - [ ] Update Documentation structure
+  - [ ] Update Documentation structure 
+  - [ ] Dependencies
 
-- [ ] Product design
-  - [ ] Bill of material
-  - [ ] material characteristics
-  - [ ] electrical design
-  - [ ] Software: Documentation of different parts
+- [ ] Product design (for each part/module)
+  - [ ] Bill of material @sec-product-build-bill-of-material
+  - [ ] material characteristics @sec-product-build-material-characteristics
+  - [ ] electrical design @sec-product-buildelectrical-design
+  - [ ] Software: Documentation of different parts @sec-product-build-firmwaresoftware
+  - [ ] Product design and CAD files @sec-product-design-and-cad-files
   
 - [ ] Manufacturing instructions  
-    - [ ] Manufacturing skills and tools
-    - [ ] Manufacturing sequences and instruction
+    - [ ] Manufacturing safety, skills and tools @sec-product-build-manufacturing-all
+    - [ ] Manufacturing sequences and instruction @sec-product-build-manufacturing-instructions
     
 - [ ] Assembly instructions
-  - [ ] assembly skills and tools
-  - [ ] Safety information
-  - [ ] Assembly sequence and instruction
+  - [ ] assembly skills and tools @sec-product-build-assembly-skills-and-tools
+  - [ ] Safety information @sec-safety-instruction-assembly
+  - [ ] Assembly sequence and instruction @sec-product-build-assembly-instructions
 
 - [ ] User guide
-  - [ ] Safety information
-  - [ ] overview of the hardware
-  - [ ] Operation instructions
-  - [ ] Testing instructions and troubleshooting
-  - [ ] basic maintenance + schedule
-  - [ ] basic disposal
+  - [ ] Safety information @sec-user-guides-safety-information
+  - [ ] overview of the hardware @sec-user-guides-overview-of-the-hardware
+  - [ ] Operation instructions @sec-operation-instructions
+      - [ ] Calibration instructions @sec-user-guides-calibration
+  - [ ] Testing instructions and troubleshooting @sec-user-guides-troubleshooting
+  - [ ] basic maintenance + schedule @sec-maintenance
   
 - [ ] History  
   - [ ] update changelog/release note
@@ -225,24 +229,30 @@ Here the prototype is mature enough that it should be replicated in different pl
 
 - [ ] Complete the readme file
   - [ ] development stage: replication ready
-  - [ ] scientific publication
-  - [ ] education resources
-  - [ ] Institutional Review Board Statement
-  - [ ] discussions
-  - [ ] validation
-  - [ ] cost
+  - [ ] scientific publication @sec-scientific-publication
+  - [ ] education resources @sec-education-resources
+  - [ ] Institutional Review Board Statement @sec-institutional-review-board-statement
+  - [ ] discussions @sec-discussions
+  - [ ] validation @sec-validation
+  - [ ] cost 
   
 - [ ] Assembly instructions
-  - [ ] disassembly instructions
+  - [ ] disassembly instructions @sec-disassembly
 
 - [ ] Product design
-  - [ ] component lifespan
+  - [ ] component lifespan @sec-component-lifespan
   
 - [ ] User guide
-  - [ ] Environmental management
-  - [ ] Identifying the defective components
-  - [ ] Repairing the defective components
-  - [ ] Replacing equipment components 
+  - [ ] Environmental management @sec-user-guidesenvironmental-management
+  - [ ] Maintenance @sec-maintenance 
+      - [ ] Instructions @sec-maintenance-instructions
+      - [ ] Schedules @sec-maintenance-schedules
+      - [ ] Summary component lifetime or links @sec-component-lifespan
+  - [ ] Repair @sec-user-guides-repair
+      - [ ] Identifying the defective components @sec-identifying-the-defective-components
+      - [ ] Repairing the defective components @sec-repairing-the-defective-components  
+      - [ ] Replacing equipment components @sec-identifying-the-defective-components 
+  - [ ] Disposal instructions
 
 
 

@@ -37,20 +37,25 @@ Changelogs are primarily intended for technical contributors and power users who
 
 ## Release notes {#sec-project-history-releasenotes}
 
-Release notes detail the corrections, changes or enhancements (functional or non-functional) made to the service or product the company provides. They are are summaries of changelog made for target users and manufacturers. They usually  come with new hardware release.
-Release notes can also contain test results and information about the test procedure. This kind of information gives readers of the release note more confidence in the fix/change done.
+Release notes detail the corrections, changes or enhancements (functional or non-functional) made to the service or product the company provides.
+They are are summaries of changelog made for target users and manufacturers.
+They usually come with new hardware release.
+Release notes can also contain test results and information about the test procedure.
+This kind of information gives readers of the release note more confidence in the fix/change done.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+[Wikipedia](https://en.wikipedia.org/wiki/Release_notes), see also <https://blog.releasenotes.io/changelog-vs-release-notes/>
 
 
 
------
-sources
+## Design choices {#sec-designchoices}
 
-[Wikipedia](https://en.wikipedia.org/wiki/Release_notes), see also https://blog.releasenotes.io/changelog-vs-release-notes/ 
-
-
-## Design choices
-
-What were the decisions made in designing this hardware? Were other designs/options tried? please describe also what did not work.
+What were the decisions made in designing this hardware?
+Were other designs/options tried?
+please describe also what did not work.
 
 This information may be included at different places in the documentation, it may be interesting to link them together, or find a way to make them discoverable in the documentation files, for instance using a specific text one can search for.
 

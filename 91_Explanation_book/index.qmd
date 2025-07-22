@@ -3,7 +3,7 @@
 ## Background
 
 ```{r, echo=FALSE}
-repositoryhome ="https://github.com/open-make/RHardware-minimaltemplate"
+repositoryhome ="https://codeberg.org/openmake/RHardware-minimaltemplate"
 bookurl = "https://open-make.github.io/RHardware-minimaltemplate/"
 ```
 
@@ -11,7 +11,7 @@ After analyzing open source hardware documentation and existing templates (see b
 
 ![Hardware project documentation is diverse, it grows with project development (depicted by orange boxes from left to right: ideation, specification, concept development, prototyping), and go beyond the technical documentation (black box)](images/makinglabopening-finalword.001.jpeg)
 
-Accordingly, we created both a [template for hardware project](`r repositoryhome`, including different folders and files) and this guide. We hope to facilitate the creation of hardware project documentation with these two tools.
+Accordingly, we created both a [template for hardware project](`r repositoryhome`) including different folders and files, and this guide. We hope to facilitate the creation of hardware project documentation with these two tools.
 
 ## Rational
 
@@ -48,9 +48,12 @@ qr=qrcode::qr_code(bookurl)
 plot(qr)
 ```
 
-## Guide version: 1.1
+Cite this book via its zenodo archive: 
 
-This is the first version of the guide, based mostly on the theoretical framework developed inside the Open.Make project by the authors. It was checked for consistency between steps and chapters but was not yet tested outside the authors projects and any feedback is very welcome ! 
+
+## Guide version: 1.0
+
+This is the first stable version of the guide, based mostly on the theoretical framework developed inside the Open.Make project by the authors. It was checked for consistency between steps and chapters but was not yet tested outside the authors projects and any feedback is very welcome ! 
 
 
 ## FAQ

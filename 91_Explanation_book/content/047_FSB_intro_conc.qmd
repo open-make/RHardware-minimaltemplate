@@ -1,7 +1,86 @@
 
-# FBS modeling
+# FBS modeling {#sec-fbs-modeling}
 
-## Functional model
+## FBS modeling Overview
+
+Functional-behabioral-strucutral modeling (FSB) is a way to deconstruct the hardware design work.
+It starts with a functional model (what the hardware should be doing), then goes to a behavioral model (what behavior should the hardware have, this part is often not expressed by engineers) and finally the structural model is derived from the behavioral model.
+The different models are nurturing each other.
+
+For example for a fridge, the function will be "keep the temperature at 14 degrees", the behavior is "cool when the temperature is above 14 degrees", the structure will be "have a temperature sensor and a electronic device which switch cooling on when the temperature is above 14 degrees" (one could think of different structures which would have the same or similar behavior, depending on the type of structure, one may refine the function to "keep the temperature between 12 and 14 degrees",...)
+
+## How to document models {#sec-how-to-document-models}
+
+The documentation of technical functions, which requires adopting an internal (white box) viewpoint on the product, consists in breaking down the service function into sub-functions.
+The decomposition process is no more solution neutral as it requires to make a decision at every indenture level.
+The functional decomposition requires two modelling approaches: function tree and functional graph.
+
+**Provide both an image and the editable files, as well as instruction how to use them.**
+
+This approach can be taken for functional @sec-functional-model and the different types of structural models @sec-structural-model.
+
+### Functional tree
+
+The functional tree is a top-down decomposition of function into sub-functions that helps to simplify the problem to solve.
+
+*The decomposition of technical functions creates a functional tree and, the technical functions are defined based on the functional requirements.*
+
+-   A top-down and bottom-up reading of the functional tree provides insight on the “how” and “why”, respectively.
+-   The decomposition process should be stopped when the technical function is sufficiently detailed to reuse, make, or buy a design solution.
+
+Tools/software:
+
+-   Use functional modeling language for representation, such as
+    -   UML (Use Case diagram)
+    -   SysML (Block Definition, Activity, or Internal Block diagram)
+    -   SADT/IDEF0
+    -   Functional flow block diagram
+-   Use open-source software for modeling the tree representation, such as:
+    -   draw.io (diagram.net)
+    -   excalidraw
+    -   Papyrus
+    -   Modelio
+    -   Capella
+
+### Functional graph
+
+The functional graph is a multi-level logical articulation of technical functions.
+- Relationships between functions are in/out-going flows of matter, energy, or information.
+- Logical AND/OR gates can be used to define concurrent or sequential functions.
+- Articulation of technical function can describe as input-output relationships transforming flows by using the functional modeling language in the format of the graph
+
+Tools/software:
+
+-   Use functional modeling language for representation, such as
+
+    -   draw.io (diagram.net)
+
+    -   excalidraw
+
+    -   UML (Use Case diagram)
+
+    -   SysML (Block Definition, Activity, or Internal Block diagram)
+
+    -   SADT/IDEF0
+
+    -   Functional flow block diagram
+
+-   Use open-source software for modeling the tree representation, such as
+
+    -   Papyrus
+
+    -   Modelio
+
+    -   Capella
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work
+
+
+## Functional model {#sec-functional-model}
 
 A Functional model explains what the product is made for.
 It is:
@@ -19,95 +98,17 @@ It is:
 
 ### How to document a functional model?
 
--   The documentation of technical functions, which requires adopting an internal (white box) viewpoint on the product, consists in breaking down the service function into sub-functions. The decomposition process is no more solution neutral as it requires to make a decision at every indenture level. The functional decomposition requires two modelling approaches: function tree and functional graph.
+The documentation of technical functions, which requires adopting an internal (white box) viewpoint on the product, consists in breaking down the service function into sub-functions. The decomposition process is no more solution neutral as it requires to make a decision at every indenture level. The functional decomposition requires two modelling approaches: function tree and functional graph, see @sec-how-to-document-models.
 
-See also @sec-structural-model for the technical description of creating trees and graphs.
-
-#### Functional tree
-
-The functional tree is a top-down decomposition of function into sub-functions that helps to simplify the problem to solve.
-
-*The decomposition of technical functions creates a functional tree and, the technical functions are defined based on the functional requirements.*
-
--   A top-down and bottom-up reading of the functional tree provides insight on the “how” and “why”, respectively.
--   The decomposition process should be stopped when the technical function is sufficiently detailed to reuse, make, or buy a design solution.
-
-> Example
+> Example: funtional tree
 >
 > ![Image of functional tree of XYZ cargo-ADD ONS](img/Functional_tree.jpg)
 
-<details>
-
-1\.
-What minimum documentation should the functional tree provide?
-
-\- A model specifying the kinds of technical functions and their sub
-
--functions in the format of a tree.
-
-2.  How to implement the functional tree?
-
--   Use functional modeling language for representation, such as
-    -   UML (Use Case diagram)
-    -   SysML (Block Definition, Activity, or Internal Block diagram)
-    -   SADT/IDEF0
-    -   Functional flow block diagram
--   Use open-source software for modeling the tree representation, such as:
-    -   draw.io (diagram.net)
-    -   excalidraw
-    -   Papyrus
-    -   Modelio
-    -   Capella\
-
-</details>
-
-#### Functional graph
-
-The functional graph is a multi-level logical articulation of technical functions.
-- Relationships between functions are in/out-going flows of matter, energy, or information.
-- Logical AND/OR gates can be used to define concurrent or sequential functions.
-- Articulation of technical function can describe as input-output relationships transforming flows by using the functional modeling language in the format of the graph
-
-> Example
+> Example functional graph
 >
 > ![Image of functional graph of XYZ cargo-ADD ONS](img/Functional_graph.jpg) The image shows the functional graph of the relationship between technical functions for maintaining food quality by ADD-ONS of XYZ cargo.
 
 
-See @sec-structural-model for information about creating tree and graph
-
-<details>
-
-1.  What minimum documentation should the functional graph provide?
-    -   A model specifying a multi-level logic of relationships between technical functions (refer to functional graph of XYZ Cargo-ADD ONS)
-
-2.  How to implement the functional tree?
-    -   Use functional modeling language for representation, such as
-
-    -   draw.io (diagram.net)
-
-    -   excalidraw
-
-    -   UML (Use Case diagram)
-
-    -   SysML (Block Definition, Activity, or Internal Block diagram)
-
-    -   SADT/IDEF0
-
-    -   Functional flow block diagram
-
-  -   Use open-source software for modeling the tree representation, such as
-
-      -   Papyrus
-
-      -   Modelio
-
-      -   Capella
-
-</details> 
-
-> The link below shows an example of functional block diagrams of an open-source project
->
-> [Functional diagram of Renesas ventilator](https://www.rs-online.com/designspark/ventilator-design-solution-from-renesas-electronics)
 
 ------------------------------------------------------------------------
 
@@ -196,15 +197,8 @@ The Structural model explains the physical structure of the product and its comp
 
 ### How should you define structural model?
 
-The first level of definition is often to show how things are related together in a tree or graph, using "modeling language" such as "SysML (Block Definition, Activity, or Internal Block diagram)" or "UML".
+The first level of definition is often to show how things are related together in a tree or graph, using "modeling language", such as "SysML (Block Definition, Activity, or Internal Block diagram)" or "UML". See @sec-how-to-document-models for more information.
 
-Several software may help create these graphs:
-
--   Papyrus
--   Modelio
--   Capella
--   diagrams.net (previously draw.io)
--   <https://excalidraw.com>
 
 ------------------------------------------------------------------------
 
@@ -234,13 +228,12 @@ OpenNext work project resutls: @sec-open-next-work
 ## Software and Firmware architecture {#sec-software-and-firmware-architecture}
 
 The software architecture represents the repository details of all the software and firmware that is necessary for reusing and running the project.
-Indicate how the different software depend on each other. 
+Indicate how the different software depend on each other.
 
 It might be interesting to describe the data flow and its format.
 
-See @sec-structural-model for information about how to document this.
+See @sec-how-to-document-models for information about how to document this.
 Provide both an image and the editable files, as well as instruction how to use them.
-
 
 ### Software and Firmware details
 
@@ -251,7 +244,7 @@ Please provide :
 -   The source code
 -   Version of software and its dependencies (both hardware and software dependencies)
 
-### Documentation of different parts of software 
+### Documentation of different parts of software
 
 > Examples:
 >
@@ -288,7 +281,7 @@ The architectural structure is a physical or logical layout of the components of
         -   Sensors
         -   Etc.
 
-See @sec-structural-model for information about how to document this.
+See @sec-how-to-document-models for information about how to document this.
 Provide both an image and the editable files, as well as instruction how to use them.
 
 > example
@@ -303,9 +296,11 @@ Provide both an image and the editable files, as well as instruction how to use 
 @sec-open-next-work
 
 
-## Product development and CAD files
+## Product design and CAD files {#sec-product-design-and-cad-files}
 
-Computer assisted design is usually used to create structures from the models. The designs should be best provided in their raw format (Native formats), an editable standard format (Neutral formats), and a exported format used for manufacture. For example, a fusion .f3d file, a Step file and a STL file.
+Computer assisted design is usually used to create structures from the models.
+The designs should be best provided in their raw format (Native formats), an editable standard format (Neutral formats), and a exported format used for manufacture.
+For example, a fusion .f3d file, a Step file and a STL file.
 
 ### CAD for electronics, PCB design
 
@@ -329,49 +324,42 @@ To reuse a electrical design, it should provide information consist of:
 >
 > [AmbovVent, Neutral files](https://github.com/AmboVent-1690-108/AmboVent/tree/master/1-Electronics)\*
 
-
 ### CAD for structure models
 
-Model design should be provided in a format that can be used to manufacture each piece: usually STL and STEP file for 3D objects, and SVG file for 2D design, electrical design can be shared in the editable format directly. These formats are often easier to preview, and will help understand the structural/electrical design.
+Model design should be provided in a format that can be used to manufacture each piece: usually STL and STEP file for 3D objects, and SVG file for 2D design, electrical design can be shared in the editable format directly.
+These formats are often easier to preview, and will help understand the structural/electrical design.
 
 Note that the file is often not sufficient to reproduce one piece and manufacturing information must be given, as explained in @sec-product-build-manufacturing-instructions.
 
+### Editable file format
 
-### Editable file format 
-
- 
 An editable file format is a standard way that information is encoded for storage and allows the makers to study, modify the geometry of a model and reuse it.
 
 To reuse a design model, it should provide information consist of:
 
- 1. Preferable 3D/2D file format
-   - Editable file formats that could be:
-     - Native formats such as .FCStd format of FreeCAD 
-     - Neutral formats such as STEP files
- 2. Preferable open-source software 
-   - OpensCAD
-   - Inkscape
-   - FreeCAD
+1.  Preferable 3D/2D file format
 
+-   Editable file formats that could be:
+    -   Native formats such as .FCStd format of FreeCAD
+    -   Neutral formats such as STEP files
 
+2.  Preferable open-source software
 
- 
+-   OpensCAD
+-   Inkscape
+-   FreeCAD
+
 > Example of editable file formats:
 >
-> - [Farmbot, Native CAD files](https://genesis.farm.bot/v1.5/Extras/cad)*
+> -   [Farmbot, Native CAD files](https://genesis.farm.bot/v1.5/Extras/cad)\*
 >
-> - [MIT Emergency Ventilator, Neutral CAD files](https://e-vent.mit.edu/resources/downloads/)*
+> -   [MIT Emergency Ventilator, Neutral CAD files](https://e-vent.mit.edu/resources/downloads/)\*
 >
-> - Types of CAD format of [transmagic](https://transmagic.com/cad-formats/)*
+> -   Types of CAD format of [transmagic](https://transmagic.com/cad-formats/)\*
 
- ------------------------------------------------------------------------
+------------------------------------------------------------------------
 
 **Sources**
 
 @sec-open-next-work
-
-
- 
-
-
 

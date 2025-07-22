@@ -1,5 +1,12 @@
 # Open source hardware documentation toolkit
 
+We provide here a guide and and template for hardware project documentation,
+specifically dedicated to open source research hardware projects.
+
+You can cite and access an archived version at: 
+Julien Colomb. (2025). Guide and template for hardware project documentation. Zenodo. https://doi.org/10.5281/zenodo.14725490
+
+
 
 > Note: This [repository home](https://codeberg.org/openmake/RHardware-minimaltemplate/branches) is on codeberg, it is mirrored on github, where the book is deployed and zenodo integration is performed.
 > Please prefer the codeberg repository to open issues.
@@ -13,7 +20,7 @@ The documentation should ease collaborative design work, and facilitate the reus
 ## Metadata
 
 -   development stage: first stable version of the guide, tests ongoing
--   license: CC-BY , the (unique) code file is shared under a MIT license.\
+-   license: CC-BY , the (unique) code file is shared under a MIT license.
 
 ## Main outputs
 

@@ -1,0 +1,50 @@
+{'created': '2025-06-05T07:08:37.582730+00:00', 'modified': '2025-07-22T10:53:17.358499+00:00', 'id': 15598681, 'conceptrecid': '14725490', 'doi': '10.5281/zenodo.15598681', 'conceptdoi': '10.5281/zenodo.14725490', 'doi_url': 'https://doi.org/10.5281/zenodo.15598681', 'metadata': {'title': 'Guide and template for hardware project documentation', 'doi': '10.5281/zenodo.15598681', 'publication_date': '2025-06-05', 'description': '<p>We want to facilitate the work of designers and makers, helping them to easily create a documentation that grows with their project. The documentation should ease collaborative design work, and facilitate the reuse of the OSH. To this end we provide here a guide and and template for hardware project documentation, specifically dedicated to open source research hardware projects.</p>\n<p>&nbsp;</p>\n<p>Guide and template tested for consistency. <br>Not tested on real project yet.</p>', 'access_right': 'open', 'creators': [{'name': 'Julien Colomb', 'affiliation': 'Technische Universität Berlin', 'orcid': '0000-0002-3127-5520'}], 'related_identifiers': [{'identifier': 'https://codeberg.org/openmake/RHardware-minimaltemplate', 'relation': 'isVariantFormOf', 'resource_type': 'publication-other', 'scheme': 'url'}], 'version': 'v0.2', 'custom': {'code:codeRepository': 'https://codeberg.org/openmake/RHardware-minimaltemplate', 'code:developmentStatus': {'id': 'active', 'title': {'en': 'Active'}}}, 'license': 'cc-by-4.0', 'imprint_publisher': 'Zenodo', 'communities': [{'identifier': 'lauds'}], 'upload_type': 'publication', 'publication_type': 'other', 'prereserve_doi': {'doi': '10.5281/zenodo.15598681', 'recid': 15598681}}, 'title': 'Guide and template for hardware project documentation', 'links': {'self': 'https://zenodo.org/api/records/15598681', 'html': 'https://zenodo.org/records/15598681', 'doi': 'https://doi.org/10.5281/zenodo.15598681', 'parent_doi': 'https://doi.org/10.5281/zenodo.14725490', 'badge': 'https://zenodo.org/badge/doi/10.5281%2Fzenodo.15598681.svg', 'conceptbadge': 'https://zenodo.org/badge/doi/10.5281%2Fzenodo.14725490.svg', 'files': 'https://zenodo.org/api/records/15598681/files', 'latest_draft': 'https://zenodo.org/api/deposit/depositions/15598681', 'latest_draft_html': 'https://zenodo.org/deposit/15598681', 'publish': 'https://zenodo.org/api/deposit/depositions/15598681/actions/publish', 'edit': 'https://zenodo.org/api/deposit/depositions/15598681/actions/edit', 'discard': 'https://zenodo.org/api/deposit/depositions/15598681/actions/discard', 'newversion': 'https://zenodo.org/api/deposit/depositions/15598681/actions/newversion', 'record': 'https://zenodo.org/api/records/15598681', 'record_html': 'https://zenodo.org/record/15598681', 'latest': 'https://zenodo.org/api/records/15598681/versions/latest', 'latest_html': 'https://zenodo.org/records/15598681/latest'}, 'record_id': 15598681, 'owner': 15056, 'files': [{'id': '6428d03a-c1e8-449b-8ef2-b542b207a7fc', 'filename': 'open-make/RHardware-minimaltemplate-v0.2.zip', 'filesize': 2359128, 'checksum': '454f229d3b1616a9b552a01f4cf4ed96', 'links': {'self': 'https://zenodo.org/api/records/15598681/files/6428d03a-c1e8-449b-8ef2-b542b207a7fc', 'download': 'https://zenodo.org/api/records/15598681/draft/files/open-make/RHardware-minimaltemplate-v0.2.zip/content'}}], 'state': 'done', 'submitted': True}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+id
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+links
+{
+    "title": "Guide and template for hardware project documentation",
+    "doi": "10.5281/zenodo.15598681",
+    "publication_date": "2025-06-05",
+    "description": "<p>We want to facilitate the work of designers and makers, helping them to easily create a documentation that grows with their project. The documentation should ease collaborative design work, and facilitate the reuse of the OSH. To this end we provide here a guide and and template for hardware project documentation, specifically dedicated to open source research hardware projects.</p>\n<p>&nbsp;</p>\n<p>Guide and template tested for consistency. <br>Not tested on real project yet.</p>",
+    "access_right": "open",
+    "creators": [
+        {
+            "name": "Julien Colomb",
+            "affiliation": "Technische Universit\u00e4t Berlin",
+            "orcid": "0000-0002-3127-5520"
+        }
+    ],
+    "related_identifiers": [
+        {
+            "identifier": "https://codeberg.org/openmake/RHardware-minimaltemplate",
+            "relation": "isVariantFormOf",
+            "resource_type": "publication-other",
+            "scheme": "url"
+        }
+    ],
+    "version": "v1.0",
+    "custom": {
+        "code:codeRepository": "https://codeberg.org/openmake/RHardware-minimaltemplate",
+        "code:developmentStatus": {
+            "id": "active",
+            "title": {
+                "en": "Active"
+            }
+        }
+    },
+    "license": "cc-by-4.0",
+    "imprint_publisher": "Zenodo",
+    "communities": [
+        {
+            "identifier": "lauds"
+        }
+    ],
+    "upload_type": "publication",
+    "publication_type": "other",
+    "prereserve_doi": {
+        "doi": "10.5281/zenodo.15598681",
+        "recid": 15598681
+    }
+}

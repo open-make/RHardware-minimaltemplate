@@ -16,13 +16,11 @@ It usually includes:
 
 2.  Safety information: @sec-user-guides-safety-information
 
-3.  Use of the product: @sec-operation-instructions
-
-4.  Calibration instructions: @sec-user-guides-calibration
-
-5.  Troubleshooting section: @sec-user-guides-troubleshooting
+3.  Use and calibration of the product: @sec-operation-instructions
 
 6.  Environmental management: @sec-user-guidesenvironmental-management
+
+5.  Troubleshooting section: @sec-user-guides-troubleshooting
 
 7.  Maintenance and Repair information: @sec-maintenance, @sec-user-guides-repair
 
@@ -60,19 +58,6 @@ Some popular software used to create webpage and pdf from markdown files:
 @sec-open-next-work
 
 
-## User Guides : Safety information {#sec-user-guides-safety-information}
-
-Describe all relevant safety issues or references to a risk assessment if included (for example high voltage, chemical safety etc.). If appropriate, discuss the wider context of the use of the hardware and safety issues or risks that may arise in the use environment.
-
-OSH makers are not always formally trained engineers and may not be able to easily differentiate between dangerous and safe manipulations.
-
-------------------------------------------------------------------------
-
-**Sources**
-
-@sec-journal-of-open-hardware, @sec-source-turing
-
-
 ## Overview of the hardware for users {#sec-user-guides-overview-of-the-hardware}
 
 This should provide a brief overview of the hardware and its functions, it may include:
@@ -89,6 +74,19 @@ One can describe examples of application of the hardware. This should include so
 **Sources**
 
 @sec-open-next-work, @sec-journal-of-open-hardware
+
+
+## User Guides : Safety information {#sec-user-guides-safety-information}
+
+Describe all relevant safety issues or references to a risk assessment if included (for example high voltage, chemical safety etc.). If appropriate, discuss the wider context of the use of the hardware and safety issues or risks that may arise in the use environment.
+
+OSH makers are not always formally trained engineers and may not be able to easily differentiate between dangerous and safe manipulations.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware, @sec-source-turing
 
 
 ## Operation instructions {#sec-operation-instructions}
@@ -116,6 +114,32 @@ It may include:
         -   App setup
     -   Explains how to update the firmware to the latest version
 
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work
+
+
+### User Guides: Calibration instructions {#sec-user-guides-calibration}
+
+If the hardware is used for measurements, please detail here how the reliability of measurements, or other hardware properties that are relevant for measurements, has been quantified and explain the results. Be clear about the processes or procedures used to compare the hardware to a standard, as well as the description of the standard calibrated against.
+Detail the general procedures in place for users to calibrate their hardware before or during use. What methods can be used to relate user-generated data to data from other sources? 
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-journal-of-open-hardware
+
+
+## User guides: Environmental management {#sec-user-guidesenvironmental-management}
+
+This chapter deal with information about the use and storage of the hardware. It usually includes information about:
+
+    -   Protection against weather conditions
+    -   Determining the acceptable temperature range
+    
 ------------------------------------------------------------------------
 
 **Sources**
@@ -151,68 +175,6 @@ The testing should define the safe/reliable limits in which the components can b
 
 
 
-## User Guides: Calibration {#sec-user-guides-calibration}
-
-If the hardware is used for measurements, please detail here how the reliability of measurements, or other hardware properties that are relevant for measurements, has been quantified and explain the results. Be clear about the processes or procedures used to compare the hardware to a standard, as well as the description of the standard calibrated against.
-Detail the general procedures in place for users to calibrate their hardware before or during use. What methods can be used to relate user-generated data to data from other sources? 
-
-------------------------------------------------------------------------
-
-**Sources**
-
-@sec-journal-of-open-hardware
-
-
-## User Guides : Repair {#sec-user-guides-repair}
-
-### Identifying the defective components
-
-This can be linked to scheduled tests, or be done when an issue is seen.
-The guide should answer these questions, it may be written as a table:
-
--   How to monitor the performance of the equipment? (what additional equipment may be necessary for this monitoring)
--   How to detect a defective component, and determine what is defective ?
--   How to eliminate the fault (see below) ?
--   How to verify that the fault was eliminated
-
-### Repairing the defective components
-
-For each element which may be defective:
-
--   Step-by-step procedures describing the repairing sequence
--   Refer to the technical documentation where you can find the manufacturing (and assembly) instructions to rebuild the defective components
--   Indicate the required tools for repairing
--   Verification of repair
--   It may be interesting to add images and photos.
-
-
-------------------------------------------------------------------------
-
-**Sources**
-
-@sec-open-next-work
-
-
-
-## User Guides: Replacing equipment components {#sec-user-guides-replacing-equipment-components}
-
-This is very similar to the repairing section @sec-user-guides-repair, even if this is planned modifications.
-
--   Links to step-by-step procedures describing the replacing sequence.
--   Required tools for replacing the components
-
-> Example
->
-> Replacing Ink cartridge in a printer or a lamp bulb in a video projector.
-
-------------------------------------------------------------------------
-
-**Sources**
-
-@sec-open-next-work
-
-
-
 ## Maintenance {#sec-maintenance}
 
 Maintenance instructions provide the necessary information to maintain the system effectively and perform the required operations to system works properly in the long run.
@@ -220,7 +182,7 @@ This includes advice on the frequency of the maintenance and the risks of failur
 
 It may also include information on the process of modifying a system or component after delivery, in order to correct faults, improve performance or other attributes, or adapt to a changing environment.
 
-### Maintenance instructions
+### Maintenance instructions {#sec-maintenance-instructions}
 
 A maintenance instruction is a technical communication document intended to give recommendations and necessary information to maintain the system effectively.
 In this book, we treat the identification of defective components and their repair as separate tasks, while others have defined it as part of the maintenance.
@@ -238,27 +200,84 @@ The maintenance user guide may include:
         -   Maintenance according to predetermined intervals
         -   Maintenance according to prescribed criteria
         -   Maintenance by integrating analysis, measurement, and periodic test activities
-    -   Regular adjusting machinery 
+    -   Regular adjusting machinery
     -   Maintenance tools (Various tools necessary to perform the maintenance operation)
     -   Schedule for Replacing equipment, see also @sec-user-guides-replacing-equipment-components
 
 > examples [FarmBot Genesis V1.5](https://genesis.farm.bot/v1.5/Extras/maintenance)
 
-### Template of maintenance
-
+### Maintenance schedules {#sec-maintenance-schedules}
 
 Common procedures:
-  - cleaning
-  - lubricating
-  - machine adjustments
-  - calibrations
-  - (periodic) test activities
-  
+
+-   cleaning
+-   lubricating
+-   machine adjustments
+-   calibrations
+-   (periodic) test activities
+
 Information to give:
-  - predetermined interval
-  - prescribed criteria
-  - tools
-  - verification procedure
+
+-   predetermined interval
+-   prescribed criteria
+-   tools
+-   verification procedure
+
+### Component lifespan {#sec-component-lifespan}
+
+You may indicate the lifespan of the equipment parts, with links on how to replace parts.
+Give information on expected lifespan of parts, how use and maintenance may modify the lifespan, and when to test/replace the parts.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work
+
+
+## User Guides : Repair {#sec-user-guides-repair}
+
+### Identifying the defective components {#sec-identifying-the-defective-components}
+
+This can be linked to scheduled tests, or be done when an issue is seen.
+The guide should answer these questions, it may be written as a table:
+
+-   How to monitor the performance of the equipment? (what additional equipment may be necessary for this monitoring)
+-   How to detect a defective component, and determine what is defective ?
+-   How to eliminate the fault (see below) ?
+-   How to verify that the fault was eliminated
+
+### Repairing the defective components {#sec-repairing-the-defective-components}
+
+For each element which may be defective:
+
+-   Step-by-step procedures describing the repairing sequence
+-   Refer to the technical documentation where you can find the manufacturing (and assembly) instructions to rebuild the defective components
+-   Indicate the required tools for repairing
+-   Verification of repair
+-   It may be interesting to add images and photos.
+
+It might be useful to give information on repairing versus replacing the parts.
+
+------------------------------------------------------------------------
+
+**Sources**
+
+@sec-open-next-work
+
+
+### User Guides: Replacing equipment components {#sec-user-guides-replacing-equipment-components}
+
+This is very similar to the repairing section @sec-user-guides-repair, even if this is planned modifications.
+
+-   Links to step-by-step procedures describing the replacing sequence.
+-   Required tools for replacing the components
+
+This may be linked to the dis-assembly instructions @sec-disassembly
+
+> Example
+>
+> Replacing Ink cartridge in a printer or a lamp bulb in a video projector.
 
 ------------------------------------------------------------------------
 
@@ -272,19 +291,42 @@ Information to give:
 Disposal instructions identify the process of removing a system or its component, ensuring the proper handling of any environmentally sensitive materials, and sending the remainder to surplus storage or sale.
 
 They describe each component with information about their end of life (depending on their material content).
-Each element will be classed corresponding to their "recyclability", and infromation is given to reduce the negative environemental impact of the disposal and recycling of the hardware componenent.
+Each element will be classed corresponding to their "recyclability", and information is given to reduce the negative environmental impact of the disposal and recycling of the hardware component.
 
-### Classing elements
+### Template of disposal instruction
+
+For each element or part, indicate:
+
+-   sub-part name
+
+-   parent part number and name, with links
+
+-   link to dissassembly instructions (see @sec-disassembly)
+
+-   material used + how many times can it be recycled (see also @sec-component-lifespan)
+
+-   recyclable (yes/no/conditional, see @sec-classing-elements )
+
+-   disposition information, for each option:
+
+    -   how to dispose
+    -   environmental assessment of disposal options (\@sec-environmental-assessment):
+        -   described the negative consequences of disposal
+        -   Define and describe the main parameters and processes to decrease these negative environmental impacts
+
+-   end of life information
+
+### Classing elements {#sec-classing-elements}
 
 There are different types of elements:
 
-- Recyclable: waste wich can be turn into another form of new and reusable materials without specific treatment.
+-   Recyclable: waste wich can be turn into another form of new and reusable materials without specific treatment.
 
-- Non-recyclable: the components or products that design for single-use, which means they get discarded immediately after use.
+-   Non-recyclable: the components or products that design for single-use, which means they get discarded immediately after use.
 
-- Conditionally recyclable: component which needs specific treatment before being recycled.
+-   Conditionally recyclable: component which needs specific treatment before being recycled.
 
-Usual workflow for disposition: 
+Usual workflow for disposition:
 
 -   Distinguishing the recyclable, Conditionally recyclable and Non-recyclable components or products.
 -   Determining what material can recycle many times
@@ -299,47 +341,16 @@ Disposable products are most often made from Polystyrene and Cotton, Non-recycla
 -   Incineration: This type of waste disposal involves the dumping off method where you eliminate waste materials via combustion.
 -   Landfill: It involves collecting, transporting, dumping, and burying waste in a designated land.
 
-### disassembly
+### Environmental assessment {#sec-environmental-assessment}
 
-Indicate how to disassemble the components a product for recycling/disposing?
+It is the assessment of the environmental consequences of disposing or recycling a product before the decision to move forward with the proposed action.
+Indicate:
 
-### environmental assessment
+\- The negative consequences of disposable products on the environment if sustainability isn't factored into disposal options.
 
-it is the assessment of the environmental consequences of disposing or recycling a product before the decision to move forward with the proposed action.
-- The negative consequences of disposable products on the environment if sustainability isn't factored into disposal options.
-- How to select the disposal or recycling process to have a less environmental impact?
+\- How to select the disposal or recycling process to have a less environmental impact?
 
-### Template of disposal
-
-For each element or part, indicate:
-
--   sub-part name
--   parent part number and name, with links
--   link to dissassembly instructions (see sec-product-build-assembly-instructions)
--   material used + how many times can it be recycled
--   recyclable (yes/no/conditional)
--   disposition information, for each option:
-    -   how to
-    -   environmental assessment of disposal options:
-        -   described the negative consequences of disposal
-        -   Define and describe the main parameters and processes to decrease these negative environmental impacts
--   end of life information
-
-------------------------------------------------------------------------
-
-**Sources**
-
-@sec-open-next-work
-
-
-## User guides: Environmental management {#sec-user-guidesenvironmental-management}
-
-This chapter deal with information about the use and storage of the hardware. It usually includes information about:
-
-    -   Protection against weather conditions
-    -   Determining the acceptable temperature range
-    
-------------------------------------------------------------------------
+### 
 
 **Sources**
 

@@ -88,18 +88,20 @@ NB: this will relate to the user analysis section of the documentation that defi
 @sec-open-next-work
 
 
-## Foreseen cost (money and time)
+## Foreseen cost (money and time) {#sec-foreseen-cost}
 
-Indicate how expensive the hardware will be, and how much time will be needed to manufacture, assemble and test the hardware. 
+Indicate how expensive the hardware will be, and how much time will be needed to manufacture, assemble and test the hardware.
 
 This is estimates done before the prototyping stage and will disappear once real numbers are available.
 
 
-## Similar projects
+## Similar projects {#sec-similar-projects}
 
 It is advisable to look for similar project one can join, instead of starting a new one.
 
-It is reasonable to invest quite a lot of time in looking for similar projects. OSH are often difficult to find and comprehend, but finding projects may save you a lot of time and hassle. Indeed, you may learn a lot about your needs, refine your ideas, and may even find collaborators while browsing existing OSH projects.
+It is reasonable to invest quite a lot of time in looking for similar projects.
+OSH are often difficult to find and comprehend, but finding projects may save you a lot of time and hassle.
+Indeed, you may learn a lot about your needs, refine your ideas, and may even find collaborators while browsing existing OSH projects.
 
 ------------------------------------------------------------------------
 
@@ -108,12 +110,12 @@ It is reasonable to invest quite a lot of time in looking for similar projects. 
 @sec-source-turing
 
 
-## Use cases and application
+## Use cases and application {#sec-use-cases-and-application}
 
-Highlight a relevant use case, theoretical or existant.
+Highlight at least one relevant use case, theoretical or existent.
 
 
-## Reuse possibilities
+## Reuse possibilities {#sec-reuse-possibilities}
 
 Indicate how you think the hardware modules could be reused for other objectives than the one you had.
 
