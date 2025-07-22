@@ -18,6 +18,6 @@
 
 ## Summary maintenance + schedule
 
-## Summary disposal
+## Disposal instruction
 
 ## Environmental management

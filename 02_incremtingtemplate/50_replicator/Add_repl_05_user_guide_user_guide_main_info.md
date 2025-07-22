@@ -11,4 +11,6 @@
 
 > at ther end
 
+## Disposal instruction
+
 ## Environmental management

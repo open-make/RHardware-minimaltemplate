@@ -30,7 +30,8 @@ Here the prototype is mature enough that it should be replicated in different pl
   - [ ] Repair @sec-user-guides-repair
       - [ ] Identifying the defective components @sec-identifying-the-defective-components
       - [ ] Repairing the defective components @sec-repairing-the-defective-components  
-      - [ ] Replacing equipment components @sec-identifying-the-defective-components      
+      - [ ] Replacing equipment components @sec-identifying-the-defective-components 
+  - [ ] Disposal instructions
 
 
 

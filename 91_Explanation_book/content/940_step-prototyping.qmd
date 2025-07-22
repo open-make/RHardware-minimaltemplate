@@ -56,7 +56,6 @@ It is adviced to read the introductory chapters on hardware production @sec-prod
       - [ ] Calibration instructions @sec-user-guides-calibration
   - [ ] Testing instructions and troubleshooting @sec-user-guides-troubleshooting
   - [ ] basic maintenance + schedule @sec-maintenance
-  - [ ] basic disposal @sec-disposal-instructions
   
 - [ ] History  
   - [ ] update changelog/release note

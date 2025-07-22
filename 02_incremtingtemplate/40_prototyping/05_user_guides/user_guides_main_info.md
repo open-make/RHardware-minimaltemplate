@@ -9,5 +9,3 @@
 ## Testing instructions and troubleshooting
 
 ## Summary maintenance + schedule
-
-## Summary disposal
