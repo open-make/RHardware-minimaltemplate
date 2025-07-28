@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   {
+=======
+
+>>>>>>> 891861a (debug 2)
     "creators": [
       {
         "affiliations": [
@@ -56,7 +60,7 @@
         }
       }
     ],
-    "publication_date": "2025-06-05",
+    "publication_date": "2025-07-28",
     "publisher": "Zenodo",
     "resource_type": {
       "id": "publication-other",
@@ -82,125 +86,6 @@
       }
     ],
     "title": "Guide and template for hardware project documentation",
-    "version": "v1.1"
-  },
-  "parent": {
-    "access": {
-      "grants": [],
-      "links": [],
-      "owned_by": {
-        "user": "15056"
-      },
-      "settings": {
-        "accept_conditions_text": null,
-        "allow_guest_requests": false,
-        "allow_user_requests": false,
-        "secret_link_expiration": 0
-      }
-    },
-    "communities": {
-      "default": "6f868f39-38bc-45e5-ae24-7db389e60398",
-      "entries": [
-        {
-          "access": {
-            "member_policy": "open",
-            "members_visibility": "public",
-            "record_submission_policy": "open",
-            "review_policy": "closed",
-            "visibility": "public"
-          },
-          "children": {
-            "allow": false
-          },
-          "created": "2025-03-25T09:51:43.437326+00:00",
-          "custom_fields": {
-            "subjects": [
-              {
-                "id": "mesh:D004738"
-              },
-              {
-                "id": "mesh:D000072499Q000639"
-              }
-            ]
-          },
-          "deletion_status": {
-            "is_deleted": false,
-            "status": "P"
-          },
-          "id": "6f868f39-38bc-45e5-ae24-7db389e60398",
-          "links": {},
-          "metadata": {
-            "description": "The future of manufacturing is Local, Accessible, Urban, Digital, and Sustainable. 15 partners collaborate to set up local urban factories for scaling up digitally distributed and open innovations.",
-            "funding": [
-              {
-                "award": {
-                  "id": "00k4n6c32::101135986"
-                },
-                "funder": {
-                  "id": "00k4n6c32"
-                }
-              }
-            ],
-            "title": "Lauds factories - Horizon Europe project",
-            "type": {
-              "id": "project"
-            },
-            "website": "https://www.lauds.eu"
-          },
-          "revision_id": 3,
-          "slug": "lauds",
-          "updated": "2025-03-25T09:55:17.270031+00:00"
-        }
-      ],
-      "ids": [
-        "6f868f39-38bc-45e5-ae24-7db389e60398"
-      ]
-    },
-    "id": "14725490",
-    "pids": {
-      "doi": {
-        "client": "datacite",
-        "identifier": "10.5281/zenodo.14725490",
-        "provider": "datacite"
-      }
-    }
-  },
-  "pids": {
-    "doi": {
-      "client": "datacite",
-      "identifier": "10.5281/zenodo.15598681",
-      "provider": "datacite"
-    },
-    "oai": {
-      "identifier": "oai:zenodo.org:15598681",
-      "provider": "oai"
-    }
-  },
-  "revision_id": 8,
-  "stats": {
-    "all_versions": {
-      "data_volume": 49020408.0,
-      "downloads": 23,
-      "unique_downloads": 23,
-      "unique_views": 52,
-      "views": 57
-    },
-    "this_version": {
-      "data_volume": 40105176.0,
-      "downloads": 17,
-      "unique_downloads": 17,
-      "unique_views": 27,
-      "views": 29
-    }
-  },
-  "status": "published",
-  "swh": {
-    "swhid": "swh:1:dir:710206636f267d9a855501f3149940025240c1a2;origin=https://doi.org/10.5281/zenodo.14725490;visit=swh:1:snp:0fcb15f8bb33f5a1cf4812fca22a202a309a4677;anchor=swh:1:rel:cb762d597135563f6d65be92763499dcdc04f279;path=open-make-RHardware-minimaltemplate-60a1800"
-  },
-  "updated": "2025-07-22T11:15:03.985079+00:00",
-  "versions": {
-    "index": 2,
-    "is_latest": false,
-    "is_latest_draft": false
-  }
+    "version": "v2.0"
+ 
 }
