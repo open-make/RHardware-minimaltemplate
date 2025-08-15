@@ -1,17 +1,18 @@
 project:
   type: book
 number-depth: 1
+lang: en-GB
+license: "CC BY"
 book:
   title: Hardware documentation Guide
   author: Julien Colomb
-  date: 27/3/2025
+  date: 2025-08-15
   search: true
-  repo-url: https://github.com/open-make/RHardware-minimaltemplate/
+  repo-url: https://codeberg.org/openmake/RHardware-minimaltemplate
   repo-subdir: 91_Explanation_book
   repo-actions:
-  - edit
   - issue
-  - source
+
   downloads:
   - pdf
   - epub
@@ -47,4 +48,6 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrreport
+  epub:
+    toc: true
 editor: visual
